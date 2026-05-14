@@ -1,11 +1,11 @@
 ---
-id: PROC-03
-titulo: Proceso 3 - Control de Cambios (CR)
-version: "1.0"
-estado: Pendiente
+id: PROC-08
+titulo: Proceso 8 - Control de Cambios (CR)
+version: "1.1"
+estado: Activo
 tipo: Proceso
 fecha_creacion: 2026-03-19
-ultima_revision: 2026-04-13
+ultima_revision: 2026-05-14
 responsable: Samuel Blanco
 disparador: Solicitud de cambio por parte del cliente o equipo
 criterio_entrada: Solicitud formal de cambio recibida
@@ -34,8 +34,10 @@ referencias_biblio:
   - "Lewis Cap. 21-25 - Gestion de cambios y scope creep"
   - "O'Regan Cap. 3 - Control de Calidad"
 tags:
-  - proceso
-  - control-cambios
+  - meta/proceso
+  - fase/control
+  - tipo/proceso
+  - estado/activo
 ---
 
 # Proceso 3 — Control de Cambios (Change Requests)

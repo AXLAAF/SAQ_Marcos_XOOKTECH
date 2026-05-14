@@ -17,8 +17,9 @@ referencias:
   - REQ-07_Marcos_Dobles
   - "01-Baseline/02-Acuerdos_Cliente.md - ACU-006"
 tags:
-  - cr/pendiente
-  - scope-creep
+  - fase/control
+  - tipo/cambio
+  - estado/pendiente
 ---
 
 # CR-01: Marcos Dobles

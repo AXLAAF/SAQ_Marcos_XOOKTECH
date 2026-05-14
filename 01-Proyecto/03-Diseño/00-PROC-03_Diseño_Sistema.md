@@ -37,7 +37,7 @@ tags:
   - proceso
   - arquitectura
 ---
-
+No se hizo diseño
 # Proceso 4 — Arquitectura del Sistema
 
 > **Justificacion**: Segun SWEBOK v4 KA2, "el proposito del diseno de software es proporcionar una descripcion de la arquitectura del sistema que sirva como base para la implementacion". La arquitectura documenta como los componentes del sistema interactuan para satisfacer los requerimientos, y es esencial para el mantenimiento y evolucion del sistema.
@@ -198,17 +198,17 @@ Este documento debe contener:
 
 ## 6. Dependencias
 
-- **Pre-requisito**: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/PROC-02_Especificacion_Requerimientos]]
-- **Post-requisito**: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/PROC-05_Plan_Pruebas]]
+- **Pre-requisito**: [[PROC-02_Especificacion_Requerimientos]]
+- **Post-requisito**: [[PROC-05_Plan_Pruebas]]
 
 ## 7. Referencias
 
 - [[01-Proceso_Gobernanza_Vault]]
 - [[02-Convenciones_y_Tags]]
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/03-Diseño/01-Diagrama_Componentes]]
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/03-Diseño/02-Flujo_Sistema]]
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/03-Diseño/03-Modelo_Datos]]
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/03-Diseño/04-Modulos_Python]]
+- [[01-Diagrama_Componentes]]
+- [[02-Flujo_Sistema]]
+- [[03-Modelo_Datos]]
+- [[04-Modulos_Python]]
 - GitHub: https://github.com/Bigsami89/Marcos2
 
 ---

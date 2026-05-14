@@ -12,9 +12,9 @@ referencias:
   - O'Regan - Fagan Inspection
   - PROC-06_Inspecciones
 tags:
-  - inspeccion
-  - requisitos
-  - calidad
+  - fase/control
+  - tipo/inspeccion
+  - estado/pendiente
 ---
 
 # INS-01: Inspeccion de Requerimientos

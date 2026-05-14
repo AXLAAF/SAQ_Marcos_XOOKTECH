@@ -1,36 +1,57 @@
 ---
 id: PROC-07
-titulo: Proceso de Control de Calidad y Configuracion
-version: "1.0"
-responsable: Carlos Yonson
-disparador: Cualquier cambio en artefactos o hito de fase.
-criterio_entrada: Artefacto listo para revision o solicitud de cambio (CR).
-criterio_salida: Reporte de calidad aprobado y linea base etiquetada.
+titulo: Proceso 7 - Control de Calidad y Cambios
+version: "1.2"
+estado: Activo
+tipo: Proceso
+fecha_creacion: 2026-03-19
+ultima_revision: 2026-05-13
+responsable: Axel Morales
+disparador: Ejecución de procesos y detección de desviaciones
+criterio_entrada: Artefactos de software generados o cambios solicitados
+criterio_salida: Línea base verificada y métricas reportadas
 entradas:
-  - "[[02-Requisitos/REQ-XX]]"
-  - "[[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]"
+  - [[02-REG-03_Registro_Defectos]]
+  - [[05-INS-01_Inspeccion_Requerimientos]]
 salidas:
-  - "[[07-Control/CTRL-01_Matriz_Trazabilidad]]"
-  - "[[07-Control/INS-XX_Reportes_Inspeccion]]"
-  - "[[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/00-Dashboard_Calidad]]"
+  - [[01-STD-08_Dashboard_Calidad]]
+  - [[03-PROC-08_Control_Cambios]]
+actividades:
+  - Monitorear métricas de calidad (Dashboard)
+  - Gestionar el ciclo de vida de los defectos
+  - Realizar inspecciones Fagan en hitos críticos
+  - Procesar solicitudes de cambio (Change Requests)
+roles:
+  - Samuel Blanco (Aseguramiento de Calidad / Autoridad)
+  - Axel Morales (Control Operativo / Registro)
+referencias_biblio:
+  - "Galin, D. (2004). Software Quality Assurance: From theory to implementation."
+  - "O'Regan, G. (2010). A Practical Approach to Software Quality."
+tags:
+  - meta/proceso
+  - fase/control
+  - tipo/proceso
+  - estado/activo
 ---
 
-# PROC-07: Proceso de Control
+# Proceso 7 — Control de Calidad y Cambios
 
-> **Objetivo**: Garantizar la integridad de los artefactos y medir el desempeño del SGC.
+> **Fundamentación**: Según Galin (2004), el control de calidad es el conjunto de actividades destinadas a evaluar la calidad de los productos de software. Este proceso integra el control de cambios y las inspecciones técnicas para asegurar que la evolución del sistema no comprometa su integridad.
 
-## 1. Actividades (Task)
+## 1. Estructura del Proceso (Modelo ETVX)
 
-| Entrada | Actividad | Salida |
+| Fase | Definición | Detalles |
 | :--- | :--- | :--- |
-| Solicitud | Gestion de Control de Cambios (SCC) | [[CR-XX]] |
-| Artefactos | Inspecciones Formales (Fagan/Galin) | [[INS-XX]] |
-| Datos Pruebas | Generacion de Metricas de Defectos | [[CTRL-Dashboard]] |
+| **[E] Entry** | Criterios de Entrada | Defecto detectado o solicitud de cambio en [[07-CR-00_Reporte_Retroactivo]]. |
+| **[T] Tasks** | Tareas Operativas | Registro, clasificación de severidad y asignación de responsables. |
+| **[V] Verification** | Calidad del Control | Auditoría de cierres de tickets por Samuel Blanco. |
+| **[X] Exit** | Criterios de Salida | Métricas actualizadas en [[01-STD-08_Dashboard_Calidad]]. |
 
-## 2. Validacion (Verification)
+## 2. Jerarquía de Control
 
-1.  **Checklist de Calidad**: Todo documento debe pasar su `CL-XX` antes de ser "Base".
-2.  **Revision de SCM**: Verificar que la version en el vault coincida con la del repositorio.
+1.  **Dashboard (Prioridad 01)**: Visibilidad macro del estado de calidad.
+2.  **Defectos (Prioridad 02)**: Gestión reactiva de fallos técnicos.
+3.  **Cambios (Prioridad 03-11)**: Gestión proactiva de la evolución del alcance.
 
 ---
-*Documento sistematizado segun ETVX.*
+*Actualización conforme al Estándar de Prioridad SQA: 2026-05-13*

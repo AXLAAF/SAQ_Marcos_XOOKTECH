@@ -1,11 +1,11 @@
 ---
-id: PROC-06
-titulo: Proceso 6 - Inspecciones de Calidad
-version: "1.0"
-estado: Pendiente
+id: PROC-09
+titulo: Proceso 9 - Inspecciones de Calidad
+version: "1.1"
+estado: Activo
 tipo: Proceso
 fecha_creacion: 2026-03-19
-ultima_revision: 2026-03-19
+ultima_revision: 2026-05-14
 responsable: Samuel Blanco
 disparador: Finalizacion de fase o deliverable
 criterio_entrada: Artefacto listo para revision
@@ -31,9 +31,10 @@ referencias_biblio:
   - "O'Regan Cap. 2 - Inspecciones Fagan"
   - "SWEBOK v4 KA8 - Procesos de Calidad"
 tags:
-  - proceso
-  - inspeccion
-  - calidad
+  - meta/proceso
+  - fase/control
+  - tipo/proceso
+  - estado/activo
 ---
 
 # Proceso 6 — Inspecciones de Calidad
