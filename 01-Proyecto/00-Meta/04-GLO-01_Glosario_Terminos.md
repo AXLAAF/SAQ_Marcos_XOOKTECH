@@ -6,7 +6,7 @@ estado: Activo
 tipo: Referencia
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-05-12
-responsable: Axel Morales
+responsable: Analista Técnico
 referencias_biblio:
   - "SWEBOK v4"
   - "Daniel Galin - SQA Components"
@@ -46,4 +46,4 @@ tags:
 4.  **Mantenimiento Correctivo**: Actividades de soporte destinadas a eliminar defectos detectados por el usuario final tras el despliegue.
 
 ---
-*Ultima actualizacion: 2026-05-12 | Axel Morales (SQA Lead)*
+*Ultima actualizacion: 2026-05-12 | Analista Técnico (SQA Lead)*

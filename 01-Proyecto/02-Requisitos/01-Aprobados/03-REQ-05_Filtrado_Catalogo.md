@@ -8,7 +8,7 @@ tipo: Funcional
 modulo: Catalogo
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-03-19
-responsable: Samuel Blanco
+responsable: Líder SQA
 fuente: Propuesta recuperada
 criterios_aceptacion:
   - CA-01: El cliente puede filtrar por categoria de marco

@@ -6,7 +6,7 @@ estado: Activo
 tipo: Metrica
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-03-19
-responsable: Samuel Blanco
+responsable: Líder SQA
 referencias_biblio:
   - "SWEBOK v4 KA3 - Metricas de Software"
   - "Lewis Cap. 10 - Medicion y Analisis"
@@ -140,12 +140,12 @@ GROUP BY severidad
 
 | Proceso | Estado | Responsable | Ultima Actualizacion |
 | :-- | :-- | :-- | :-- |
-| PROC-01: Recuperacion Linea Base | En_Progreso | Samuel Blanco | 2026-03-19 |
-| PROC-02: Especificacion Requerimientos | Pendiente | Axel Morales | - |
-| PROC-03: Control de Cambios | Pendiente | Samuel Blanco | - |
-| PROC-04: Arquitectura Sistema | Pendiente | Axel Morales | - |
-| PROC-05: Plan de Pruebas | Pendiente | Axel Morales | - |
-| PROC-06: Inspecciones | Pendiente | Samuel Blanco | - |
+| PROC-01: Recuperacion Linea Base | En_Progreso | Líder SQA | 2026-03-19 |
+| PROC-02: Especificacion Requerimientos | Pendiente | Analista Técnico | - |
+| PROC-03: Control de Cambios | Pendiente | Líder SQA | - |
+| PROC-04: Arquitectura Sistema | Pendiente | Analista Técnico | - |
+| PROC-05: Plan de Pruebas | Pendiente | Analista Técnico | - |
+| PROC-06: Inspecciones | Pendiente | Líder SQA | - |
 
 ---
 

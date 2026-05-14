@@ -6,11 +6,11 @@ estado: Completado
 tipo: Propuesta
 fecha_creacion: 2026-03-23
 fecha_recuperacion: 2026-03-23
-responsable: Samuel Blanco
-cliente: Enmarcame (Geronimo)
+responsable: Líder SQA
+cliente: Enmarcame (Cliente)
 equipo:
-  - Jose Samuel Blanco Cervera (Lider tecnico)
-  - Axel Adolfo Morales Caro (Apoyo)
+  - Líder SQA (Lider tecnico)
+  - Analista Técnico (Apoyo)
 referencias:
   - Entrevista_Completada_Proyecto.md
   - Guia_Entrevista_Proyecto.md
@@ -199,8 +199,8 @@ Los siguientes items representan trabajo adicional fuera del alcance original y 
 
 | Campo                | Valor                      |
 | -------------------- | -------------------------- |
-| Elaborado por        | Axel Adolfo Morales Caro   |
-| Revisado por         | Jose Samuel Blanco Cervera |
+| Elaborado por        | Analista Técnico   |
+| Revisado por         | Líder SQA |
 | Fecha de elaboracion | 2026-03-23                 |
 | Estado               | Completado                 |
 
@@ -208,7 +208,7 @@ Los siguientes items representan trabajo adicional fuera del alcance original y 
 
 | Version | Fecha | Autor | Descripcion |
 |---------|-------|-------|-------------|
-| 1.0 | 2026-03-23 | Axel Morales | Creacion inicial - Propuesta recuperada |
+| 1.0 | 2026-03-23 | Analista Técnico | Creacion inicial - Propuesta recuperada |
 | 1.1 | 2026-04-13 | Kilo-SQA-Agent | Vinculado al proceso PROC-01, corregida nota de Scope Creep, actualizados estados de entregables a Completado |
 
 ---

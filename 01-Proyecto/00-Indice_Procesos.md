@@ -6,7 +6,7 @@ estado: Activo
 tipo: Indice
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-04-14
-responsable: Samuel Blanco
+responsable: Líder SQA
 referencias_biblio:
   - "SWEBOK v4 KA8"
   - "O'Regan - A Practical Approach to Software Quality"
@@ -51,15 +51,15 @@ tags:
 
 | ID | Proceso | Objetivo | Responsable | Estado |
 | :-- | :-- | :-- | :-- | :-- |
-| PROC-00 | Gobernanza Vault | Estándares y convenciones | Axel Morales | Activo |
-| PROC-01 | Linea Base | Contexto y acuerdos iniciales | Axel Morales | Completado |
-| PROC-02 | Requisitos | Especificacion profunda (REQ) | Carlos Yonson | En_Progreso |
-| PROC-03 | Diseño | Arquitectura y componentes (DIS) | Axel Morales | Pendiente |
-| PROC-04 | Codificacion | Implementación técnica (COD) | Samuel Blanco | Pendiente |
-| PROC-05 | Pruebas | Verificación y Validación (CP) | Axel Morales | En_Progreso |
-| PROC-06 | Mantenimiento | Soporte y mejora (MNT) | Samuel Blanco | Pendiente |
-| PROC-07 | Control | SCM, Cambios e Inspecciones (CTRL) | Carlos Yonson | En_Progreso |
-| PROC-08 | Despliegue | Puesta en producción y entrega (DESP) | Samuel Blanco | Pendiente |
+| PROC-00 | Gobernanza Vault | Estándares y convenciones | Analista Técnico | Activo |
+| PROC-01 | Linea Base | Contexto y acuerdos iniciales | Analista Técnico | Completado |
+| PROC-02 | Requisitos | Especificacion profunda (REQ) | Analista SQA | En_Progreso |
+| PROC-03 | Diseño | Arquitectura y componentes (DIS) | Analista Técnico | Pendiente |
+| PROC-04 | Codificacion | Implementación técnica (COD) | Líder SQA | Pendiente |
+| PROC-05 | Pruebas | Verificación y Validación (CP) | Analista Técnico | En_Progreso |
+| PROC-06 | Mantenimiento | Soporte y mejora (MNT) | Líder SQA | Pendiente |
+| PROC-07 | Control | SCM, Cambios e Inspecciones (CTRL) | Analista SQA | En_Progreso |
+| PROC-08 | Despliegue | Puesta en producción y entrega (DESP) | Líder SQA | Pendiente |
 
 ---
 

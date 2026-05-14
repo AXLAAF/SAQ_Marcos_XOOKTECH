@@ -6,7 +6,7 @@ estado: Activo
 tipo: Proceso
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-05-12
-responsable: Axel Morales
+responsable: Analista Técnico
 fuente: SWEBOK v4 KA8, Daniel Galin
 tags:
   - meta/proceso
@@ -73,4 +73,4 @@ graph LR
 | [[TEMPLATE-REQ]] | Estandarizacion | Requerimientos (REQ) |
 
 ---
-*Ultima actualizacion: 2026-05-13 | Axel Morales (Gobernanza)*
+*Ultima actualizacion: 2026-05-13 | Analista Técnico (Gobernanza)*

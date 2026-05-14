@@ -6,7 +6,7 @@ estado: Activo
 tipo: Proceso
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-05-13
-responsable: Axel Morales
+responsable: Analista Técnico
 disparador: Ejecución de procesos y detección de desviaciones
 criterio_entrada: Artefactos de software generados o cambios solicitados
 criterio_salida: Línea base verificada y métricas reportadas
@@ -22,8 +22,8 @@ actividades:
   - Realizar inspecciones Fagan en hitos críticos
   - Procesar solicitudes de cambio (Change Requests)
 roles:
-  - Samuel Blanco (Aseguramiento de Calidad / Autoridad)
-  - Axel Morales (Control Operativo / Registro)
+  - Líder SQA (Aseguramiento de Calidad / Autoridad)
+  - Analista Técnico (Control Operativo / Registro)
 referencias_biblio:
   - "Galin, D. (2004). Software Quality Assurance: From theory to implementation."
   - "O'Regan, G. (2010). A Practical Approach to Software Quality."
@@ -44,7 +44,7 @@ tags:
 | :--- | :--- | :--- |
 | **[E] Entry** | Criterios de Entrada | Defecto detectado o solicitud de cambio en [[07-CR-00_Reporte_Retroactivo]]. |
 | **[T] Tasks** | Tareas Operativas | Registro, clasificación de severidad y asignación de responsables. |
-| **[V] Verification** | Calidad del Control | Auditoría de cierres de tickets por Samuel Blanco. |
+| **[V] Verification** | Calidad del Control | Auditoría de cierres de tickets por Líder SQA. |
 | **[X] Exit** | Criterios de Salida | Métricas actualizadas en [[01-STD-08_Dashboard_Calidad]]. |
 
 ## 2. Jerarquía de Control

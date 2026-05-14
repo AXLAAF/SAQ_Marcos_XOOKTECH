@@ -6,7 +6,7 @@ estado: Completado
 tipo: Proceso
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-05-08
-responsable: Samuel Blanco
+responsable: Líder SQA
 disparador: Acuerdo del equipo de iniciar la documentacion formal
 criterio_entrada: Acceso a mensajes de WhatsApp, correos, codigo fuente en GitHub, y contrato formal
 criterio_salida: Propuesta revisada y contrato formal verificado contra alcance documentado
@@ -20,12 +20,12 @@ salidas:
   - [[01-Baseline/04-Guia_Entrevista_PO]]
   - [[01-Baseline/05-Minuta_Entrevista]]
 actividades:
-  - Reconstruccion de linea base mediante elicitacion profunda (Samuel/Axel).
+  - Reconstruccion de linea base mediante elicitacion profunda (Líder SQA/Analista Técnico).
   - Digitalizacion de acuerdos contractuales y verbales.
   - Verificacion de consistencia entre propuesta y contrato.
 roles:
-  - Samuel Blanco (Lider/PO)
-  - Axel Morales (SQA/Dev)
+  - Líder SQA (Lider/PO)
+  - Analista Técnico (SQA/Dev)
 referencias_biblio:
   - SWEBOK v4 KA1 6.2
   - O'Regan Cap. 1.5.1

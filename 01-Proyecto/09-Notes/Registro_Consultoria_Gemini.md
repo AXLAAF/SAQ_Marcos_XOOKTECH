@@ -48,15 +48,7 @@ Se implemento una numeracion de dos digitos en `00-Meta`:
 - `99-` Archivos auxiliares (Plantillas).
 
 ---
-
-## 5. Reingeniería del Proceso de Requisitos (PROC-02)
-**Sesion:** 2026-05-13
-**Consultante:** Axel Morales
-**Tema:** Control de Scope Creep y Evidencia de Aprobación.
-
-**Pregunta:** ¿Cómo podemos integrar las mejores prácticas de CMMI-REQM y ETVX en nuestro flujo de Obsidian+Relay para evitar el scope creep y la falta de evidencia en las aprobaciones?
-
-**Respuesta:** Se rediseñó el `PROC-02` introduciendo una segregación de carpetas (`00-Pendientes` -> `01-Aprobados`) que actúa como control de configuración (CMMI-CM). Se actualizó la `TEMPLATE-REQ` para incluir criterios BDD medibles y un campo obligatorio para evidencia de validación (capturas/correos). Además, se implementó una Matriz de Trazabilidad en Markdown para asegurar el vínculo bidireccional entre requisitos y pruebas, cumpliendo con los estándares de Galin y SWEBOK v4.
+*Este registro se actualizara conforme avancen las preguntas del equipo.*
 
 ---
 
@@ -73,3 +65,43 @@ Tras la auditoria profunda, se establece la siguiente jerarquia funcional:
 6. **Plantillas (99)**: Activos de infraestructura de Daniel Galin.
 
 *Esta sintesis fue integrada en los mandatos del agente (GEMINI.md) para garantizar cumplimiento.*
+
+---
+
+## 5. Reingeniería del Proceso de Requisitos (PROC-02)
+**Sesion:** 2026-05-13
+**Consultante:** Analista Técnico
+**Tema:** Control de Scope Creep y Evidencia de Aprobación.
+
+**Pregunta:** ¿Cómo podemos integrar las mejores prácticas de CMMI-REQM y ETVX en nuestro flujo de Obsidian+Relay para evitar el scope creep y la falta de evidencia en las aprobaciones?
+
+**Respuesta:** Se rediseñó el `PROC-02` introduciendo una segregación de carpetas (`00-Pendientes` -> `01-Aprobados`) que actúa como control de configuración (CMMI-CM). Se actualizó la `TEMPLATE-REQ` para incluir criterios BDD medibles y un campo obligatorio para evidencia de validación (capturas/correos). Además, se implementó una Matriz de Trazabilidad en Markdown para asegurar el vínculo bidireccional entre requisitos y pruebas, cumpliendo con los estándares de Galin y SWEBOK v4.
+
+---
+
+## 6. Despersonalización y Definición de Roles Funcionales
+**Sesion:** 2026-05-14
+**Consultante:** Analista Técnico
+**Tema:** Transición de nombres propios a Roles Funcionales y sus responsabilidades.
+
+**Pregunta:** ¿Cómo se definen las responsabilidades de cada rol tras la despersonalización y qué funciones específicas tiene el Líder SQA?
+
+**Respuesta:**
+Tras la eliminación de nombres propios, el proyecto se organiza bajo tres pilares de responsabilidad técnica y operativa definidos en el [[01-PLAN-01_Accion_SQA]]:
+
+1. **Líder SQA (Implementación y Operaciones):**
+   - **Responsabilidad:** Es el pilar técnico del proyecto. Se encarga de la **Fase 4 (Codificación)**, asegurando la integridad de los módulos Python y el repositorio en GitHub.
+   - **Operaciones:** Lidera la **Fase 6 (Mantenimiento)** y la **Fase 8 (Despliegue)**, documentando las guías de instalación y soporte técnico.
+   - **Gobernanza:** Sistematiza los procesos operativos para que el sistema sea entregable y mantenible.
+
+2. **Analista Técnico (Estrategia y Verificación):**
+   - **Responsabilidad:** Lidera la **Fase 1 (Línea Base)**, la **Fase 3 (Diseño)** y la **Fase 5 (Pruebas)**.
+   - **Calidad:** Actúa como auditor de procesos, asegurando que la trazabilidad ETVX se cumpla en cada fase.
+
+3. **Analista SQA (Análisis y Control de Calidad):**
+   - **Responsabilidad:** Se encarga de la **Fase 2 (Requisitos)** y la **Fase 7 (Control)**.
+   - **Trazabilidad:** Su función crítica es cerrar la **Matriz de Trazabilidad (RTM)**, vinculando los requerimientos con los reportes de control e inspecciones.
+
+*Esta estructura garantiza que el SGC funcione por procesos y no dependa de la presencia de individuos específicos.*
+
+

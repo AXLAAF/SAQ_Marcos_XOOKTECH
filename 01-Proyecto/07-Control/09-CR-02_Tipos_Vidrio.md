@@ -4,7 +4,7 @@ titulo: Change Request - Tipos de Vidrio
 estado: Pendiente
 tipo_cambio: Nuevo-Requerimiento
 requerimiento_origen: REQ-08_Tipo_Vidrio
-solicitado_por: Cliente (Enmarcame - Geronimo)
+solicitado_por: Cliente (Enmarcame - Cliente)
 fecha_solicitud: 2026-01-20
 descripcion: El cliente solicito la funcionalidad para que el cliente pueda seleccionar el tipo de vidrio para su marco (vidrio normal, vidrio antirreflejo, vidrio templado).
 impacto_tiempo_dias: 3
@@ -29,7 +29,7 @@ tags:
 |-------|-------|
 | **ID** | CR-02 |
 | **Fecha de Solicitud** | 2026-01-20 |
-| **Solicitado por** | Cliente (Enmarcame - Geronimo) |
+| **Solicitado por** | Cliente (Enmarcame - Cliente) |
 | **Tipo de Cambio** | Nuevo Requerimiento |
 | **Estado** | Pendiente de Aprobacion |
 
@@ -95,7 +95,7 @@ El sistema debe permitir:
 
 | Campo | Valor |
 |-------|-------|
-| Elaborado por | Axel Adolfo Morales Caro |
+| Elaborado por | Analista Técnico |
 | Fecha de elaboracion | 2026-03-23 |
 | Estado | Pendiente de aprobacion |
 
@@ -103,7 +103,7 @@ El sistema debe permitir:
 
 | Version | Fecha | Autor | Descripcion |
 |---------|-------|-------|-------------|
-| 1.0 | 2026-03-23 | Axel Morales | Creacion inicial del CR |
+| 1.0 | 2026-03-23 | Analista Técnico | Creacion inicial del CR |
 
 ---
 

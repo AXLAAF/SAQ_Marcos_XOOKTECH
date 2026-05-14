@@ -8,7 +8,7 @@ tipo: Funcional
 modulo: Pantalla_Secundaria
 fecha_creacion: 2026-03-23
 ultima_revision: 2026-03-23
-responsable: Samuel Blanco
+responsable: Líder SQA
 fuente: Solicitud del cliente (Enmarcame)
 criterios_aceptacion:
   - CA-01: El sistema puede proyectar la previsualizacion en una segunda pantalla

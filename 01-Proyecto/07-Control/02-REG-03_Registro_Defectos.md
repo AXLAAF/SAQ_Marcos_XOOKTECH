@@ -6,7 +6,7 @@ estado: Activo
 tipo: Metrica
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-03-19
-responsable: Axel Morales
+responsable: Analista Técnico
 referencias_biblio:
   - "SWEBOK v4 KA5 - Testing"
   - "Lewis Cap. 12 - Defect Management"

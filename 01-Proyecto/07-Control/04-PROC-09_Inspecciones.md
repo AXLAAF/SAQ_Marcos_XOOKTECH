@@ -6,7 +6,7 @@ estado: Activo
 tipo: Proceso
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-05-14
-responsable: Samuel Blanco
+responsable: Líder SQA
 disparador: Finalizacion de fase o deliverable
 criterio_entrada: Artefacto listo para revision
 criterio_salida: Informe de inspeccion con hallazgos
@@ -49,7 +49,7 @@ tags:
 | **Criterio de Entrada** | Artefacto listo para revision. Se usa para aplicar tecnicas de inspeccion Fagan: planificacion, preparacion, reunion y seguimiento de acciones correctivas. |
 | **Actividades** | Ver lista abajo |
 | **Salida / Entregable** | Informe de inspeccion con hallazgos. Proporciona evidencia de revision formal y registro de defectos detectados tempranamente. (SWEBOK v4 KA8) |
-| **Responsable** | Samuel Blanco (lider SQA) |
+| **Responsable** | Líder SQA (lider SQA) |
 | **Criterio de Salida** | Informe de inspeccion aprobado, acciones correctivas definidas y verificadas. |
 
 ## 2. Actividades del Proceso (Ciclo de Inspeccion Fagan)

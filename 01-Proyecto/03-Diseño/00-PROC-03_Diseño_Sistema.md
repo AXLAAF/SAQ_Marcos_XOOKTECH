@@ -1,216 +1,103 @@
 ---
-id: PROC-04
-titulo: Proceso 4 - Arquitectura del Sistema
-version: "1.0"
-estado: Pendiente
+id: PROC-03
+titulo: Proceso 3 - Documentación de la Arquitectura (Ingeniería Inversa)
+version: "4.0"
+estado: Activo
 tipo: Proceso
 fecha_creacion: 2026-03-19
-ultima_revision: 2026-03-19
-responsable: Axel Morales
-disparador: Requerimientos especificados y aprobados
-criterio_entrada: Requerimientos profundos completados (PROC-02)
-criterio_salida: Documentacion de arquitectura completa
+ultima_revision: 2026-05-14
+responsable: Analista Técnico
+equipo:
+  - Analista Técnico (Estrategia y Verificacion)
+  - Líder SQA (Implementacion y Operaciones)
+  - Analista SQA (Analisis y Control de Calidad)
+autor: Analista Técnico / Líder SQA
+disparador: Código existente en GitHub y necesidad de trazabilidad técnica.
+criterio_entrada: Repositorio funcional (https://github.com/Bigsami89/Marcos2) y REQs validados.
+criterio_salida: Línea base de arquitectura (STD-04 a STD-07) sincronizada con el código.
 entradas:
-  - Requerimientos especificacion profunda
-  - Codigo fuente en GitHub
-  - Documentacion tecnica existente
+  - [[04-Codificacion/00-PROC-04_Codificacion]] (Estado Real del Código)
+  - Repositorio GitHub: https://github.com/Bigsami89/Marcos2
 salidas:
-  - 01-Diagrama_Componentes.md
-  - 02-Flujo_Sistema.md
-  - 03-Modelo_Datos.md
-  - 04-Modulos_Python.md
-actividades:
-  - Analizar el codigo fuente existente
-  - Crear diagrama de componentes
-  - Documentar el flujo del sistema
-  - Definir el modelo de datos
-  - Documentar los modulos Python
-  - Identificar integraciones faltantes
-roles:
-  - Axel Morales (analista tecnico)
-  - Samuel Blanco (validacion)
+  - [[03-Diseño/01-STD-04_Diagrama_Componentes]]
+  - [[03-Diseño/02-STD-05_Flujo_Sistema]]
+  - [[03-Diseño/03-STD-06_Modelo_Datos]]
+  - [[03-Diseño/04-STD-07_Arquitectura_Python]]
 referencias_biblio:
-  - "SWEBOK v4 KA2 - Diseno de Software"
-  - "SWEBOK v4 KA8 - Ingenieria de Procesos"
-  - "Repositorio: https://github.com/Bigsami89/Marcos2"
+  - "SWEBOK v4 KA2 - Diseño de Software"
+  - "Galin (2004) - Infraestructura de SQA"
 tags:
-  - proceso
-  - arquitectura
+  - meta/proceso
+  - fase/diseño
+  - tipo/proceso
+  - estado/activo
 ---
-No se hizo diseño
-# Proceso 4 — Arquitectura del Sistema
+# Proceso 3 — Documentación de la Arquitectura
 
-> **Justificacion**: Segun SWEBOK v4 KA2, "el proposito del diseno de software es proporcionar una descripcion de la arquitectura del sistema que sirva como base para la implementacion". La arquitectura documenta como los componentes del sistema interactuan para satisfacer los requerimientos, y es esencial para el mantenimiento y evolucion del sistema.
+> Como se evidencia en el **PROC-04 (NT-2)**, este proyecto inició su fase de desarrollo sin una etapa de diseño previa. El código en el repositorio [Marcos2](https://github.com/Bigsami89/Marcos2) es la actual. Este proceso define cómo extraer  para formalizar la arquitectura y asegurar que el mantenimiento.
 
-## 1. Definicion del Proceso
+## 1. Estructura del Proceso (Modelo ETVX)
 
-| Campo | Descripcion |
-| :-- | :-- |
-| **Disparador** | Requerimientos especificacion profunda completados. Necesario porque la arquitectura debe basarse en requerimientos detallados para evitar diseñar componentes que no corresponden al alcance real. (SWEBOK v4 KA2) |
-| **Criterio de Entrada** | REQ-01 a REQ-10 con especificacion completa. Se usa para identificar los componentes, flujos y entidades que la arquitectura debe soportar, asegurando trazabilidad REQ → componente. |
-| **Actividades** | Ver lista abajo |
-| **Salida / Entregable** | Documentos de arquitectura (diagrama componentes, flujo, modelo datos, modulos Python). Proporcionan la vision tecnica necesaria para implementar y mantener el sistema. |
-| **Responsable** | Axel Morales (analista tecnico) + Samuel Blanco (validacion) |
-| **Criterio de Salida** | Diagramas y documentacion de arquitectura revisados y aprobados. Cada componente debe trazarse a al menos un REQ. |
+| Fase                       | Definición          | Detalles                                                                     |
+| :------------------------- | :------------------- | :--------------------------------------------------------------------------- |
+| **[E] Entry**        | Criterios de Entrada | Acceso al repositorio GitHub + REQs en estado `Aprobado`.                  |
+| **[T] Tasks**        | Tareas Operativas    | Ejecutar los 5 pasos de Ingeniería Inversa detallados abajo.                |
+| **[V] Verification** | Calidad del Diseño  | El Líder SQA realiza un "Walkthrough" comparando diagramas vs código real. |
+| **[X] Exit**         | Criterios de Salida  | Artefactos STD firmados y Matriz de Trazabilidad DIS-REQ actualizada.        |
 
-## 2. Actividades del Proceso
+## 2. Metodología Detallada de Ingeniería Inversa
 
-1. Analizar el codigo fuente existente en GitHub.
-2. Crear diagrama de componentes del sistema.
-3. Documentar el flujo del sistema (desde entrada hasta salida).
-4. Definir el modelo de datos (entidades, atributos, relaciones).
-5. Documentar los modulos Python y su proposito.
-6. Identificar integraciones faltantes o areas de mejora.
-7. Validar la arquitectura contra los requerimientos.
+Para recuperar el diseño a partir de lo implementado por el Líder SQA, se deben ejecutar las siguientes actividades específicas:
 
-## 3. Artefactos de Arquitectura
+### 2.1 Auditoría de Estructura de Archivos y Capas
 
-### 3.1 Diagrama de Componentes
+- **Actividad**: Mapear la jerarquía de carpetas del repositorio para identificar el patrón de diseño real, actualmente una mezcla de Scripting y Capas.
+- **Especificación**: Identificar dónde reside la lógica de **Flask** (rutas), dónde la de **OpenCV** (servicios de visión) y dónde la de **Pillow** (renderizado).
+- **Artefacto Destino**: Base del [[01-STD-04_Diagrama_Componentes]].
 
-Este documento debe contener:
-- Vista general de la arquitectura
-- Componentes principales y sus responsabilidades
-- Interfaces entre componentes
-- tecnologias utilizadas por componente
-- Diagrama de despliegue (opcional)
+### 2.2 Análisis de Flujo de Datos y Peticiones (Request Lifecycle)
 
-### 3.2 Flujo del Sistema
+- **Actividad**: Rastrear una petición HTTP desde el frontend hasta la respuesta final.
+- **Especificación**: Documentar qué pasa exactamente cuando se llama a `/upload`. ¿Quién procesa la imagen? ¿Cómo se pasan las coordenadas de OpenCV a la capa de renderizado?
+- **Artefacto Destino**: [[02-STD-05_Flujo_Sistema]] (usando diagramas de secuencia Mermaid).
 
-Este documento debe contener:
-- Diagrama de flujo de datos
-- Secuencia de operaciones
-- Puntos de decision
-- Manejo de errores
-- Integraciones externas
+### 2.3 Modelado de Datos Post-Implementación
 
-### 3.3 Modelo de Datos
+- **Actividad**: Analizar las clases de Python y las estructuras de datos (diccionarios, listas, DB) que el Líder SQA usa para manejar los marcos y pedidos.
+- **Especificación**: Definir atributos reales como `Ancho_Real`, `Textura_Path`, y las relaciones entre el catálogo de marcos y la imagen del usuario.
+- **Artefacto Destino**: [[03-STD-06_Modelo_Datos]].
 
-Este documento debe contener:
-- Entidades y sus atributos
-- Relaciones entre entidades
-- Tipos de datos
-- Restricciones
-- Diagrama ER (Entity-Relationship)
+### 2.4 Documentación de la API (Flask Endpoints)
 
-### 3.4 Modulos Python
+- **Actividad**: Listar todas las rutas decoradas con `@app.route` en el código principal.
+- **Especificación**: Para cada ruta, documentar el método (GET/POST), los parámetros de entrada y el formato de respuesta (JSON/Imagen).
+- **Artefacto Destino**: [[04-STD-07_Arquitectura_Python]].
 
-Este documento debe contener:
-- Lista de modulos Python
-- Proposito de cada modulo
-- Funciones principales
-- Dependencias entre modulos
-- Parametros de entrada y salida
+### 2.5 Validación de Artefactos Existentes
 
-## 4. Estructura de la Documentacion
+- **Situación**: Los artefactos actuales en la carpeta `03-Diseño` (STD-04, 05, 06) se consideran **Borradores Técnicos**.
+- **Acción**: Deben ser "Refactorizados por Evidencia". Si el diagrama no coincide con el código en GitHub, el diagrama **DEBE** cambiarse para reflejar el código. El diseño sigue al código en esta fase de recuperación.
 
-### 4.1 01-Diagrama_Componentes.md
+## 3. Notas Técnicas de Propuesta (NT)
 
-```markdown
-# Diagrama de Componentes - Visualizador de Marcos
+**NT-1: Sincronización mediante Mermaid.js**
+Se propone que todos los diagramas de arquitectura se escriban en código Mermaid dentro de Obsidian. Esto facilita que el Analista Técnico pueda actualizarlos rápidamente conforme el Líder SQA realice commits en GitHub.
 
-## 1. Vista General de la Arquitectura
-[Descripcion de la arquitectura general del sistema]
+**NT-2: Creación de un Diccionario de Datos Técnico**
+Dado que no se hizo diseño, hay términos en el código que pueden ser ambiguos. Se propone crear una sección en el [[03-STD-06_Modelo_Datos]] que traduzca las variables del código a términos del negocio (Glosario Técnico).
 
-## 2. Componentes Principales
+**NT-3: Auditoría de "Dead Code"**
+Durante la ingeniería inversa, se deben identificar funciones en el repositorio que ya no se usen (código muerto) para limpiar la arquitectura y evitar documentar componentes obsoletos.
 
-### 2.1 Componente: [Nombre]
-| Aspecto | Descripcion |
-| :-- | :-- |
-| Proposito | [Que hace este componente] |
-| Responsabilidades | [Lista de responsabilidades] |
-| Tecnologias | [Tecnologias utilizadas] |
-| Interfaces | [APIs, protocolos] |
-| Dependencias | [Otros componentes] |
+## 4. Trazabilidad de Recuperación
 
-## 3. Diagrama de Arquitectura
-[Insertar diagrama en formato Mermaid]
-
-## 4. Despliegue
-[Diagrama de despliegue si aplica]
-
-## 5. Consideraciones de Seguridad
-[Aspectos de seguridad de la arquitectura]
-```
-
-### 4.2 02-Flujo_Sistema.md
-
-```markdown
-# Flujo del Sistema - Visualizador de Marcos
-
-## 1. Flujo Principal
-
-### 1.1 Carga de Imagen
-[Descripcion del flujo]
-
-## 2. Flujos Alternativos
-[Otros flujos]
-
-## 3. Manejo de Errores
-[Como se manejan los errores]
-
-## 4. Diagramas de Secuencia
-[Diagramas Mermaid]
-```
-
-### 4.3 03-Modelo_Datos.md
-
-```markdown
-# Modelo de Datos - Visualizador de Marcos
-
-## 1. Entidades
-
-### 1.1 Entidad: [Nombre]
-| Atributo | Tipo | Restricciones |
-| :-- | :-- | :-- |
-| [Nombre] | [Tipo] | [Restricciones] |
-
-## 2. Relaciones
-[Diagrama ER y descripcion]
-
-## 3. Indices
-[Indices importantes]
-```
-
-### 4.4 04-Modulos_Python.md
-
-```markdown
-# Modulos Python - Visualizador de Marcos
-
-## 1. Modulos
-
-### 1.1 modulo_principal.py
-| Aspecto | Descripcion |
-| :-- | :-- |
-| Proposito | [Que hace] |
-| Funciones | [Lista] |
-| Entrada | [Parametros] |
-| Salida | [Retorno] |
-```
-
-## 5. Criterios de Aceptacion del Proceso
-
-- [ ] Diagrama de componentes creado y documentado
-- [ ] Flujo del sistema documentado
-- [ ] Modelo de datos definido
-- [ ] Modulos Python documentados
-- [ ] Comparacion con requerimientos verificada
-- [ ] Proceso cerrado con estado = "Completado"
-
-## 6. Dependencias
-
-- **Pre-requisito**: [[PROC-02_Especificacion_Requerimientos]]
-- **Post-requisito**: [[PROC-05_Plan_Pruebas]]
-
-## 7. Referencias
-
-- [[01-Proceso_Gobernanza_Vault]]
-- [[02-Convenciones_y_Tags]]
-- [[01-Diagrama_Componentes]]
-- [[02-Flujo_Sistema]]
-- [[03-Modelo_Datos]]
-- [[04-Modulos_Python]]
-- GitHub: https://github.com/Bigsami89/Marcos2
+| Artefacto Generado                 | Fuente de Verdad (GitHub)                | Estado              |
+| :--------------------------------- | :--------------------------------------- | :------------------ |
+| [[01-STD-04_Diagrama_Componentes]] | `app.py` y estructura de carpetas      | En Refactorización |
+| [[02-STD-05_Flujo_Sistema]]        | Lógica de procesamiento en `/process` | En Refactorización |
+| [[03-STD-06_Modelo_Datos]]         | Estructuras de datos de Marcos y Pedidos | Pendiente           |
 
 ---
 
-*Proceso creado: 2026-03-19 | Ultima actualizacion: 2026-03-19*
+*Repositorio Oficial: [Marcos2](https://github.com/Bigsami89/Marcos2)*
+*Estrategia de SQA Universidad v4.0 — 2026-05-14*

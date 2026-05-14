@@ -7,14 +7,14 @@ tipo: Registro de Entrevista
 fecha_creacion: 2026-03-23
 fecha_entvista: 2026-03-23
 entrevistadores:
-  - Jose Samuel Blanco Cervera
-  - Axel Adolfo Morales Caro
+  - Líder SQA
+  - Analista Técnico
 entrevistados:
-  - Jose Samuel Blanco Cervera (Lider tecnico)
-  - Axel Adolfo Morales Caro (Desarrollador)
+  - Líder SQA (Lider tecnico)
+  - Analista Técnico (Desarrollador)
 referencias:
   - PROC-01_Recuperacion_Linea_Base
-  - 03-Guia_Entrevista_Samuel
+  - 03-Guia_Entrevista_Líder SQA
 tags:
   - elicitación
   - entrevista
@@ -36,7 +36,7 @@ tags:
 | Fecha de realizacion | 2026-03-23                  |
 | Duracion total       | 1 hora                      |
 | Metodo               | Virtual                     |
-| Participantes        | Samuel Blanco, Axel Morales |
+| Participantes        | Líder SQA, Analista Técnico |
 | Ubicacion            | Merida, Yucatan             |
 
 ---
@@ -45,11 +45,11 @@ tags:
 
 ### Pregunta A.1: ¿Cómo se originó el contacto con el cliente "Enmarcame"?
 
-**Entrevistado (Samuel):** El contacto fue a través de un conocido común, no fue una propuesta fría ni publicidad. Un amigo en común nos presentó porque sabía que desarrollábamos aplicaciones web y conocía a Geronimo, el dueño de Enmarcame. Él había expresado que quería "Algo para que los clientes vean sus cuadros antes de enmarcarlo" para su tienda, pero no tenía claro qué era exactamente. La primera reunión fue una llamada improvisada para escuchar unos requisitos preliminares y definir una primera reunion en su establecimiento
+**Entrevistado (Líder SQA):** El contacto fue a través de un conocido común, no fue una propuesta fría ni publicidad. Un amigo en común nos presentó porque sabía que desarrollábamos aplicaciones web y conocía a Cliente, el dueño de Enmarcame. Él había expresado que quería "Algo para que los clientes vean sus cuadros antes de enmarcarlo" para su tienda, pero no tenía claro qué era exactamente. La primera reunión fue una llamada improvisada para escuchar unos requisitos preliminares y definir una primera reunion en su establecimiento
 
 ### Pregunta A.2: ¿Cuál fue la necesidad específica que el cliente expresó inicialmente?
 
-**Entrevistado (Samuel):** Geronimo nos dijo que sus clientes frecuentemente pedían "ver cómo queda" antes de encargar el marco. Muchas veces traían fotos de sus celulares y les costaba visualizar el resultado final, actualmente sin el sistema se utiliza la siguiente metodologia, utilizando esquinas de los materiales:
+**Entrevistado (Líder SQA):** Cliente nos dijo que sus clientes frecuentemente pedían "ver cómo queda" antes de encargar el marco. Muchas veces traían fotos de sus celulares y les costaba visualizar el resultado final, actualmente sin el sistema se utiliza la siguiente metodologia, utilizando esquinas de los materiales:
 1. Se toma una moldura (De lo que se compone el marco)
 2. Se toma una marialuisa
 3. Se pone en la esquina de la obra (Si lo trae)
@@ -57,15 +57,15 @@ tags:
 
 ### Pregunta A.3: ¿Quiénes participaron en las primeras reuniones?
 
-**Entrevistado (Samuel):** En la primera reunión estuvimos los dos, Geronimo y yo. Fue una junta corta, como media hora, donde platicamos de todo: desde cómo funcionaba su negocio hasta qué esperaba del sistema. No había una propuesta formal, fue más una conversación para entender qué necesitaba.
+**Entrevistado (Líder SQA):** En la primera reunión estuvimos los dos, Cliente y yo. Fue una junta corta, como media hora, donde platicamos de todo: desde cómo funcionaba su negocio hasta qué esperaba del sistema. No había una propuesta formal, fue más una conversación para entender qué necesitaba.
 
 ### Pregunta A.4: ¿Cuál era el plazo original acordado?
 
-**Entrevistado (Samuel):** Inicialmente acordamos se le dijo un plazo corto de 15 dias de desarrollo para para una entrega de lo platicado originalmente, aunque cuando nos dijo que no tenia una base de datos de sus marcos (Fotos, medidas y proveedor) se agrando el tiempo de 2 meses a 3 meses
+**Entrevistado (Líder SQA):** Inicialmente acordamos se le dijo un plazo corto de 15 dias de desarrollo para para una entrega de lo platicado originalmente, aunque cuando nos dijo que no tenia una base de datos de sus marcos (Fotos, medidas y proveedor) se agrando el tiempo de 2 meses a 3 meses
 
 ### Pregunta A.5: ¿Existió alguna propuesta formal inicial?
 
-**Entrevistado (Samuel):** No, y ese es uno de los problemas que queremos corregir ahora. No tenemos un documento formal de la propuesta. Todo quedó en conversaciones y acuerdos verbales. Lo que recuerdo es que le dijimos que el sistema le permitiría a sus clientes subir una foto, elegir un marco del catálogo y ver cómo quedaba. Costaría $24,000 pesos por todo el desarrollo y después $2,500 pesos mensuales de renta.
+**Entrevistado (Líder SQA):** No, y ese es uno de los problemas que queremos corregir ahora. No tenemos un documento formal de la propuesta. Todo quedó en conversaciones y acuerdos verbales. Lo que recuerdo es que le dijimos que el sistema le permitiría a sus clientes subir una foto, elegir un marco del catálogo y ver cómo quedaba. Costaría $24,000 pesos por todo el desarrollo y después $2,500 pesos mensuales de renta.
 
 ---
 
@@ -73,29 +73,29 @@ tags:
 
 ### Pregunta B.1: ¿Cuál era la descripción del producto mínimo viable (MVP)?
 
-**Entrevistado (Axel):** El minimo producto viable: Es aplicación web donde el cliente pudiera subir su foto, seleccionar un marco del catálogo y ver la previsualización. El catálogo inicial tendría los marcos que escaneáramos. No incluía nada de las peticiones de cambio al programa que vinieron después. puro básico.
+**Entrevistado (Analista Técnico):** El minimo producto viable: Es aplicación web donde el cliente pudiera subir su foto, seleccionar un marco del catálogo y ver la previsualización. El catálogo inicial tendría los marcos que escaneáramos. No incluía nada de las peticiones de cambio al programa que vinieron después. puro básico.
 
 ### Pregunta B.2: ¿Qué funcionalidades debía incluir obligatoriamente?
 
-**Entrevistado (Axel):** Lo que acordamos fue:
+**Entrevistado (Analista Técnico):** Lo que acordamos fue:
 1. Subir imagen del cliente (REQ-01)
 2. Ver previsualización del marco sobre la foto (REQ-02)
 3. Catálogo de marcos con fotos y especificaciones (REQ-04 y REQ-06)
 4. Motor que generara los marcos en 3D desde las texturas escaneadas (REQ-03)
 
-No había más. Eso era todo. El catálogo se construiría con las fotos que escaneáramos, unas 1,000 molduras aproximadamente segun las anotaciones de Geronimo.
+No había más. Eso era todo. El catálogo se construiría con las fotos que escaneáramos, unas 1,000 molduras aproximadamente segun las anotaciones de Cliente.
 
 ### Pregunta B.3: ¿El cliente solicitó alguna funcionalidad que NO se implementó en la versión inicial?
 
-**Entrevistado (Samuel):** En ese momento no, todo lo que pedimos lo implementamos. Lo que pasó es que después, ya en producción, empezó a surgir ideas nuevas. Esas fueron las que se convirtieron en los REQ-07 a REQ-10.
+**Entrevistado (Líder SQA):** En ese momento no, todo lo que pedimos lo implementamos. Lo que pasó es que después, ya en producción, empezó a surgir ideas nuevas. Esas fueron las que se convirtieron en los REQ-07 a REQ-10.
 
 ### Pregunta B.4: ¿Cuáles fueron los criterios de aceptación?
 
-**Entrevistado (Samuel):** Lo que acordamos fue que el sistema funcionara sin errores graves, que la previsualización se viera bien en la pantalla de la tienda, y que el catálogo cargara completo. No hicimos pruebas formales con criterios medibles, pero más o menos eso era lo esperado.
+**Entrevistado (Líder SQA):** Lo que acordamos fue que el sistema funcionara sin errores graves, que la previsualización se viera bien en la pantalla de la tienda, y que el catálogo cargara completo. No hicimos pruebas formales con criterios medibles, pero más o menos eso era lo esperado.
 
 ### Pregunta B.5: ¿Se definió algún requisito no funcional específico?
 
-**Entrevistado (Axel):** Solo que la aplicación corriera bien en las computadoras de la tienda, que eran equipos normales, no muy potentes. Y que cargara rápido, aunque nunca cuantificamos "rápido" con un número.
+**Entrevistado (Analista Técnico):** Solo que la aplicación corriera bien en las computadoras de la tienda, que eran equipos normales, no muy potentes. Y que cargara rápido, aunque nunca cuantificamos "rápido" con un número.
 
 ---
 
@@ -103,23 +103,23 @@ No había más. Eso era todo. El catálogo se construiría con las fotos que esc
 
 ### Pregunta C.1: ¿Cuándo surgieron los nuevos requerimientos?
 
-**Entrevistado (Samuel):** Todoсуржио después de que pusimos el sistema en producción. Llevábamos como dos meses cuando Geronimo empezó a platicar de "qué tal si...". Los primeros fueron los marcos dobles y el tipo de vidrio. Luego lo de multiples de las maria luisas y la pantalla secondaria.
+**Entrevistado (Líder SQA):** Todoсуржио después de que pusimos el sistema en producción. Llevábamos como dos meses cuando Cliente empezó a platicar de "qué tal si...". Los primeros fueron los marcos dobles y el tipo de vidrio. Luego lo de multiples de las maria luisas y la pantalla secondaria.
 
 ### Pregunta C.2: ¿Quién solicitó los nuevos requerimientos?
 
-**Entrevistado (Samuel):** Todo vino de Geronimo, directo. No hubo intermediarios. En WhatsApp nos mandaba mensajes como "Oye, ¿y si le ponemos que el cliente pueda elegir si quiere vidrio normal o antirreflejo?".
+**Entrevistado (Líder SQA):** Todo vino de Cliente, directo. No hubo intermediarios. En WhatsApp nos mandaba mensajes como "Oye, ¿y si le ponemos que el cliente pueda elegir si quiere vidrio normal o antirreflejo?".
 
 ### Pregunta C.3: ¿Pasaron por algún proceso formal de aprobación?
 
-**Entrevistado (Samuel):** No, y esa es nuestra falla. Absolutamente no hubo proceso formal. Llegaban las ideas y nosotros simplemente las implementábamos o intentábamos. No había registro, no había estimación de tiempo, no había approval del cliente por escrito. Solo conversaciones de WhatsApp.
+**Entrevistado (Líder SQA):** No, y esa es nuestra falla. Absolutamente no hubo proceso formal. Llegaban las ideas y nosotros simplemente las implementábamos o intentábamos. No había registro, no había estimación de tiempo, no había approval del cliente por escrito. Solo conversaciones de WhatsApp.
 
 ### Pregunta C.4: ¿Se estimó el impacto en tiempo y costo?
 
-**Entrevistado (Samuel):** Se hizo un estimado de costo y de tiempo de forma empirica, El coste viniendo de un aproximado de cuanto queria ganar en el mes y la renta en funcion de prima de mantenimiento
+**Entrevistado (Líder SQA):** Se hizo un estimado de costo y de tiempo de forma empirica, El coste viniendo de un aproximado de cuanto queria ganar en el mes y la renta en funcion de prima de mantenimiento
 
 ### Pregunta C.5: ¿El cliente aceptó formalmente los cambios?
 
-**Entrevistado (Samuel):** No de manera formal. Le dijimos que implementaríamos esas cosas pero nunca hubo un documento donde firmara que estaba de acuerdo con el alcance y el costo adicional. Eso generó cierta confusión después, porque él pensaba que todo estaba incluido en la renta y nosotros considerábamos que eran Cambios nuevos con costo extra.
+**Entrevistado (Líder SQA):** No de manera formal. Le dijimos que implementaríamos esas cosas pero nunca hubo un documento donde firmara que estaba de acuerdo con el alcance y el costo adicional. Eso generó cierta confusión después, porque él pensaba que todo estaba incluido en la renta y nosotros considerábamos que eran Cambios nuevos con costo extra.
 
 ---
 
@@ -127,7 +127,7 @@ No había más. Eso era todo. El catálogo se construiría con las fotos que esc
 
 ### Pregunta D.1: ¿Cuál fue el costo total acordado inicialmente?
 
-**Entrevistado (Samuel):** $24,000 MXN por todo el desarrollo completo. Eso incluía:
+**Entrevistado (Líder SQA):** $24,000 MXN por todo el desarrollo completo. Eso incluía:
 - La aplicación web completa
 - El escaneo de todos los marcos del catálogo
 - La base de datos con el catálogo
@@ -137,19 +137,19 @@ No hubo desglose por escrito, pero eso era lo que estaba incluido.
 
 ### Pregunta D.2: ¿Se definió un costo recurrente?
 
-**Entrevistado (Samuel):** Sí, acordamos $2,500 MXN mensuales por la renta del sistema. Eso incluía el hosting, el mantenimiento de la base de datos, y soporte básico si había algún problema. Él entendía eso como "renta del sistema".
+**Entrevistado (Líder SQA):** Sí, acordamos $2,500 MXN mensuales por la renta del sistema. Eso incluía el hosting, el mantenimiento de la base de datos, y soporte básico si había algún problema. Él entendía eso como "renta del sistema".
 
 ### Pregunta D.3: ¿Los nuevos requerimientos implican costos adicionales?
 
-**Entrevistado (Samuel):** Aún no se lo hemos cobrado formalmente. Los REQ-07 a REQ-10 representan trabajo adicional que no estaba en el acuerdo original. Ahorita estamos en ese proceso de estimar el costo y presentárselo formalmente, porque él sigue preguntando cuándo se.
+**Entrevistado (Líder SQA):** Aún no se lo hemos cobrado formalmente. Los REQ-07 a REQ-10 representan trabajo adicional que no estaba en el acuerdo original. Ahorita estamos en ese proceso de estimar el costo y presentárselo formalmente, porque él sigue preguntando cuándo se.
 
 ### Pregunta D.4: ¿Existe un contrato formal?
 
-**Entrevistado (Samuel):** No, no hay contrato. Todo fue verbal y de buena fe. Eso es otro problema que queremos resolver para proyectos futuros.
+**Entrevistado (Líder SQA):** No, no hay contrato. Todo fue verbal y de buena fe. Eso es otro problema que queremos resolver para proyectos futuros.
 
 ### Pregunta D.5: ¿Qué incluye exactamente el costo de $24,000 MXN?
 
-**Entrevistado (Axel):** Básicamente todo lo que necesita para el sistema:
+**Entrevistado (Analista Técnico):** Básicamente todo lo que necesita para el sistema:
 - Desarrollo de la aplicación web (frontend y backend)
 - Programa JS para detección de ancho y generación de 3D
 - Escaneo de ~200 marcos por semana durante 5 semanas (aproximadamente 1,000 marcos)
@@ -163,7 +163,7 @@ No hubo desglose por escrito, pero eso era lo que estaba incluido.
 
 ### Pregunta E.1: ¿Cuál es el stack tecnológico completo?
 
-**Entrevistado (Axel):** Usamos:
+**Entrevistado (Analista Técnico):** Usamos:
 - **Frontend:** HTML5 con Bootstrap para el diseño responsive, CSS3 para estilos custom, JavaScript vanilla para la interacción
 - **Backend:** JavaScript con Node.js, aunque después optimizamos algunas cosas
 - **Base de datos:** PostgreSQL, bastante robusta y con buen rendimiento
@@ -172,19 +172,19 @@ No hubo desglose por escrito, pero eso era lo que estaba incluido.
 
 ### Pregunta E.2: ¿Por qué se eligió esta tecnología?
 
-**Entrevistado (Axel):** Porque era lo que más conocía Samuel y lo que funcionaba para este tipo de aplicación web. Era rápido de desarrollar y mantenible. Investigué alternativas como motores de juegos 3D, pero eran muy extenso para lo que necesitábamos. Al final usamos una librería de rendering 3D en JavaScript que funcionó bien.
+**Entrevistado (Analista Técnico):** Porque era lo que más conocía Líder SQA y lo que funcionaba para este tipo de aplicación web. Era rápido de desarrollar y mantenible. Investigué alternativas como motores de juegos 3D, pero eran muy extenso para lo que necesitábamos. Al final usamos una librería de rendering 3D en JavaScript que funcionó bien.
 
 ### Pregunta E.3: ¿El sistema tiene una API?
 
-**Entrevistado (Axel):** Tiene endpoints internos, pero no está diseñado como una API pública. Todo comunica internamente. Si Geronimo quiere integrar con su sistema de ventas en el futuro, sí sería necesario exponer una API.
+**Entrevistado (Analista Técnico):** Tiene endpoints internos, pero no está diseñado como una API pública. Todo comunica internamente. Si Cliente quiere integrar con su sistema de ventas en el futuro, sí sería necesario exponer una API.
 
 ### Pregunta E.4: ¿Dónde está hosteado el sistema?
 
-**Entrevistado (Axel):** En un VPS de un proveedor que nos dio Samuel. Tiene buenas reseñas y el precio era razonable. El dominio apunta a la aplicación y tiene SSL configurado.
+**Entrevistado (Analista Técnico):** En un VPS de un proveedor que nos dio Líder SQA. Tiene buenas reseñas y el precio era razonable. El dominio apunta a la aplicación y tiene SSL configurado.
 
 ### Pregunta E.5: ¿Cuál es el proceso de despliegue?
 
-**Entrevistado (Axel):** Actualmente es manual. Cuando hay cambios, subo el código al servidor, reinicio los servicios. No tenemos un pipeline de CI/CD todavía, aunque sería ideal implementarlo.
+**Entrevistado (Analista Técnico):** Actualmente es manual. Cuando hay cambios, subo el código al servidor, reinicio los servicios. No tenemos un pipeline de CI/CD todavía, aunque sería ideal implementarlo.
 
 ---
 
@@ -192,7 +192,7 @@ No hubo desglose por escrito, pero eso era lo que estaba incluido.
 
 ### Pregunta F.1: ¿Cómo es el flujo típico de un cliente en la tienda?
 
-**Entrevistado (Samuel):** El flujo actual es:
+**Entrevistado (Líder SQA):** El flujo actual es:
 1. El cliente llega a la tienda con su foto (ya sea impresa o en el celular)
 2. El empleado abre la aplicación web en la computadora de la tienda
 3. El cliente sube su foto usando la opción de subir archivo o conectando el celular
@@ -203,19 +203,19 @@ No hubo desglose por escrito, pero eso era lo que estaba incluido.
 
 ### Pregunta F.2: ¿Quién opera el sistema?
 
-**Entrevistado (Samuel):** Geronimo y sus empleados. Son los que atienden en la tienda. Son capaces de manejarlo sin otra ayuda, aunque a veces nos llaman si algo no funciona.
+**Entrevistado (Líder SQA):** Cliente y sus empleados. Son los que atienden en la tienda. Son capaces de manejarlo sin otra ayuda, aunque a veces nos llaman si algo no funciona.
 
 ### Pregunta F.3: ¿Cuántos marcos tiene el catálogo?
 
-**Entrevistado (Axel):** actualmente tenemos alrededor de 1079 marcos en el catálogo. Todos fueron escaneados y sus características registradas: ancho, alto, tipo de moldura, color, textura.
+**Entrevistado (Analista Técnico):** actualmente tenemos alrededor de 1079 marcos en el catálogo. Todos fueron escaneados y sus características registradas: ancho, alto, tipo de moldura, color, textura.
 
 ### Pregunta F.4: ¿El sistema está integrado con algún otro sistema?
 
-**Entrevistado (Axel):** No, actualmente es unico. No se integra con su sistema de ventas ni con inventario. Es algo que Geronimo mencionó que gustaría tener en el futuro.
+**Entrevistado (Analista Técnico):** No, actualmente es unico. No se integra con su sistema de ventas ni con inventario. Es algo que Cliente mencionó que gustaría tener en el futuro.
 
 ### Pregunta F.5: ¿Hay algún proceso de mantenimiento?
 
-**Entrevistado (Samuel):** Lo básico: respaldos semanales de la base de datos, actualizaciones de seguridad cuando hay parches. Pero no hay un mantenimiento preventivo formal. Si algo se rompe, lo arreglamos.
+**Entrevistado (Líder SQA):** Lo básico: respaldos semanales de la base de datos, actualizaciones de seguridad cuando hay parches. Pero no hay un mantenimiento preventivo formal. Si algo se rompe, lo arreglamos.
 
 ---
 
@@ -223,23 +223,23 @@ No hubo desglose por escrito, pero eso era lo que estaba incluido.
 
 ### Pregunta G.1: ¿Qué define como un "sistema exitoso"?
 
-**Entrevistado (Samuel):** Que los clientes de Enmarcame queden satisfechos con lo que ven, los clientes puedan visualizar el resultado antes de comprar. Que no se caiga, que sea confiable.
+**Entrevistado (Líder SQA):** Que los clientes de Enmarcame queden satisfechos con lo que ven, los clientes puedan visualizar el resultado antes de comprar. Que no se caiga, que sea confiable.
 
 ### Pregunta G.2: ¿Ha tenido problemas con el sistema?
 
-**Entrevistado (Samuel):** Algunos problemas menores: la aplicación se trababa con ciertas fotos de alta resolución, tuvimos que agregar compresión. Algunos marcos no renderizaban bien. Cosas así que fuimos corrigiendo sobre la marcha.
+**Entrevistado (Líder SQA):** Algunos problemas menores: la aplicación se trababa con ciertas fotos de alta resolución, tuvimos que agregar compresión. Algunos marcos no renderizaban bien. Cosas así que fuimos corrigiendo sobre la marcha.
 
 ### Pregunta G.3: ¿Qué tan importante es el rendimiento?
 
-**Entrevistado (Samuel):** Muy importante. Los clientes no quieren esperar. Tiene que ser rápido, casi instantáneo, que el tiempo de carga de 2-3 segundos, que era aceptable.
+**Entrevistado (Líder SQA):** Muy importante. Los clientes no quieren esperar. Tiene que ser rápido, casi instantáneo, que el tiempo de carga de 2-3 segundos, que era aceptable.
 
 ### Pregunta G.4: ¿El cliente ha solicitado funcionalidades de reporte?
 
-**Entrevistado (Samuel):** No aún, pero sospecho que en el future podría pedir algo así. Le interesaría saber qué marcos son más populares, cuáles selecciona la gente, etc.
+**Entrevistado (Líder SQA):** No aún, pero sospecho que en el future podría pedir algo así. Le interesaría saber qué marcos son más populares, cuáles selecciona la gente, etc.
 
 ### Pregunta G.5: ¿Hay alguna expectativa de disponibilidad?
 
-**Entrevistado (Samuel):** Básico: que el sistema funcione durante el horario de la tienda, que no haya caídas en horario de atención. No tiene 24/7, solo mientras está abierta la tienda.
+**Entrevistado (Líder SQA):** Básico: que el sistema funcione durante el horario de la tienda, que no haya caídas en horario de atención. No tiene 24/7, solo mientras está abierta la tienda.
 
 ---
 
@@ -247,7 +247,7 @@ No hubo desglose por escrito, pero eso era lo que estaba incluido.
 
 ### Pregunta H.1: ¿El cliente ha mencionado características futuras?
 
-**Entrevistado (Samuel):** Sí, ya platicamos de varias cosas:
+**Entrevistado (Líder SQA):** Sí, ya platicamos de varias cosas:
 - La pantalla secundaria para que el cliente vea la previsualización en una pantalla más grande mientras el empleado opera
 - Integración con su sistema de POS
 - Posibilidad de que los clientes hagan pedidos desde sus casas
@@ -255,20 +255,20 @@ No hubo desglose por escrito, pero eso era lo que estaba incluido.
 
 ### Pregunta H.2: ¿Hay planes de expansión?
 
-**Entrevistado (Samuel):** Geronimo quiere expandir su sistema en otras tiendas o incluso hacer una especie de franquicia, pero de momento solo es su tienda. No hay planes concretos de expansión a corto plazo.
+**Entrevistado (Líder SQA):** Cliente quiere expandir su sistema en otras tiendas o incluso hacer una especie de franquicia, pero de momento solo es su tienda. No hay planes concretos de expansión a corto plazo.
 
 ### Pregunta H.3: ¿Requiere integración con redes sociales?
 
-**Entrevistado (Samuel):** Mencionó algo de poner un iPad en la tienda donde los clientes pudieran tomar su foto y compartir en redes sociales, pero no es algo formal aún.
+**Entrevistado (Líder SQA):** Mencionó algo de poner un iPad en la tienda donde los clientes pudieran tomar su foto y compartir en redes sociales, pero no es algo formal aún.
 
 ### Pregunta H.4: ¿Existe fecha límite para los requerimientos pendientes?
 
-**Entrevistado (Samuel):** Que el cambio que sea pronto, pero no hay una fecha concreta. Estamos en el proceso de estimar el trabajo y definir prioridades.
+**Entrevistado (Líder SQA):** Que el cambio que sea pronto, pero no hay una fecha concreta. Estamos en el proceso de estimar el trabajo y definir prioridades.
 
 ### Pregunta H.5: ¿Cuál es la prioridad de los REQ-07 a REQ-10?
 
-**Entrevistado (Samuel):**
-- **REQ-07 (Marcos Dobles):** Alta prioridad, Geronimol tiene clientes que pidiendo mucho esto
+**Entrevistado (Líder SQA):**
+- **REQ-07 (Marcos Dobles):** Alta prioridad, Cliente tiene clientes que pidiendo mucho esto
 - **REQ-08 (Tipos de Vidrio):** Media prioridad, funcionalidad funcional pero no crítica
 - **REQ-09 (Maria Luisa):** Media prioridad, ya tiene algunos diseños escaneados
 - **REQ-10 (Pantalla Secondary):** Baja prioridad por ahora, requiere inversión adicional en hardware
@@ -314,7 +314,7 @@ Los nuevos requerimientos (REQ-07 a REQ-10) llegaron sin pasar por un proceso fo
 
 | Campo | Valor |
 |-------|-------|
-| Elaborado por | Axel Adolfo Morales Caro |
+| Elaborado por | Analista Técnico |
 | Fecha | 2026-03-23 |
 | Estado | Completado |
 

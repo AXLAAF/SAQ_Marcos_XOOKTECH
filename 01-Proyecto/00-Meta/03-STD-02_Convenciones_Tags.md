@@ -6,7 +6,7 @@ estado: Activo
 tipo: Estándar
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-05-13
-responsable: Axel Morales
+responsable: Analista Técnico
 tags:
   - meta/estandar
   - gobernanza

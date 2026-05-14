@@ -6,8 +6,8 @@ estado: Activo
 tipo: Proceso
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-05-14
-responsable: Samuel Blanco (Lider) / Axel Morales (Desarrollador)
-autor: Adrian Zapata / Axel Morales
+responsable: Líder SQA (Lider) / Analista Técnico (Desarrollador)
+autor: Analista SQA / Analista Técnico
 disparador: Solicitud de cambio o nueva funcionalidad por parte del cliente
 criterio_entrada: Solicitud documentada en acta, correo o minuta de entrevista
 criterio_salida: Nota de requerimiento en estado "Aprobado" en carpeta 01-Aprobados
@@ -37,23 +37,23 @@ tags:
 | :--- | :--- | :--- |
 | **[E] Entry** | Criterios de Entrada | Solicitud capturada en minuta o canal oficial. |
 | **[T] Tasks** | Tareas Operativas | Fases 1 a 4: Captura, Revisión, Validación y Línea Base. |
-| **[V] Verification** | Verificación de Calidad | Aplicación de Checklist de Calidad + Revision Samuel/Axel. |
+| **[V] Verification** | Verificación de Calidad | Aplicación de Checklist de Calidad + Revision Líder SQA/Analista Técnico. |
 | **[X] Exit** | Criterios de Salida | Archivo en `01-Aprobados` con estado "Aprobado". |
 
 ## 2. Proceso Detallado (Refinamiento SQA)
 
 ### Paso 1: Captura de Requisitos (Planear)
 **NT-1:** Se centraliza toda solicitud en una nota inicial en `00-Pendientes` con ID único `REQ-XXX` para evitar el "scope creep".
-- Samuel Blanco crea el archivo `REQ-XXX` en `02-Requisitos/00-Pendientes/`.
+- Líder SQA crea el archivo `REQ-XXX` en `02-Requisitos/00-Pendientes/`.
 
 ### Paso 2: Revisión y Especificación (Hacer)
 **NT-2:** Uso obligatorio de plantilla con criterios BDD (Dado/Cuando/Entonces).
-- Axel aplica la plantilla y define criterios de aceptacion medibles.
+- Analista Técnico aplica la plantilla y define criterios de aceptacion medibles.
 - Se estima el esfuerzo y se asigna prioridad.
 
 ### Paso 3: Validación con el Cliente (Verificar)
 **NT-3:** Toda aprobación debe ser por escrito (correo o captura de WhatsApp) para evitar conflictos de costos.
-- Samuel presenta el REQ al cliente y obtiene aprobacion formal.
+- Líder SQA presenta el REQ al cliente y obtiene aprobacion formal.
 - Se vincula la evidencia en el documento.
 
 ### Paso 4: Línea Base y Trazabilidad (Actuar)
@@ -61,7 +61,7 @@ tags:
 - El archivo aprobado se mueve a `02-Requisitos/01-Aprobados/`.
 - Se actualiza la [[02-Requisitos/01-STD-03_Matriz_Trazabilidad]].
 
-## 3. Justificación de Mejoras (Por Adrian Zapata)
+## 3. Justificación de Mejoras (Por Analista SQA)
 - **Centralización**: Mitiga el crecimiento descontrolado del alcance.
 - **Plantilla BDD**: Elimina la ambigüedad en las pruebas.
 - **Evidencia**: Proporciona respaldo legal y técnico.
@@ -73,4 +73,4 @@ tags:
 - **Formalidad**: 100% con evidencia adjunta.
 
 ---
-*Refinamiento: Adrian Zapata (2026-05-13) | Integracion de Gobernanza: Axel Morales (2026-05-14)*
+*Refinamiento: Analista SQA (2026-05-13) | Integracion de Gobernanza: Analista Técnico (2026-05-14)*

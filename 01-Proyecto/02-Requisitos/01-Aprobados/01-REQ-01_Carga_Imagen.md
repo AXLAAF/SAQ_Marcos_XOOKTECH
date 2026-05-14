@@ -8,7 +8,7 @@ tipo: Funcional
 modulo: Carga
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-03-19
-responsable: Axel Morales
+responsable: Analista Técnico
 fuente: Entrevista con cliente, Propuesta recuperada
 criterios_aceptacion:
   - CA-01: El sistema acepta imagenes en formato JPG hasta 10 MB

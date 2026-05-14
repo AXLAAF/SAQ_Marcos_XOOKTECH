@@ -4,7 +4,7 @@ titulo: Change Request - Marcos Dobles
 estado: Pendiente
 tipo_cambio: Nuevo-Requerimiento
 requerimiento_origen: REQ-07_Marcos_Dobles
-solicitado_por: Cliente (Enmarcame - Geronimo)
+solicitado_por: Cliente (Enmarcame - Cliente)
 fecha_solicitud: 2026-01-15
 descripcion: El cliente solicito la funcionalidad para que el sistema soporte marcos dobles (dos fotografias o dos espacios para fotos en un mismo marco).
 impacto_tiempo_dias: 5
@@ -30,7 +30,7 @@ tags:
 |-------|-------|
 | **ID** | CR-01 |
 | **Fecha de Solicitud** | 2026-01-15 |
-| **Solicitado por** | Cliente (Enmarcame - Geronimo) |
+| **Solicitado por** | Cliente (Enmarcame - Cliente) |
 | **Tipo de Cambio** | Nuevo Requerimiento |
 | **Estado** | Pendiente de Aprobacion |
 
@@ -93,7 +93,7 @@ El sistema debe permitir:
 
 | Campo | Valor |
 |-------|-------|
-| Elaborado por | Axel Adolfo Morales Caro |
+| Elaborado por | Analista Técnico |
 | Fecha de elaboracion | 2026-03-23 |
 | Estado | Pendiente de aprobacion |
 
@@ -101,7 +101,7 @@ El sistema debe permitir:
 
 | Version | Fecha | Autor | Descripcion |
 |---------|-------|-------|-------------|
-| 1.0 | 2026-03-23 | Axel Morales | Creacion inicial del CR |
+| 1.0 | 2026-03-23 | Analista Técnico | Creacion inicial del CR |
 
 ---
 

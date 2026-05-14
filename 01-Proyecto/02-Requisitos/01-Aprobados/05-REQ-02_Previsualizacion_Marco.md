@@ -8,7 +8,7 @@ tipo: Funcional
 modulo: Previsualizacion
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-03-19
-responsable: Samuel Blanco
+responsable: Líder SQA
 fuente: Entrevista con cliente, Propuesta recuperada
 criterios_aceptacion:
   - CA-01: El sistema superpone el marco seleccionado sobre la foto del cliente

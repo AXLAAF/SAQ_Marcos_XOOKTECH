@@ -4,7 +4,7 @@ titulo: Change Request - Maria Luisa Multiple
 estado: Pendiente
 tipo_cambio: Nuevo-Requerimiento
 requerimiento_origen: REQ-09_Maria_Luisa
-solicitado_por: Cliente (Enmarcame - Geronimo)
+solicitado_por: Cliente (Enmarcame - Cliente)
 fecha_solicitud: 2026-01-25
 descripcion: El cliente solicito la funcionalidad para que el cliente pueda seleccionar diferentes tipos de Maria Luisa (marco decorativo interno que rodea la fotografia).
 impacto_tiempo_dias: 4
@@ -29,7 +29,7 @@ tags:
 |-------|-------|
 | **ID** | CR-03 |
 | **Fecha de Solicitud** | 2026-01-25 |
-| **Solicitado por** | Cliente (Enmarcame - Geronimo) |
+| **Solicitado por** | Cliente (Enmarcame - Cliente) |
 | **Tipo de Cambio** | Nuevo Requerimiento |
 | **Estado** | Pendiente de Aprobacion |
 
@@ -94,7 +94,7 @@ El sistema debe permitir:
 
 | Campo | Valor |
 |-------|-------|
-| Elaborado por | Axel Adolfo Morales Caro |
+| Elaborado por | Analista Técnico |
 | Fecha de elaboracion | 2026-03-23 |
 | Estado | Pendiente de aprobacion |
 
@@ -102,7 +102,7 @@ El sistema debe permitir:
 
 | Version | Fecha | Autor | Descripcion |
 |---------|-------|-------|-------------|
-| 1.0 | 2026-03-23 | Axel Morales | Creacion inicial del CR |
+| 1.0 | 2026-03-23 | Analista Técnico | Creacion inicial del CR |
 
 ---
 

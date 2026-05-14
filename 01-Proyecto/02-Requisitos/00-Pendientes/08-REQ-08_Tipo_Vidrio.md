@@ -8,7 +8,7 @@ tipo: Funcional
 modulo: Previsualizacion
 fecha_creacion: 2026-03-23
 ultima_revision: 2026-03-23
-responsable: Samuel Blanco
+responsable: Líder SQA
 fuente: Solicitud del cliente (Enmarcame)
 criterios_aceptacion:
   - CA-01: El cliente puede seleccionar tipo de vidrio (normal, antirreflejo, templo)

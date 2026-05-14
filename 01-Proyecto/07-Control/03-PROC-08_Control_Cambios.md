@@ -6,8 +6,8 @@ estado: Activo
 tipo: Proceso
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-05-14
-responsable: Samuel Blanco (Lider) / Axel Morales (Analisis tecnico)
-autor: Carlos Yonson / Axel Morales
+responsable: Líder SQA (Lider) / Analista Técnico (Analisis tecnico)
+autor: Analista SQA / Analista Técnico
 disparador: Solicitud de cambio nueva o ajuste al alcance por parte del cliente o del equipo
 criterio_entrada: Solicitud identificada y registrada en un CR con datos minimos de origen, impacto y responsable
 criterio_salida: CR con estado documentado, evidencia de decision y artefactos actualizados cuando el cambio es aprobado
@@ -43,7 +43,7 @@ Formalizar toda solicitud de cambio del proyecto **Visualizador de Marcos** para
 - Cubre desde el registro inicial del cambio hasta la actualizacion del requerimiento, pruebas y evidencia de aprobacion.
 - No autoriza implementacion inmediata: ningun cambio debe pasar a desarrollo sin analisis y decision registrada.
 
-## 3. Diagnostico del Proceso Actual (Por Carlos Yonson)
+## 3. Diagnostico del Proceso Actual (Por Analista SQA)
 
 **Hallazgos relevantes:**
 - Falta de registro formal y consecutivo de CR (Change Request).
@@ -55,11 +55,11 @@ Formalizar toda solicitud de cambio del proyecto **Visualizador de Marcos** para
 
 | Etapa | Entry | Task | Verification | Exit | Responsable |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| **Registro** | Solicitud identificada en WhatsApp, correo o reunion | Crear `CR-XX_Nombre.md`, asignar ID, capturar origen | Samuel revisa datos minimos | CR en estado `Pendiente` | Samuel |
-| **Analisis** | CR registrado + acuerdos base + REQ afectados | Estimar impacto en alcance, tiempo, costo y calidad | Axel valida impacto explicito | CR con analisis completo | Axel |
-| **Aprobacion** | CR analizado y listo para decision | Presentar impacto al cliente y documentar decision | Existe evidencia escrita (captura/correo) | CR `Aprobado` o `Rechazado` | Samuel + Cliente |
-| **Implementacion**| CR aprobado + REQ y plan actualizados | Ejecutar el cambio referenciando el ID del CR | Verificacion de implementacion vs CR | Cambio implementado | Axel |
-| **Cierre** | Cambio validado o rechazo documentado | Actualizar REQ, Matriz de Trazabilidad y CP | Linea base refleja decision final | CR cerrado y trazable | Samuel + Axel |
+| **Registro** | Solicitud identificada en WhatsApp, correo o reunion | Crear `CR-XX_Nombre.md`, asignar ID, capturar origen | Líder SQA revisa datos minimos | CR en estado `Pendiente` | Líder SQA |
+| **Analisis** | CR registrado + acuerdos base + REQ afectados | Estimar impacto en alcance, tiempo, costo y calidad | Analista Técnico valida impacto explicito | CR con analisis completo | Analista Técnico |
+| **Aprobacion** | CR analizado y listo para decision | Presentar impacto al cliente y documentar decision | Existe evidencia escrita (captura/correo) | CR `Aprobado` o `Rechazado` | Líder SQA + Cliente |
+| **Implementacion**| CR aprobado + REQ y plan actualizados | Ejecutar el cambio referenciando el ID del CR | Verificacion de implementacion vs CR | Cambio implementado | Analista Técnico |
+| **Cierre** | Cambio validado o rechazo documentado | Actualizar REQ, Matriz de Trazabilidad y CP | Linea base refleja decision final | CR cerrado y trazable | Líder SQA + Analista Técnico |
 
 ## 5. Notas Tecnicas de Mejora (NT)
 
@@ -85,4 +85,4 @@ Formalizar toda solicitud de cambio del proyecto **Visualizador de Marcos** para
 - **Disciplina**: 0 cambios implementados sin CR aprobado.
 
 ---
-*Refinamiento de Proceso: Carlos Yonson (2026-05-14) | Integracion de Gobernanza: Axel Morales (2026-05-14)*
+*Refinamiento de Proceso: Analista SQA (2026-05-14) | Integracion de Gobernanza: Analista Técnico (2026-05-14)*

@@ -6,7 +6,7 @@ estado: Activo
 tipo: Plan de Pruebas
 fecha_creacion: 2026-03-23
 ultima_revision: 2026-05-13
-responsable: Samuel Blanco
+responsable: Líder SQA
 referencias:
   - "SWEBOK v4 KA5 - Software Testing"
   - "Galin, D. (2004). Software Quality Assurance."

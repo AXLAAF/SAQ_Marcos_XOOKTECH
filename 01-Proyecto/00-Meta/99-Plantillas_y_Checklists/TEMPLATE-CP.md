@@ -6,7 +6,7 @@ tipo_prueba: "[Caja Negra / Funcional / Regresion]"
 requerimiento: [[REQ-XX]]
 estado: Pendiente
 prioridad: [Alta/Media/Baja]
-responsable: Axel Morales
+responsable: Analista Técnico
 ---
 
 # CP-XX: [Titulo de la Prueba]

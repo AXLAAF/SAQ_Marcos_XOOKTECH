@@ -11,7 +11,7 @@ esfuerzo_horas: 0
 criterio_aceptacion: [Criterio medible y verificable]
 fecha_aprobacion: YYYY-MM-DD
 validacion_evidencia: [[Nombre_Archivo_Evidencia.png]]
-responsable: Axel Morales
+responsable: Analista Técnico
 ---
 
 # REQ-XXX: [Titulo del Requerimiento]

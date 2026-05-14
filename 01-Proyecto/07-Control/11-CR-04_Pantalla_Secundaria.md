@@ -4,7 +4,7 @@ titulo: Change Request - Pantalla Secundaria
 estado: Pendiente
 tipo_cambio: Nuevo-Requerimiento
 requerimiento_origen: REQ-10_Pantalla_Secundaria
-solicitado_por: Cliente (Enmarcame - Geronimo)
+solicitado_por: Cliente (Enmarcame - Cliente)
 fecha_solicitud: 2026-02-01
 descripcion: El cliente pidio que la previsualizacion pueda verse en una pantalla secundaria (TV o monitor adicional) para que el cliente vea el resultado en una pantalla mas grande mientras el empleado opera el sistema.
 impacto_tiempo_dias: 6
@@ -31,7 +31,7 @@ tags:
 |-------|-------|
 | **ID** | CR-04 |
 | **Fecha de Solicitud** | 2026-02-01 |
-| **Solicitado por** | Cliente (Enmarcame - Geronimo) |
+| **Solicitado por** | Cliente (Enmarcame - Cliente) |
 | **Tipo de Cambio** | Nuevo Requerimiento |
 | **Estado** | Pendiente de Aprobacion |
 
@@ -107,7 +107,7 @@ El sistema debe permitir:
 
 | Campo | Valor |
 |-------|-------|
-| Elaborado por | Axel Adolfo Morales Caro |
+| Elaborado por | Analista Técnico |
 | Fecha de elaboracion | 2026-03-23 |
 | Estado | Pendiente de aprobacion |
 
@@ -115,7 +115,7 @@ El sistema debe permitir:
 
 | Version | Fecha | Autor | Descripcion |
 |---------|-------|-------|-------------|
-| 1.0 | 2026-03-23 | Axel Morales | Creacion inicial del CR |
+| 1.0 | 2026-03-23 | Analista Técnico | Creacion inicial del CR |
 
 ---
 

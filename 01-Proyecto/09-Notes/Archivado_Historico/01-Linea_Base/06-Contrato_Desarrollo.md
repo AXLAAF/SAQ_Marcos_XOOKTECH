@@ -5,9 +5,9 @@ version: "1.0"
 estado: Vigente
 tipo: Contrato
 fecha_creacion: 2026-04-14
-responsable: Jose Samuel Blanco Cervera
-cliente: Geronimo Aguilar Chapur
-desarrollador: Jose Samuel Blanco Cervera
+responsable: Líder SQA
+cliente: Cliente
+desarrollador: Líder SQA
 referencias:
   - PROC-01_Recuperacion_Linea_Base
   - 01-Propuesta_Recuperada
@@ -30,8 +30,8 @@ Artefacto de salida de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Base]]. Este 
 
 | Parte | Nombre | Rol |
 |-------|--------|-----|
-| **EL CLIENTE** | Geronimo Aguilar Chapur | Dueño de Enmarcame |
-| **EL DESARROLLADOR** | Jose Samuel Blanco Cervera | Lider tecnico |
+| **EL CLIENTE** | Cliente | Dueño de Enmarcame |
+| **EL DESARROLLADOR** | Líder SQA | Lider tecnico |
 
 ---
 
@@ -151,8 +151,8 @@ Este contrato entra en vigor a partir de su firma y permanecera vigente hasta la
 
 | Parte | Nombre | Firma | Fecha |
 |-------|--------|-------|-------|
-| EL CLIENTE | Geronimo Aguilar Chapur | _____________ | _______ |
-| EL DESARROLLADOR | Jose Samuel Blanco Cervera | _____________ | _______ |
+| EL CLIENTE | Cliente | _____________ | _______ |
+| EL DESARROLLADOR | Líder SQA | _____________ | _______ |
 
 ---
 
@@ -160,7 +160,7 @@ Este contrato entra en vigor a partir de su firma y permanecera vigente hasta la
 
 | Version | Fecha | Autor | Descripcion |
 |---------|-------|-------|-------------|
-| 1.0 | 2026-04-14 | Axel Morales | Documento digitalizado e integrado al SGC como artefacto de PROC-01 |
+| 1.0 | 2026-04-14 | Analista Técnico | Documento digitalizado e integrado al SGC como artefacto de PROC-01 |
 
 ---
 

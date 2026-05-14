@@ -8,7 +8,7 @@ tipo: Funcional
 modulo: Base de Datos
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-03-19
-responsable: Axel Morales
+responsable: Analista Técnico
 fuente: Propuesta recuperada, Acuerdos con el cliente
 criterios_aceptacion:
   - CA-01: El catalogo incluye la clave de cada marco

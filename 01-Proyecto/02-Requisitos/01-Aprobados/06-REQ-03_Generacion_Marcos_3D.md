@@ -8,7 +8,7 @@ tipo: Funcional
 modulo: Python
 fecha_creacion: 2026-03-19
 ultima_revision: 2026-03-19
-responsable: Axel Morales
+responsable: Analista Técnico
 fuente: Propuesta recuperada, Entrevista con equipo
 criterios_aceptacion:
   - CA-01: El sistema genera modelos 3D a partir de texturas 2D escaneadas

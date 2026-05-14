@@ -6,7 +6,7 @@ estado: Pendiente
 tipo: Inspeccion
 fecha_creacion: 2026-03-23
 ultima_revision: 2026-03-23
-responsable: Samuel Blanco
+responsable: Líder SQA
 referencias:
   - SWEBOK v4 KA1 - Requisitos
   - O'Regan - Fagan Inspection
@@ -74,10 +74,10 @@ Esta inspeccion cubre todos los documentos de requerimientos:
 
 | Rol | Responsable | Funcion |
 |-----|-------------|---------|
-| **Autor** | Axel Morales | Propietario de los documentos |
-| **Lector 1** | Samuel Blanco | Revisor principal |
+| **Autor** | Analista Técnico | Propietario de los documentos |
+| **Lector 1** | Líder SQA | Revisor principal |
 | **Lector 2** | Por asignar | Segundo revisor |
-| **Moderador** | Samuel Blanco | Facilita la reunion |
+| **Moderador** | Líder SQA | Facilita la reunion |
 
 ## 5. Proceso de Inspeccion
 

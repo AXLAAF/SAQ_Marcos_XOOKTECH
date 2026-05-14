@@ -6,10 +6,10 @@ estado: Activo
 tipo: Plantilla
 fecha_creacion: 2026-03-23
 ultima_revision: 2026-03-25
-responsable: Axel Adolfo Morales Caro
+responsable: Analista Técnico
 entrevistados:
-  - Jose Samuel Blanco Cervera
-  - Axel Adolfo Morales Caro
+  - Líder SQA
+  - Analista Técnico
   - Cliente (Enmarcame)
 referencias:
   - SWEBOK v4 KA2 - Requisitos y Elicitación
@@ -44,12 +44,12 @@ Reconstruir y documentar el alcance completo del proyecto Visualizador de Marcos
 
 ## 2. Perfil de los Entrevistados
 
-### 2.1 Entrevistado Principal: Jose Samuel Blanco Cervera
+### 2.1 Entrevistado Principal: Líder SQA
 - **Rol:** Líder técnico y gestor del proyecto
 - **Conocimiento esperado:** Propuesta original, decisiones técnicas, acuerdos con el cliente, arquitectura del sistema
 - **Duración estimada:** 90-120 minutos
 
-### 2.2 Entrevistado Secundario: Axel Adolfo Morales Caro
+### 2.2 Entrevistado Secundario: Analista Técnico
 - **Rol:** Desarrollador ySupport técnico
 - **Conocimiento esperado:** Implementación técnica, catálogos de marcos, proceso de escaneo, detalles de base de datos
 - **Duración estimada:** 60-90 minutos
@@ -73,7 +73,7 @@ Reconstruir y documentar el alcance completo del proyecto Visualizador de Marcos
 |----|-----------|----------|------|--------------|
 | A.1 | Origen | ¿Cómo se originó el contacto con el cliente "Enmarcame"? ¿Fue a través de una recomendación, publicidad, o contacto directo? | Abierta | - |
 | A.2 | Origen | ¿Cuál fue la necesidad específica que el cliente expresó inicialmente? ¿Qué problema quería resolver? | Abierta | - |
-| A.3 | Origen | ¿Quiénes participaron en las primeras reuniones con el cliente? ¿Solo tú, o incluía a Axel desde el inicio? | Abierta | - |
+| A.3 | Origen | ¿Quiénes participaron en las primeras reuniones con el cliente? ¿Solo tú, o incluía a Analista Técnico desde el inicio? | Abierta | - |
 | A.4 | Origen | ¿Cuál era el plazo original acordado para el proyecto? ¿Se ha modificado desde entonces? | Abierta | - |
 | A.5 | Origen | ¿Existió alguna propuesta formal inicial? Si es así, ¿puedes reconstruir los puntos principales? | Abierta | - |
 
@@ -389,15 +389,15 @@ Infraestructura:
 
 | Version | Fecha | Autor | Cambios |
 |---------|-------|-------|---------|
-| 1.0 | 2026-03-23 | Axel Adolfo Morales Caro | Creacion inicial |
+| 1.0 | 2026-03-23 | Analista Técnico | Creacion inicial |
 
 ### Responsables
-- **Elaboro:** Axel Adolfo Morales Caro
-- **Reviso:** Jose Samuel Blanco Cervera
+- **Elaboro:** Analista Técnico
+- **Reviso:** Líder SQA
 - **Aprobo:** [Pendiente]
 
 ---
 
 *Documento creado como parte del proceso de recuperación de línea base (PROC-01)*
-*Renombrado: 03-Guia_Entrevista_Samuel.md (original: Guia_Entrevista_Proyecto.md)*
+*Renombrado: 03-Guia_Entrevista_Líder SQA.md (original: Guia_Entrevista_Proyecto.md)*
 *Ultima actualizacion: 2026-03-25*

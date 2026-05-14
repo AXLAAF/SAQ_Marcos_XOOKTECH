@@ -6,7 +6,7 @@ estado: Pendiente
 tipo: Inspeccion
 fecha_creacion: 2026-03-23
 ultima_revision: 2026-03-23
-responsable: Samuel Blanco
+responsable: Líder SQA
 referencias:
   - SWEBOK v4 KA5 - Testing
   - Lewis - Testing and Quality
@@ -92,10 +92,10 @@ Para cada CP verificar:
 
 | Rol | Responsable | Funcion |
 |-----|-------------|---------|
-| **Autor** | Axel Morales | Propietario del plan |
-| **Lector 1** | Samuel Blanco | Revisor principal |
+| **Autor** | Analista Técnico | Propietario del plan |
+| **Lector 1** | Líder SQA | Revisor principal |
 | **Lector 2** | Por asignar | Segundo revisor |
-| **Moderador** | Samuel Blanco | Facilita la reunion |
+| **Moderador** | Líder SQA | Facilita la reunion |
 
 ## 6. Proceso de Inspeccion
 

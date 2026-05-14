@@ -6,8 +6,8 @@ estado: Completado
 tipo: Registro de Acuerdos
 fecha_creacion: 2026-03-23
 fecha_recuperacion: 2026-03-23
-responsable: Samuel Blanco
-cliente: Enmarcame (Geronimo Aguilar Chapur)
+responsable: Líder SQA
+cliente: Enmarcame (Cliente)
 referencias:
   - 05-Contrato_Desarrollo.md
   - Entrevista_Completada_Proyecto.md
@@ -27,7 +27,7 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 ---
 
 > [!IMPORTANT]
-> Con la integracion del contrato formal ([[01-Baseline/06-Contrato_Desarrollo]]), los acuerdos ACU-006 a ACU-009 **ya no son scope creep puro** sino obligaciones contractuales formalizadas en la clausula PRIMERA del contrato. El nombre oficial del cliente es **Geronimo Aguilar Chapur**.
+> Con la integracion del contrato formal ([[01-Baseline/06-Contrato_Desarrollo]]), los acuerdos ACU-006 a ACU-009 **ya no son scope creep puro** sino obligaciones contractuales formalizadas en la clausula PRIMERA del contrato. El nombre oficial del cliente es **Cliente**.
 
 ## 1. Registro de Acuerdos
 
@@ -37,8 +37,8 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
 | **ID**             | ACU-001                                                                                                                           |
 | **Fecha**          | Enero 2026                                                                                                                        |
-| **Contexto**       | Primera reunion en la tienda con Geronimo Aguilar Chapur                                                                                       |
-| **Participantes**  | Samuel Blanco, Axel Morales, Geronimo Aguilar Chapur, hijo de Geronimo Aguilar Chapur                                                                       |
+| **Contexto**       | Primera reunion en la tienda con Cliente                                                                                       |
+| **Participantes**  | Líder SQA, Analista Técnico, Cliente, hijo de Cliente                                                                       |
 | **Acuerdo**        | El sistema permitira a los clientes subir su foto, seleccionar un marco del catalogo y ver una previsualizacion 3D en tiempo real |
 | **Detalles**       | No existio documento formal. Todo quedo en acuerdo verbal durante la reunion de 2 horas.                                          |
 | **Estado**         | Implementado - Sistema en test                                                                                                    |
@@ -54,7 +54,7 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 | **ID**            | ACU-002                                                           |
 | **Fecha**         | Febrero 2026                                                      |
 | **Contexto**      | Primera reunion - discusion de precio                             |
-| **Participantes** | Samuel Blanco, Geronimo Aguilar Chapur                                         |
+| **Participantes** | Líder SQA, Cliente                                         |
 | **Acuerdo**       | El costo total del desarrollo sera de ------MXN (pesos mexicanos) |
 | **Detalles**      | Pago unico. No sepidio enganche ni parcialidades.                 |
 | **Estado**        | Pagado - Completado                                               |
@@ -70,9 +70,9 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 | **ID**             | ACU-003                                                                                                                              |
 | **Fecha**          | Febrero 2026                                                                                                                         |
 | **Contexto**       | Discusion sobre el contenido del catalogo                                                                                            |
-| **Participantes**  | Samuel Blanco, Axel Morales, Geronimo Aguilar Chapur                                                                                              |
+| **Participantes**  | Líder SQA, Analista Técnico, Cliente                                                                                              |
 | **Acuerdo**        | El catalogo incluira todos los marcos disponibles en el inventario de la tienda                                                      |
-| **Detalles**       | Samuel, Axel proporciono un Excel con aproximadamente con mas de 1000 marcos, se escanearon todos los marcos existentes en el local. |
+| **Detalles**       | Líder SQA, Analista Técnico proporciono un Excel con aproximadamente con mas de 1000 marcos, se escanearon todos los marcos existentes en el local. |
 | **Estado**         | Implementado + 1000 marcos                                                                                                           |
 | **Monto asociado** | Incluido en los $------ MXN                                                                                                          |
 | **Para que se documenta:** | Define el alcance del catalogo original para evaluar si ampliaciones (tipos de vidrio, maria luisa) requieren CR formal. |
@@ -84,9 +84,9 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 | Campo | Descripcion |
 |-------|-------------|
 | **ID** | ACU-004 |
-| **Fecha**          | [PENDIENTE - fecha por verificar con Samuel. Proyecto inicio Enero 2026.]                                                         |
+| **Fecha**          | [PENDIENTE - fecha por verificar con Líder SQA. Proyecto inicio Enero 2026.]                                                         |
 | **Contexto** | Discusion sobre el modelo de negocio recurrentes |
-| **Participantes** | Samuel Blanco, Geronimo Aguilar Chapur |
+| **Participantes** | Líder SQA, Cliente |
 | **Acuerdo** | El cliente pagara $2,500 MXN mensuales por el mantenimiento y uso del sistema |
 | **Detalles** | Desglose segun contrato ([[01-Baseline/06-Contrato_Desarrollo]], clausula QUINTA): $2,000 renta del software + $500 servidor. Incluye hosting, mantenimiento de base de datos, soporte basico. Formalizado en contrato. |
 | **Estado** | Activo - Pagando mensualmente |
@@ -102,7 +102,7 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 | **ID** | ACU-005 |
 | **Fecha** | Julio 2025 (aproximado) |
 | **Contexto** | Antes del lanzamiento del sistema |
-| **Participantes** | Samuel Blanco, Geronimo Aguilar Chapur, hijo de Geronimo Aguilar Chapur |
+| **Participantes** | Líder SQA, Cliente, hijo de Cliente |
 | **Acuerdo** | Se proporcionara una sesion de capacitacion para que los empleados puedan operar el sistema |
 | **Detalles** | Capacitacion presencial de aproximadamente 1 hora. |
 | **Estado** | Completado |
@@ -122,7 +122,7 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 | **ID**            | ACU-006                                                                                |
 | **Fecha**         | 2026 (despues la implementacion del catalogo de marcos)                                |
 | **Contexto**      | El cliente solicito vía presencial la funcionalidad de marcos dobles                   |
-| **Participantes** | Samuel Blanco, Geronimo Aguilar Chapur                                                              |
+| **Participantes** | Líder SQA, Cliente                                                              |
 | **Acuerdo**       | Pendiente de formalizar                                                                |
 | **Detalles**      | No hay acuerdo formal de alcance, tiempo o costo. El cliente espera que se implemente. |
 | **Estado**        | Pendiente - Sin aprobacion formal                                                      |
@@ -139,7 +139,7 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 | **ID**            | ACU-007                                                             |
 | **Fecha**         | 2026 (despues de la implementacion del catalogo de marcos)          |
 | **Contexto**      | El cliente solicito via presencial poder seleccionar tipo de vidrio |
-| **Participantes** | Samuel Blanco, Geronimo Aguilar Chapur                                           |
+| **Participantes** | Líder SQA, Cliente                                           |
 | **Acuerdo**       | Pendiente de formalizar                                             |
 | **Detalles**      | No hay acuerdo formal de alcance, tiempo o costo.                   |
 | **Estado**        | Pendiente - Sin aprobacion formal                                   |
@@ -156,7 +156,7 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 | **ID**            | ACU-008                                                                              |
 | **Fecha**         | 2026 (despues de la implementacion del catalogo de marcos)                           |
 | **Contexto**      | El cliente solicito via presencial poder seleccionar diferentes tipos de Maria Luisa |
-| **Participantes** | Samuel Blanco, Geronimo Aguilar Chapur                                                            |
+| **Participantes** | Líder SQA, Cliente                                                            |
 | **Acuerdo**       | Pendiente de formalizar                                                              |
 | **Detalles**      | No hay acuerdo formal de alcance, tiempo o costo.                                    |
 | **Estado**        | Pendiente - Sin aprobacion formal                                                    |
@@ -173,7 +173,7 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 | **ID**            | ACU-009                                                                           |
 | **Fecha**         | 2026 (despues de la implementacion del catalogo de marcos)                        |
 | **Contexto**      | El cliente pidio que la previsualizacion pudiera verse en una pantalla secundaria |
-| **Participantes** | Samuel Blanco, Geronimo Aguilar Chapur                                                         |
+| **Participantes** | Líder SQA, Cliente                                                         |
 | **Acuerdo**       | Pendiente de formalizar                                                           |
 | **Detalles**      | No hay acuerdo formal de alcance, tiempo o costo.                                 |
 | **Estado**        | Pendiente - Sin aprobacion formal                                                 |
@@ -229,8 +229,8 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 
 | Campo | Valor |
 |-------|-------|
-| Elaborado por | Axel Adolfo Morales Caro |
-| Revisado por | Jose Samuel Blanco Cervera |
+| Elaborado por | Analista Técnico |
+| Revisado por | Líder SQA |
 | Fecha de elaboracion | 2026-03-23 |
 | Estado | Completado |
 
@@ -238,9 +238,9 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 
 | Version | Fecha | Autor | Descripcion |
 |---------|-------|-------|-------------|
-| 1.0 | 2026-03-23 | Axel Morales | Creacion inicial - Acuerdos recuperados |
+| 1.0 | 2026-03-23 | Analista Técnico | Creacion inicial - Acuerdos recuperados |
 | 1.1 | 2026-04-13 | Kilo-SQA-Agent | Vinculado al proceso PROC-01, agregados campos "Para que se documenta" en cada ACU, corregida fecha ACU-004 |
-| 1.2 | 2026-04-14 | Axel Morales | Integracion del contrato formal: actualizado nombre del cliente a Geronimo Aguilar Chapur, reclasificados ACU-006 a ACU-009 como obligaciones contractuales, actualizado desglose ACU-004, resueltos problemas de falta de formalizacion |
+| 1.2 | 2026-04-14 | Analista Técnico | Integracion del contrato formal: actualizado nombre del cliente a Cliente, reclasificados ACU-006 a ACU-009 como obligaciones contractuales, actualizado desglose ACU-004, resueltos problemas de falta de formalizacion |
 
 ---
 

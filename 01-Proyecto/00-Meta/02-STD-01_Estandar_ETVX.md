@@ -6,7 +6,7 @@ estado: Activo
 tipo: Estandar
 fecha_creacion: 2026-05-08
 ultima_revision: 2026-05-12
-responsable: Axel Morales
+responsable: Analista Técnico
 referencias_biblio:
   - "Modelo ETVX (IBM)"
   - "SWEBOK v4 KA8"
@@ -58,7 +58,7 @@ Para evitar "huecos" de calidad, esta seccion debe ser prescriptiva:
 2.  **Metricas de Proceso**: Defina un indicador numerico real (ej: "Densidad de defectos = Errores encontrados / KLOC" o "% de Requerimientos con Trazabilidad completa").
 
 ## 3. Directiva de Trazabilidad
-- Es obligatorio que el Auditor (Axel) valide que los enlaces entre REQ, DIS, COD y CP sean bidireccionales y funcionales antes de marcar el proceso como `#estado/verificado`.
+- Es obligatorio que el Auditor (Analista Técnico) valide que los enlaces entre REQ, DIS, COD y CP sean bidireccionales y funcionales antes de marcar el proceso como `#estado/verificado`.
 
 ---
-*Ultima actualizacion: 2026-05-12 | Axel Morales (SQA chambador)*
+*Ultima actualizacion: 2026-05-12 | Analista Técnico (SQA chambador)*
