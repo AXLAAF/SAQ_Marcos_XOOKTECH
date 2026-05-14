@@ -1,0 +1,12 @@
+# Obsidian
+.obsidian/
+.trash/
+*.sync-conflict-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gemini/Agent temporary files
+.gemini/
+*.log
