@@ -1,183 +1,132 @@
 ---
 id: PROC-02
-titulo: Proceso 2 - Especificacion Profunda de Requerimientos
-version: "1.0"
-estado: Pendiente
+titulo: Proceso 2 - Especificacion de Requerimientos
+version: "2.0"
+estado: Activo
 tipo: Proceso
 fecha_creacion: 2026-03-19
-ultima_revision: 2026-04-13
-responsable: Axel Morales
-disparador: Finalizacion del Proceso 1 (linea base aprobada)
-criterio_entrada: 01-Propuesta_Recuperada.md con estado "Aprobado por cliente"
-criterio_salida: Archivos REQ-XX.md completos para REQ-01 a REQ-10
+ultima_revision: 2026-05-13
+responsable: Samuel Blanco (Lider) / Axel Morales (Desarrollador)
+disparador: Solicitud de cambio o nueva funcionalidad por parte del cliente
+criterio_entrada: Solicitud documentada en acta, correo o minuta de entrevista
+criterio_salida: Nota de requerimiento en estado "Aprobado" en carpeta 01-Aprobados
 entradas:
   - 01-Propuesta_Recuperada.md
   - 02-Acuerdos_Cliente.md
-  - Lista de requerimientos generales
+  - 04-Minuta_Entrevista.md
 salidas:
-  - REQ-01_Carga_Imagen.md
-  - REQ-02_Previsualizacion_Marco.md
-  - REQ-03_Generacion_Marcos_3D.md
-  - REQ-04_Catalogo_Marcos.md
-  - REQ-05_Filtrado_Catalogo.md
-  - REQ-06_Datos_Catalogo.md
-  - REQ-07_Marcos_Dobles.md
-  - REQ-08_Tipo_Vidrio.md
-  - REQ-09_Maria_Luisa.md
-  - REQ-10_Pantalla_Secundaria.md
-actividades:
-  - Tomar cada REQ general de la tabla actual
-  - Aplicar la plantilla de Requerimiento Profundo a cada uno
-  - Para los REQ-07 a REQ-10 (scope creep): crear el CR correspondiente antes de especificar
-  - Completar la seccion de Trazabilidad con los CP que se van a crear en Proceso 5
-  - Walkthrough informal de los REQ con el cliente para validar los criterios de aceptacion
-roles:
-  - Axel Morales (especificacion tecnica)
-  - Samuel Blanco (validacion de negocio)
-referencias_biblio:
-  - "SWEBOK v4 KA1 4.5 - Atributos de un requerimiento"
-  - "Lewis Cap. 5 - Testing Requirements"
-  - "O'Regan Cap. 2 - Inspecciones Fagan"
-tags:
-  - proceso
-  - requerimientos
+  - REQ-XXX.md (especificacion detallada)
+  - Evidencia de aprobacion (.png)
+  - Matriz de trazabilidad actualizada
+notacion: "NT: indica una Nota Técnica con sugerencia de mejora al proceso."
 ---
-# Proceso 2 — Especificacion Profunda de Requerimientos
 
-> **Fundamentacion**: Segun Daniel Galin (2004), los procedimientos e instrucciones de trabajo son componentes de infraestructura esenciales para la prevencion de errores. Este proceso utiliza la metodologia **ETVX** para garantizar la repetibilidad y el control de calidad en la elicitacion tecnica.
+# Proceso 2 — Especificación de Requerimientos (SQA-Obsidian)
+
+> **Fundamentación**: Este proceso sigue los lineamientos de CMMI-DEV (REQM) y ISO 9001, utilizando el modelo **ETVX** y la infraestructura de **Galin** para asegurar que cada requerimiento sea medible, rastreable y aprobado formalmente.
 
 ## 1. Estructura del Proceso (ETVX)
 
-| Fase | Definicion | Detalles |
+| Fase | Definición | Detalles |
 | :--- | :--- | :--- |
-| **[E] Entry** | Criterios de Entrada | [[01-Propuesta_Recuperada]] en estado "Aprobado" + [[05-Contrato_Desarrollo]] disponible. |
-| **[T] Tasks** | Tareas Operativas | Pasos 2.1 a 2.5 (Ver Seccion 2). |
-| **[V] Verification** | Verificacion de Calidad | Aplicacion de [[CL-02_Verificacion_Requerimientos]] + [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/PROC-06_Inspecciones]]. |
-| **[X] Exit** | Criterios de Salida | Archivos [[REQ-01]] a [[REQ-10]] con estado "Verificado" y firma del responsable. |
+| **[E] Entry** | Criterios de Entrada | Solicitud capturada en [[04-Minuta_Entrevista]] o canal oficial. |
+| **[T] Tasks** | Tareas Operativas | Fases 1 a 4: Captura, Revisión, Validación y Línea Base. |
+| **[V] Verification** | Verificación de Calidad | Aplicación de [[CL-02_Verificacion_Requerimientos]] + Revision Samuel/Axel. |
+| **[X] Exit** | Criterios de Salida | Archivo movido a `01-Aprobados` con estado "Aprobado". |
 
-## 2. Instrucciones de Trabajo (Paso a Paso)
+## 2. Proceso Detallado (Actualmente vs Propuesta)
 
-### Tarea 2.1: Inicializacion del Artefacto
-1.  **Localizar Fuente**: Abra [[01-Propuesta_Recuperada]] e identifique el requerimiento general a detallar.
-2.  **Crear Archivo**: En la carpeta `02-Requerimientos/`, cree un archivo con el nombre `REQ-[ID]_[Nombre].md`.
-3.  **Aplicar Estructura**: Copie el contenido de [[TEMPLATE-REQ]] en el nuevo archivo.
+### Paso 1: Captura de Requisitos (Planear)
 
-### Tarea 2.2: Elicitacion Técnica
-1.  **Definir Alcance**: Redacte la "Descripcion General" enfocada en el beneficio del usuario.
-2.  **Extraer Reglas de Negocio (RN)**: Busque en [[04-Minuta_Entrevista_Recuperacion]] y [[05-Contrato_Desarrollo]] todas las restricciones cuantitativas y listelas como RN-[ID]-XX.
-3.  **Trazar Fuente**: En la sección de "Fuente", cree un wikilink al contrato o minuta que justifica la existencia del requerimiento.
+**Actualmente:**
+- El cliente (Jerónimo) comunica necesidades por WhatsApp, correo o llamada.
+- No hay un formato fijo ni un lugar centralizado para el registro inicial.
 
-### Tarea 2.3: Modelado de Comportamiento
-1.  **Flujo Principal**: Escriba los pasos del "Happy Path" en formato Activo (Ej: "El sistema valida...", "El usuario presiona...").
-2.  **Analisis de Excepciones**: Identifique al menos 3 posibles fallos (Red, Datos Invalidos, Error de Servidor) y documente la respuesta del sistema.
-3.  **Criterios BDD**: Traduzca el flujo principal a escenarios Dado/Cuando/Entonces. **Regla**: Al menos 1 CA (Criterio de Aceptación) por cada flujo alternativo.
+**NT-1:** Se propone centralizar toda solicitud en una nota inicial dentro de la carpeta `00-Pendientes` usando el ID único `REQ-XXX` para evitar el "scope creep" detectado en REQ-07 a REQ-10.
 
-### Tarea 2.4: Auto-Verificacion (SQA Individual)
-1.  **Ejecutar Checklist**: Abra [[CL-02_Verificacion_Requerimientos]].
-2.  **Validar Atributos**: Marque cada item del checklist sobre el REQ recien creado.
-3.  **Corregir**: Si un item no se cumple, regrese a la Tarea 2.2 o 2.3.
+**Propuesta:**
+- Samuel Blanco recibe la solicitud y crea un archivo `REQ-XXX - [Titulo].md` en la carpeta `02-Requisitos/00-Pendientes/`.
+- El estado inicial es `Pendiente`.
 
-### Tarea 2.5: Revision por Pares (Inspeccion O'Regan)
-1.  **Solicitar Revision**: Envíe el REQ al responsable de validación de negocio (Samuel Blanco).
-2.  **Documentar Feedback**: Registre las observaciones en la seccion de "Historial de Cambios" del REQ.
-3.  **Cierre**: Una vez solventadas las dudas, cambie el estado del REQ a "Verificado".
+### Paso 2: Revisión Inicial y Especificación (Hacer)
 
-## 3. Matriz de Responsabilidades (RACI)
+**Actualmente:**
+- Los requisitos se anotan en conversaciones sueltas.
+- La redacción es narrativa, sin criterios de aceptación medibles ni ID único.
+- No hay una reunión periódica para revisar el impacto técnico.
 
-| Tarea | Axel (Tecnico) | Samuel (Negocio) | Cliente |
-| :--- | :---: | :---: | :---: |
-| T2.1 Inicializacion | **R** | I | I |
-| T2.2 Elicitacion | **R** | C | I |
-| T2.3 Modelado | **R** | C | I |
-| T2.4 Auto-Verificacion | **R** | I | I |
-| T2.5 Inspeccion | A | **R** | C |
+**NT-2:** El uso de la [[TEMPLATE-REQ]] es obligatorio para garantizar que cada requisito incluya criterios BDD (Dado/Cuando/Entonces), esfuerzo estimado y prioridad, alineándose con SWEBOK v4.
 
-*(R: Responsable, A: Aprueba, C: Consultado, I: Informado)*
+**Propuesta:**
+- Reunión semanal entre Samuel (Negocio) y Axel (Desarrollo) para detallar la nota.
+- Axel aplica la [[TEMPLATE-REQ]] y define los **Criterios de Aceptación Medibles**.
+- Se estima el esfuerzo en horas y se asigna prioridad.
+- El estado cambia a `Revisado`.
 
-## 3. Plantilla Maestra de Requerimiento
+### Paso 3: Validación con el Cliente (Verificar)
 
-Para garantizar la estandarización, todos los requerimientos deben crearse utilizando la plantilla oficial del proyecto.
+**Actualmente:**
+- El cliente da el visto bueno verbalmente o por WhatsApp.
+- No existe evidencia registrada ni aprobación explícita por escrito.
 
-- **Plantilla Oficial**: [[TEMPLATE-REQ]]
+**NT-3:** Para evitar conflictos sobre costos (como ocurrió con la renta mensual vs extras), toda aprobación debe ser por escrito (correo o captura de pantalla de WhatsApp) y adjuntarse como evidencia.
 
-> **Nota**: La plantilla incluye los atributos obligatorios exigidos por SWEBOK v4 KA1 §4.5 (Identificador, Fuente, Prioridad, Criterios de Aceptación, etc.). No se permiten modificaciones a la estructura de la plantilla sin un Change Request aprobado.
+**Propuesta:**
+- Samuel presenta el requerimiento detallado al cliente.
+- El cliente aprueba explícitamente el alcance y los criterios.
+- Se guarda la evidencia en la carpeta de adjuntos y se vincula en el campo `validacion_evidencia`.
+- El estado cambia a `Aprobado`.
 
-## 4. Lista de Requerimientos a Especificar
+### Paso 4: Línea Base y Trazabilidad (Actuar)
 
-### Requerimientos Originales (Implementados)
+**Actualmente:**
+- No existe separación entre requisitos pendientes y aprobados; todo está mezclado.
+- No hay matriz de trazabilidad que vincule requisitos con diseño o pruebas.
 
-| ID     | Titulo                     | Estado Actual |
-| :----- | :------------------------- | :------------ |
-| REQ-01 | Carga de Imagen            | Implementado  |
-| REQ-02 | Previsualizacion del Marco | Implementado  |
-| REQ-03 | Generacion de Marcos 3D    | Implementado  |
-| REQ-04 | Catalogo de Marcos         | Implementado  |
-| REQ-05 | Filtrado del Catalogo      | Implementado  |
-| REQ-06 | Datos del Catalogo         | Implementado  |
+**NT-4:** La segregación de carpetas (`00-Pendientes` -> `01-Aprobados`) actúa como el control de configuración (CMMI-CM), estableciendo la línea base oficial del proyecto.
 
-### Requerimientos Nuevos (Pendientes)
-
-| ID     | Titulo               | Estado Actual | Requiere CR |
-| :----- | :------------------- | :------------ | :---------- |
-| REQ-07 | Marcos Dobles        | Pendiente     | CR-01       |
-| REQ-08 | Tipo de Vidrio       | Pendiente     | CR-02       |
-| REQ-09 | Maria Luisa Multiple | Pendiente     | CR-03       |
-| REQ-10 | Pantalla Secundaria  | Pendiente     | CR-04       |
-
-## 5. Atributos de Requerimiento por Completar
-
-Segun SWEBOK v4 KA1 §4.5, cada requerimiento debe incluir:
-
-| Atributo                | Descripcion                     | Obligatorio |
-| :---------------------- | :------------------------------ | :---------- |
-| Identificador           | Codigo unico del requerimiento  | Si          |
-| Titulo                  | Nombre descriptivo              | Si          |
-| Descripcion             | Que debe hacer el sistema       | Si          |
-| Reglas de Negocio       | Restricciones del negocio       | Si          |
-| Precondiciones          | Estado inicial requerido        | Si          |
-| Flujo Principal         | Secuencia ideal de pasos        | Si          |
-| Flujos Alternativos     | Variaciones del flujo principal | Si          |
-| Flujos de Excepcion     | Manejo de errores               | Si          |
-| Criterios de Aceptacion | Condiciones de aceptacion (BDD) | Si          |
-| Restricciones Tecnicas  | Limitaciones tecnicas           | Si          |
-| Dependencias            | Requerimientos relacionados     | Si          |
-| Prioridad               | Importancia del requerimiento   | Si          |
-| Tipo                    | Funcional/No Funcional          | Si          |
-| Estado                  | Estado actual del requerimiento | Si          |
-| Fuente                  | Origen del requerimiento        | Si          |
-| Responsable             | Persona a cargo                 | Si          |
-| Version                 | Version del requerimiento       | Si          |
-| Historico               | Registro de cambios             | Si          |
-
-## 6. Criterios de Aceptacion del Proceso
-
-- [[REQ- REQ-06 especificados completamente]]
-- [ ] CR-01 a CR-04 creados para REQ-07 a REQ-10
-- [ ] REQ-07 a REQ-10 especificados completamente
-- [ ] Todos los REQ tienen criterios de aceptacion en formato BDD
-- [ ] Trazabilidad completa (REQ -> CP -> CR)
-- [ ] Walkthrough con cliente completado
-- [ ] Proceso cerrado con estado = "Completado"
-
-## 7. Dependencias
-
-- **Pre-requisito**: [[PROC-01_Recuperacion_Linea_Base]] (Proporciona linea base aprobada para especificar REQ sin conflictos)
-- **Post-requisito**: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/PROC-03_Control_Cambios]] (Gestiona cambios en REQ especificados), [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/PROC-05_Plan_Pruebas]] (Crea casos de prueba basados en REQ detallados)
-
-## 8. Referencias
-
-- [[01-Proceso_Gobernanza_Vault]]
-- [[02-Convenciones_y_Tags]]
-- [[PROC-01_Recuperacion_Linea_Base]]
-
-## 9. Historial de Cambios
-
-| Version | Fecha | Autor | Descripcion |
-|---------|-------|-------|-------------|
-| 1.0 | 2026-03-19 | Axel Morales | Creacion inicial |
-| 1.1 | 2026-04-13 | Kilo-SQA-Agent | Agregadas justificaciones WHY/HOW en definicion, actividades y dependencias |
-| 1.2 | 2026-05-06 | Gemini-SQA-Agent | Sistematizacion completa del proceso usando el modelo ETVX fundamentado en Daniel Galin. Agregada matriz RACI e instrucciones de trabajo paso a paso. |
+**Propuesta:**
+- Una vez aprobado, el archivo se mueve a `02-Requisitos/01-Aprobados/`.
+- Axel actualiza la matriz de trazabilidad (vinculando con casos de prueba en el proceso 5).
 
 ---
 
-*Proceso creado: 2026-03-19 | Ultima actualizacion: 2026-04-14*
+## 3. Justificación de Mejoras
+
+**NT-1: Centralización en 00-Pendientes con ID único.**
+Justificación: Evita la pérdida de información en hilos de conversación y permite rastrear el origen de cada solicitud desde el primer momento, mitigando el crecimiento descontrolado del alcance.
+
+**NT-2: Uso de Plantilla BDD y Criterios Medibles.**
+Justificación: Elimina la ambigüedad en las pruebas. Un criterio de aceptación medible permite que tanto el desarrollador como el cliente tengan la misma expectativa de éxito.
+
+**NT-3: Evidencia de Aprobación por Escrito.**
+Justificación: Proporciona respaldo legal y técnico ante posibles disputas contractuales sobre qué funcionalidades están incluidas en los pagos acordados.
+
+**NT-4: Segregación de Carpetas (Línea Base).**
+Justificación: Facilita la gestión de la configuración y asegura que el equipo de desarrollo solo trabaje sobre requisitos que han sido validados y formalizados.
+
+---
+
+## 4. Métricas de Éxito
+
+- **Tiempo de Ciclo**: ≤ 5 días hábiles desde la captura hasta la aprobación.
+- **Calidad de Especificación**: 100% de los requisitos con criterios de aceptación medibles.
+- **Formalidad**: 100% de los requisitos aprobados con evidencia adjunta.
+
+---
+
+## 5. Referencias y Documentos de Apoyo
+
+1. [[TEMPLATE-REQ]] - Plantilla Maestra de Requerimiento.
+2. [[CL-02_Verificacion_Requerimientos]] - Checklist de Calidad.
+3. [[01-Plan_Accion]] - Estrategia temporal del proyecto.
+4. SWEBOK v4 KA1 - Software Requirements.
+
+---
+
+## Historial de Cambios
+
+| Versión | Fecha | Autor | Descripción |
+| :--- | :--- | :--- | :--- |
+| 1.0 | 2026-03-19 | Axel Morales | Creación inicial. |
+| 2.0 | 2026-05-13 | Gemini CLI | Rediseño completo bajo modelo ETVX, integración de Obsidian+Relay y aplicación de mejoras SQA (NT). |

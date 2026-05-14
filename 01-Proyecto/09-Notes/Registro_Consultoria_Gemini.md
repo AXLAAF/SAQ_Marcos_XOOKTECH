@@ -48,7 +48,15 @@ Se implemento una numeracion de dos digitos en `00-Meta`:
 - `99-` Archivos auxiliares (Plantillas).
 
 ---
-*Este registro se actualizara conforme avancen las preguntas del equipo.*
+
+## 5. Reingeniería del Proceso de Requisitos (PROC-02)
+**Sesion:** 2026-05-13
+**Consultante:** Axel Morales
+**Tema:** Control de Scope Creep y Evidencia de Aprobación.
+
+**Pregunta:** ¿Cómo podemos integrar las mejores prácticas de CMMI-REQM y ETVX en nuestro flujo de Obsidian+Relay para evitar el scope creep y la falta de evidencia en las aprobaciones?
+
+**Respuesta:** Se rediseñó el `PROC-02` introduciendo una segregación de carpetas (`00-Pendientes` -> `01-Aprobados`) que actúa como control de configuración (CMMI-CM). Se actualizó la `TEMPLATE-REQ` para incluir criterios BDD medibles y un campo obligatorio para evidencia de validación (capturas/correos). Además, se implementó una Matriz de Trazabilidad en Markdown para asegurar el vínculo bidireccional entre requisitos y pruebas, cumpliendo con los estándares de Galin y SWEBOK v4.
 
 ---
 
