@@ -126,7 +126,7 @@ Justificación: Facilita la gestión de la configuración y asegura que el equip
 
 ## Historial de Cambios
 
-| Versión | Fecha | Autor | Descripción |
-| :--- | :--- | :--- | :--- |
-| 1.0 | 2026-03-19 | Axel Morales | Creación inicial. |
-| 2.0 | 2026-05-13 | Gemini CLI | Rediseño completo bajo modelo ETVX, integración de Obsidian+Relay y aplicación de mejoras SQA (NT). |
+| Versión | Fecha      | Autor         | Descripción                                                                                         |
+| :------ | :--------- | :------------ | :-------------------------------------------------------------------------------------------------- |
+| 1.0     | 2026-03-19 | Axel Morales  | Creación inicial.                                                                                   |
+| 2.0     | 2026-05-13 | Adrian Zapata | Rediseño completo bajo modelo ETVX, integración de Obsidian+Relay y aplicación de mejoras SQA (NT). |

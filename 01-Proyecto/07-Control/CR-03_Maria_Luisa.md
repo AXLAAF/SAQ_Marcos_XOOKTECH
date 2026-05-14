@@ -1,18 +1,29 @@
 ---
 id: CR-03
 titulo: Change Request - Maria Luisa Multiple
+origen: Acuerdo del cliente recuperado desde WhatsApp y consolidado en ACU-008
+requisito_afectado: [[REQ-09_Maria_Luisa]]
 estado: Pendiente
 tipo_cambio: Nuevo-Requerimiento
 requerimiento_origen: REQ-09_Maria_Luisa
 solicitado_por: Cliente (Enmarcame - Geronimo)
 fecha_solicitud: 2026-01-25
+prioridad: Media
 descripcion: El cliente solicito la funcionalidad para que el cliente pueda seleccionar diferentes tipos de Maria Luisa (marco decorativo interno que rodea la fotografia).
+justificacion: Reflejar el catalogo real del negocio y ofrecer variantes que el cliente ya comercializa fuera del alcance base.
+impacto_alcance: Afecta catalogo visual, combinacion de marco y Maria Luisa, orden final y trazabilidad del REQ-09.
 impacto_tiempo_dias: 4
 impacto_costo_mxn: 2500
+impacto_calidad: Requiere validar combinaciones soportadas, renderizado y consistencia de orden final.
 aprobado_por: ""
 fecha_aprobacion: ""
+evidencia_aprobacion: N/A
+responsable_analisis: Samuel Blanco / Axel Morales
 casos_prueba_requeridos:
   - CP-11_Maria_Luisa
+artefactos_afectados:
+  - [[REQ-09_Maria_Luisa]]
+  - [[02-Requisitos/Matriz_Trazabilidad]]
 referencias:
   - REQ-09_Maria_Luisa
   - "01-Baseline/02-Acuerdos_Cliente.md - ACU-008"
@@ -22,6 +33,8 @@ tags:
 ---
 
 # CR-03: Maria Luisa Multiple
+
+> Registro alineado con [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]].
 
 ## 1. Informacion del Cambio
 
@@ -43,12 +56,12 @@ La Maria Luisa es un marco decorativo interno que rodea la fotografia. El negoci
 
 - [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-09_Maria_Luisa]] - Requerimiento funcional asociado
 
-### 2.3 Descripcion Tecnica
+### 2.3 Descripción Técnica
 
 El sistema debe permitir:
 - Mostrar un catalogo de Maria Luisas disponibles
 - Permitir seleccionar la Maria Luisa junto con el marco
-- Previsualizar la combinacion ( marco + Maria Luisa + foto )
+- Previsualizar la combinación ( marco + Maria Luisa + foto )
 - Incluir la Maria Luisa seleccionada en la orden final
 
 ## 3. Impacto del Cambio

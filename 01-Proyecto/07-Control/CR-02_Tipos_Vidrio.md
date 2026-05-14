@@ -1,18 +1,29 @@
 ---
 id: CR-02
 titulo: Change Request - Tipos de Vidrio
+origen: Acuerdo del cliente recuperado desde WhatsApp y consolidado en ACU-007
+requisito_afectado: [[REQ-08_Tipo_Vidrio]]
 estado: Pendiente
 tipo_cambio: Nuevo-Requerimiento
 requerimiento_origen: REQ-08_Tipo_Vidrio
 solicitado_por: Cliente (Enmarcame - Geronimo)
 fecha_solicitud: 2026-01-20
+prioridad: Media
 descripcion: El cliente solicito la funcionalidad para que el cliente pueda seleccionar el tipo de vidrio para su marco (vidrio normal, vidrio antirreflejo, vidrio templado).
+justificacion: Hacer visible una opcion comercial real del negocio y evitar que el cliente final desconozca diferencias y costos de cada vidrio.
+impacto_alcance: Afecta previsualizacion, calculo de precio, orden final y trazabilidad del REQ-08.
 impacto_tiempo_dias: 3
 impacto_costo_mxn: 2000
+impacto_calidad: Requiere validar reglas de precios, catalogo mostrado y comportamiento de seleccion en la interfaz.
 aprobado_por: ""
 fecha_aprobacion: ""
+evidencia_aprobacion: N/A
+responsable_analisis: Samuel Blanco / Axel Morales
 casos_prueba_requeridos:
   - CP-10_Tipo_vidrio
+artefactos_afectados:
+  - [[REQ-08_Tipo_Vidrio]]
+  - [[02-Requisitos/Matriz_Trazabilidad]]
 referencias:
   - REQ-08_Tipo_Vidrio
   - "01-Baseline/02-Acuerdos_Cliente.md - ACU-007"
@@ -22,6 +33,8 @@ tags:
 ---
 
 # CR-02: Tipos de Vidrio
+
+> Registro alineado con [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]].
 
 ## 1. Informacion del Cambio
 

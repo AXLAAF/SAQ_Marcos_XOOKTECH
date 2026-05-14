@@ -1,217 +1,289 @@
 ---
 id: PROC-03
-titulo: Proceso 3 - Control de Cambios (CR)
+nombre: Proceso de Control de Cambios
+titulo: Proceso 3 - Control de Cambios
 version: "1.0"
-estado: Pendiente
+fecha: 2026-05-14
+fecha_creacion: 2026-05-14
+ultima_revision: 2026-05-14
+autor: Carlos Yonson
+basado_en: CMMI-CM, ETVX, Analisis de Impacto
+estado: Propuesto
 tipo: Proceso
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-04-13
-responsable: Samuel Blanco
-disparador: Solicitud de cambio por parte del cliente o equipo
-criterio_entrada: Solicitud formal de cambio recibida
-criterio_salida: Change Request evaluado, aprobado/rechazado y documentado
+responsable: Samuel Blanco (Lider) / Axel Morales (Analisis tecnico)
+disparador: Solicitud de cambio nueva o ajuste al alcance por parte del cliente o del equipo
+criterio_entrada: Solicitud identificada y registrada en un CR con datos minimos de origen, impacto y responsable
+criterio_salida: CR con estado documentado, evidencia de decision y artefactos actualizados cuando el cambio es aprobado
 entradas:
-  - Solicitud de cambio verbal o escrita
-  - Requerimientos afectados
-  - Estimacion de impacto
+  - 01-Linea_Base/03-Acuerdos_Cliente.md
+  - 02-Requisitos/PROC-02_Especificacion_Requerimientos.md
+  - 02-Requisitos/Matriz_Trazabilidad.md
+  - 00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR.md
 salidas:
-  - CR-XX_Nombre.md (Change Request)
-  - Actualizacion de REQ afectado
-  - Plan de implementacion (si aprobado)
-actividades:
-  - Registrar la solicitud de cambio
-  - Evaluar impacto en alcance, tiempo, costo y calidad
-  - Crear el Change Request formal
-  - Presentar al cliente para aprobacion
-  - Actualizar el alcance y requisitos si es aprobado
-  - Notificar al equipo de desarrollo
-roles:
-  - Samuel Blanco (analista de negocio)
-  - Axel Morales (analista tecnico)
-  - Cliente (aprobador)
-referencias_biblio:
-  - "SWEBOK v4 KA1 6.2 - Control de Cambios"
-  - "Lewis Cap. 21-25 - Gestion de cambios y scope creep"
-  - "O'Regan Cap. 3 - Control de Calidad"
-tags:
-  - proceso
-  - control-cambios
+  - 07-Control/CR-XX_Nombre.md
+  - 02-Requisitos/Matriz_Trazabilidad.md
+  - Evidencia de aprobacion del cliente
+  - Casos de prueba actualizados
+notacion: "NT: indica una Nota Tecnica con sugerencia de mejora al proceso."
 ---
 
-# Proceso 3 — Control de Cambios (Change Requests)
+# Proceso 3 - Control de Cambios
 
-> **Justificacion**: Segun SWEBOK v4 KA1 §6.2, "el control de cambios es el proceso de gestionar las solicitudes de cambio al software, evaluando su impacto y decidiendo que acciones tomar". Lewis enfatiza que el "scope creep" (expansion descontrolada del alcance) es una de las principales causas de falla en proyectos de software, y el control de cambios es la defensa principal contra este riesgo.
+> **Fundamentacion**: Este proceso adapta practicas de **CMMI-CM**, analisis de impacto y el modelo **ETVX** para evitar cambios ejecutados por memoria, reducir conflictos de costo y mantener trazabilidad entre solicitud, requerimiento, prueba e implementacion.
 
-## 1. Definicion del Proceso
+## 1. Proposito
 
-| Campo | Descripcion |
-| :-- | :-- |
-| **Disparador** | Solicitud de cambio por parte del cliente o equipo. Necesario para gestionar scope creep y mantener control sobre el proyecto. (Lewis Cap. 21) |
-| **Criterio de Entrada** | Solicitud formal de cambio recibida. Se usa para iniciar evaluacion de impacto antes de implementar cambios no planificados. (O'Regan Cap. 3) |
-| **Actividades** | Ver lista abajo |
-| **Salida / Entregable** | CR documentado, evaluado y con decision tomada. Proporciona trazabilidad para cambios aprobados, facilitando auditorias. (SWEBOK v4 KA1 6.2) |
-| **Responsable** | Samuel Blanco (analista) + Cliente (aprobador) |
-| **Criterio de Salida** | Change Request con estado: Aprobado, Rechazado o En_Analisis. Documentacion actualizada. [PENDIENTE - confirmar con Samuel si se requiere aprobacion escrita para todos los CR.] |
+Formalizar toda solicitud de cambio del proyecto **Visualizador de Marcos** para que el equipo pueda registrarla, analizar su impacto, aprobarla o rechazarla con evidencia y actualizar la linea base del proyecto sin perder control del alcance.
 
-## 2. Actividades del Proceso
+## 2. Alcance
 
-1. Registrar la solicitud de cambio en el formato de CR. (Documenta formalmente para trazabilidad, previniendo disputas futuras. SWEBOK v4 KA1 6.2) -> Artefacto: [[CR-XX_Nombre]]
-2. Analizar el impacto en alcance, tiempo, costo y calidad. (Evalua consecuencias para decision informada, evitando overruns. Lewis Cap. 22)
-3. Evaluar dependencias con otros requerimientos. (Identifica efectos en cadena para planificacion completa. O'Regan Cap. 3)
-4. Crear el Change Request formal en el vault. (Estandariza documentacion para revision y aprobacion. SWEBOK v4 KA1 6.2)
-5. Presentar al cliente con la estimacion de impacto. (Transparencia para decision conjunta, reduciendo conflictos. Lewis Cap. 23)
-6. Obtener aprobacion formal por escrito. (Protege partes legalmente, evita malentendidos. O'Regan Cap. 1)
-7. Si es aprobado: actualizar el REQ correspondiente y crear plan de implementacion. (Integra cambio al alcance controlado. SWEBOK v4 KA1 6.2) -> Artefacto: [[REQ-XX_Nombre]]
-8. Si es rechazado: documentar la razon y cerrar el CR. (Cierra ciclo con explicacion, para aprendizaje. Lewis Cap. 24)
-9. Notificar al equipo de desarrollo. (Coordina implementacion, asegurando alineacion. SWEBOK v4 KA3)
+- Aplica a cambios solicitados por el cliente, hallazgos del equipo y ajustes que afecten alcance, tiempo, costo, calidad o trazabilidad.
+- Cubre desde el registro inicial del cambio hasta la actualizacion del requerimiento, pruebas y evidencia de aprobacion.
+- Incluye cambios funcionales, correcciones de alcance, ampliaciones no contempladas y decisiones de no implementar.
+- No autoriza implementacion inmediata: ningun cambio debe pasar a desarrollo sin analisis y decision registrada.
 
-## 3. Plantilla de Change Request
+## 3. Diagnostico del Proceso Actual
 
-Esta seccion describe la plantilla para CR. La aplicacion completa con ejemplos se encuentra en cada [[CR-XX_Nombre]]. La plantilla asegura evaluacion completa de impacto para decisiones fundamentadas. (SWEBOK v4 KA1 6.2 - Control de Cambios)
+**Actualmente:**
+- El cliente comunica cambios por WhatsApp, llamada o durante la operacion diaria.
+- La solicitud puede quedar solo en la conversacion y no en un artefacto formal del vault.
+- No siempre se analiza el impacto en tiempo, costo, pruebas y requerimientos afectados antes de prometer una entrega.
+- Los cambios extra se mezclan con el alcance original, lo que genera discusiones sobre si un ajuste ya estaba incluido o debe cobrarse aparte.
 
-```yaml
----
-id: CR-XX
-titulo: ""
-estado: Pendiente
-tipo_cambio: Nuevo-Requerimiento
-requerimiento_origen: ""
-solicitado_por: ""
-fecha_solicitud: YYYY-MM-DD
-descripcion: ""
-impacto_tiempo_dias: 0
-impacto_costo_mxn: 0
-aprobado_por: ""
-fecha_aprobacion: ""
-casos_prueba_requeridos: []
-tags:
-  - cr/pendiente
----
-```
+Los hallazgos mas relevantes del diagnostico son:
 
-### Seccion de Documentacion del CR
+- Falta de registro formal y consecutivo de CR (Change Request).
+- Falta de análisis de impacto antes de comprometer esfuerzo.
+- Falta de evidencia escrita de aprobación o rechazo.
+- Falta de relación explicita entre cambio, REQ afectado y pruebas que deben actualizarse.
 
-```markdown
-# CR-[ID]: [Titulo del Cambio]
+## 4. Justificación Teórica
 
-## 1. Informacion General
-| Campo | Valor |
-| :-- | :-- |
-| ID | CR-XX |
-| Titulo | [Nombre del cambio] |
-| Estado | [Pendiente/En_Analisis/Aprobado/Rechazado] |
-| Tipo de Cambio | [Nuevo-Requerimiento/Modificacion/Eliminacion] |
-| Fecha de Solicitud | YYYY-MM-DD |
-| Solicitado por | [Nombre] |
+### 4.1 CMMI-CM
 
-## 2. Descripcion del Cambio
-[Descripcion detallada de lo que se esta solicitando]
+CMMI para Gestion de Configuracion establece que un cambio debe identificarse, evaluarse, aprobarse y rastrearse antes de modificar la linea base. En este proyecto la linea base no solo es el codigo: tambien incluye acuerdos con el cliente, requerimientos y casos de prueba.
 
-## 3. Justificacion
-[Razon por la cual se necesita este cambio]
+### 4.2 Analisis de Impacto
 
-## 4. Requerimiento Origen
-[Si este cambio modifica un requerimiento existente, linkearlo]
-- REQ-XX: [[REQ-XX_Titulo]]
+El analisis de impacto obliga a responder, antes de implementar, que artefactos cambian, cuanto tiempo adicional se necesita, si existe costo extra y que riesgo se introduce. Esto reduce retrabajo y discusiones posteriores.
 
-## 5. Analisis de Impacto
+### 4.3 Modelo ETVX
 
-### 5.1 Impacto en Alcance
-- [Lista de requerimientos afectados]
+El modelo ETVX vuelve repetible el proceso porque define con claridad la entrada del cambio, las tareas minimas, la verificacion requerida y la salida aceptable en cada etapa.
 
-### 5.2 Impacto en Tiempo
-- Dias adicionales estimados: X
+### 4.4 Control de Versiones
 
-### 5.3 Impacto en Costo
-- Costo adicional estimado: $X,XXX MXN
+El control de cambios documental debe conectarse con el repositorio del sistema. Todo cambio aprobado debe poder rastrearse hasta el artefacto tecnico que lo implementa, ya sea un commit, una rama, una entrega o una nota de actualizacion del repositorio `Marcos2`.
 
-### 5.4 Impacto en Calidad
-- [Efectos potenciales en la calidad]
+## 5. Roles y Responsabilidades
 
-### 5.5 Dependencias
-- [Otros cambios o requerimientos relacionados]
-
-## 6. Casos de Prueba Requeridos
-- [Lista de CP que necesitan ser creados o modificados]
-
-## 7. Decision
-
-### 7.1 Aprobacion (si aplica)
-| Campo | Valor |
-| :-- | :-- |
-| Aprobado por | [Nombre del cliente] |
-| Fecha de Aprobacion | YYYY-MM-DD |
-| Notas | [Notas adicionales] |
-
-### 7.2 Rechazo (si aplica)
-| Campo | Valor |
-| :-- | :-- |
-| Razon del Rechazo | [Explicacion] |
-| Fecha | YYYY-MM-DD |
-
-## 8. Historial de Versiones
-| Version | Fecha | Autor | Cambios |
-| :-- | :-- | :-- | :-- |
-| 1.0 | YYYY-MM-DD | [Nombre] | Creacion inicial |
-```
-
-## 4. Cambios Actuales Registrados
-
-| ID | Titulo | Estado | Origen | Impacto Estimado |
-| :-- | :-- | :-- | :-- | :-- |
-| CR-01 | Marcos Dobles | Pendiente | REQ-07 | Por definir |
-| CR-02 | Tipos de Vidrio | Pendiente | REQ-08 | Por definir |
-| CR-03 | Maria Luisa Multiple | Pendiente | REQ-09 | Por definir |
-| CR-04 | Pantalla Secundaria | Pendiente | REQ-10 | Por definir |
-
-## 5. Tipos de Cambio
-
-| Tipo | Descripcion | Ejemplo |
+| Rol | Responsable | Responsabilidades |
 | :-- | :-- | :-- |
-| Nuevo-Requerimiento | Agregar funcionalidad nueva | Agregar soporte para marcos dobles |
-| Modificacion | Cambiar alcance de requerimiento existente | Modificar tamano maximo de imagen |
-| Eliminacion | Quitar funcionalidad acordada | Eliminar modulo de exportacion PDF |
-| Correccion | Corregir error en requerimiento | Aclarar criterio de aceptacion ambiguo |
+| Negocio y seguimiento | Samuel Blanco | Recibe la solicitud, la registra o valida su registro, presenta impacto al cliente y resguarda la aprobacion o rechazo. |
+| Analisis tecnico | Axel Morales | Evalua impacto en requerimientos, pruebas, tiempo, costo tecnico y riesgo; define artefactos afectados y seguimiento tecnico. |
+| Solicitante y aprobador | Cliente | Explica la necesidad, aclara prioridades, acepta o rechaza el impacto y confirma por escrito la decision. |
 
-## 6. Criterios de Aprobacion
+## 6. Entradas y Salidas
 
-Para aprobar un Change Request, deben cumplirse:
+### Entradas
 
-- [ ] Impacto en tiempo documentado y aceptado
-- [ ] Impacto en costo documentado y aceptado
-- [ ] Cliente ha dado aprobacion escrita
-- [ ] Casos de prueba actualizados o creados
-- [ ] Requerimientos afectados actualizados
+| Entrada | Uso dentro del proceso |
+| :-- | :-- |
+| [[01-Linea_Base/03-Acuerdos_Cliente]] | Delimitar que estaba dentro y fuera del alcance original. |
+| [[02-Requisitos/PROC-02_Especificacion_Requerimientos]] | Identificar el requerimiento afectado y sus criterios de aceptacion. |
+| [[02-Requisitos/Matriz_Trazabilidad]] | Revisar relaciones entre REQ, CR y CP antes de aprobar el cambio. |
+| [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]] | Registrar el cambio con formato minimo comun. |
+| Solicitud del cliente o del equipo | Activar el proceso con el contexto inicial del cambio. |
 
-## 7. Criterios de Aceptacion del Proceso
+### Salidas
 
-- [ ] Todos los CR pendientes documentados
-- [ ] Analisis de impacto completado para cada CR
-- [ ] Aprobacion del cliente obtenida para CR-01 a CR-04
-- [ ] Requerimientos actualizados si hay cambios aprobados
-- [ ] Proceso cerrado con estado = "Completado"
+| Salida | Resultado esperado |
+| :-- | :-- |
+| [[CR-01_Marcos_Dobles]], [[CR-02_Tipos_Vidrio]], [[CR-03_Maria_Luisa]], [[CR-04_Pantalla_Secundaria]] | Ejemplos vivos de solicitudes de cambio con trazabilidad. |
+| `CR-XX_Nombre.md` | Registro formal de cualquier nuevo cambio. |
+| REQ actualizado | Requerimiento ajustado cuando el cambio es aprobado. |
+| Matriz de trazabilidad actualizada | Relacion explicita entre CR, REQ y CP. |
+| Evidencia de aprobacion | Captura, correo o mensaje vinculado al cambio. |
 
-## 8. Dependencias
+## 7. Flujo ETVX
 
-- **Pre-requisito**: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/PROC-02_Especificacion_Requerimientos]] (Proporciona REQ especificados para evaluar cambios)
-- **Post-requisito**: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/PROC-05_Plan_Pruebas]] (Crea CP para cambios aprobados)
+| Etapa | Entry | Task | Verification | Exit | Responsable |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| Registro | Solicitud identificada en WhatsApp, correo, reunion o hallazgo interno | Crear `CR-XX_Nombre.md`, asignar ID, capturar origen, solicitante, cambio y REQ afectado | Samuel revisa que existan datos minimos y que el cambio no quede solo en conversacion | CR en estado `Pendiente` o `En_Analisis` | Samuel |
+| Analisis | CR registrado + acuerdos base + REQ afectados | Estimar impacto en alcance, tiempo, costo, calidad y pruebas; identificar artefactos afectados | Axel valida que el impacto sea explicito y que existan REQ/CP relacionados | CR con analisis completo | Axel |
+| Aprobacion | CR analizado y listo para decision | Presentar impacto al cliente y documentar aprobacion o rechazo | Existe evidencia escrita de la decision y estado actualizado | CR en estado `Aprobado` o `Rechazado` | Samuel + Cliente |
+| Implementacion | CR aprobado + REQ y plan actualizados | Programar o ejecutar el cambio, referenciando el ID del CR en el trabajo tecnico | El equipo confirma que la implementacion, pruebas y evidencia apuntan al CR correcto | Cambio implementado o programado sin ambiguedad | Axel / Samuel |
+| Actualizacion de linea base | Cambio implementado y validado, o rechazo documentado | Actualizar REQ, matriz de trazabilidad, CP y notas de entrega; cerrar el CR | La linea base documental y tecnica refleja la decision final | CR cerrado y trazable | Samuel + Axel |
 
-## 9. Referencias
+## 8. Proceso Detallado (Actualmente vs Propuesta)
 
-- [[01-Proceso_Gobernanza_Vault]]
-- [[02-Convenciones_y_Tags]]
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-01_Marcos_Dobles]]
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-02_Tipos_Vidrio]]
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-03_Maria_Luisa]]
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-04_Pantalla_Secundaria]]
+### Paso 1: Registro del Cambio (Planear)
 
-## 10. Historial de Cambios
+**Actualmente:**
+- La solicitud puede quedarse perdida en mensajes o sólo en la memoria del equipo.
+- El cambio a veces se comenta primero y se documenta después, o no se documenta.
 
-| Version | Fecha | Autor | Descripcion |
-|---------|-------|-------|-------------|
-| 1.0 | 2026-03-19 | Samuel Blanco | Creacion inicial |
-| 1.1 | 2026-04-13 | Kilo-SQA-Agent | Agregadas justificaciones WHY/HOW en definicion, actividades y dependencias |
+**NT-1:** Toda solicitud debe convertirse el mismo día en un archivo `CR-XX_Nombre.md` basado en [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]]. Esto evita que un acuerdo verbal se convierta en trabajo sin rastro.
 
----
+**Propuesta:**
+- Samuel registra el cambio en la carpeta `07-Control/`.
+- Asigna ID consecutivo y estado inicial `Pendiente`.
+- Se captura el origen real de la solicitud y el `REQ` afectado.
 
-*Proceso creado: 2026-03-19 | Ultima actualizacion: 2026-03-19*
+### Paso 2: Análisis de Impacto (Hacer)
+
+**Actualmente:**
+- El esfuerzo se estima de forma rápida o intuitiva.
+- No siempre se identifica si el cambio afecta pruebas, reglas de negocio o acuerdos previos.
+
+**NT-2:** Ningun cambio debe prometerse al cliente sin una revision minima de impacto en alcance, tiempo, costo y calidad. El analisis debe dejar claro que parte del sistema cambia y que pruebas deben ajustarse.
+
+**Propuesta:**
+- Axel revisa el CR junto con el REQ y la matriz de trazabilidad.
+- Documenta `impacto_alcance`, `impacto_tiempo_dias`, `impacto_costo_mxn` e `impacto_calidad`.
+- Se listan artefactos y casos de prueba afectados.
+
+### Paso 3: Aprobacion del Cliente (Verificar)
+
+**Actualmente:**
+- El cliente puede decir "si" por mensaje o asumir que el cambio estaba incluido.
+- No existe una regla fija para diferenciar aceptacion verbal de aprobacion formal.
+
+**NT-3:** Toda decision debe quedar por escrito. Una captura de WhatsApp, correo o minuta validada es suficiente, siempre que este vinculada al CR.
+
+**Propuesta:**
+- Samuel presenta el impacto al cliente con alcance, tiempo y costo.
+- El cliente aprueba o rechaza por escrito.
+- El CR actualiza `estado`, `aprobado_por`, `fecha_aprobacion` y `evidencia_aprobacion`.
+
+### Paso 4: Implementacion Controlada (Actuar)
+
+**Actualmente:**
+- El equipo podria comenzar a resolver el cambio en cuanto parece claro tecnicamente.
+- La implementacion puede adelantarse antes de que el alcance quede cerrado.
+
+**NT-4:** Solo los CR aprobados pasan a implementacion. El ID del CR debe aparecer en el trabajo tecnico asociado para que el repositorio y la documentacion hablen del mismo cambio.
+
+**Propuesta:**
+- Axel y Samuel coordinan la implementacion solo despues de la aprobacion.
+- El cambio se vincula con el trabajo tecnico correspondiente y con las pruebas a actualizar.
+- Si el cambio no es aprobado, no se implementa y el CR se cierra con causa.
+
+### Paso 5: Actualizacion de Linea Base y Cierre
+
+**Actualmente:**
+- El CR puede existir, pero la trazabilidad con REQ y CP no siempre se actualiza al cierre.
+- El cambio aprobado puede quedar implementado sin reflejarse en toda la documentacion.
+
+**NT-5:** El cierre del CR debe incluir actualizacion de requerimientos, matriz de trazabilidad, pruebas y evidencia final. Sin esto, el cambio existe en el sistema pero no en la linea base.
+
+**Propuesta:**
+- Se actualizan los REQ afectados, los CP relacionados y la matriz de trazabilidad.
+- El CR pasa a `Implementado` o se mantiene en `Aprobado` hasta que exista evidencia de despliegue.
+- El expediente del cambio queda completo para inspeccion o auditoria.
+
+## 9. Plantilla de CR
+
+La plantilla oficial del proceso es [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]]. Todo CR debe contener como minimo los siguientes campos:
+
+- `id`
+- `titulo`
+- `origen`
+- `requisito_afectado`
+- `estado`
+- `tipo_cambio`
+- `solicitado_por`
+- `fecha_solicitud`
+- `prioridad`
+- `descripcion`
+- `justificacion`
+- `impacto_alcance`
+- `impacto_tiempo_dias`
+- `impacto_costo_mxn`
+- `impacto_calidad`
+- `aprobado_por`
+- `fecha_aprobacion`
+- `evidencia_aprobacion`
+- `casos_prueba_requeridos`
+- `artefactos_afectados`
+
+Ejemplos vivos del formato:
+
+- [[CR-01_Marcos_Dobles]]
+- [[CR-02_Tipos_Vidrio]]
+- [[CR-03_Maria_Luisa]]
+- [[CR-04_Pantalla_Secundaria]]
+
+## 10. Metricas de Exito
+
+- **Registro oportuno**: 100% de las solicitudes identificadas en un CR dentro de 1 dia habil.
+- **Analisis completo**: 100% de los CR con impacto en alcance, tiempo, costo y calidad antes de presentar al cliente.
+- **Formalidad**: 100% de los CR aprobados o rechazados con evidencia escrita vinculada.
+- **Disciplina de implementacion**: 0 cambios implementados sin CR aprobado.
+- **Trazabilidad**: 100% de los CR aprobados enlazados con al menos un REQ y un CP o evidencia de no requerir pruebas nuevas.
+
+## 11. Ejemplo Aplicado: CR-01 Marcos Dobles
+
+| Campo | Valor |
+| :-- | :-- |
+| Caso | [[CR-01_Marcos_Dobles]] |
+| Origen | Solicitud del cliente recuperada en `ACU-006` y conversaciones operativas |
+| Requerimiento afectado | [[REQ-07_Marcos_Dobles]] |
+| Impacto en tiempo | 5 dias |
+| Impacto en costo | $3,000 MXN |
+| Prueba afectada | [[05-Pruebas/Modulo-03_Previsualizacion/CP-09_Marco_doble]] |
+| Estado actual | Pendiente de aprobacion |
+
+Aplicacion del proceso en este caso:
+
+1. El cambio se registra como `CR-01` para evitar que la funcionalidad se trate como alcance original.
+2. Axel estima el esfuerzo y el riesgo tecnico sobre la previsualizacion y pruebas.
+3. Samuel presenta el costo y tiempo adicional al cliente para aprobacion.
+4. Solo si el cliente aprueba por escrito se actualiza `REQ-07`, la matriz de trazabilidad y `CP-09`.
+
+## 12. Integracion con Otros Procesos
+
+- **Requisitos**: Un CR aprobado debe reflejarse en [[02-Requisitos/PROC-02_Especificacion_Requerimientos]] y en el REQ afectado para que los criterios de aceptacion no queden obsoletos.
+- **Pruebas**: [[05-Pruebas/PROC-05_Plan_Pruebas]] recibe el CR aprobado como entrada para crear o actualizar CP y para definir regresiones necesarias.
+- **Control de versiones**: La implementacion del cambio debe referenciar el ID del CR en el trabajo tecnico del repositorio `Marcos2`, para poder rastrear que se cambio y por que.
+
+## 13. Aprobacion
+
+| Rol | Nombre | Firma / Confirmacion | Fecha |
+| :-- | :-- | :-- | :-- |
+| Lider de negocio | Samuel Blanco | ____________________ | ____________________ |
+| Analisis tecnico | Axel Morales | ____________________ | ____________________ |
+| Cliente | Enmarcame / Representante | ____________________ | ____________________ |
+
+## 14. Justificacion de Mejoras
+
+**NT-1: Registro el mismo dia del cambio.**  
+Justificacion: Disminuye la perdida de contexto y evita que el equipo trabaje con instrucciones parciales o recuerdos incompletos.
+
+**NT-2: Analisis explicito de impacto.**  
+Justificacion: Permite negociar con datos y evita comprometer tiempo o costo sin comprender el alcance real del cambio.
+
+**NT-3: Aprobacion por escrito.**  
+Justificacion: Reduce conflictos con el cliente y deja evidencia suficiente para auditoria o aclaracion comercial posterior.
+
+**NT-4: Implementacion solo despues de aprobar.**  
+Justificacion: Protege al equipo de retrabajo y conserva el control de configuracion sobre la linea base acordada.
+
+**NT-5: Cierre con trazabilidad completa.**  
+Justificacion: Garantiza que lo aprobado, lo implementado y lo probado coincidan en los documentos del proyecto.
+
+## 15. Referencias y Documentos de Apoyo
+
+1. [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]] - Plantilla oficial para registrar cambios.
+2. [[02-Requisitos/PROC-02_Especificacion_Requerimientos]] - Proceso que recibe la actualizacion del alcance aprobado.
+3. [[05-Pruebas/PROC-05_Plan_Pruebas]] - Proceso que define los casos de prueba derivados del cambio.
+4. [[02-Requisitos/Matriz_Trazabilidad]] - Registro de relaciones entre REQ, CR y CP.
+5. [[CR-01_Marcos_Dobles]], [[CR-02_Tipos_Vidrio]], [[CR-03_Maria_Luisa]], [[CR-04_Pantalla_Secundaria]] - Casos actuales del proyecto.
+6. CMMI for Development - Configuration Management (CM).
+7. SWEBOK - Software Configuration Management y Software Requirements.
+
+## Historial de Cambios
+
+| Version | Fecha      | Autor         | Descripcion                                                                                                                    |
+| :------ | :--------- | :------------ | :----------------------------------------------------------------------------------------------------------------------------- |
+| 1.0     | 2026-05-14 | Carlos Yonson | Reescritura completa del proceso de control de cambios con diagnostico, flujo ETVX, plantilla CR, metricas y ejemplo aplicado. |

@@ -1,20 +1,31 @@
 ---
 id: CR-04
 titulo: Change Request - Pantalla Secundaria
+origen: Acuerdo del cliente recuperado desde WhatsApp y consolidado en ACU-009
+requisito_afectado: [[REQ-10_Pantalla_Secundaria]]
 estado: Pendiente
 tipo_cambio: Nuevo-Requerimiento
 requerimiento_origen: REQ-10_Pantalla_Secundaria
 solicitado_por: Cliente (Enmarcame - Geronimo)
 fecha_solicitud: 2026-02-01
+prioridad: Baja
 descripcion: El cliente pidio que la previsualizacion pueda verse en una pantalla secundaria (TV o monitor adicional) para que el cliente vea el resultado en una pantalla mas grande mientras el empleado opera el sistema.
+justificacion: Mejorar la experiencia de venta en tienda para grupos o clientes que necesitan una vista amplia del resultado final.
+impacto_alcance: Afecta previsualizacion, deteccion de hardware, sincronizacion de pantallas y trazabilidad del REQ-10.
 impacto_tiempo_dias: 6
 impacto_costo_mxn: 4000
+impacto_calidad: Requiere pruebas en diferentes navegadores, hardware y escenarios de fallback sin segunda pantalla.
 aprobado_por: ""
 fecha_aprobacion: ""
+evidencia_aprobacion: N/A
+responsable_analisis: Samuel Blanco / Axel Morales
 casos_prueba_requeridos:
   - CP-13_Proyeccion
   - CP-14_Sync_tiempo_real
   - CP-15_Fallback_sin_pantalla
+artefactos_afectados:
+  - [[REQ-10_Pantalla_Secundaria]]
+  - [[02-Requisitos/Matriz_Trazabilidad]]
 referencias:
   - REQ-10_Pantalla_Secundaria
   - "01-Baseline/02-Acuerdos_Cliente.md - ACU-009"
@@ -24,6 +35,8 @@ tags:
 ---
 
 # CR-04: Pantalla Secundaria
+
+> Registro alineado con [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]].
 
 ## 1. Informacion del Cambio
 

@@ -113,7 +113,7 @@ PROC-06 (Inspecciones)
 ### Procesos
 - [[01-PROC-01_Recuperacion_Linea_Base]]
 - [[02-Requerimientos/PROC-02_Especificacion_Requerimientos]]
-- [[03-Control_Cambios/PROC-03_Control_Cambios]]
+- [[07-Control/PROC-03_Control_Cambios]]
 - [[04-Arquitectura/PROC-04_Arquitectura_Sistema]]
 - [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/05-Pruebas/PROC-05_Plan_Pruebas]]
 - [[06-Inspecciones/PROC-06_Inspecciones]]
