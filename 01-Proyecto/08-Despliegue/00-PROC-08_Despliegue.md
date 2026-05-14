@@ -16,10 +16,10 @@ Los marcados como _[por crear]_ no existen todavía y se propone generarlos.
 
 | Nombre del documento                    | Ubicación     |
 | --------------------------------------- | ------------- |
-| Registro de entornos y servidores       | _[por crear]_ |
-| Lista de Verificación de Despliegue     | _[por crear]_ |
-| Documento de configuración del proyecto | _[por crear]_ |
-| Registro de incidentes en producción    | _[por crear]_ |
+| Registro de entornos y servidores       | [[01-Proyecto/08-Despliegue/Documentos_Apoyo/01-Registros/REG-08-01_Entornos_Servidores\|REG-08-01]] |
+| Lista de Verificación de Despliegue     | [[01-Proyecto/08-Despliegue/Documentos_Apoyo/02-Formatos/CL-08-01_Verificacion_Despliegue\|CL-08-01]] |
+| Documento de configuración del proyecto | [[01-Proyecto/08-Despliegue/Documentos_Apoyo/02-Formatos/FOR-08-01_Configuracion_Proyecto\|FOR-08-01]] |
+| Registro de incidentes en producción    | [[01-Proyecto/08-Despliegue/Documentos_Apoyo/01-Registros/REG-08-02_Incidentes_Produccion\|REG-08-02]] |
 
 ---
 
@@ -36,7 +36,7 @@ Los marcados como _[por crear]_ no existen todavía y se propone generarlos.
 
 **Propuesta:**
 
-- Antes de iniciar el despliegue, el responsable completa la Lista de Verificación de Despliegue ([ver Lista de Verificación de Despliegue — por crear]).
+- Antes de iniciar el despliegue, el responsable completa la Lista de Verificación de Despliegue ([[01-Proyecto/08-Despliegue/Documentos_Apoyo/02-Formatos/CL-08-01_Verificacion_Despliegue|CL-08-01]]).
 - La lista debe confirmar como mínimo:
     - Los flujos principales del sistema fueron probados manualmente y funcionan.
     - No hay errores visibles en la consola del servidor ni en el navegador durante las pruebas.
@@ -57,7 +57,7 @@ Los marcados como _[por crear]_ no existen todavía y se propone generarlos.
 
 **Propuesta:**
 
-- Al obtener el dominio, se registra en el Registro de entornos y servidores ([ver Registro de entornos y servidores — por crear]):
+- Al obtener el dominio, se registra en el Registro de entornos y servidores ([[01-Proyecto/08-Despliegue/Documentos_Apoyo/01-Registros/REG-08-01_Entornos_Servidores|REG-08-01]]):
     - Nombre del dominio.
     - Plataforma donde está registrado (ejemplo: Namecheap, GoDaddy, etc.).
     - Correo o cuenta con la que se gestionó.
@@ -81,7 +81,7 @@ Los marcados como _[por crear]_ no existen todavía y se propone generarlos.
 
 - Se elige el tipo de servidor con base en las características del proyecto:
     - [PENDIENTE: definir los criterios del equipo para elegir entre servidor compartido y VPS.]
-- Al contratar el servidor, se registra en el Registro de entornos y servidores ([ver Registro de entornos y servidores — por crear]):
+- Al contratar el servidor, se registra en el Registro de entornos y servidores ([[01-Proyecto/08-Despliegue/Documentos_Apoyo/01-Registros/REG-08-01_Entornos_Servidores|REG-08-01]]):
     - Proveedor del servidor.
     - Tipo de servidor contratado.
     - Sistema operativo y versión.
@@ -137,7 +137,7 @@ Los marcados como _[por crear]_ no existen todavía y se propone generarlos.
 
 **Propuesta:**
 
-- Existe un Documento de configuración del proyecto ([ver Documento de configuración del proyecto — por crear]) que describe:
+- Existe un Documento de configuración del proyecto ([[01-Proyecto/08-Despliegue/Documentos_Apoyo/02-Formatos/FOR-08-01_Configuracion_Proyecto|FOR-08-01]]) que describe:
     - Qué variables de entorno requiere el proyecto.
     - Qué significa cada variable.
     - Qué valor de ejemplo o formato se espera (no el valor real).
@@ -185,7 +185,7 @@ Este paso aplica cuando el sistema tiene procesos que deben ejecutarse de forma 
 
 **Propuesta:**
 
-- Se utiliza la Lista de Verificación de Despliegue ([ver Lista de Verificación de Despliegue — por crear]) para guiar las pruebas en producción.
+- Se utiliza la Lista de Verificación de Despliegue ([[01-Proyecto/08-Despliegue/Documentos_Apoyo/02-Formatos/CL-08-01_Verificacion_Despliegue|CL-08-01]]) para guiar las pruebas en producción.
 - La lista incluye los flujos de trabajo principales del sistema, definidos antes del despliegue.
 - Para cada flujo se registra: si pasó, si falló, y si falló, qué se observó.
 - Si algún flujo falla, se corrige antes de notificar al cliente.
