@@ -1,34 +1,42 @@
 ---
 id: PROC-04
 titulo: Proceso de Codificacion e Implementacion
-version: "1.1"
+version: "2.0"
 responsable: Samuel Blanco
 disparador: Aprobacion del Diseño (DIS)
 criterio_entrada: Documento de Diseño (03-Diseño) y Requisitos validados.
 criterio_salida: Codigo fuente cargado en repositorio y listo para pruebas.
 entradas:
-  - "[[00-PROC-03_Diseño_Sistema]]"
+  - "[[Assignments_V2/01-Proyecto/03-Diseño/00-PROC-03_Diseño_Sistema]]"
   - "[[02-Requisitos/REQ-01]] al REQ-10"
 salidas:
-  - "[[04-Codificacion/COD-01_Estandares_Codigo]]"
+  - "[[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01: Estandares de Codigo]]"
   - "Modulo Python: Deteccion de Ancho"
   - "Interfaz Web: Flask/HTML"
 ---
+# Proceso de Codificación — XookTech
+
+**Área de proceso:** Desarrollo de Software  
+**Nombre del proceso:** Codificación de funcionalidades del sistema  
+**Responsable:** Programador asignado y líder de proyecto  
+**Entradas:** Descripción de la funcionalidad a desarrollar  
+**Salidas:** Código fuente funcional integrado al repositorio del proyecto  
 **Notación:** NT: indica una Nota Técnica con una sugerencia de mejora al proceso actual.
 
 ---
+
 ## Información Preliminar
 
-Los documentos que se pueden necesitar en este proceso se listan a continuación.  
-Los marcados como _[por crear]_ no existen todavía y se propone generarlos.
+Los documentos que se pueden necesitar en este proceso se listan a continuación.
 
-| Nombre del documento                  | Ubicación                 |
-| ------------------------------------- | ------------------------- |
-| Documento de requisitos               | [PENDIENTE: definir ruta] |
-| Plan de diseño                        | [PENDIENTE: definir ruta] |
-| Esquema de base de datos              | [PENDIENTE: definir ruta] |
-| Estándar de Codificación de XookTech  | _[por crear]_             |
-| Lista de Verificación de Codificación | _[por crear]_             |
+|Nombre del documento|Ubicación|
+|---|---|
+|Documento de requisitos|[PENDIENTE: definir ruta]|
+|Plan de diseño|[PENDIENTE: definir ruta]|
+|Esquema de base de datos|[PENDIENTE: definir ruta]|
+|Estándar de Codificación de XookTech|[[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion\|FOR-04-01]]|
+|Lista de Verificación de Codificación|[[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/CL-04-01_Verificacion_Codificacion\|CL-04-01]]|
+|Registro de Tareas de Desarrollo|[[01-Proyecto/04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo\|REG-04-01]]|
 
 ---
 
@@ -45,8 +53,11 @@ Los marcados como _[por crear]_ no existen todavía y se propone generarlos.
 
 **Propuesta:**
 
-- El líder del proyecto registra la tarea por escrito en [PENDIENTE: definir herramienta — puede ser un documento compartido, una hoja de cálculo u otro medio que el equipo acuerde].
+- El líder del proyecto registra la tarea por escrito en el Registro de Tareas de Desarrollo ([[01-Proyecto/04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo|REG-04-01]]).
 - La tarea debe incluir como mínimo:
+    - Folio de la tarea (TAR-YYYY-NNN).
+    - Prioridad (Baja/Media/Alta).
+    - Folio del requisito relacionado (REQ-XXX).
     - Nombre de la funcionalidad.
     - Descripción breve de qué debe hacer.
     - Fecha en que se asignó.
@@ -88,9 +99,10 @@ Los marcados como _[por crear]_ no existen todavía y se propone generarlos.
 
 **Propuesta:**
 
-- Al inicio de cualquier proyecto, el líder del proyecto o el programador asignado crea el repositorio en [PENDIENTE: definir plataforma].
+- Al inicio de cualquier proyecto, el líder del proyecto o el programador asignado crea el repositorio en la plataforma definida por el equipo.
+- Las credenciales y accesos críticos se almacenan en el gestor de contraseñas privado de XookTech, con acceso restringido.
 - El repositorio se comparte con todos los integrantes del equipo antes de que cualquiera escriba código.
-- Cada funcionalidad se desarrolla en una rama separada del repositorio. El nombre de la rama debe indicar qué se está desarrollando. Ejemplo: `funcionalidad/registro-de-usuarios`.
+- Cada funcionalidad se desarrolla en una rama separada del repositorio. El nombre de la rama debe indicar qué se está desarrollando. Ejemplo: `feature/TAR-2025-001-registro-usuarios`.
 - La rama principal del repositorio debe mantenerse siempre en un estado funcional. No se sube código que rompa el sistema a la rama principal.
 
 ---
@@ -110,7 +122,7 @@ Los marcados como _[por crear]_ no existen todavía y se propone generarlos.
     - El programador identifica qué partes del sistema existente están relacionadas con la funcionalidad que va a desarrollar.
     - Si no entiende alguna parte, lo consulta con quien la desarrolló o con el líder del proyecto antes de continuar.
 - Si el proyecto es nuevo:
-    - El programador revisa si existe el Estándar de Codificación del equipo ([ver Estándar de Codificación — por crear]) y lo sigue desde el primer archivo.
+    - El programador revisa el Estándar de Codificación de XookTech ([[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01]]) y lo sigue desde el primer archivo.
 
 ---
 
@@ -120,24 +132,27 @@ El programador desarrolla la funcionalidad asignada. Dependiendo de lo que impli
 
 Durante la codificación:
 
-- El programador sigue el Estándar de Codificación del equipo ([ver Estándar de Codificación — por crear]).
+- El programador sigue estrictamente el Estándar de Codificación de XookTech ([[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01]]), priorizando el uso de `camelCase`, nombres explícitos en español y funciones autodescriptivas.
 - Cada vez que termina una parte significativa del trabajo, sube los cambios al repositorio con un mensaje que describa qué se hizo.
 
 **NT-5:** Los mensajes de confirmación vagos como "cambios" o "actualización" no aportan información útil para el equipo. IEEE 12207:2017 recomienda que los registros de cambio sean comprensibles y trazables. Un mensaje descriptivo permite entender el historial del proyecto sin tener que leer todo el código.
 
 Ejemplos de mensajes aceptables:
 
-- `"Se agrega validación de correo en el formulario de registro"`
-- `"Se corrige error al guardar pedidos con productos sin precio"`
+- `"TAR-2025-001: Se agrega validación de correo en el formulario de registro"`
+- `"TAR-2025-002: Se corrige error al guardar pedidos con productos sin precio"`
 
 Ejemplos de mensajes que no aportan:
 
 - `"cambios"`
 - `"fix"`
 - `"avance"`
+    
 - Si durante la codificación el programador encuentra algo que no está claro en los requisitos o en el diseño, detiene el trabajo y lo consulta antes de continuar.
+    
 
 ---
+
 ### 6. Verificar la tarea antes de integrarla
 
 **Actualmente:**
@@ -149,13 +164,13 @@ Ejemplos de mensajes que no aportan:
 
 **Propuesta:**
 
-- Cuando el programador considera que terminó la funcionalidad, la verifica con la Lista de Verificación de Codificación ([ver Lista de Verificación — por crear]).
+- Cuando el programador considera que terminó la funcionalidad, la verifica con la Lista de Verificación de Codificación ([[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/CL-04-01_Verificacion_Codificacion|CL-04-01]]).
 - La lista debe revisar como mínimo:
     - Que el código hace lo que la tarea pedía.
     - Que no rompe funcionalidades que ya existían.
     - Que sigue el Estándar de Codificación del equipo.
-    - Que los nombres de variables, funciones y archivos son descriptivos y consistentes.
-- Si el equipo tiene más de un programador, otro integrante revisa el código antes de integrarlo. El revisor anota sus observaciones y el programador las corrige antes de continuar.
+    - Que los nombres de variables, funciones y archivos son descriptivos, explícitos (sin acotamientos) y consistentes.
+- Se requiere una **Revisión por Pares** (Peer Review). Otro integrante del equipo revisa el código, anota sus observaciones en el formato CL-04-01 y el programador las corrige antes de continuar.
 
 **NT-7:** Cuando el equipo es de una sola persona, revisar el propio código al día siguiente de haberlo escrito — con la mente fresca — es una alternativa válida reconocida en la práctica de ingeniería de software. No es lo mismo que no revisar nada.
 
@@ -166,7 +181,7 @@ Ejemplos de mensajes que no aportan:
 - Una vez verificada la funcionalidad, el programador integra su rama al repositorio principal.
 - El programador verifica que el sistema completo sigue funcionando después de la integración.
 - Si algo se rompe durante la integración, se corrige antes de continuar con otra tarea.
-- Se actualiza el estado de la tarea en [PENDIENTE: herramienta de gestión de tareas] indicando que está lista.
+- Se actualiza el estado de la tarea en el Registro de Tareas de Desarrollo ([[01-Proyecto/04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo|REG-04-01]]) indicando que está "Listo".
 
 ---
 
@@ -181,7 +196,7 @@ Las siguientes actividades se realizan con frecuencia dentro de la codificación
 Una migración es un archivo que describe un cambio en la estructura de la base de datos — crear una tabla, agregar una columna, modificar un tipo de dato, etc. — de forma que ese cambio quede registrado y pueda aplicarse en cualquier entorno del equipo.
 
 1. Antes de crear una migración, el programador revisa el esquema de base de datos actual para verificar que el cambio no entra en conflicto con algo que ya existe.
-2. Se crea el archivo de migración siguiendo el Estándar de Codificación del equipo ([ver Estándar de Codificación — por crear]).
+2. Se crea el archivo de migración siguiendo el Estándar de Codificación de XookTech.
 3. Se agrega al inicio del archivo, en forma de comentario, el nombre del responsable, la fecha y la tarea que motivó la migración.
 4. Se ejecuta la migración en el entorno de desarrollo local y se verifica que funcionó correctamente.
 5. Si la migración afecta datos que ya existen, se documenta qué datos se ven afectados y de qué forma.
@@ -192,11 +207,11 @@ Una migración es un archivo que describe un cambio en la estructura de la base 
 ### B. Operaciones sobre la base de datos (consultas, inserciones, actualizaciones, eliminaciones)
 
 1. El programador identifica qué tablas y relaciones están involucradas en la operación que necesita.
-2. Se escribe la lógica de acceso a datos siguiendo el Estándar de Codificación del equipo.
+2. Se escribe la lógica de acceso a datos siguiendo el Estándar de Codificación.
 3. Se prueban las operaciones en el entorno local con datos de prueba antes de considerarlas listas.
 4. Se verifica que las operaciones no afecten datos que no deberían tocarse.
 
-**NT-8:** Colocar la lógica de acceso a datos en cualquier parte del código hace que los proyectos sean difíciles de mantener y de corregir. Se recomienda que toda esta lógica esté concentrada en una capa específica del sistema — modelos o repositorios, según el patrón que el equipo defina — y no dispersa en vistas, controladores u otros archivos. En proyectos que ya existen esto no siempre es posible de inmediato, pero sí debe ser la práctica para todo código nuevo. SWEBOK v3 (Diseño del Software) lo incluye como parte del principio de separación de responsabilidades.
+**NT-8:** Colocar la lógica de acceso a datos en cualquier parte del código hace que los proyectos sean difíciles de mantener y de corregir. Se recomienda que toda esta lógica esté concentrada en una capa específica del sistema — modelos o repositorios, según el patrón que el equipo defina — y no dispersa en vistas, controladores u otros archivos. SWEBOK v3 (Diseño del Software) lo incluye como parte del principio de separación de responsabilidades.
 
 ---
 
@@ -205,8 +220,8 @@ Una migración es un archivo que describe un cambio en la estructura de la base 
 Un modelo es la representación en código de una entidad del sistema — un usuario, un pedido, un producto, etc.
 
 1. Se revisa el esquema de base de datos o el documento de diseño para identificar qué atributos tiene la entidad.
-2. Se crea el archivo del modelo siguiendo el Estándar de Codificación del equipo.
-3. Se definen los atributos del modelo según lo que indica el diseño.
+2. Se crea el archivo del modelo siguiendo el Estándar de Codificación.
+3. Se definen los atributos del modelo según lo que indica el diseño (usando `camelCase` para propiedades).
 4. Se agregan las validaciones necesarias. Ejemplos: que el correo tenga formato válido, que el nombre no esté vacío, que el precio sea mayor a cero.
 5. Se agrega al inicio del archivo, en forma de comentario, el nombre del responsable, la fecha y la tarea relacionada.
 
@@ -218,14 +233,13 @@ Un modelo es la representación en código de una entidad del sistema — un usu
 2. Se crea el archivo de la vista siguiendo la estructura del proyecto y el Estándar de Codificación.
 3. Se agrega al inicio del archivo, en forma de comentario, el nombre del responsable, la fecha y la tarea relacionada.
 4. Se prueba la página en el entorno local antes de integrarla al repositorio.
-5. [PENDIENTE: definir en qué navegadores y dispositivos debe funcionar correctamente.]
 
 ---
 
 ### E. Conexión entre la interfaz y el servidor mediante peticiones asíncronas
 
 1. El programador identifica qué operación necesita hacer la interfaz — obtener datos, enviar un formulario, actualizar un registro, etc.
-2. Se define o se revisa la ruta del servidor que atiende esa operación. Si la ruta no existe, se crea primero (ver Actividad F).
+2. Se define o se revisa la ruta del servidor que atiende esa operación.
 3. Se implementa la llamada desde la interfaz al servidor.
 4. Se manejan los casos de error:
     - ¿Qué se muestra si el servidor no responde?
@@ -238,11 +252,7 @@ Un modelo es la representación en código de una entidad del sistema — un usu
 ### F. Creación y configuración de rutas del servidor
 
 1. Se identifica la operación que la ruta debe atender.
-2. Se define el tipo de petición que usará la ruta:
-    - Obtener información.
-    - Enviar información nueva.
-    - Actualizar información existente.
-    - Eliminar información.
+2. Se define el tipo de petición que usará la ruta (GET, POST, PUT, DELETE).
 3. Se crea la ruta en el archivo de configuración de rutas del sistema.
 4. Se conecta la ruta con el controlador o la función que la atiende.
 5. Se prueba que la ruta responde correctamente en el entorno local antes de integrarla.
@@ -252,25 +262,25 @@ Un modelo es la representación en código de una entidad del sistema — un usu
 ## Justificación de Mejoras
 
 **NT-1 — Registro escrito de tareas**  
-Las instrucciones verbales no generan evidencia. En equipos pequeños esto se compensa con la memoria de las personas, pero cuando hay varias tareas simultáneas, cuando alguien entra o sale del equipo, o cuando el cliente pregunta por qué se hizo algo de cierta forma, no hay manera de responder con certeza. SWEBOK v3 (Construcción del Software) establece que la construcción debe ser trazable a los requisitos o decisiones que la originaron.
+Las instrucciones verbales no generan evidencia. SWEBOK v3 (Construcción del Software) establece que la construcción debe ser trazable a los requisitos o decisiones que la originaron.
 
 **NT-2 — Revisión de documentación antes de codificar**  
-Codificar sin entender completamente lo que se pide es la causa más frecuente de retrabajo. IEEE 12207:2017, en su proceso de implementación, requiere que los insumos de entrada estén verificados antes de iniciar la construcción. Esto no significa que el documento sea perfecto, sino que el programador y el líder coincidan en qué se va a construir.
+Codificar sin entender completamente lo que se pide es la causa más frecuente de retrabajo. IEEE 12207:2017 requiere que los insumos de entrada estén verificados antes de iniciar la construcción.
 
 **NT-3 — Repositorio obligatorio desde el inicio**  
-El control de versiones no es opcional en el desarrollo de software profesional. SWEBOK v3 (Gestión de la Configuración del Software) lo trata como un componente básico de cualquier proceso de construcción. Un repositorio permite revertir errores, identificar cuándo se introdujo un defecto, y colaborar sin que los integrantes del equipo se sobreescriban el trabajo.
+El control de versiones no es opcional. SWEBOK v3 (Gestión de la Configuración del Software) lo trata como un componente básico. El uso de un gestor de contraseñas privado protege la infraestructura del equipo.
 
 **NT-4 — Revisión del código existente antes de acoplarse**  
-Acoplarse a código sin entenderlo genera errores de integración que pueden tardar mucho más en resolverse que el tiempo que hubiera tomado entender el código desde el principio.
+Acoplarse a código sin entenderlo genera errores de integración costosos.
 
 **NT-5 — Mensajes de confirmación descriptivos**  
-El historial del repositorio es la memoria del proyecto. IEEE 12207:2017 requiere que los registros de cambio sean comprensibles para cualquier miembro del equipo. Un mensaje claro permite entender qué pasó sin tener que leer todo el código modificado.
+El historial del repositorio es la memoria del proyecto. IEEE 12207:2017 requiere que los registros de cambio sean comprensibles y rastreables (incluyendo folios de tarea).
 
 **NT-6 y NT-7 — Verificación antes de integrar**  
-IEEE 1028-2008 (Estándar para Revisiones e Inspecciones de Software) establece que la revisión del código por otra persona es la práctica más efectiva para detectar defectos antes de que lleguen al cliente. Los defectos encontrados durante la revisión cuestan entre 5 y 10 veces menos de corregir que los encontrados después de entregar. En equipos de una persona, la revisión con tiempo de por medio es la alternativa reconocida en la práctica de ingeniería de software.
+IEEE 1028-2008 establece que la revisión del código por otra persona es la práctica más efectiva para detectar defectos. La inclusión de estándares de nombres explícitos y autodescriptivos facilita esta revisión.
 
 **NT-8 — Concentrar el acceso a datos en una capa específica**  
-Separar la lógica de acceso a datos del resto de la aplicación es uno de los principios de diseño con más respaldo en ingeniería de software. SWEBOK v3 (Diseño del Software) lo incluye como parte de la separación de responsabilidades. En proyectos que crecen, esta separación reduce de forma significativa el costo de mantenimiento, porque un cambio en la base de datos no obliga a modificar código en múltiples lugares del sistema.
+La separación de responsabilidades (SWEBOK v3) reduce de forma significativa el costo de mantenimiento a largo plazo.
 
 ---
 
@@ -282,9 +292,8 @@ Separar la lógica de acceso a datos del resto de la aplicación es uno de los p
 
 [3] IEEE 1028-2008. _Estándar para Revisiones e Inspecciones de Software_. IEEE.
 
-[4] Estándar de Codificación de XookTech. _[por crear]_ — Documento interno que define las convenciones de nombres, estructura de archivos, formato de comentarios y criterios de escritura de código para los proyectos del equipo.
+[4] Estándar de Codificación de XookTech. [[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01]].
 
-[5] Lista de Verificación de Codificación de XookTech. _[por crear]_ — Lista que el programador completa al terminar una tarea para verificar que cumple los criterios mínimos antes de integrar el código.
+[5] Lista de Verificación de Codificación de XookTech. [[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/CL-04-01_Verificacion_Codificacion|CL-04-01]].
 
-----
-*Samuel, Generaro 13 may*
+[6] Registro de Tareas de Desarrollo. [[01-Proyecto/04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo|REG-04-01]].
