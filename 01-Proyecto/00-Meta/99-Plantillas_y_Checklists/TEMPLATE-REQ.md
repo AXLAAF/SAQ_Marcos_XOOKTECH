@@ -1,23 +1,27 @@
 ---
-id: REQ-XX
+id: REQ-XXX
 titulo: [Titulo del Requerimiento]
-version: "1.0"
-estado: Borrador
-prioridad: [Alta / Media / Baja]
-tipo: [Funcional / No Funcional]
-modulo: [Carga / Catalogo / Previsualizacion]
-responsable: Axel Morales
+fecha_creacion: YYYY-MM-DD
 fuente: [[05-Contrato_Desarrollo]] / [[04-Minuta_Entrevista_Recuperacion]]
+estado: Pendiente # (Pendiente | Revisado | Aprobado | Rechazado)
+prioridad: Media # (Alta | Media | Baja)
+tipo: Funcional # (Funcional | No Funcional)
+modulo: Carga # (Carga | Catalogo | Previsualizacion | Pantalla_Secundaria)
+esfuerzo_horas: 0
+criterio_aceptacion: [Criterio medible y verificable]
+fecha_aprobacion: YYYY-MM-DD
+validacion_evidencia: [[Nombre_Archivo_Evidencia.png]]
+responsable: Axel Morales
 ---
 
-# REQ-XX: [Titulo del Requerimiento]
+# REQ-XXX: [Titulo del Requerimiento]
 
 ## 1. Descripcion General
 [Que debe hacer el sistema. Perspectiva del usuario, sin tecnicismos.]
 
 ## 2. Reglas de Negocio
-- RN-XX-01: [Regla cuantificada. Ej: El archivo no puede superar 10 MB.]
-- RN-XX-02: ...
+- RN-XXX-01: [Regla cuantificada. Ej: El archivo no puede superar 10 MB.]
+- RN-XXX-02: ...
 
 ## 3. Precondiciones
 - [Estado del sistema o del actor requerido para iniciar]
@@ -41,10 +45,14 @@ fuente: [[05-Contrato_Desarrollo]] / [[04-Minuta_Entrevista_Recuperacion]]
 ## 7. Restricciones Tecnicas
 - [Ej: Rendimiento < 2s, Formato PNG, etc.]
 
-## 8. Trazabilidad
-- Fuente: [[05-Contrato_Desarrollo]]
-- Casos de Prueba: [[CP-XX_Nombre]]
-- Change Requests: [[CR-XX_Nombre]]
+## 8. Notas adicionales
+- **Dependencias**: [[REQ-YYY]]
+- **Dudas pendientes**: [Lista de interrogantes para el cliente o equipo]
+
+## 9. Trazabilidad
+- **Fuente**: [[05-Contrato_Desarrollo]]
+- **Casos de Prueba**: [[CP-XX_Nombre]]
+- **Change Requests**: [[CR-XX_Nombre]]
 
 ---
 *Ultima actualizacion: {{date}}*
