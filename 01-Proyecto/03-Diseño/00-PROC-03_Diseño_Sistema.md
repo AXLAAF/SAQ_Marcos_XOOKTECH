@@ -49,7 +49,7 @@ tags:
 
 Para recuperar el diseño a partir de lo implementado por el Líder SQA, se deben ejecutar las siguientes actividades específicas:
 
-### 2.1 Auditoría de Estructura de Archivos y Capas
+### 2.1 Revisiòn de Estructura de Archivos y Capas
 
 - **Actividad**: Mapear la jerarquía de carpetas del repositorio para identificar el patrón de diseño real, actualmente una mezcla de Scripting y Capas.
 - **Especificación**: Identificar dónde reside la lógica de **Flask** (rutas), dónde la de **OpenCV** (servicios de visión) y dónde la de **Pillow** (renderizado).
@@ -89,9 +89,9 @@ Dado que no se hizo diseño, hay términos en el código que pueden ser ambiguos
 **NT-3: Auditoría de "Dead Code"**
 Durante la ingeniería inversa, se deben identificar funciones en el repositorio que ya no se usen (código muerto) para limpiar la arquitectura y evitar documentar componentes obsoletos.
 
-## 4. Trazabilidad de Recuperación
+## 4. Recuperacòn 
 
-| Artefacto Generado                 | Fuente de Verdad (GitHub)                | Estado              |
+| Artefacto Generado                 | GitHub                                   | Estado              |
 | :--------------------------------- | :--------------------------------------- | :------------------ |
 | [[01-STD-04_Diagrama_Componentes]] | `app.py` y estructura de carpetas      | En Refactorización |
 | [[02-STD-05_Flujo_Sistema]]        | Lógica de procesamiento en `/process` | En Refactorización |
@@ -100,4 +100,4 @@ Durante la ingeniería inversa, se deben identificar funciones en el repositorio
 ---
 
 *Repositorio Oficial: [Marcos2](https://github.com/Bigsami89/Marcos2)*
-*Estrategia de SQA Universidad v4.0 — 2026-05-14*
+*Analista SQA*
