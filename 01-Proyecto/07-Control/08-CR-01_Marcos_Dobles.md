@@ -1,18 +1,29 @@
 ---
 id: CR-01
 titulo: Change Request - Marcos Dobles
+origen: Acuerdo del cliente recuperado desde WhatsApp y consolidado en ACU-006
+requisito_afectado: [[REQ-07_Marcos_Dobles]]
 estado: Pendiente
 tipo_cambio: Nuevo-Requerimiento
 requerimiento_origen: REQ-07_Marcos_Dobles
 solicitado_por: Cliente (Enmarcame - Cliente)
 fecha_solicitud: 2026-01-15
+prioridad: Alta
 descripcion: El cliente solicito la funcionalidad para que el sistema soporte marcos dobles (dos fotografias o dos espacios para fotos en un mismo marco).
+justificacion: Aumentar las opciones de venta para pedidos con dos fotografias en un solo marco sin tratarlo como alcance original.
+impacto_alcance: Afecta previsualizacion, carga de dos imagenes, reglas de interfaz y trazabilidad del REQ-07.
 impacto_tiempo_dias: 5
 impacto_costo_mxn: 3000
+impacto_calidad: Requiere pruebas de regresion sobre marcos simples y una prueba especifica para doble composicion.
 aprobado_por: ""
 fecha_aprobacion: ""
+evidencia_aprobacion: N/A
+responsable_analisis: Samuel Blanco / Axel Morales
 casos_prueba_requeridos:
   - CP-09_Marco_doble
+artefactos_afectados:
+  - [[REQ-07_Marcos_Dobles]]
+  - [[02-Requisitos/Matriz_Trazabilidad]]
 referencias:
   - REQ-07_Marcos_Dobles
   - "01-Baseline/02-Acuerdos_Cliente.md - ACU-006"
@@ -23,6 +34,8 @@ tags:
 ---
 
 # CR-01: Marcos Dobles
+
+> Registro alineado con [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]].
 
 ## 1. Informacion del Cambio
 
