@@ -1,14 +1,3 @@
----
-id: CP-XX
-titulo: "[Titulo de la Prueba]"
-modulo: "[Carga/Catalogo/Previsualizacion]"
-tipo_prueba: "[Caja Negra / Funcional / Regresion]"
-requerimiento: [[REQ-XX]]
-estado: Pendiente
-prioridad: [Alta/Media/Baja]
-responsable: Analista Técnico
----
-
 # CP-XX: [Titulo de la Prueba]
 
 ## 1. Descripcion de la Prueba

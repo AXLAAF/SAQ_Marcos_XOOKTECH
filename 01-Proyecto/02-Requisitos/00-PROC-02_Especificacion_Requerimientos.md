@@ -1,31 +1,3 @@
----
-id: PROC-02
-titulo: Proceso 2 - Especificacion de Requerimientos
-version: "3.0"
-estado: Activo
-tipo: Proceso
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-05-14
-responsable: Líder SQA (Lider) / Analista Técnico (Desarrollador)
-autor: Analista SQA / Analista Técnico
-disparador: Solicitud de cambio o nueva funcionalidad por parte del cliente
-criterio_entrada: Solicitud documentada en acta, correo o minuta de entrevista
-criterio_salida: Nota de requerimiento en estado "Aprobado" en carpeta 01-Aprobados
-entradas:
-  - [[00-Meta/05-PROC-01_Gestion_Documental]]
-  - [[00-Meta/01-PLAN-01_Accion_SQA]]
-salidas:
-  - REQ-XXX.md (especificacion detallada en 01-Aprobados)
-  - [[02-Requisitos/01-STD-03_Matriz_Trazabilidad]]
-referencias_biblio:
-  - "SWEBOK v4 KA1 - Software Requirements"
-  - "Galin, D. (2004). Software Quality Assurance"
-tags:
-  - meta/proceso
-  - fase/requisitos
-  - tipo/proceso
-  - estado/activo
----
 
 # Proceso 2 — Especificación de Requerimientos
 
@@ -71,6 +43,3 @@ tags:
 - **Tiempo de Ciclo**: ≤ 5 días hábiles.
 - **Calidad**: 100% de REQ con criterios medibles.
 - **Formalidad**: 100% con evidencia adjunta.
-
----
-*Refinamiento: Analista SQA (2026-05-13) | Integracion de Gobernanza: Analista Técnico (2026-05-14)*

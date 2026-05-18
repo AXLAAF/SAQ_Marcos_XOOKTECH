@@ -1,30 +1,3 @@
----
-id: CP-13
-titulo: Proyeccion en pantalla secundaria
-modulo: Pantalla_Secundaria
-tipo_prueba: Sistema
-requerimiento: REQ-10_Pantalla_Secundaria
-version_sistema: "1.0"
-estado: Pendiente
-entrada: Pantalla secundaria conectada
-precondiciones: Sistema iniciado, TV/monitor secundario conectado
-pasos:
-  - 1. Conectar pantalla secundaria (TV via HDMI)
-  - 2. Iniciar el sistema
-  - 3. Seleccionar proyectar en pantalla secundaria
-resultado_esperado: La previsualizacion aparece en la pantalla secundaria
-resultado_actual: ""
-paso_fallo: ""
-severidad_defecto: ""
-fecha_ejecucion: ""
-responsable: ""
-tags:
-  - cp/pendiente
-  - modulo/pantalla-secundaria
-  - req/pendiente
-  - scope-creep
----
-
 # CP-13: Proyeccion en pantalla secundaria
 
 ## 1. Informacion del Caso de Prueba
@@ -72,7 +45,7 @@ Verificar que el sistema puede proyectar la previsualizacion en una pantalla sec
 
 - Requerimiento: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-10_Pantalla_Secundaria]] - CA-01
 - Change Request: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-04_Pantalla_Secundaria]]
-- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
+- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01-Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
 
 ---
 

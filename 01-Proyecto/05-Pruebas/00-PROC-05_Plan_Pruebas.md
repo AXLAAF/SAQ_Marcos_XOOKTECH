@@ -1,33 +1,3 @@
----
-id: PROC-05
-titulo: Proceso 5 - Plan de Pruebas (Ciclo PDCA)
-version: "2.0"
-estado: Activo
-tipo: Proceso
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-05-14
-responsable: Analista Técnico
-autor: Analista Técnico / Líder SQA
-disparador: Requerimientos y arquitectura completados (PROC-02, PROC-03)
-criterio_entrada: REQ profunda validados + Arquitectura (Flask/OpenCV) documentada.
-criterio_salida: 100% Casos de prueba ejecutados y verificados contra el código real.
-entradas:
-  - [[02-Requisitos/00-PROC-02_Especificacion_Requerimientos]]
-  - [[03-Diseño/00-PROC-03_Diseño_Sistema]] (Arquitectura Técnica)
-  - [[04-Codificacion/00-PROC-04_Codificacion]] (Entorno de Código)
-salidas:
-  - [[05-Pruebas/01-PLAN-02_Plan_Maestro_Pruebas]]
-  - [[07-Control/02-REG-03_Registro_Defectos]]
-referencias_biblio:
-  - "Lewis, W. E. (2004). Software Testing and Continuous Quality Improvement."
-  - "SWEBOK v4 KA5 - Software Testing"
-tags:
-  - meta/proceso
-  - fase/pruebas
-  - tipo/proceso
-  - estado/activo
----
-
 # Proceso 5 — Plan de Pruebas (Ciclo PDCA)
 
 > **Fundamentación**: Siguiendo a Lewis (2004), el aseguramiento de la calidad mediante pruebas requiere un enfoque sistemático **PDCA**. Para el Visualizador de Marcos, las pruebas se centran en la precisión de los algoritmos de **OpenCV** para la detección de dimensiones y la fidelidad del renderizado con **Pillow**.

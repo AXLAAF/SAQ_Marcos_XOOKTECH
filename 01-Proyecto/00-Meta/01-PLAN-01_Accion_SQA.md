@@ -1,28 +1,3 @@
----
-id: META-00
-titulo: Plan de Accion - Sistema Visualizador de Marcos
-version: "2.1"
-estado: En_Progreso
-tipo: Plan
-fecha_creacion: 2026-03-16
-ultima_revision: 2026-05-12
-responsable: Analista Técnico
-equipo:
-  - Analista Técnico (Estrategia y Verificacion)
-  - Líder SQA (Implementacion y Operaciones)
-  - Analista SQA (Analisis y Control de Calidad)
-proyecto: Visualizador de Marcos
-cliente: Enmarcame
-referencias:
-  - SWEBOK v4
-  - O'Regan - A Practical Approach to Software Quality
-  - Lewis - Software Testing and Continuous Quality Improvement
-  - meta/plan
-  - proyecto
-  - requerimientos
-  - calidad-software
----
-
 # Dashboard de Control del Proyecto - Visualizador de Marcos
 
 > **Proposito**: Monitorear el progreso de las 8 fases del proyecto bajo el modelo de calidad SQA y rigor ETVX.
@@ -35,12 +10,12 @@ referencias:
 | Fase | Proceso Asociado | Responsable | Estado | Entregable Clave |
 | :--- | :--- | :--- | :---: | :--- |
 | **Fase 1: Linea Base** | [[00-PROC-01_Recuperacion_Linea_Base]] | Analista Técnico | 🟢 | [[02-Propuesta_Recuperada]] |
-| **Fase 2: Requisitos** | [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/PROC-02_Especificacion_Requerimientos]] | Carlos | 🟡 | [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-01_Carga_Imagen]] |
+| **Fase 2: Requisitos** | [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/PROC-02_Especificacion_Requerimientos]] | Analista de Requerimientos | 🟡 | [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-01_Carga_Imagen]] |
 | **Fase 3: Diseño** | [[00-PROC-03_Diseño_Sistema]] | Analista Técnico | ⚪ | [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/03-Diseño/01-Diagrama_Componentes]] |
 | **Fase 4: Codificacion** | [[00-PROC-04_Codificacion]] | Líder SQA | ⚪ | Modulos Python / GitHub |
 | **Fase 5: Pruebas** | [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/PROC-05_Plan_Pruebas]] | Analista Técnico | 🟡 | [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]] |
 | **Fase 6: Mantenimiento** | [[06-Mantenimiento/00-PROC-06_Mantenimiento]] | Líder SQA | ⚪ | [[06-Mantenimiento/MNT-01_Plan_Soporte]] |
-| **Fase 7: Control** | [[00-PROC-07_Control]] | Carlos | 🟡 | [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/00-Dashboard_Calidad]] |
+| **Fase 7: Control** | [[00-PROC-07_Control]] | Analista de Requerimientos | 🟡 | [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/00-Dashboard_Calidad]] |
 | **Fase 8: Despliegue** | [[08-Despliegue/00-PROC-08_Despliegue]] | Líder SQA | ⚪ | [[08-Despliegue/DESP-01_Guia_Instalacion]] |
 
 *Leyenda: ⚪ Pendiente | 🟡 En Progreso | 🟢 Completado*
@@ -64,7 +39,7 @@ referencias:
 > Asignacion de prioridades antes de la revision. Objetivos; eliminar agujetos tecnicos y verificar la escritura de los documentos.
 
 1. **Sistematizar Procesos 04, 06 y 08**: Líder SQA debe documentar la estrategia de codificacion, mantenimiento y despliegue.
-2. **Cerrar Trazabilidad (RTM)**: Carlos debe vincular REQ -> Control para asegurar que no hay huecos en la auditoria.
+2. **Cerrar Trazabilidad (RTM)**: Analista de Requerimientos debe vincular REQ -> Control para asegurar que no hay huecos en la auditoria.
 3. **Ejecutar Casos de Prueba (CP)**: Analista Técnico debe capturar evidencia real del prototipo en la carpeta `05-Pruebas`.
 
 ---
@@ -81,6 +56,3 @@ referencias:
 - [[PLAN-FINAL_SQA]] — Plan de trabajo detallado por integrante.
 - [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/03 - Reportes/20- verificación de las fases de diseño lógico, físico, de unidad de programa y de la fase de codificación]] — Base para Verificacion (V&V).
 - [[03-Convenciones_y_Tags]] — Reglas de nomenclatura y jerarquia.
-
----
-*Ultima actualizacion: 2026-05-12 — Analista Técnico (SQA Lead)*

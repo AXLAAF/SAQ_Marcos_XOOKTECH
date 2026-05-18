@@ -1,34 +1,3 @@
----
-id: REQ-07
-titulo: Marcos Dobles
-version: "1.0"
-estado: Pendiente
-prioridad: Alta
-tipo: Funcional
-modulo: Previsualizacion
-fecha_creacion: 2026-03-23
-ultima_revision: 2026-03-23
-responsable: Líder SQA
-fuente: Solicitud del cliente (Enmarcame)
-criterios_aceptacion:
-  - CA-01: El sistema permite seleccionar dos imagenes para un marco doble
-  - CA-02: El sistema muestra dos espacios de foto en la previsualizacion
-  - CA-03: El usuario puede definir el tamano de cada espacio individualmente
-  - CA-04: El marco doble se renderiza correctamente en 3D
-dependencias:
-  - REQ-02_Previsualizacion_Marco
-change_requests:
-  - CR-01_Marcos_Dobles
-casos_prueba:
-  - CP-09_Marco_doble
-referencias_biblio:
-  - SWEBOK v4 KA1 - Requisitos Funcionales
-tags:
-  - req/funcional
-  - modulo/previsualizacion
-  - req/pendiente
-  - scope-creep
----
 
 # REQ-07: Marcos Dobles
 
@@ -97,9 +66,3 @@ El sistema debe permitir la previsualizacion de marcos dobles, es decir, marcos 
 
 - Casos de Prueba: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-03_Previsualizacion/CP-09_Marco_doble]]
 - Change Requests: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-01_Marcos_Dobles]] (Pendiente de aprobacion)
-
----
-
-*Requerimiento creado: 2026-03-23 | Estado: Pendiente - No aprobado formalmente*
-*Referencia: [[02-Acuerdos_Cliente]] - ACU-006*
-*Este es un requerimiento de Scope Creep - necesita aprobacion formal del cliente*

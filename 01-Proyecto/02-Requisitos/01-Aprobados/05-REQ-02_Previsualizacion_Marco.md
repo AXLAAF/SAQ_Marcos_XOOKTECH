@@ -1,34 +1,3 @@
----
-id: REQ-02
-titulo: Previsualizacion del Marco sobre la Foto
-version: "1.0"
-estado: Implementado
-prioridad: Alta
-tipo: Funcional
-modulo: Previsualizacion
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-03-19
-responsable: Líder SQA
-fuente: Entrevista con cliente, Propuesta recuperada
-criterios_aceptacion:
-  - CA-01: El sistema superpone el marco seleccionado sobre la foto del cliente
-  - CA-02: Las proporciones del marco coinciden con las dimensiones reales
-  - CA-03: El renderizado 3D se actualiza en menos de 2 segundos
-  - CA-04: El usuario puede cambiar de marco y ver la actualizacion en tiempo real
-dependencias:
-  - REQ-01_Carga_Imagen
-  - REQ-03_Generacion_Marcos_3D
-change_requests: []
-casos_prueba:
-  - CP-08_Marco_simple
-  - CP-12_Proporciones
-referencias_biblio:
-  - SWEBOK v4 KA1 sec 4.5
-tags:
-  - req/funcional
-  - modulo/previsualizacion
-  - req/implementado
----
 
 # REQ-02: Previsualizacion del Marco sobre la Foto
 
@@ -98,8 +67,3 @@ Una vez que el cliente ha subido su foto y seleccionado un marco del catalogo, e
 
 - Casos de Prueba: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-03_Previsualizacion/CP-08_Marco_simple]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-03_Previsualizacion/CP-12_Proporciones]]
 - Change Requests: No aplica
-
----
-
-*Requerimiento creado: 2026-03-19 | Ultima actualizacion: 2026-03-19*
-*Referencia: [[01-Propuesta_Recuperada]], [[04-Minuta_Entrevista_Recuperacion]]

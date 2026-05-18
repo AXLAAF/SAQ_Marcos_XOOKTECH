@@ -1,31 +1,3 @@
----
-id: CP-11
-titulo: Previsualizacion con Maria Luisa
-modulo: Previsualizacion
-tipo_prueba: Sistema
-requerimiento: REQ-09_Maria_Luisa
-version_sistema: "1.0"
-estado: Pendiente
-entrada: Foto cargada + marco seleccionado + Maria Luisa
-precondiciones: Previsualizacion activa, catalogo de ML disponible
-pasos:
-  - 1. Cargar foto del cliente
-  - 2. Seleccionar un marco
-  - 3. Seleccionar una Maria Luisa
-  - 4. Observar la previsualizacion
-resultado_esperado: La previsualizacion muestra la Maria Luisa alrededor de la foto
-resultado_actual: ""
-paso_fallo: ""
-severidad_defecto: ""
-fecha_ejecucion: ""
-responsable: ""
-tags:
-  - cp/pendiente
-  - modulo/previsualizacion
-  - req/pendiente
-  - scope-creep
----
-
 # CP-11: Previsualizacion con Maria Luisa
 
 ## 1. Informacion del Caso de Prueba
@@ -72,7 +44,7 @@ Verificar que la seleccion de Maria Luisa se rendered correctamente en la previs
 
 - Requerimiento: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-09_Maria_Luisa]]
 - Change Request: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-03_Maria_Luisa]]
-- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
+- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01-Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
 
 ---
 

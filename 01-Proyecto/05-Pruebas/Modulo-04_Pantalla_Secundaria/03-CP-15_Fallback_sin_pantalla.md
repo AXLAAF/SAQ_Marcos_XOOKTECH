@@ -1,29 +1,3 @@
----
-id: CP-15
-titulo: Fallback cuando no hay pantalla secundaria
-modulo: Pantalla_Secundaria
-tipo_prueba: Sistema
-requerimiento: REQ-10_Pantalla_Secundaria
-version_sistema: "1.0"
-estado: Pendiente
-entrada: Sin pantalla secundaria conectada
-precondiciones: Sistema iniciado, NO hay pantalla secundaria
-pasos:
-  - 1. Iniciar el sistema sin pantalla secundaria
-  - 2. Usar la aplicacion normalmente
-resultado_esperado: El sistema funciona normalmente en pantalla principal
-resultado_actual: ""
-paso_fallo: ""
-severidad_defecto: ""
-fecha_ejecucion: ""
-responsable: ""
-tags:
-  - cp/pendiente
-  - modulo/pantalla-secundaria
-  - req/pendiente
-  - scope-creep
----
-
 # CP-15: Fallback cuando no hay pantalla secundaria
 
 ## 1. Informacion del Caso de Prueba
@@ -68,7 +42,7 @@ Verificar que el sistema funciona correctamente cuando NO hay pantalla secundari
 
 - Requerimiento: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-10_Pantalla_Secundaria]] - CA-03, RN-10-01
 - Change Request: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-04_Pantalla_Secundaria]]
-- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
+- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01-Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
 
 ---
 

@@ -1,31 +1,3 @@
----
-id: CP-09
-titulo: Previsualizacion de marco doble
-modulo: Previsualizacion
-tipo_prueba: Sistema
-requerimiento: REQ-07_Marcos_Dobles
-version_sistema: "1.0"
-estado: Pendiente
-entrada: Dos fotos de cliente + seleccion de marco doble
-precondiciones: Imagenes cargadas, marco doble seleccionado
-pasos:
-  - 1. Cargar primera foto del cliente
-  - 2. Cargar segunda foto del cliente
-  - 3. Seleccionar un marco doble
-  - 4. Observar la previsualizacion
-resultado_esperado: La previsualizacion muestra ambas fotos en el marco doble
-resultado_actual: ""
-paso_fallo: ""
-severidad_defecto: ""
-fecha_ejecucion: ""
-responsable: ""
-tags:
-  - cp/pendiente
-  - modulo/previsualizacion
-  - req/pendiente
-  - scope-creep
----
-
 # CP-09: Previsualizacion de marco doble
 
 ## 1. Informacion del Caso de Prueba
@@ -73,7 +45,7 @@ Verificar que la previsualizacion muestra dos fotografias dentro de un marco dob
 
 - Requerimiento: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-07_Marcos_Dobles]]
 - Change Request: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-01_Marcos_Dobles]]
-- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
+- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01-Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
 
 ---
 

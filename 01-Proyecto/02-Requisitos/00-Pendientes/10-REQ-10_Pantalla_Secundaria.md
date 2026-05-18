@@ -1,36 +1,3 @@
----
-id: REQ-10
-titulo: Pantalla Secundaria para Previsualizacion
-version: "1.0"
-estado: Pendiente
-prioridad: Baja
-tipo: Funcional
-modulo: Pantalla_Secundaria
-fecha_creacion: 2026-03-23
-ultima_revision: 2026-03-23
-responsable: Líder SQA
-fuente: Solicitud del cliente (Enmarcame)
-criterios_aceptacion:
-  - CA-01: El sistema puede proyectar la previsualizacion en una segunda pantalla
-  - CA-02: La pantalla secundaria muestra la previsualizacion en tiempo real
-  - CA-03: La sincronizacion entre pantallas es menor a 500ms
-  - CA-04: El sistema funciona correctamente aunque no haya pantalla secundaria
-dependencias:
-  - REQ-02_Previsualizacion_Marco
-change_requests:
-  - CR-04_Pantalla_Secundaria
-casos_prueba:
-  - CP-13_Proyeccion
-  - CP-14_Sync_tiempo_real
-  - CP-15_Fallback_sin_pantalla
-referencias_biblio:
-  - SWEBOK v4 KA1 - Requisitos Funcionales
-tags:
-  - req/funcional
-  - modulo/pantalla-secundaria
-  - req/pendiente
-  - scope-creep
----
 
 # REQ-10: Pantalla Secundaria para Previsualizacion
 
@@ -97,11 +64,4 @@ El sistema debe poder proyectar la previsualizacion en una pantalla secundaria (
 ## 10. Trazabilidad
 
 - Casos de Prueba: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-04_Pantalla_Secundaria/CP-13_Proyeccion]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-04_Pantalla_Secundaria/CP-14_Sync_tiempo_real]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-04_Pantalla_Secundaria/CP-15_Fallback_sin_pantalla]]
-- Change Requests: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-04_Pantalla_Secundaria]] (Pendiente de aprobacion)
-
----
-
-*Requerimiento creado: 2026-03-23 | Estado: Pendiente - No aprobado formalmente*
-*Referencia: [[02-Acuerdos_Cliente]] - ACU-009*
-*Este es un requerimiento de Scope Creep - necesita aprobacion formal del cliente*
-*Prioridad Baja - Requiere inversion adicional en hardware*
+- Change Requests: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-04_Pantalla_Secundaria]] (Pendiente de aprobacion.

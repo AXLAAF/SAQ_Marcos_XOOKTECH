@@ -1,31 +1,3 @@
----
-id: REQ-03
-titulo: Generacion de Marcos 3D desde Texturas Escaneadas
-version: "1.0"
-estado: Implementado
-prioridad: Alta
-tipo: Funcional
-modulo: Python
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-03-19
-responsable: Analista Técnico
-fuente: Propuesta recuperada, Entrevista con equipo
-criterios_aceptacion:
-  - CA-01: El sistema genera modelos 3D a partir de texturas 2D escaneadas
-  - CA-02: El programa Python detecta automaticamente el ancho del marco
-  - CA-03: Los modelos 3D se almacenan en la base de datos para su uso en previsualizacion
-  - CA-04: El proceso de generacion no requiere intervencion manual
-dependencias:
-  - REQ-04_Catalogo_Marcos
-change_requests: []
-casos_prueba: []
-referencias_biblio:
-  - SWEBOK v4 KA1 sec 4.5
-tags:
-  - req/funcional
-  - modulo/python
-  - req/implementado
----
 
 # REQ-03: Generacion de Marcos 3D desde Texturas Escaneadas
 
@@ -95,8 +67,3 @@ El sistema debe poder generar modelos tridimensionales de marcos a partir de ima
 
 - Casos de Prueba: Pendientes de definir en PROC-05
 - Change Requests: No aplica
-
----
-
-*Requerimiento creado: 2026-03-19 | Ultima actualizacion: 2026-03-19*
-*Referencia: [[01-Propuesta_Recuperada]]

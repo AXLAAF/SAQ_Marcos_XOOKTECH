@@ -1,34 +1,3 @@
----
-id: REQ-09
-titulo: Maria Luisa (Marco Decorativo Interno)
-version: "1.0"
-estado: Pendiente
-prioridad: Media
-tipo: Funcional
-modulo: Previsualizacion
-fecha_creacion: 2026-03-23
-ultima_revision: 2026-03-23
-responsable: Líder SQA
-fuente: Solicitud del cliente (Enmarcame)
-criterios_aceptacion:
-  - CA-01: El cliente puede seleccionar diferentes tipos de Maria Luisa
-  - CA-02: La Maria Luisa se muestra en la previsualizacion rodeando la foto
-  - CA-03: El catalogo de Maria Luisas es independiente del catalogo de marcos
-  - CA-04: Las Maria Luisas tienen opciones de color y estilo
-dependencias:
-  - REQ-02_Previsualizacion_Marco
-change_requests:
-  - CR-03_Maria_Luisa
-casos_prueba:
-  - CP-11_Maria_Luisa
-referencias_biblio:
-  - SWEBOK v4 KA1 - Requisitos Funcionales
-tags:
-  - req/funcional
-  - modulo/previsualizacion
-  - req/pendiente
-  - scope-creep
----
 
 # REQ-09: Maria Luisa (Marco Decorativo Interno)
 
@@ -97,9 +66,3 @@ El sistema debe permitir al cliente seleccionar una Maria Luisa (marco decorativ
 
 - Casos de Prueba: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-03_Previsualizacion/CP-11_Maria_Luisa]]
 - Change Requests: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-03_Maria_Luisa]] (Pendiente de aprobacion)
-
----
-
-*Requerimiento creado: 2026-03-23 | Estado: Pendiente - No aprobado formalmente*
-*Referencia: [[02-Acuerdos_Cliente]] - ACU-008*
-*Este es un requerimiento de Scope Creep - necesita aprobacion formal del cliente*

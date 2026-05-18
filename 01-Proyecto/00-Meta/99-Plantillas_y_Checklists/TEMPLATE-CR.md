@@ -1,30 +1,3 @@
----
-id: CR-XXX
-titulo: [Titulo del cambio]
-origen: [WhatsApp / correo / minuta / reunion]
-requisito_afectado: [[REQ-XXX_Nombre]]
-estado: Pendiente # (Pendiente | En_Analisis | Aprobado | Rechazado | Implementado)
-tipo_cambio: Modificacion # (Nuevo_Requerimiento | Modificacion | Correccion | Eliminacion)
-solicitado_por: [Cliente o integrante]
-fecha_solicitud: YYYY-MM-DD
-prioridad: Media # (Alta | Media | Baja)
-descripcion: [Resumen breve del cambio solicitado]
-justificacion: [Motivo de negocio o tecnico]
-impacto_alcance: [Modulos, documentos o acuerdos afectados]
-impacto_tiempo_dias: 0
-impacto_costo_mxn: 0
-impacto_calidad: [Riesgos, pruebas o deuda tecnica esperada]
-aprobado_por: ""
-fecha_aprobacion: ""
-evidencia_aprobacion: N/A
-responsable_analisis: Samuel Blanco / Axel Morales
-casos_prueba_requeridos:
-  - [[CP-XX_Nombre]]
-artefactos_afectados:
-  - [[REQ-XXX_Nombre]]
-  - [[02-Requisitos/Matriz_Trazabilidad]]
----
-
 # CR-XXX: [Titulo del cambio]
 
 > **Proceso relacionado**: [[07-Control/PROC-03_Control_Cambios]]
@@ -72,5 +45,3 @@ artefactos_afectados:
 | 1.0 | YYYY-MM-DD | [Nombre] | Creacion inicial |
 
 ---
-
-*Ultima actualizacion: {{date}}*

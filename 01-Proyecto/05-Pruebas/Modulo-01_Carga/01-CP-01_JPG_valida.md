@@ -1,80 +1,45 @@
----
-id: CP-01
-titulo: Carga de imagen JPG valida
-modulo: Carga
-tipo_prueba: Sistema
-requerimiento: REQ-01_Carga_Imagen
-version_sistema: "1.0"
-estado: Pendiente
-entrada: Archivo JPG de 2MB
-precondiciones: Sistema iniciado, pagina de carga visible
-pasos:
-  - 1. Hacer click en boton "Subir imagen"
-  - 2. Seleccionar archivo JPG valido
-  - 3. Confirmar seleccion
-resultado_esperado: La imagen se carga correctamente y aparece en el canvas de previsualizacion
-resultado_actual: ""
-paso_fallo: ""
-severidad_defecto: ""
-fecha_ejecucion: ""
-responsable: ""
-tags:
-  - cp/pendiente
-  - modulo/carga
-  - req/funcional
----
+# CP-01: Validación de formato de imagen (Happy Path)
 
-# CP-01: Carga de imagen JPG valida
-
-## 1. Informacion del Caso de Prueba
+## 1. Información del Caso de Prueba
 
 | Campo | Valor |
 |-------|-------|
 | **ID** | CP-01 |
-| **Modulo** | Carga (Modulo-01) |
-| **Tipo de Prueba** | Sistema |
-| **Requerimiento** | [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-01_Carga_Imagen]] |
+| **Módulo** | Carga de Imagen (Modulo-01) |
+| **Tipo de Prueba** | Integración / API |
+| **Requerimiento** | [[02-Requisitos/01-Aprobados/01-REQ-01_Carga_Imagen\|REQ-01: Carga de Imagen]] |
+| **Prioridad** | Alta |
 | **Estado** | Pendiente |
 
-## 2. Descripcion
+## 2. Descripción
 
-Verificar que el sistema permite cargar correctamente una imagen en formato JPG valida.
+Verificar que el servidor **Flask** acepta y procesa correctamente archivos de imagen en formato JPG, retornando un código de estado `200 OK` y el path temporal de la imagen.
 
-## 3. Datos de Prueba
+## 3. Criterios de Aceptación
 
-| Campo | Valor |
-|-------|-------|
-| Archivo de entrada | `test_foto_cliente.jpg` |
-| Tamano | 2 MB |
-| Formato | JPG |
-| Resolucion | 1920x1080 |
+- **CA-01-01**: El sistema permite seleccionar un archivo .jpg desde el explorador.
+- **CA-01-02**: El endpoint `/upload` procesa la petición sin errores de servidor.
 
-## 4. Pasos de Ejecucion
+## 4. Pasos de Ejecución
 
-1. Acceder a la pagina principal del sistema
-2. Localizar el boton "Subir imagen" o area de arrastre
-3. Hacer click en el boton o arrastrar el archivo
-4. Seleccionar el archivo `test_foto_cliente.jpg`
-5. Confirmar la seleccion
+1. Iniciar el servidor Flask localmente.
+2. Abrir la interfaz web en `http://localhost:5000`.
+3. Hacer clic en "Subir Imagen" y seleccionar un archivo `test.jpg` (2MB).
+4. Monitorear la consola del servidor y la pestaña "Network" del navegador.
 
 ## 5. Resultado Esperado
 
-- La imagen se muestra en el canvas de previsualizacion
-- No se muestra mensaje de error
-- El indicador de carga desaparece
-- La imagen mantiene su calidad original
+- **Navegador**: Muestra la previsualización de la imagen cargada.
+- **Servidor (Log)**: `POST /upload 200 OK`.
+- **API Response**: `{ "status": "success", "filename": "temp_test.jpg" }`.
 
-## 6. Criterios de Exito
+## 6. Verificación de Éxito
 
-- [ ] La imagen se carga exitosamente
-- [ ] No se muestran errores en consola
-- [ ] La imagen es visible en el canvas
+- [ ] La imagen se visualiza en el Canvas.
+- [ ] No hay errores de tipo MIME en el log de Flask.
+- [ ] La interfaz permanece estable.
 
 ## 7. Trazabilidad
 
-- Requerimiento: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-01_Carga_Imagen]]
-- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
-
----
-
-*Caso de prueba creado: 2026-03-23*
+- **Plan Maestro**: [[05-Pruebas/01-PLAN-02_Plan_Maestro_Pruebas\|PLAN-02]]
+- **Diseño**: [[03-Diseño/01-Ingenieria_Arquitectura/01-STD-04_Diagrama_Componentes\|STD-04]]

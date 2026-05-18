@@ -1,32 +1,3 @@
----
-id: REQ-06
-titulo: Datos del Catalogo de Marcos
-version: "1.0"
-estado: Implementado
-prioridad: Alta
-tipo: Funcional
-modulo: Base de Datos
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-03-19
-responsable: Analista Técnico
-fuente: Propuesta recuperada, Acuerdos con el cliente
-criterios_aceptacion:
-  - CA-01: El catalogo incluye la clave de cada marco
-  - CA-02: El catalogo incluye las dimensiones (ancho, alto)
-  - CA-03: El catalogo incluye la textura del marco
-  - CA-04: El catalogo incluye la forma 3D del marco
-  - CA-05: El catalogo contiene aproximadamente 1000 marcos
-dependencias:
-  - REQ-03_Generacion_Marcos_3D
-change_requests: []
-casos_prueba: []
-referencias_biblio:
-  - SWEBOK v4 KA1 sec 4.5
-tags:
-  - req/funcional
-  - modulo/base-datos
-  - req/implementado
----
 
 # REQ-06: Datos del Catalogo de Marcos
 
@@ -92,8 +63,3 @@ El catalogo de marcos debe contener toda la informacion necesaria para que el si
 
 - Casos de Prueba: Pendientes de definir en PROC-05
 - Change Requests: No aplica
-
----
-
-*Requerimiento creado: 2026-03-19 | Ultima actualizacion: 2026-03-19*
-*Referencia: [[01-Propuesta_Recuperada]], [[02-Acuerdos_Cliente]]

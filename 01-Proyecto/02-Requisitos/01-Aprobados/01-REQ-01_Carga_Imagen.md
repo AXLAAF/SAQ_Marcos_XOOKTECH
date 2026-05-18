@@ -1,33 +1,3 @@
----
-id: REQ-01
-titulo: Carga de Imagen del Cliente
-version: "1.0"
-estado: Implementado
-prioridad: Alta
-tipo: Funcional
-modulo: Carga
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-03-19
-responsable: Analista Técnico
-fuente: Entrevista con cliente, Propuesta recuperada
-criterios_aceptacion:
-  - CA-01: El sistema acepta imagenes en formato JPG hasta 10 MB
-  - CA-02: El sistema acepta imagenes en formato PNG hasta 10 MB
-  - CA-03: El sistema rechaza archivos que no sean imagenes con mensaje claro
-  - CA-04: El sistema comprime imagenes mayores a 5 MB para optimizar rendimiento
-dependencias: []
-change_requests: []
-casos_prueba:
-  - CP-01_JPG_valida
-  - CP-02_Archivo_invalido
-  - CP-03_Imagen_grande
-referencias_biblio:
-  - SWEBOK v4 KA1 sec 4.5
-tags:
-  - req/funcional
-  - modulo/carga
-  - req/implementado
----
 # REQ-01: Carga de Imagen del Cliente
 
 ## 1. Descripcion General
@@ -95,8 +65,3 @@ El cliente debe poder subir una fotografia desde la aplicacion web para usarla c
 
 - Casos de Prueba: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-01_Carga/CP-01_JPG_valida]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-01_Carga/CP-02_Archivo_invalido]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-01_Carga/CP-03_Imagen_grande]]
 - Change Requests: No aplica
-
----
-
-*Requerimiento creado: 2026-03-19 | Ultima actualizacion: 2026-03-19*
-*Referencia: [[01-Propuesta_Recuperada]], [[02-Acuerdos_Cliente]]

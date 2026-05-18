@@ -1,41 +1,3 @@
----
-id: PROC-09
-titulo: Proceso 9 - Inspecciones de Calidad
-version: "1.1"
-estado: Activo
-tipo: Proceso
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-05-14
-responsable: Líder SQA
-disparador: Finalizacion de fase o deliverable
-criterio_entrada: Artefacto listo para revision
-criterio_salida: Informe de inspeccion con hallazgos
-entradas:
-  - Requerimientos especificados
-  - Plan de pruebas
-  - Documentos de arquitectura
-salidas:
-  - INS-01_Informe_Inspeccion_Requerimientos.md
-  - INS-02_Informe_Inspeccion_Plan_Pruebas.md
-actividades:
-  - Preparar el material para inspeccion
-  - Conformar el equipo de inspeccion
-  - Realizar la inspeccion (walkthrough o inspection formal)
-  - Documentar hallazgos
-  - Realizar seguimiento de acciones correctivas
-roles:
-  - Lider de inspeccion
-  - Inspectores (2-4 personas)
-  - Autor del artefacto
-referencias_biblio:
-  - "O'Regan Cap. 2 - Inspecciones Fagan"
-  - "SWEBOK v4 KA8 - Procesos de Calidad"
-tags:
-  - meta/proceso
-  - fase/control
-  - tipo/proceso
-  - estado/activo
----
 
 # Proceso 6 — Inspecciones de Calidad
 
@@ -167,7 +129,3 @@ tags:
 - [[02-Convenciones_y_Tags]]
 - [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/INS-01_Inspeccion_Requerimientos]]
 - [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/INS-02_Inspeccion_Plan_Pruebas]]
-
----
-
-*Proceso creado: 2026-03-19 | Ultima actualizacion: 2026-03-19*

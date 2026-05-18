@@ -1,31 +1,3 @@
----
-id: CP-10
-titulo: Previsualizacion con tipo de vidrio
-modulo: Previsualizacion
-tipo_prueba: Sistema
-requerimiento: REQ-08_Tipo_Vidrio
-version_sistema: "1.0"
-estado: Pendiente
-entrada: Foto cargada + marco seleccionado + tipo de vidrio
-precondiciones: Previsualizacion activa, marco seleccionado
-pasos:
-  - 1. Cargar foto del cliente
-  - 2. Seleccionar un marco
-  - 3. Seleccionar tipo de vidrio (antirreflejo)
-  - 4. Observar la previsualizacion
-resultado_esperado: La previsualizacion muestra el efecto del vidrio seleccionado
-resultado_actual: ""
-paso_fallo: ""
-severidad_defecto: ""
-fecha_ejecucion: ""
-responsable: ""
-tags:
-  - cp/pendiente
-  - modulo/previsualizacion
-  - req/pendiente
-  - scope-creep
----
-
 # CP-10: Previsualizacion con tipo de vidrio
 
 ## 1. Informacion del Caso de Prueba
@@ -72,7 +44,7 @@ Verificar que la seleccion de tipo de vidrio se refleja en la previsualizacion.
 
 - Requerimiento: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-08_Tipo_Vidrio]]
 - Change Request: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-02_Tipos_Vidrio]]
-- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
+- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01-Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
 
 ---
 

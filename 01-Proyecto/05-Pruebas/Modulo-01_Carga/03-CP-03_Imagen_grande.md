@@ -1,29 +1,3 @@
----
-id: CP-03
-titulo: Manejo de imagen muy grande
-modulo: Carga
-tipo_prueba: Sistema
-requerimiento: REQ-01_Carga_Imagen
-version_sistema: "1.0"
-estado: Pendiente
-entrada: Archivo JPG de 25MB (tamano excesivo)
-precondiciones: Sistema iniciado, pagina de carga visible
-pasos:
-  - 1. Hacer click en boton "Subir imagen"
-  - 2. Seleccionar archivo JPG de 25MB
-  - 3. Confirmar seleccion
-resultado_esperado: El sistema comprime la imagen o muestra mensaje de tamano excesivo
-resultado_actual: ""
-paso_fallo: ""
-severidad_defecto: ""
-fecha_ejecucion: ""
-responsable: ""
-tags:
-  - cp/pendiente
-  - modulo/carga
-  - req/funcional
----
-
 # CP-03: Manejo de imagen muy grande
 
 ## 1. Informacion del Caso de Prueba
@@ -76,7 +50,7 @@ Verificar que el sistema maneja adecuadamente imagenes que exceden el tamano max
 ## 7. Trazabilidad
 
 - Requerimiento: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-01_Carga_Imagen]] - Criterio de aceptacion CA-03
-- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
+- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01-Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
 
 ---
 

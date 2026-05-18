@@ -1,33 +1,3 @@
----
-id: PROC-08
-titulo: Proceso 8 - Control de Cambios (CR)
-version: "2.0"
-estado: Activo
-tipo: Proceso
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-05-14
-responsable: Líder SQA (Lider) / Analista Técnico (Analisis tecnico)
-autor: Analista SQA / Analista Técnico
-disparador: Solicitud de cambio nueva o ajuste al alcance por parte del cliente o del equipo
-criterio_entrada: Solicitud identificada y registrada en un CR con datos minimos de origen, impacto y responsable
-criterio_salida: CR con estado documentado, evidencia de decision y artefactos actualizados cuando el cambio es aprobado
-entradas:
-  - [[00-Meta/05-PROC-01_Gestion_Documental]]
-  - [[02-Requisitos/00-PROC-02_Especificacion_Requerimientos]]
-  - [[02-Requisitos/01-STD-03_Matriz_Trazabilidad]]
-salidas:
-  - [[07-Control/08-CR-01_Marcos_Dobles]]
-  - [[02-Requisitos/01-STD-03_Matriz_Trazabilidad]]
-referencias_biblio:
-  - "Galin, D. (2004). Software Quality Assurance: From theory to implementation."
-  - "O'Regan, G. (2010). A Practical Approach to Software Quality."
-  - "CMMI-CM (Configuration Management)"
-tags:
-  - meta/proceso
-  - fase/control
-  - tipo/proceso
-  - estado/activo
----
 
 # Proceso 8 - Control de Cambios (Change Requests)
 
@@ -83,6 +53,3 @@ Formalizar toda solicitud de cambio del proyecto **Visualizador de Marcos** para
 - **Registro**: 100% de solicitudes en CR en menos de 24h.
 - **Analisis**: 100% de CR con impacto documentado antes de decision.
 - **Disciplina**: 0 cambios implementados sin CR aprobado.
-
----
-*Refinamiento de Proceso: Analista SQA (2026-05-14) | Integracion de Gobernanza: Analista Técnico (2026-05-14)*

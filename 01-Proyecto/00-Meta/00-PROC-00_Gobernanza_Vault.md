@@ -1,76 +1,97 @@
----
-id: META-01
-titulo: Proceso de Gobernanza del Vault Obsidian (SGC)
-version: "2.0"
-estado: Activo
-tipo: Proceso
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-05-12
-responsable: Analista Técnico
-fuente: SWEBOK v4 KA8, Daniel Galin
-tags:
-  - meta/proceso
-  - gobernanza
----
+# Gobernanza del Sistema de Gestión de Calidad (SGC) -- XookTech
 
-# Metaproceso 0 - Gobernanza del SGC (Vault)
-
-> **Fundamentacion**: Segun Daniel Galin (2004), la infraestructura de SQA (procedimientos y plantillas) garantiza la consistencia. Este metaproceso define las reglas de operacion del Vault bajo el modelo **ETVX** adaptado a 8 procesos principales.
-
-## 1. Estructura del Metaproceso (ETVX)
-
-| Fase | Definicion | Detalles |
-| :--- | :--- | :--- |
-| **[E] Entry** | Criterios de Entrada | Acceso al Vault + [[01-Plan_Accion]] aprobado. |
-| **[T] Tasks** | Tareas Operativas | Gestion de 9 carpetas, aplicacion de plantillas y trazabilidad REQ-DIS-COD-CP. |
-| **[V] Verification** | Verificacion | Auditoria de cumplimiento normativo y revision de tags #estado. |
-| **[X] Exit** | Criterios de Salida | Vault consistente y listo para auditoria final de 18-Entrega. |
-
-## 2. Instrucciones de Operacion (Detalle Tecnico)
-
-### Tarea 0.1: Gestion de Estructura y Auditoria de Jerarquia
-1.  **Escorado Jerarquico**: No se permiten archivos fuera de las carpetas `00` a `09`. Cada carpeta debe tener exactamente un archivo `00-PROC-XX`.
-2.  **Validacion de Prefijos**: Todo archivo nuevo debe ser nombrado siguiendo la tabla en [[03-Convenciones_y_Tags]].
-3.  **Auditoria de Enlaces**: Ejecutar una revision semanal de "Enlaces Rotos" en Obsidian para asegurar que la trazabilidad REQ-DIS-COD-CP no se pierda.
-
-### Tarea 0.2: Estandarizacion via Plantillas y YAML
-1.  **Instanciacion**: Queda prohibido crear notas "en blanco". Se debe copiar el contenido de [[TEMPLATE-REQ]] (si existe una plantilla), o crear la plantilla correspondiente si aun no existe.
-2.  **Creacion de Plantillas Nuevas**: 
-    *   Si un proceso requiere un nuevo tipo de artefacto, se debe crear un archivo en `00-Meta/99-Plantillas_y_Checklists` con el prefijo `TEMPLATE-`.
-    *   La plantilla debe contener el Frontmatter YAML estandarizado (id, version, estado, responsable).
-3.  **Integridad del Frontmatter**: Todo archivo debe tener los campos `id`, `version`, `estado` y `responsable` completados antes de pasar a #estado/verificado.
-
-### Tarea 0.3: Control de Estados y Ciclo de Vida de la Nota
-1.  **Estado/Borrador**: Notas en proceso de redaccion por el responsable.
-2.  **Estado/Verificado**: Nota que ha pasado la checklist de su fase (ej. `CL-02`).
-3.  **Congelacion de Linea Base**: Una vez aprobada, la nota debe subir su version (ej. 1.0 -> 1.1) ante cualquier cambio posterior, registrando el motivo en [[CR-00_Reporte_Cambios_Retroactivo]].
-
-## 3. Ciclo de Vida del SGC (Flujo de Datos)
-
-```mermaid
-graph LR
-    P0[00-Meta] --> P1[01-Linea_Base]
-    P1 --> P2[02-Requisitos]
-    P2 --> P3[03-Diseño]
-    P3 --> P4[04-Codificacion]
-    P4 --> P5[05-Pruebas]
-    P5 --> P6[06-Mantenimiento]
-    P6 --> P8[08-Despliegue]
-    
-    %% Flujo de Control Transversal
-    P2 -.-> P7[07-Control]
-    P4 -.-> P7
-    P5 -.-> P7
-    P7 -->|Metricas/Aprobacion| P8
-```
-
-## 4. Matriz de Entradas y Salidas
-
-| Entrada (Input) | Actividad (Activity) | Salida (Output) |
-| :--- | :--- | :--- |
-| [[03-Convenciones_y_Tags]] | Normalizacion del Vault | Vault estructurado (00-09) |
-| [[02-Estandar_Estructura_Procesos]] | Aplicacion de rigor ETVX | Procesos `00-PROC-XX` |
-| [[TEMPLATE-REQ]] | Estandarizacion | Requerimientos (REQ) |
+**Área de proceso:** 00-Meta
+**Nombre del proceso:** Gobernanza del SGC (Vault Obsidian)
+**Responsable:** Analista de Gobernanza y Diseño (Gobernanza)
+**Entradas:** Estándares ETVX y Convenciones de Nomenclatura
+**Salidas:** Infraestructura documental consistente y auditada
+**Notación:** NT: indica una Nota Técnica con una sugerencia de mejora al proceso actual.
 
 ---
-*Ultima actualizacion: 2026-05-13 | Analista Técnico (Gobernanza)*
+
+> **Antecedente**: Basado en la directiva del profesor (2026-05-18), este proceso evoluciona de una simple gestión de archivos a un **Sistema de Aseguramiento**. Si un artefacto falla la validación, la Gobernanza obliga a la mejora del proceso correspondiente. La fuente de verdad bibliográfica es Daniel Galin y el SWEBOK v4.
+
+---
+
+## Proceso
+
+### 1. Definición de Roles y Responsabilidades
+
+El Sistema de Gestión de Calidad (SGC) se opera bajo una estructura de roles institucionales para asegurar la independencia y el cumplimiento normativo.
+
+**Roles y Responsabilidades Específicas:**
+
+1.  **Analista de Gobernanza y Diseño**:
+    *   **Gobernanza (00)**: Administra el SGC, asegura la integridad del Vault y coordina las auditorías bibliográficas.
+    *   **Diseño (03)**: Ejecuta la ingeniería inversa para recuperar la arquitectura y asegura la sincronización código-diseño.
+    *   **Mantenimiento (06)**: Gestiona el ciclo de vida post-entrega y las auditorías de soporte.
+2.  **Analista de Requerimientos**:
+    *   **Requisitos (02)**: Gestiona la obtención, especificación y validación de necesidades del cliente mediante el estándar IEEE 830.
+3.  **Líder de Desarrollo e Implementación**:
+    *   **Codificación (04)**: Dirige la construcción del software bajo estándares de codificación limpios y trazables.
+    *   **Despliegue (08)**: Asegura la transición segura del código a entornos de producción.
+4.  **Analista de Control y Cambios**:
+    *   **Control (07)**: Gestiona el registro de Solicitudes de Cambio (CR) y audita la trazabilidad entre fases.
+5.  **Analista de Verificación y Pruebas**:
+    *   **Pruebas (05)**: Diseña y ejecuta los planes de prueba (Unitarias, Integración, Sistema) para validar el cumplimiento de los requisitos.
+
+**NT-1:** Todo archivo debe llevar en su Frontmatter el **Rol Responsable** en lugar de nombres propios para cumplir con el estándar organizacional.
+
+---
+
+### 2. Gestión de Estructura y Rigor ETVX
+
+**Actualmente:**
+- Se creaban carpetas sin una separación clara entre el "Hacer" (Ingeniería) y el "Verificar" (Calidad).
+
+**NT-2:** El profesor insiste: "El proceso de ingeniería es qué probar, pero la calidad es verificar el proceso". Se propone la estructura binaria en cada fase.
+
+**Propuesta:**
+- Cada fase de la 02 a la 08 debe contener al menos dos subcarpetas:
+    1. `01-Ingenieria_[Nombre]`: Contiene los artefactos (ej. REQ, STD, MOD).
+    2. `02-Calidad_[Revisiones]`: Contiene la evidencia de validación (ej. CL, HALLAZGO, REG).
+
+---
+
+### 3. Control de Cambios y Congelación de Línea Base
+
+**Actualmente:**
+- Se modificaban los documentos sin dejar rastro del motivo ni del impacto en otras fases.
+
+**NT-3:** El refinamiento de Analista de Requerimientos establece que cualquier cambio post-aprobación es una **Solicitud de Cambio (CR)**. Se propone integrar formalmente su flujo de control.
+
+**Propuesta:**
+- Una vez que un archivo pasa a `#estado/verificado`, se considera "Congelado".
+- Cualquier modificación posterior requiere la creación de un **CR (Change Request)** usando la plantilla `[[TEMPLATE-CR]]`.
+- El cambio debe ser registrado en el historial de versiones del Frontmatter y validado por el responsable de la fase 07.
+
+---
+
+### 4. Ciclo de Mejora Continua (Aseguramiento)
+
+**Actualmente:**
+- Si un hallazgo detectaba un error, solo se corregía el archivo, no la causa raíz.
+
+**NT-4:** Aseguramiento no es Control. Si detectamos un error recurrente, debemos cambiar el **PROC-XX**. Se propone el uso del Registro de Mejora Continua.
+
+**Propuesta:**
+- Al emitir un `[[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-HALLAZGO|HALLAZGO]]`, el responsable debe evaluar si el proceso (`00-PROC-XX`) fue el culpable.
+- Si el proceso es deficiente, se actualiza el proceso y se documenta en el `[[07-Control/REG-01_Mejora_Continua_Procesos|REG-MEJORA]]`.
+
+---
+
+## Artefactos Producidos
+
+| ID | Artefacto | Propósito | Ubicación |
+| :--- | :--- | :--- | :--- |
+| **PROC-00** | Gobernanza Vault | Definir las reglas de operación y roles. | [[00-Meta/00-PROC-00_Gobernanza_Vault\|PROC-00]] |
+| **STD-01** | Estándar ETVX | Definir la estructura de cada proceso. | [[00-Meta/02-STD-01_Estandar_ETVX\|STD-01]] |
+| **STD-02** | Convenciones Tags | Normalizar nombres y etiquetas. | [[00-Meta/03-STD-02_Convenciones_Tags\|STD-02]] |
+| **HALLAZGO** | Hallazgo SQA | Documentar discrepancias bibliográficas. | [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-HALLAZGO\|HALLAZGO]] |
+
+---
+
+## Referencias
+- **Daniel Galin (2004)**: Software Quality Assurance - "Infrastructure for Error Prevention".
+- **SWEBOK v4**: Knowledge Area 10 - Software Engineering Management.
+- **IEEE 12207**: Lifecycle Processes - Quality Management Process.

@@ -1,34 +1,4 @@
----
-id: REQ-04
-titulo: Catalogo de Marcos
-version: "1.0"
-estado: Implementado
-prioridad: Alta
-tipo: Funcional
-modulo: Catalogo
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-03-19
-responsable: Líder SQA
-fuente: Propuesta recuperada, Acuerdos con el cliente
-criterios_aceptacion:
-  - CA-01: El catalogo muestra todos los marcos disponibles con su imagen
-  - CA-02: Cada marco muestra su clave, nombre y categoria
-  - CA-03: El tiempo de carga del catalogo es menor a 3 segundos
-  - CA-04: El catalogo puede mostrar mas de 1000 marcos sin degradar rendimiento
-dependencias: []
-change_requests: []
-casos_prueba:
-  - CP-04_Carga_catalogo
-  - CP-05_Filtro_modelo
-  - CP-06_Filtro_color
-  - CP-07_Filtro_ancho
-referencias_biblio:
-  - SWEBOK v4 KA1 sec 4.5
-tags:
-  - req/funcional
-  - modulo/catalogo
-  - req/implementado
----
+
 
 # REQ-04: Catalogo de Marcos
 
@@ -95,8 +65,3 @@ El sistema debe proporcionar un catalogo completo de marcos disponibles para que
 
 - Casos de Prueba: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-02_Catalogo/CP-04_Carga_catalogo]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-02_Catalogo/CP-05_Filtro_modelo]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-02_Catalogo/CP-06_Filtro_color]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-02_Catalogo/CP-07_Filtro_ancho]]
 - Change Requests: No aplica
-
----
-
-*Requerimiento creado: 2026-03-19 | Ultima actualizacion: 2026-03-19*
-*Referencia: [[01-Propuesta_Recuperada]], [[02-Acuerdos_Cliente]]

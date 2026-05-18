@@ -1,29 +1,3 @@
----
-id: CP-04
-titulo: Carga completa del catalogo de marcos
-modulo: Catalogo
-tipo_prueba: Sistema
-requerimiento: REQ-04_Catalogo_Marcos
-version_sistema: "1.0"
-estado: Pendiente
-entrada: Ninguna (carga inicial)
-precondiciones: Sistema iniciado, conexion a base de datos disponible
-pasos:
-  - 1. Acceder a la seccion Catalogo
-  - 2. Esperar carga de datos
-  - 3. Verificar visualizacion del grid
-resultado_esperado: El catalogo carga todos los marcos disponibles (~1079)
-resultado_actual: ""
-paso_fallo: ""
-severidad_defecto: ""
-fecha_ejecucion: ""
-responsable: ""
-tags:
-  - cp/pendiente
-  - modulo/catalogo
-  - req/funcional
----
-
 # CP-04: Carga completa del catalogo de marcos
 
 ## 1. Informacion del Caso de Prueba
@@ -68,7 +42,7 @@ Verificar que el catalogo de marcos se carga completamente y muestra todos los r
 ## 7. Trazabilidad
 
 - Requerimientos: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-04_Catalogo_Marcos]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-06_Datos_Catalogo]]
-- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
+- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01-Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
 
 ---
 

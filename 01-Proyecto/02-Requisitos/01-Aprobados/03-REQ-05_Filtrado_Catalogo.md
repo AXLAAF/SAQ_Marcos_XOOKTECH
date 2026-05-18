@@ -1,35 +1,3 @@
----
-id: REQ-05
-titulo: Filtrado del Catalogo
-version: "1.0"
-estado: Implementado
-prioridad: Media
-tipo: Funcional
-modulo: Catalogo
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-03-19
-responsable: Líder SQA
-fuente: Propuesta recuperada
-criterios_aceptacion:
-  - CA-01: El cliente puede filtrar por categoria de marco
-  - CA-02: El cliente puede filtrar por color
-  - CA-03: El cliente puede filtrar por rango de ancho
-  - CA-04: Los filtros se pueden combinar
-  - CA-05: El sistema muestra la cantidad de resultados encontrados
-dependencias:
-  - REQ-04_Catalogo_Marcos
-change_requests: []
-casos_prueba:
-  - CP-05_Filtro_modelo
-  - CP-06_Filtro_color
-  - CP-07_Filtro_ancho
-referencias_biblio:
-  - SWEBOK v4 KA1 sec 4.5
-tags:
-  - req/funcional
-  - modulo/catalogo
-  - req/implementado
----
 
 # REQ-05: Filtrado del Catalogo
 
@@ -91,9 +59,5 @@ El sistema debe proporcionar opciones de filtrado para que los clientes puedan e
 ## 10. Trazabilidad
 
 - Casos de Prueba: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-02_Catalogo/CP-05_Filtro_modelo]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-02_Catalogo/CP-06_Filtro_color]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-02_Catalogo/CP-07_Filtro_ancho]]
+
 - Change Requests: No aplica
-
----
-
-*Requerimiento creado: 2026-03-19 | Ultima actualizacion: 2026-03-19*
-*Referencia: [[01-Propuesta_Recuperada]]

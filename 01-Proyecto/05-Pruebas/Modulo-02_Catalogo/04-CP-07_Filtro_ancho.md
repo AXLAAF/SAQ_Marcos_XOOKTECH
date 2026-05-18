@@ -1,29 +1,3 @@
----
-id: CP-07
-titulo: Filtro por ancho de marco
-modulo: Catalogo
-tipo_prueba: Sistema
-requerimiento: REQ-05_Filtrado_Catalogo
-version_sistema: "1.0"
-estado: Pendiente
-entrada: Rango de ancho 30-50 cm
-precondiciones: Catalogo cargado completamente
-pasos:
-  - 1. Acceder a la seccion Catalogo
-  - 2. Ingresar rango de ancho: 30-50 cm
-  - 3. Observar resultados filtrados
-resultado_esperado: Solo se muestran marcos con ancho entre 30 y 50 cm
-resultado_actual: ""
-paso_fallo: ""
-severidad_defecto: ""
-fecha_ejecucion: ""
-responsable: ""
-tags:
-  - cp/pendiente
-  - modulo/catalogo
-  - req/funcional
----
-
 # CP-07: Filtro por ancho de marco
 
 ## 1. Informacion del Caso de Prueba
@@ -70,7 +44,7 @@ Verificar que el filtro por rango de ancho muestra solo los marcos cuyas dimensi
 ## 7. Trazabilidad
 
 - Requerimiento: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-05_Filtrado_Catalogo]] - RN-05-03
-- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
+- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01-Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
 
 ---
 

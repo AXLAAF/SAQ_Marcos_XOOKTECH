@@ -1,19 +1,3 @@
----
-id: PROC-04
-titulo: Proceso de Codificacion e Implementacion
-version: "2.0"
-responsable: Samuel Blanco
-disparador: Aprobacion del Diseño (DIS)
-criterio_entrada: Documento de Diseño (03-Diseño) y Requisitos validados.
-criterio_salida: Codigo fuente cargado en repositorio y listo para pruebas.
-entradas:
-  - "[[Assignments_V2/01-Proyecto/03-Diseño/00-PROC-03_Diseño_Sistema]]"
-  - "[[02-Requisitos/REQ-01]] al REQ-10"
-salidas:
-  - "[[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01: Estandares de Codigo]]"
-  - "Modulo Python: Deteccion de Ancho"
-  - "Interfaz Web: Flask/HTML"
----
 # Proceso de Codificación — XookTech
 
 **Área de proceso:** Desarrollo de Software  

@@ -1,19 +1,3 @@
----
-id: REQ-XXX
-titulo: [Titulo del Requerimiento]
-fecha_creacion: YYYY-MM-DD
-fuente: [[05-Contrato_Desarrollo]] / [[04-Minuta_Entrevista_Recuperacion]]
-estado: Pendiente # (Pendiente | Revisado | Aprobado | Rechazado)
-prioridad: Media # (Alta | Media | Baja)
-tipo: Funcional # (Funcional | No Funcional)
-modulo: Carga # (Carga | Catalogo | Previsualizacion | Pantalla_Secundaria)
-esfuerzo_horas: 0
-criterio_aceptacion: [Criterio medible y verificable]
-fecha_aprobacion: YYYY-MM-DD
-validacion_evidencia: [[Nombre_Archivo_Evidencia.png]]
-responsable: Analista Técnico
----
-
 # REQ-XXX: [Titulo del Requerimiento]
 
 ## 1. Descripcion General
@@ -53,6 +37,3 @@ responsable: Analista Técnico
 - **Fuente**: [[05-Contrato_Desarrollo]]
 - **Casos de Prueba**: [[CP-XX_Nombre]]
 - **Change Requests**: [[CR-XX_Nombre]]
-
----
-*Ultima actualizacion: {{date}}*

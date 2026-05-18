@@ -1,22 +1,3 @@
----
-id: META-04
-titulo: Estandar de Estructura de Procesos (Manual de Instrucciones)
-version: "4.0"
-estado: Activo
-tipo: Estandar
-fecha_creacion: 2026-05-08
-ultima_revision: 2026-05-12
-responsable: Analista Técnico
-referencias_biblio:
-  - "Modelo ETVX (IBM)"
-  - "SWEBOK v4 KA8"
-tags:
-  - meta/estandar
-  - procesos
-  - etvx
-  - instrucciones
----
-
 # Instrucciones para la Estructuracion de Procesos (SGC)
 
 > **Directiva de Calidad**: Todo procedimiento operativo (`00-PROC-XX`) debe ser construido bajo el modelo **ETVX**. El incumplimiento de la profundidad tecnica en los campos detallados a continuacion sera motivo de rechazo en la revision interna.
@@ -59,6 +40,3 @@ Para evitar "huecos" de calidad, esta seccion debe ser prescriptiva:
 
 ## 3. Directiva de Trazabilidad
 - Es obligatorio que el Auditor (Analista Técnico) valide que los enlaces entre REQ, DIS, COD y CP sean bidireccionales y funcionales antes de marcar el proceso como `#estado/verificado`.
-
----
-*Ultima actualizacion: 2026-05-12 | Analista Técnico (SQA chambador)*

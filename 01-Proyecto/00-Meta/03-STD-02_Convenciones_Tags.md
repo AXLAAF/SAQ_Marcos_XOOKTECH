@@ -1,17 +1,3 @@
----
-id: STD-02
-titulo: Estándar de Convenciones y Tags
-version: "2.0"
-estado: Activo
-tipo: Estándar
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-05-13
-responsable: Analista Técnico
-tags:
-  - meta/estandar
-  - gobernanza
----
-
 # STD-02: Estándar de Convenciones y Nomenclatura
 
 > **Propósito**: Garantizar la uniformidad, trazabilidad y automatización de la bóveda de SQA mediante el uso de prefijos estrictos y una jerarquía de etiquetas (tags).
@@ -49,6 +35,3 @@ Todos los documentos técnicos deben incluir el bloque inicial con los campos:
 - `version`: Control de versiones decimal.
 - `responsable`: Persona a cargo.
 - `referencias_biblio`: Alineación con Galin/Lewis/SWEBOK.
-
----
-*Referencia: SQA Universidad 1.0 - Infraestructura de Galin*

@@ -16,6 +16,3 @@
 | [[REQ-08_Tipo_Vidrio]] | Tipo de Vidrio | [[CR-02_Tipos_Vidrio]] | TBD | [[CP-10]] | Pendiente |
 | [[REQ-09_Maria_Luisa]] | Maria Luisa | [[CR-03_Maria_Luisa]] | TBD | [[CP-11]] | Pendiente |
 | [[REQ-10_Pantalla_Secundaria]] | Pantalla Secundaria | [[CR-04_Pantalla_Secundaria]] | TBD | [[CP-13]], [[CP-14]], [[CP-15]] | Pendiente |
-
----
-*Ultima actualizacion: 2026-05-13*

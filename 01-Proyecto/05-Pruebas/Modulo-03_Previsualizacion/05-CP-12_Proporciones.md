@@ -1,30 +1,3 @@
----
-id: CP-12
-titulo: Proporcion correcta de marco con foto
-modulo: Previsualizacion
-tipo_prueba: Sistema
-requerimiento: REQ-02_Previsualizacion_Marco
-version_sistema: "1.0"
-estado: Pendiente
-entrada: Foto con diferentes proporciones + marco
-precondiciones: Previsualizacion activa
-pasos:
-  - 1. Cargar foto cuadrada (1:1)
-  - 2. Seleccionar marco 20x30cm
-  - 3. Observar proporcion
-  - 4. Repetir con foto panoramica (16:9)
-resultado_ellesperado: El marco mantiene proporcion correcta independientemente del tamano de la foto
-resultado_actual: ""
-paso_fallo: ""
-severidad_defecto: ""
-fecha_ejecucion: ""
-responsable: ""
-tags:
-  - cp/pendiente
-  - modulo/previsualizacion
-  - req/funcional
----
-
 # CP-12: Proporcion correcta de marco con foto
 
 ## 1. Informacion del Caso de Prueba
@@ -73,7 +46,7 @@ Verificar que las proporciones del marco se mantienen correctas independientemen
 ## 7. Trazabilidad
 
 - Requerimiento: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-02_Previsualizacion_Marco]] - CA-02
-- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
+- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01-Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
 
 ---
 

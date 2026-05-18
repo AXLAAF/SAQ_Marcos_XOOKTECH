@@ -1,29 +1,3 @@
----
-id: CP-08
-titulo: Previsualizacion de marco simple
-modulo: Previsualizacion
-tipo_prueba: Sistema
-requerimiento: REQ-02_Previsualizacion_Marco
-version_sistema: "1.0"
-estado: Pendiente
-entrada: Foto de cliente cargada + seleccion de marco simple
-precondiciones: Imagen del cliente cargada, catalogo cargado
-pasos:
-  - 1. Cargar foto del cliente
-  - 2. Seleccionar un marco simple del catalogo
-  - 3. Observar la previsualizacion
-resultado_esperado: La previsualizacion muestra la foto del cliente con el marco seleccionado
-resultado_actual: ""
-paso_fallo: ""
-severidad_defecto: ""
-fecha_ejecucion: ""
-responsable: ""
-tags:
-  - cp/pendiente
-  - modulo/previsualizacion
-  - req/funcional
----
-
 # CP-08: Previsualizacion de marco simple
 
 ## 1. Informacion del Caso de Prueba
@@ -72,7 +46,7 @@ Verificar que la previsualizacion 3D renderiza correctamente un marco simple sob
 ## 7. Trazabilidad
 
 - Requerimientos: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-02_Previsualizacion_Marco]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-03_Generacion_Marcos_3D]]
-- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
+- Plan Maestro: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01-Proyecto/05-Pruebas/00-Plan_Maestro_Pruebas]]
 
 ---
 

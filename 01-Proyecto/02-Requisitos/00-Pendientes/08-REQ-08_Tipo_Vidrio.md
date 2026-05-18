@@ -1,34 +1,3 @@
----
-id: REQ-08
-titulo: Tipos de Vidrio
-version: "1.0"
-estado: Pendiente
-prioridad: Media
-tipo: Funcional
-modulo: Previsualizacion
-fecha_creacion: 2026-03-23
-ultima_revision: 2026-03-23
-responsable: Líder SQA
-fuente: Solicitud del cliente (Enmarcame)
-criterios_aceptacion:
-  - CA-01: El cliente puede seleccionar tipo de vidrio (normal, antirreflejo, templo)
-  - CA-02: La previsualizacion muestra el efecto del tipo de vidrio seleccionado
-  - CA-03: El tipo de vidrio se incluye en la orden de compra
-  - CA-04: Cada tipo de vidrio tiene un costo adicional asociado
-dependencias:
-  - REQ-02_Previsualizacion_Marco
-change_requests:
-  - CR-02_Tipos_Vidrio
-casos_prueba:
-  - CP-10_Tipo_vidrio
-referencias_biblio:
-  - SWEBOK v4 KA1 - Requisitos Funcionales
-tags:
-  - req/funcional
-  - modulo/previsualizacion
-  - req/pendiente
-  - scope-creep
----
 
 # REQ-08: Tipos de Vidrio
 
@@ -95,9 +64,3 @@ El sistema debe permitir al cliente seleccionar el tipo de vidrio para su marco.
 
 - Casos de Prueba: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/Modulo-03_Previsualizacion/CP-10_Tipo_vidrio]]
 - Change Requests: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/CR-02_Tipos_Vidrio]] (Pendiente de aprobacion)
-
----
-
-*Requerimiento creado: 2026-03-23 | Estado: Pendiente - No aprobado formalmente*
-*Referencia: [[02-Acuerdos_Cliente]] - ACU-007*
-*Este es un requerimiento de Scope Creep - necesita aprobacion formal del cliente*
