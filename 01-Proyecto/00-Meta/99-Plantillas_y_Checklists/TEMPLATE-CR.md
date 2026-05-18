@@ -27,7 +27,7 @@ artefactos_afectados:
 
 # CR-XXX: [Titulo del cambio]
 
-> **Proceso relacionado**: [[07-Control/PROC-03_Control_Cambios]]
+> **Proceso relacionado**: [[PAC/07-Control/PROC-03_Control_Cambios]]
 
 ## 1. Descripcion General
 [Explique que cambio se solicita, que comportamiento nuevo se espera y cual es el problema actual.]

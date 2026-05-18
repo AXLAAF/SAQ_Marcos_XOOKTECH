@@ -90,7 +90,7 @@ El control de cambios documental debe conectarse con el repositorio del sistema.
 | Entrada | Uso dentro del proceso |
 | :-- | :-- |
 | [[01-Linea_Base/03-Acuerdos_Cliente]] | Delimitar que estaba dentro y fuera del alcance original. |
-| [[02-Requisitos/PROC-02_Especificacion_Requerimientos]] | Identificar el requerimiento afectado y sus criterios de aceptacion. |
+| [[PAC/02-Requisitos/PROC-02_Especificacion_Requerimientos]] | Identificar el requerimiento afectado y sus criterios de aceptacion. |
 | [[02-Requisitos/Matriz_Trazabilidad]] | Revisar relaciones entre REQ, CR y CP antes de aprobar el cambio. |
 | [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]] | Registrar el cambio con formato minimo comun. |
 | Solicitud del cliente o del equipo | Activar el proceso con el contexto inicial del cambio. |
@@ -243,7 +243,7 @@ Aplicacion del proceso en este caso:
 
 ## 12. Integracion con Otros Procesos
 
-- **Requisitos**: Un CR aprobado debe reflejarse en [[02-Requisitos/PROC-02_Especificacion_Requerimientos]] y en el REQ afectado para que los criterios de aceptacion no queden obsoletos.
+- **Requisitos**: Un CR aprobado debe reflejarse en [[PAC/02-Requisitos/PROC-02_Especificacion_Requerimientos]] y en el REQ afectado para que los criterios de aceptacion no queden obsoletos.
 - **Pruebas**: [[05-Pruebas/PROC-05_Plan_Pruebas]] recibe el CR aprobado como entrada para crear o actualizar CP y para definir regresiones necesarias.
 - **Control de versiones**: La implementacion del cambio debe referenciar el ID del CR en el trabajo tecnico del repositorio `Marcos2`, para poder rastrear que se cambio y por que.
 
@@ -275,7 +275,7 @@ Justificacion: Garantiza que lo aprobado, lo implementado y lo probado coincidan
 ## 15. Referencias y Documentos de Apoyo
 
 1. [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]] - Plantilla oficial para registrar cambios.
-2. [[02-Requisitos/PROC-02_Especificacion_Requerimientos]] - Proceso que recibe la actualizacion del alcance aprobado.
+2. [[PAC/02-Requisitos/PROC-02_Especificacion_Requerimientos]] - Proceso que recibe la actualizacion del alcance aprobado.
 3. [[05-Pruebas/PROC-05_Plan_Pruebas]] - Proceso que define los casos de prueba derivados del cambio.
 4. [[02-Requisitos/Matriz_Trazabilidad]] - Registro de relaciones entre REQ, CR y CP.
 5. [[CR-01_Marcos_Dobles]], [[CR-02_Tipos_Vidrio]], [[CR-03_Maria_Luisa]], [[CR-04_Pantalla_Secundaria]] - Casos actuales del proyecto.

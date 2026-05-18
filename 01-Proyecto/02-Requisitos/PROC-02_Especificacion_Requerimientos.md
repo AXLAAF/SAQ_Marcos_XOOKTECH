@@ -31,7 +31,7 @@ notacion: "NT: indica una Nota Técnica con sugerencia de mejora al proceso."
 | :--- | :--- | :--- |
 | **[E] Entry** | Criterios de Entrada | Solicitud capturada en [[04-Minuta_Entrevista]] o canal oficial. |
 | **[T] Tasks** | Tareas Operativas | Fases 1 a 4: Captura, Revisión, Validación y Línea Base. |
-| **[V] Verification** | Verificación de Calidad | Aplicación de [[CL-02_Verificacion_Requerimientos]] + Revision Samuel/Axel. |
+| **[V] Verification** | Verificación de Calidad | Aplicación de [[PAC/02-Requisitos/CL-02_Verificacion_Requerimientos]] + Revision Samuel/Axel. |
 | **[X] Exit** | Criterios de Salida | Archivo movido a `01-Aprobados` con estado "Aprobado". |
 
 ## 2. Proceso Detallado (Actualmente vs Propuesta)
@@ -55,11 +55,11 @@ notacion: "NT: indica una Nota Técnica con sugerencia de mejora al proceso."
 - La redacción es narrativa, sin criterios de aceptación medibles ni ID único.
 - No hay una reunión periódica para revisar el impacto técnico.
 
-**NT-2:** El uso de la [[TEMPLATE-REQ]] es obligatorio para garantizar que cada requisito incluya criterios BDD (Dado/Cuando/Entonces), esfuerzo estimado y prioridad, alineándose con SWEBOK v4.
+**NT-2:** El uso de la [[PAC/02-Requisitos/TEMPLATE-REQ]] es obligatorio para garantizar que cada requisito incluya criterios BDD (Dado/Cuando/Entonces), esfuerzo estimado y prioridad, alineándose con SWEBOK v4.
 
 **Propuesta:**
 - Reunión semanal entre Samuel (Negocio) y Axel (Desarrollo) para detallar la nota.
-- Axel aplica la [[TEMPLATE-REQ]] y define los **Criterios de Aceptación Medibles**.
+- Axel aplica la [[PAC/02-Requisitos/TEMPLATE-REQ]] y define los **Criterios de Aceptación Medibles**.
 - Se estima el esfuerzo en horas y se asigna prioridad.
 - El estado cambia a `Revisado`.
 
@@ -117,8 +117,8 @@ Justificación: Facilita la gestión de la configuración y asegura que el equip
 
 ## 5. Referencias y Documentos de Apoyo
 
-1. [[TEMPLATE-REQ]] - Plantilla Maestra de Requerimiento.
-2. [[CL-02_Verificacion_Requerimientos]] - Checklist de Calidad.
+1. [[PAC/02-Requisitos/TEMPLATE-REQ]] - Plantilla Maestra de Requerimiento.
+2. [[PAC/02-Requisitos/CL-02_Verificacion_Requerimientos]] - Checklist de Calidad.
 3. [[01-Plan_Accion]] - Estrategia temporal del proyecto.
 4. SWEBOK v4 KA1 - Software Requirements.
 

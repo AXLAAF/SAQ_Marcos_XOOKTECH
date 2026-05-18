@@ -70,7 +70,7 @@ tags:
 ### Tarea 5.4: Evaluacion y Mejora (CHECK & ACT)
 1.  **Analizar Fallos**: Determine si el fallo es un error de código, un error de diseño o un requerimiento ambiguo.
 2.  **Reportar Defectos**: Registre cada fallo en el [[01-Registro_Defectos]].
-3.  **Cerrar el Ciclo**: Si un CP falla debido a un requerimiento mal especificado, regrese al [[PROC-02_Especificacion_Requerimientos]] para corregir la base.
+3.  **Cerrar el Ciclo**: Si un CP falla debido a un requerimiento mal especificado, regrese al [[PAC/02-Requisitos/PROC-02_Especificacion_Requerimientos]] para corregir la base.
 
 ## 3. Matriz de Responsabilidades (RACI)
 
@@ -158,7 +158,7 @@ tags:
 
 ## 6. Dependencias
 
-- **Pre-requisito**: [[PROC-02_Especificacion_Requerimientos]], [[PROC-04_Arquitectura_Sistema]]
+- **Pre-requisito**: [[PAC/02-Requisitos/PROC-02_Especificacion_Requerimientos]], [[PROC-04_Arquitectura_Sistema]]
 - **Post-requisito**: [[PROC-06_Inspecciones]]
 
 ## 7. Referencias

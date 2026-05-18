@@ -1,6 +1,6 @@
 # Matriz de Trazabilidad de Requisitos — Visualizador de Marcos
 
-**Proceso relacionado:** [[PROC-02_Especificacion_Requerimientos]]
+**Proceso relacionado:** [[01-Proyecto/02-Requisitos/PROC-02_Especificacion_Requerimientos]]
 **Responsable:** Axel Morales
 **Instrucciones:** Esta tabla vincula cada requerimiento con su fuente, diseño y casos de prueba. Mantener actualizada tras cada aprobacion.
 

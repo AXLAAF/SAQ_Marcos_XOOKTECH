@@ -1,0 +1,1 @@
+## Se separaron los artefactos del proyecto "Visualizador de Marcos" del Plan de Aseguramiento de la Calidad

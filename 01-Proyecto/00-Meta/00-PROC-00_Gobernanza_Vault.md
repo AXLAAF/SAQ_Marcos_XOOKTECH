@@ -34,7 +34,7 @@ tags:
 3.  **Auditoria de Enlaces**: Ejecutar una revision semanal de "Enlaces Rotos" en Obsidian para asegurar que la trazabilidad REQ-DIS-COD-CP no se pierda.
 
 ### Tarea 0.2: Estandarizacion via Plantillas y YAML
-1.  **Instanciacion**: Queda prohibido crear notas "en blanco". Se debe copiar el contenido de [[TEMPLATE-REQ]] (si existe una plantilla), o crear la plantilla correspondiente si aun no existe.
+1.  **Instanciacion**: Queda prohibido crear notas "en blanco". Se debe copiar el contenido de [[01-Proyecto/00-Meta/99-Plantillas_y_Checklists/TEMPLATE-REQ]] (si existe una plantilla), o crear la plantilla correspondiente si aun no existe.
 2.  **Creacion de Plantillas Nuevas**: 
     *   Si un proceso requiere un nuevo tipo de artefacto, se debe crear un archivo en `00-Meta/99-Plantillas_y_Checklists` con el prefijo `TEMPLATE-`.
     *   La plantilla debe contener el Frontmatter YAML estandarizado (id, version, estado, responsable).
@@ -70,7 +70,7 @@ graph LR
 | :--- | :--- | :--- |
 | [[03-Convenciones_y_Tags]] | Normalizacion del Vault | Vault estructurado (00-09) |
 | [[02-Estandar_Estructura_Procesos]] | Aplicacion de rigor ETVX | Procesos `00-PROC-XX` |
-| [[TEMPLATE-REQ]] | Estandarizacion | Requerimientos (REQ) |
+| [[01-Proyecto/00-Meta/99-Plantillas_y_Checklists/TEMPLATE-REQ]] | Estandarizacion | Requerimientos (REQ) |
 
 ---
 *Ultima actualizacion: 2026-05-13 | Axel Morales (Gobernanza)*

@@ -52,10 +52,10 @@ tags:
 >  Verifica que el equipo cuente con las herramientas necesarias para producir documentacion de alta calidad.
 
 - **Plantillas Disponibles**:
-	- [x] [[TEMPLATE-REQ]] (Requerimientos)
+	- [x] [[01-Proyecto/00-Meta/99-Plantillas_y_Checklists/TEMPLATE-REQ]] (Requerimientos)
 	- [x] [[TEMPLATE-CP]] (Casos de Prueba)
 - **Checklists de Verificacion**:
-	- [x] [[CL-02_Verificacion_Requerimientos]]
+	- [x] [[01-Proyecto/00-Meta/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos]]
 - **Gobernanza**:
 	- [x] [[00-PROC-00_Gobernanza_Vault]]
 

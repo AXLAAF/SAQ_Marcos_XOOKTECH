@@ -1,6 +1,6 @@
 Github:https://github.com/Bigsami89/Marcos2
 
-Primir avance de proyecto (instrucciones): 
+Primer avance de proyecto (instrucciones): 
 1. Documenta la estructura organizacional, los roles y responsabilidades del proceso de desarrollo de alguna empresa, departamento o propio.
 
 Para la entrega (en equipo), construye un PDF con las salidas y la explicación de las actividades descritas en el punto 1. Luego, súbelo en el apartado "Sesiones 8, 9 y 10: Primer avance del proyecto" de la sección "Proceso de Administración de la Calidad del Software" del curso "Aseguramiento de la calidad del software" de la plataforma enLinea 2.
