@@ -1,10 +1,10 @@
 # Proceso de Despliegue en Producción -- XookTech
+**Responsable:** Líder de Desarrollo e Implementación
+**Entradas:** Código Fuente Terminado y Paquetes de Software
+**Salidas:** Sistema Desplegado y Guía de Operación
 
 **Área de proceso:** 08-Despliegue
 **Nombre del proceso:** Transición a Entornos Productivos (Release Management)
-**Responsable:** Líder de Desarrollo e Implementación
-**Entradas:** Código en rama main, Plan de Pruebas Exitoso (05) y Dashboard de Calidad aprobado (07).
-**Salidas:** Aplicación Flask operativa, SSL habilitado y Entorno de Producción sellado.
 **Notación:** NT: indica una Nota Técnica con una sugerencia de mejora al proceso actual.
 
 ---
@@ -75,9 +75,9 @@
 
 | ID | Artefacto | Propósito | Ubicación |
 | :--- | :--- | :--- | :--- |
-| **CL-08-01** | Checklist de Despliegue | Lista de verificación final antes de pasar a "En Vivo". | [[08-Despliegue/Documentos_Apoyo/02-Formatos/CL-08-01_Verificacion_Despliegue\|CL-08-01]] |
-| **REG-08-01** | Registro de Entornos | Documentar IP, puertos y versiones del VPS. | [[08-Despliegue/Documentos_Apoyo/01-Registros/REG-08-01_Entornos_Servidores\|REG-08-01]] |
-| **FOR-08-01** | Configuración de Proyecto | Plantilla de variables `.env` y configuraciones Nginx. | [[08-Despliegue/Documentos_Apoyo/02-Formatos/FOR-08-01_Configuracion_Proyecto\|FOR-08-01]] |
+| **CL-08-01** | Checklist de Despliegue | Lista de verificación final antes de pasar a "En Vivo". | [[08-Despliegue/Documentos_Apoyo/02-Formatos/CL-08-01_Verificacion_Despliegue|CL-08-01]] |
+| **REG-08-01** | Registro de Entornos | Documentar IP, puertos y versiones del VPS. | [[08-Despliegue/Documentos_Apoyo/01-Registros/REG-08-01_Entornos_Servidores|REG-08-01]] |
+| **FOR-08-01** | Configuración de Proyecto | Plantilla de variables `.env` y configuraciones Nginx. | [[08-Despliegue/Documentos_Apoyo/02-Formatos/FOR-08-01_Configuracion_Proyecto|FOR-08-01]] |
 
 ---
 

@@ -1,4 +1,9 @@
 # STD-02: Estándar de Convenciones y Nomenclatura
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Estándares ETVX y Gobernanza
+**Salidas:** Vault de Obsidian Auditado y Coherente
+
+---
 
 > **Propósito**: Garantizar la uniformidad, trazabilidad y automatización de la bóveda de SQA mediante el uso de prefijos estrictos y una jerarquía de etiquetas (tags).
 

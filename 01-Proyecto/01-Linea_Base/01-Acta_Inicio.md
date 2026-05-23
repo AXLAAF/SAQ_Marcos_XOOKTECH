@@ -1,4 +1,9 @@
 # Acta de Constitución del Proyecto
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Acuerdos del Cliente e Información Inicial
+**Salidas:** Línea Base del Proyecto Certificada
+
+---
 
 Documento fundacional que autoriza formalmente el proyecto. Define qué se entregará, bajo qué condiciones y limitaciones. Sirve para auditar si el proyecto se desvió de sus compromisos iniciales.
 ## 1. Nombre del Proyecto

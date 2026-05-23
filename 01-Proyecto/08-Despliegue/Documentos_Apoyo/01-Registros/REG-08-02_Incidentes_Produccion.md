@@ -1,7 +1,9 @@
 # REG-08-02: Registro de Incidentes en Producción — XookTech
+**Responsable:** Líder de Desarrollo e Implementación
+**Entradas:** Código Fuente Terminado y Paquetes de Software
+**Salidas:** Sistema Desplegado y Guía de Operación
 
 **Proceso relacionado:** [[00-PROC-08_Despliegue]]
-**Responsable de mantenerlo:** Jefe de Equipo / Programador de Guardia
 **Instrucciones generales:** Registre aquí eventos críticos que afecten la disponibilidad del sistema (caídas de servidor, fallos de infraestructura, brechas de seguridad). Este registro es independiente del de errores de lógica (ERR).
 
 | Folio * (INC-YYYY-NNN) | Fecha y Hora * | Sistema Afectado * | Duración Incidente | Descripción del Incidente * | Acción Inmediata Tomada * | Estado (Abierto/Mitigado/Cerrado) |

@@ -1,4 +1,9 @@
 # Hallazgo de Calidad: Inconsistencia Tecnológica en el Diseño
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Especificación de Requerimientos y Casos de Uso
+**Salidas:** Arquitectura de Componentes y Diseño de Base de Datos
+
+---
 
 ## 1. Referencia (Fundamentación Bibliográfica)
 > Según **Daniel Galin (2004)**, la integridad de la documentación técnica es vital para evitar errores en la fase de mantenimiento.

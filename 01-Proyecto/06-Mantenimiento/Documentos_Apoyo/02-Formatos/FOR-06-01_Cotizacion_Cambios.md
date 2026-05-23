@@ -1,7 +1,9 @@
 # FOR-06-01: Cotización de Cambios — XookTech
+**Responsable:** Líder de Desarrollo e Implementación
+**Entradas:** Manuales de Usuario y Sistema
+**Salidas:** Plan de Soporte y Bitácora de Incidencias
 
 **Proceso relacionado:** [[00-PROC-06_Mantenimiento]]
-**Responsable de elaborarlo:** Jefe de Proyecto
 **Instrucciones:** Utilice este formato para formalizar el alcance, costo y tiempo de una solicitud antes de iniciar el trabajo.
 
 ---

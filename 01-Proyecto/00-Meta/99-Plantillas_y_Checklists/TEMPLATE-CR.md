@@ -1,6 +1,11 @@
 # CR-XXX: [Titulo del cambio]
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Estándares ETVX y Gobernanza
+**Salidas:** Vault de Obsidian Auditado y Coherente
 
-> **Proceso relacionado**: [[07-Control/PROC-03_Control_Cambios]]
+---
+
+> **Proceso relacionado**: [[07-Control/03-PROC-08_Control_Cambios|PROC-08 Control de Cambios]]
 
 ## 1. Descripcion General
 [Explique que cambio se solicita, que comportamiento nuevo se espera y cual es el problema actual.]
@@ -33,8 +38,8 @@
 - **Observaciones de decision**: [Comentarios del cliente o del equipo.]
 
 ## 5. Seguimiento
-- **Casos de prueba requeridos**: [[CP-XX_Nombre]]
-- **Artefactos a actualizar**: [[REQ-XXX_Nombre]], [[02-Requisitos/Matriz_Trazabilidad]]
+- **Casos de prueba requeridos**: [CP-XX_Nombre]
+- **Artefactos a actualizar**: [REQ-XXX_Nombre], [[02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03 Matriz de Trazabilidad]]
 - **Responsable de implementacion**: [Nombre]
 - **Fecha compromiso**: [Fecha objetivo si aplica]
 

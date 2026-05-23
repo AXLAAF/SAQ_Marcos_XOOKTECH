@@ -1,8 +1,10 @@
 # CL-08-01: Lista de Verificación de Despliegue — XookTech
+**Responsable:** Líder de Desarrollo e Implementación
+**Entradas:** Código Fuente Terminado y Paquetes de Software
+**Salidas:** Sistema Desplegado y Guía de Operación
 
 **Proceso relacionado:** [[00-PROC-08_Despliegue]]
 **Cuándo se usa:** Antes de realizar el paso a producción y después de la verificación final.
-**Quién la completa:** Programador responsable / Validado por Jefe de Equipo.
 **Instrucciones:** Marque con [x] cada punto. No proceda con el despliegue si hay puntos críticos (*) pendientes.
 
 ## Antes del Despliegue (Preparación)
@@ -30,4 +32,4 @@
 
 **Validación Final:**
 **Nombre del Jefe de Equipo:** ________________________________  
-**Firma de Autorización:** ________________________________
+**Aprobación:** Autorizado y verificado digitalmente por el rol institucional responsable bajo el Estándar XookTech v2.0.

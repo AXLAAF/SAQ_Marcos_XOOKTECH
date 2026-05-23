@@ -1,29 +1,12 @@
----
-id: PROP-01
-titulo: Propuesta Recuperada - Sistema Visualizador de Marcos
-version: "1.0"
-estado: Completado
-tipo: Propuesta
-fecha_creacion: 2026-03-23
-fecha_recuperacion: 2026-03-23
-responsable: Samuel Blanco
-cliente: Enmarcame (Geronimo)
-equipo:
-  - Jose Samuel Blanco Cervera (Lider tecnico)
-  - Axel Adolfo Morales Caro (Apoyo)
-referencias:
-  - Entrevista_Completada_Proyecto.md
-  - Guia_Entrevista_Proyecto.md
-tags:
-  - propuesta
-  - baseline
-  - alcance
----
-
 # Propuesta Recuperada - Sistema Visualizador de Marcos
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Acuerdos del Cliente e Información Inicial
+**Salidas:** Línea Base del Proyecto Certificada
+
+---
 
 > Documento que reconstruye la propuesta original del proyecto basada en la recuperación de información del equipo y entrevistas. Este documento establece la línea base del alcance original.
-Artefacto de salida del Paso 3 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Base]]. Establece la linea base del alcance original. Entrada para [[02-Requerimientos/PROC-02_Especificacion_Requerimientos]] y [[03-Control_Cambios/PROC-03_Control_Cambios]].
+Artefacto de salida del Paso 3 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Base]]. Establece la linea base del alcance original. Entrada para [[02-Requisitos/00-PROC-02_Especificacion_Requerimientos|PROC-02 Especificación de Requerimientos]] y [[07-Control/00-PROC-07_Control|PROC-07 Gestión de Control]].
 
 ---
 
@@ -214,4 +197,4 @@ Los siguientes items representan trabajo adicional fuera del alcance original y 
 ---
 
 *Documento creado como parte del PROC-01 - Recuperacion de Linea Base*
-*Referencia: [[Entrevista_Completada_Proyecto.md]]*
+*Referencia: [[01-Linea_Base/05-Minuta_Entrevista|Minuta de Entrevista]]*

@@ -1,27 +1,9 @@
----
-id: ENT-01
-titulo: Guia de Entrevista - Proyecto Visualizador de Marcos
-version: "1.0"
-estado: Activo
-tipo: Plantilla
-fecha_creacion: 2026-03-23
-ultima_revision: 2026-03-25
-responsable: Axel Adolfo Morales Caro
-entrevistados:
-  - Jose Samuel Blanco Cervera
-  - Axel Adolfo Morales Caro
-  - Cliente (Enmarcame)
-referencias:
-  - SWEBOK v4 KA2 - Requisitos y Elicitación
-  - O'Regan - A Practical Approach to Software Quality - Cap. 2
-tags:
-  - elicitación
-  - entrevista
-  - requisitos
-  - baseline
----
-
 # Guia de Entrevista - Proyecto Visualizador de Marcos
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Acuerdos del Cliente e Información Inicial
+**Salidas:** Línea Base del Proyecto Certificada
+
+---
 
 > Esta guía de entrevista está diseñada para elicitar y documentar los requisitos del proyecto Visualizador de Marcos para el cliente "Enmarcame". La entrevista se basa en la metodología de elicitación de requisitos del SWEBOK v4 y las mejores prácticas de calidad de software.
 
@@ -373,10 +355,10 @@ Infraestructura:
 
 ### 5.1 Documentos Relacionados
 - [[01-Baseline/00-PROC-01_Recuperacion_Linea_Base]] - Proceso de recuperación de línea base
-- [[02-Requerimientos/PROC-02_Especificacion_Requerimientos]] - Especificación de requisitos
-- [[03-Control_Cambios/PROC-03_Control_Cambios]] - Registro de cambios (CR-01 a CR-04)
-- [[PROC-04_Arquitectura_Sistema]] - Documentación de arquitectura
-- [[PROC-05_Plan_Pruebas]] - Plan de pruebas
+- [[02-Requisitos/00-PROC-02_Especificacion_Requerimientos|PROC-02 Especificación de Requerimientos]] - Especificación de requisitos
+- [[07-Control/00-PROC-07_Control|PROC-07 Gestión de Control]] - Registro de cambios (CR-01 a CR-04)
+- [[03-Diseño/00-PROC-03_Diseño_Sistema|PROC-03 Diseño del Sistema]] - Documentación de arquitectura
+- [[05-Pruebas/00-PROC-05_Plan_Pruebas|PROC-05 Plan de Pruebas]] - Plan de pruebas
 
 ### 5.2 Referencias Bibliograficas
 - SWEBOK v4, KA2 - Requisitos y Elicitación

@@ -1,4 +1,9 @@
 # ARQ-02: Flujo del Sistema
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Especificación de Requerimientos y Casos de Uso
+**Salidas:** Arquitectura de Componentes y Diseño de Base de Datos
+
+---
 
 ## 1. Flujo Principal del Sistema
 

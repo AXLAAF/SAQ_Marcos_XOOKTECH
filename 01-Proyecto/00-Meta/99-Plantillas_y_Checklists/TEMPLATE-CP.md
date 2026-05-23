@@ -1,4 +1,9 @@
 # CP-XX: [Titulo de la Prueba]
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Estándares ETVX y Gobernanza
+**Salidas:** Vault de Obsidian Auditado y Coherente
+
+---
 
 ## 1. Descripcion de la Prueba
 [Que se intenta verificar. Ej: Validar que el sistema rechaza archivos .exe]
@@ -27,6 +32,6 @@
 - **Observaciones**: 
 
 ## 7. Trazabilidad
-- Requerimiento: [[REQ-XX]]
-- Defecto Asociado: [[DEF-XX]] (si aplica)
-- Change Request: [[CR-XX]] (si aplica)
+- Requerimiento: [REQ-XX]
+- Defecto Asociado: [DEF-XX] (si aplica)
+- Change Request: [CR-XX] (si aplica)

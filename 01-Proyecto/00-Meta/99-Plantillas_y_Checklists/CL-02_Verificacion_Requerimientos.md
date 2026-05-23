@@ -1,6 +1,11 @@
 # CL-02: Checklist de Verificacion de Requerimientos
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Estándares ETVX y Gobernanza
+**Salidas:** Vault de Obsidian Auditado y Coherente
 
-> Use este checklist para validar cada archivo [[REQ-XX_Nombre]] antes de enviarlo a inspeccion formal en el [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/PROC-06_Inspecciones]]. Un requerimiento solo es valido si cumple con el 100% de estos criterios.
+---
+
+> Use este checklist para validar cada archivo `REQ-XX_Nombre` antes de enviarlo a inspeccion formal en el [[07-Control/01-Ingenieria_Control/04-PROC-09_Inspecciones|PROC-09 Inspecciones]]. Un requerimiento solo es valido si cumple con el 100% de estos criterios.
 
 ## 1. Atributos de Calidad (SWEBOK)
 - [ ] **Atomico**: ¿El requerimiento describe una unica funcionalidad? (No debe contener "y", "o" que dividan la logica).

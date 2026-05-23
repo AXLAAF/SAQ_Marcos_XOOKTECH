@@ -1,4 +1,7 @@
 # Instrucciones para la Estructuracion de Procesos (SGC)
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Estándares ETVX y Gobernanza
+**Salidas:** Vault de Obsidian Auditado y Coherente
 
 > **Directiva de Calidad**: Todo procedimiento operativo (`00-PROC-XX`) debe ser construido bajo el modelo **ETVX**. El incumplimiento de la profundidad tecnica en los campos detallados a continuacion sera motivo de rechazo en la revision interna.
 
@@ -8,12 +11,9 @@
 El encabezado debe ser una declaracion precisa del estado de la fase. Queda prohibido el uso de terminos ambiguos.
 
 1.  **id**: Use el formato `PROC-[Numero de Carpeta]`.
-2.  **responsable**: Indique el nombre completo del encargado segun el [[01-Plan_Accion]].
 3.  **disparador**: Defina el evento exacto que activa la fase (ej: "Recepcion de Acta de Inicio firmada" o "Cierre de la inspeccion INS-02").
 4.  **criterio_entrada (Entry)**: Liste los requisitos minimos para iniciar. No use "documentacion lista"; use "Documento REQ-XX en estado #estado/verificado".
 5.  **criterio_salida (Exit)**: Defina la condicion de exito comprobable (ej: "100% de los casos de prueba ejecutados y registrados en CTRL-01").
-6.  **entradas y salidas**: Incluya enlaces funcionales `[[Carpeta/Archivo]]`. Toda salida de un proceso DEBE ser entrada de otro.
-
 ## 2. Instrucciones para el Cuerpo del Documento
 
 ### 2.1 Definicion Operativa
@@ -31,11 +31,11 @@ Siga estas directivas de redaccion:
 
 | Entrada (Input) | Actividad (Task) | Salida (Output) |
 | :--- | :--- | :--- |
-| `[[02-Requisitos/REQ-03]]` | Modelado de la logica 3D usando transformaciones afines en Python | `[[03-Diseño/DIS-01]]` |
+| ``REQ-03`` | Modelado de la logica 3D usando transformaciones afines en Python | ``DIS-01`` |
 
 ### 2.3 Verificacion (Validation)
 Para evitar "huecos" de calidad, esta seccion debe ser prescriptiva:
-1.  **Checklist Asociada**: Vincule obligatoriamente la `[[00-Meta/99-Plantillas_y_Checklists/CL-XX]]` que valida las salidas de esta fase.
+1.  **Checklist Asociada**: Vincule obligatoriamente la ``CL-XX`` que valida las salidas de esta fase.
 2.  **Metricas de Proceso**: Defina un indicador numerico real (ej: "Densidad de defectos = Errores encontrados / KLOC" o "% de Requerimientos con Trazabilidad completa").
 
 ## 3. Directiva de Trazabilidad

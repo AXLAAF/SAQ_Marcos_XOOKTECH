@@ -1,10 +1,10 @@
 # Gobernanza del Sistema de Gestión de Calidad (SGC) -- XookTech
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Estándares ETVX y Gobernanza
+**Salidas:** Vault de Obsidian Auditado y Coherente
 
 **Área de proceso:** 00-Meta
 **Nombre del proceso:** Gobernanza del SGC (Vault Obsidian)
-**Responsable:** Analista de Gobernanza y Diseño (Gobernanza)
-**Entradas:** Estándares ETVX y Convenciones de Nomenclatura
-**Salidas:** Infraestructura documental consistente y auditada
 **Notación:** NT: indica una Nota Técnica con una sugerencia de mejora al proceso actual.
 
 ---
@@ -76,7 +76,7 @@ El Sistema de Gestión de Calidad (SGC) se opera bajo una estructura de roles in
 
 **Propuesta:**
 - Al emitir un `[[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-HALLAZGO|HALLAZGO]]`, el responsable debe evaluar si el proceso (`00-PROC-XX`) fue el culpable.
-- Si el proceso es deficiente, se actualiza el proceso y se documenta en el `[[07-Control/REG-01_Mejora_Continua_Procesos|REG-MEJORA]]`.
+- Si el proceso es deficiente, se actualiza el proceso y se documenta en el ``REG-01 Mejora Continua de Procesos``.
 
 ---
 
@@ -84,10 +84,10 @@ El Sistema de Gestión de Calidad (SGC) se opera bajo una estructura de roles in
 
 | ID | Artefacto | Propósito | Ubicación |
 | :--- | :--- | :--- | :--- |
-| **PROC-00** | Gobernanza Vault | Definir las reglas de operación y roles. | [[00-Meta/00-PROC-00_Gobernanza_Vault\|PROC-00]] |
-| **STD-01** | Estándar ETVX | Definir la estructura de cada proceso. | [[00-Meta/02-STD-01_Estandar_ETVX\|STD-01]] |
-| **STD-02** | Convenciones Tags | Normalizar nombres y etiquetas. | [[00-Meta/03-STD-02_Convenciones_Tags\|STD-02]] |
-| **HALLAZGO** | Hallazgo SQA | Documentar discrepancias bibliográficas. | [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-HALLAZGO\|HALLAZGO]] |
+| **PROC-00** | Gobernanza Vault | Definir las reglas de operación y roles. | [[00-Meta/00-PROC-00_Gobernanza_Vault|PROC-00]] |
+| **STD-01** | Estándar ETVX | Definir la estructura de cada proceso. | [[00-Meta/02-STD-01_Estandar_ETVX|STD-01]] |
+| **STD-02** | Convenciones Tags | Normalizar nombres y etiquetas. | [[00-Meta/03-STD-02_Convenciones_Tags|STD-02]] |
+| **HALLAZGO** | Hallazgo SQA | Documentar discrepancias bibliográficas. | [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-HALLAZGO|HALLAZGO]] |
 
 ---
 

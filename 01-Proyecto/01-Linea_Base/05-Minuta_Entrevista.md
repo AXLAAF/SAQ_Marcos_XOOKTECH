@@ -1,29 +1,9 @@
----
-id: ENT-02
-titulo: Minuta de Entrevista - Recuperacion de Linea Base
-version: "1.0"
-estado: Completado
-tipo: Registro de Entrevista
-fecha_creacion: 2026-03-23
-fecha_entvista: 2026-03-23
-entrevistadores:
-  - Jose Samuel Blanco Cervera
-  - Axel Adolfo Morales Caro
-entrevistados:
-  - Jose Samuel Blanco Cervera (Lider tecnico)
-  - Axel Adolfo Morales Caro (Desarrollador)
-referencias:
-  - PROC-01_Recuperacion_Linea_Base
-  - 03-Guia_Entrevista_Samuel
-tags:
-  - elicitación
-  - entrevista
-  - requisitos
-  - baseline
-  - minuta
----
-
 # Minuta de Entrevista - Recuperacion de Linea Base
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Acuerdos del Cliente e Información Inicial
+**Salidas:** Línea Base del Proyecto Certificada
+
+---
 
 > Este documento contiene las respuestas a la Guía de Entrevista, representando las perspectivas de los miembros del equipo del proyecto.
 

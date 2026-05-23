@@ -1,4 +1,9 @@
 # ARQ-01: Diagrama de Componentes del Sistema
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Especificación de Requerimientos y Casos de Uso
+**Salidas:** Arquitectura de Componentes y Diseño de Base de Datos
+
+---
 
 ## 1. Vista General de la Arquitectura
 

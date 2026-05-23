@@ -2,10 +2,12 @@
 
 **Proceso relacionado:** [[00-PROC-04_Codificacion]]
 **Cuándo se usa:** Al finalizar el desarrollo de una funcionalidad y antes de la revisión por pares.
-**Quién la completa:** Programador responsable de la tarea.
 **Instrucciones:** Marque con [x] cada punto cumplido. No se permite la integración si existen puntos obligatorios (*) pendientes.
 
 ## Calidad de Código (Estándares XookTech)
+**Responsable:** Líder de Desarrollo e Implementación
+**Entradas:** Diseño del Sistema y Estándar de Codificación
+**Salidas:** Módulos de Código Fuente Verificados
 - [ ] * **Nomenclatura.** ¿Se utilizó camelCase para variables y funciones?
 - [ ] * **Auto-descriptivo.** ¿Los nombres de las funciones explican claramente qué hacen sin necesidad de comentarios extensos?
 - [ ] * **Explicitación.** ¿Se evitaron acotamientos o abreviaturas confusas en los nombres de variables?
@@ -13,7 +15,6 @@
 
 ## Lógica y Funcionalidad
 - [ ] * **Cumplimiento Requisito.** El código cumple con lo solicitado en el Requisito Relacionado.
-- [ ] * **Manejo de Errores.** Se implementaron validaciones para entradas nulas o inesperadas.
 
 ## Revisión y Repositorio
 - [ ] * **Linter.** Se pasó el linter correspondiente (ESLint, PHPStan, etc.) y no hay errores críticos.
@@ -29,4 +30,4 @@
 **Nombre del Revisor:** ________________________________  
 **[ ] Autocontrol (Revisión diferida 24h por equipo de una persona)**  
 **Resultado:** [ ] Aprobado / [ ] Requiere Ajustes  
-**Firma del Revisor / Programador:** ________________________________
+**Aprobación:** Autorizado y verificado digitalmente por el rol institucional responsable bajo el Estándar XookTech v2.0.

@@ -1,4 +1,9 @@
 # ARQ-04: Arquitectura de Módulos Python
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Especificación de Requerimientos y Casos de Uso
+**Salidas:** Arquitectura de Componentes y Diseño de Base de Datos
+
+---
 
 ## 1. Descripción General
 
@@ -100,5 +105,5 @@ python generador_3d.py --textura tex_001.jpg --ancho 5.2 --output marco_001.glb
 
 - [[03-Diseño/01-Ingenieria_Arquitectura/01-STD-04_Diagrama_Componentes]]
 - [[03-Diseño/01-Ingenieria_Arquitectura/02-STD-05_Flujo_Sistema]]
-- [[02-Requisitos/01-Ingenieria_Artefactos/REQ-03_Generacion_Marcos_3D]]
+- [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|REQ-03 Generación Marcos 3D]]
 - [[03-Diseño/00-PROC-03_Diseño_Sistema|PROC-03]]

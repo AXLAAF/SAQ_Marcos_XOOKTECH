@@ -1,5 +1,10 @@
 
 # CR-02: Tipos de Vidrio
+**Responsable:** Analista de Control y Cambios
+**Entradas:** Registros de Defectos e Incidentes
+**Salidas:** Solicitudes de Cambio Aprobadas e Informes de Inspección
+
+---
 
 > Registro alineado con [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]].
 
@@ -21,7 +26,7 @@ El cliente ofrece diferentes tipos de vidrio para proteger los marcos (normal, a
 
 ### 2.2 Requerimiento Asociado
 
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-08_Tipo_Vidrio]] - Requerimiento funcional asociado
+- [[02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/08-REQ-08_Tipo_Vidrio|REQ-08 Tipo de Vidrio]] - Requerimiento funcional asociado
 
 ### 2.3 Descripcion Tecnica
 
@@ -88,6 +93,6 @@ El sistema debe permitir:
 ---
 
 *Change Request creado como parte del proceso de control de cambios (PROC-03)*
-*Referencia: [[02-Acuerdos_Cliente]] - ACU-007*
+*Referencia: [[01-Linea_Base/03-Acuerdos_Cliente|Acuerdos con el Cliente]] - ACU-007*
 *Este cambio requiere aprobacion formal del cliente antes de proceder*
 *Prioridad: Media - Funcionalidad util pero no critica*

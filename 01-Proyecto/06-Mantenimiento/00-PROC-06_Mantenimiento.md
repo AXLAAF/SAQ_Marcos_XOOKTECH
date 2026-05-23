@@ -1,10 +1,10 @@
 # Gestión de Mantenimiento de Sistemas -- XookTech
+**Responsable:** Líder de Desarrollo e Implementación
+**Entradas:** Manuales de Usuario y Sistema
+**Salidas:** Plan de Soporte y Bitácora de Incidencias
 
 **Área de proceso:** 06-Mantenimiento
 **Nombre del proceso:** Soporte y Evolución del Sistema
-**Responsable:** Analista de Gobernanza y Diseño
-**Entradas:** Reporte de Error o Solicitud de Cambio.
-**Salidas:** Sistema actualizado y verificado.
 **Notación:** NT: Nota Técnica.
 
 ---

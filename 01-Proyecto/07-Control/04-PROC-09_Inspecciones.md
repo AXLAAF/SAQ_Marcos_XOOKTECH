@@ -1,5 +1,8 @@
 
 # Proceso 6 — Inspecciones de Calidad
+**Responsable:** Analista de Control y Cambios
+**Entradas:** Registros de Defectos e Incidentes
+**Salidas:** Solicitudes de Cambio Aprobadas e Informes de Inspección
 
 > **Justificacion**: Segun O'Regan, "las inspecciones son una de las tecnicas mas efectivas para la deteccion temprana de defectos". Las inspecciones Fagan, en particular, siguen un proceso riguroso con fases de planificacion, introduccion, preparacion, reunion de inspeccion y seguimiento. SWEBOK v4 enfatiza que las inspecciones deben ser parte integral del proceso de desarrollo.
 
@@ -11,7 +14,6 @@
 | **Criterio de Entrada** | Artefacto listo para revision. Se usa para aplicar tecnicas de inspeccion Fagan: planificacion, preparacion, reunion y seguimiento de acciones correctivas. |
 | **Actividades** | Ver lista abajo |
 | **Salida / Entregable** | Informe de inspeccion con hallazgos. Proporciona evidencia de revision formal y registro de defectos detectados tempranamente. (SWEBOK v4 KA8) |
-| **Responsable** | Líder SQA (lider SQA) |
 | **Criterio de Salida** | Informe de inspeccion aprobado, acciones correctivas definidas y verificadas. |
 
 ## 2. Actividades del Proceso (Ciclo de Inspeccion Fagan)
@@ -120,12 +122,12 @@
 
 ## 6. Dependencias
 
-- **Pre-requisito**: [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/PROC-02_Especificacion_Requerimientos]], [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments/01- Proyecto/05-Pruebas/PROC-05_Plan_Pruebas]]
+- **Pre-requisito**: [[02-Requisitos/00-PROC-02_Especificacion_Requerimientos|PROC-02 Especificación de Requerimientos]], [[05-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]]
 - **Post-requisito**: Ninguno (proceso final)
 
 ## 7. Referencias
 
-- [[01-Proceso_Gobernanza_Vault]]
-- [[02-Convenciones_y_Tags]]
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/INS-01_Inspeccion_Requerimientos]]
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/07-Control/INS-02_Inspeccion_Plan_Pruebas]]
+- [[00-Meta/00-PROC-00_Gobernanza_Vault|PROC-00 Gobernanza Vault]]
+- [[00-Meta/03-STD-02_Convenciones_Tags|STD-02 Convenciones y Tags]]
+- [[07-Control/02-Calidad_Control/05-INS-01_Inspeccion_Requerimientos|INS-01 Inspección de Requerimientos]]
+- [[07-Control/02-Calidad_Control/06-INS-02_Inspeccion_Plan_Pruebas|INS-02 Inspección Plan de Pruebas]]

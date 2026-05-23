@@ -1,5 +1,10 @@
 
 # Proceso 8 - Control de Cambios (Change Requests)
+**Responsable:** Analista de Control y Cambios
+**Entradas:** Registros de Defectos e Incidentes
+**Salidas:** Solicitudes de Cambio Aprobadas e Informes de Inspección
+
+---
 
 > **Fundamentacion**: Este proceso adapta practicas de **CMMI-CM**, analisis de impacto y el modelo **ETVX** para evitar cambios ejecutados por memoria, reducir conflictos de costo y mantener trazabilidad entre solicitud, requerimiento, prueba e implementacion.
 

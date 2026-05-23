@@ -1,24 +1,9 @@
----
-id: CONT-01
-titulo: Contrato de Desarrollo de Software - Simulador 3D Enmarcame
-version: "1.0"
-estado: Vigente
-tipo: Contrato
-fecha_creacion: 2026-04-14
-responsable: Jose Samuel Blanco Cervera
-cliente: Geronimo Aguilar Chapur
-desarrollador: Jose Samuel Blanco Cervera
-referencias:
-  - PROC-01_Recuperacion_Linea_Base
-  - 01-Propuesta_Recuperada
-  - 02-Acuerdos_Cliente
-tags:
-  - contrato
-  - baseline
-  - legal
----
-
 # Contrato de Desarrollo de Software — Simulador 3D Enmarcame
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Acuerdos del Cliente e Información Inicial
+**Salidas:** Línea Base del Proyecto Certificada
+
+---
 
 > Contrato de prestacion de servicios de desarrollo de software SIMULADOR 3D ENMARCAME. Este documento formaliza el alcance, condiciones y compromisos entre ambas partes. Su existencia reemplaza la suposicion previa de que no habia contrato formal.
 

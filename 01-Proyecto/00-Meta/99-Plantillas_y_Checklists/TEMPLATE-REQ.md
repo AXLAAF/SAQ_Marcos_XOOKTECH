@@ -1,4 +1,9 @@
 # REQ-XXX: [Titulo del Requerimiento]
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Estándares ETVX y Gobernanza
+**Salidas:** Vault de Obsidian Auditado y Coherente
+
+---
 
 ## 1. Descripcion General
 [Que debe hacer el sistema. Perspectiva del usuario, sin tecnicismos.]
@@ -30,10 +35,10 @@
 - [Ej: Rendimiento < 2s, Formato PNG, etc.]
 
 ## 8. Notas adicionales
-- **Dependencias**: [[REQ-YYY]]
+- **Dependencias**: [REQ-YYY]
 - **Dudas pendientes**: [Lista de interrogantes para el cliente o equipo]
 
 ## 9. Trazabilidad
-- **Fuente**: [[05-Contrato_Desarrollo]]
-- **Casos de Prueba**: [[CP-XX_Nombre]]
-- **Change Requests**: [[CR-XX_Nombre]]
+- **Fuente**: [[01-Linea_Base/06-Contrato_Desarrollo|Contrato de Desarrollo]]
+- **Casos de Prueba**: [CP-XX_Nombre]
+- **Change Requests**: [CR-XX_Nombre]

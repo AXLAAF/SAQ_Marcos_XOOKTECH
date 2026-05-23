@@ -1,7 +1,9 @@
 # FOR-08-01: Configuración de Proyecto — XookTech
+**Responsable:** Líder de Desarrollo e Implementación
+**Entradas:** Código Fuente Terminado y Paquetes de Software
+**Salidas:** Sistema Desplegado y Guía de Operación
 
 **Proceso relacionado:** [[00-PROC-08_Despliegue]]
-**Responsable de mantenerlo:** El programador que configure el entorno.
 **Instrucciones generales:** Utilice este documento para describir los requisitos de entorno de cualquier proyecto. No incluya valores sensibles reales aquí.
 
 ## 1. Requisitos de Software

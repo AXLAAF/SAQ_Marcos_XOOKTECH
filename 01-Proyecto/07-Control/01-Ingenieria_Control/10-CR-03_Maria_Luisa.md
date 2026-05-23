@@ -1,5 +1,10 @@
 
 # CR-03: Maria Luisa Multiple
+**Responsable:** Analista de Control y Cambios
+**Entradas:** Registros de Defectos e Incidentes
+**Salidas:** Solicitudes de Cambio Aprobadas e Informes de Inspección
+
+---
 
 > Registro alineado con [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]].
 
@@ -21,7 +26,7 @@ La Maria Luisa es un marco decorativo interno que rodea la fotografia. El negoci
 
 ### 2.2 Requerimiento Asociado
 
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-09_Maria_Luisa]] - Requerimiento funcional asociado
+- [[02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/09-REQ-09_Maria_Luisa|REQ-09 María Luisa]] - Requerimiento funcional asociado
 
 ### 2.3 Descripción Técnica
 
@@ -87,6 +92,6 @@ El sistema debe permitir:
 ---
 
 *Change Request creado como parte del proceso de control de cambios (PROC-03)*
-*Referencia: [[02-Acuerdos_Cliente]] - ACU-008*
+*Referencia: [[01-Linea_Base/03-Acuerdos_Cliente|Acuerdos con el Cliente]] - ACU-008*
 *Este cambio requiere aprobacion formal del cliente antes de proceder*
 *Prioridad: Media - Ya se tienen algunos diseños escaneados*

@@ -1,4 +1,9 @@
 # Hallazgo de Calidad: [Breve Descripción]
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Estándares ETVX y Gobernanza
+**Salidas:** Vault de Obsidian Auditado y Coherente
+
+---
 
 ## 1. Referencia (Fundamentación Bibliográfica)
 > Según la literatura técnica (ISO, SWEBOK, Galin, Lewis, O'Regan)...
@@ -19,5 +24,5 @@
 2. [Paso 2...]
 
 ## 4. Impacto en el Aseguramiento
-- [ ] Requiere actualización del proceso `[[PROC-XX]]`.
+- [ ] Requiere actualización del proceso `PROC-XX`.
 - [ ] Requiere re-ejecución de validación.

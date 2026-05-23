@@ -1,28 +1,13 @@
----
-id: ACU-01
-titulo: Acuerdos con el Cliente - Proyecto Visualizador de Marcos
-version: "1.0"
-estado: Completado
-tipo: Registro de Acuerdos
-fecha_creacion: 2026-03-23
-fecha_recuperacion: 2026-03-23
-responsable: Samuel Blanco
-cliente: Enmarcame (Geronimo Aguilar Chapur)
-referencias:
-  - 05-Contrato_Desarrollo.md
-  - Entrevista_Completada_Proyecto.md
-  - 01-Propuesta_Recuperada.md
-tags:
-  - acuerdos
-  - cliente
-  - baseline
----
-
 # Acuerdos con el Cliente - Proyecto Visualizador de Marcos
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Acuerdos del Cliente e Información Inicial
+**Salidas:** Línea Base del Proyecto Certificada
+
+---
 
 > Documento que registra todos los acuerdos identificados con el cliente "Enmarcame" durante el desarrollo del proyecto. Incluye tanto los acuerdos respaldados por el contrato formal ([[01-Baseline/06-Contrato_Desarrollo]]) como los acuerdos verbales complementarios, con el contexto de cada acuerdo y su estado actual.
 
-Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Base]]. Integra clausulas contractuales y acuerdos operativos verbales en un registro unico y trazable. Prerequisito para evaluar alcance en [[03-Control_Cambios/PROC-03_Control_Cambios]].
+Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Base]]. Integra clausulas contractuales y acuerdos operativos verbales en un registro unico y trazable. Prerequisito para evaluar alcance en [[07-Control/00-PROC-07_Control|PROC-07 Gestión de Control]].
 
 ---
 
@@ -245,4 +230,4 @@ Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Ba
 ---
 
 *Documento creado como parte del PROC-01 - Recuperacion de Linea Base*
-*Referencia: [[Entrevista_Completada_Proyecto.md]], [[01-Baseline/02-Propuesta_Recuperada]]*
+*Referencia: [[01-Linea_Base/05-Minuta_Entrevista|Minuta de Entrevista]], [[01-Linea_Base/02-Propuesta_Recuperada|Propuesta Recuperada]]*

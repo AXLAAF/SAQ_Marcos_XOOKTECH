@@ -1,7 +1,9 @@
 # REG-06-02: Registro de Errores Reportados — XookTech
+**Responsable:** Líder de Desarrollo e Implementación
+**Entradas:** Manuales de Usuario y Sistema
+**Salidas:** Plan de Soporte y Bitácora de Incidencias
 
 **Proceso relacionado:** [[00-PROC-06_Mantenimiento]]
-**Responsable de mantenerlo:** Jefe de Proyecto (Recepción) / Jefe de Equipo (Causa Raíz) / Programador (Solución)
 **Instrucciones generales:** Documente aquí todos los fallos reportados por los clientes para asegurar su resolución y aprendizaje técnico.
 
 | Folio * (ERR-YYYY-NNN) | Fecha Reporte * | Sistema * | Prioridad * (Crítico/Alto/Normal) | Descripción del Problema * | Causa Raíz * (Jefe de Equipo) | Solución Aplicada * (Programador) | Estado (Abierto/En Proceso/Resuelto/Cerrado) |

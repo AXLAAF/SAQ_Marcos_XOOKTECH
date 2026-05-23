@@ -1,5 +1,10 @@
 
 # CR-04: Pantalla Secundaria
+**Responsable:** Analista de Control y Cambios
+**Entradas:** Registros de Defectos e Incidentes
+**Salidas:** Solicitudes de Cambio Aprobadas e Informes de Inspección
+
+---
 
 > Registro alineado con [[00-Meta/99-Plantillas_y_Checklists/TEMPLATE-CR]].
 
@@ -21,7 +26,7 @@ El cliente atiende a grupos familiares donde varios miembros quieren ver la prev
 
 ### 2.2 Requerimiento Asociado
 
-- [[OBS26/02-Estudios/Universidad/Aseguramiento de la Calidad de Software 1.0/Assignments_V2/01-Proyecto/02-Requisitos/REQ-10_Pantalla_Secundaria]] - Requerimiento funcional asociado
+- [[02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/10-REQ-10_Pantalla_Secundaria|REQ-10 Pantalla Secundaria]] - Requerimiento funcional asociado
 
 ### 2.3 Descripcion Tecnica
 
@@ -98,6 +103,6 @@ El sistema debe permitir:
 ---
 
 *Change Request creado como parte del proceso de control de cambios (PROC-03)*
-*Referencia: [[02-Acuerdos_Cliente]] - ACU-009*
+*Referencia: [[01-Linea_Base/03-Acuerdos_Cliente|Acuerdos con el Cliente]] - ACU-009*
 *Este cambio requiere aprobacion formal del cliente antes de proceder*
 *Prioridad: Baja - Requiere inversion adicional en hardware por parte del cliente*

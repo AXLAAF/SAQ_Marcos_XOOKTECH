@@ -1,22 +1,3 @@
----
-id: META-03
-titulo: Glosario de Terminos del SGC (Manual de Definiciones Tecnicas)
-version: "2.0"
-estado: Activo
-tipo: Referencia
-fecha_creacion: 2026-03-19
-ultima_revision: 2026-05-12
-responsable: Analista Técnico
-referencias_biblio:
-  - "SWEBOK v4"
-  - "Daniel Galin - SQA Components"
-  - "IEEE 610.12-1990"
-tags:
-  - meta/referencia
-  - glosario
-  - instrucciones
----
-
 # Manual de Terminologia Tecnica del Proyecto
 
 > **Directiva de Lenguaje**: El equipo debe utilizar exclusivamente los terminos definidos en este glosario para la redaccion de todos los artefactos (`REQ`, `DIS`, `COD`, `CP`, etc.). El uso de lenguaje coloquial o ambiguo invalidara la profundidad tecnica del documento.

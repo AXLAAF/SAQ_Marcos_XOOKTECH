@@ -1,10 +1,10 @@
 # Proceso de Codificación — XookTech
+**Responsable:** Líder de Desarrollo e Implementación
+**Entradas:** Diseño del Sistema y Estándar de Codificación
+**Salidas:** Módulos de Código Fuente Verificados
 
 **Área de proceso:** Desarrollo de Software  
 **Nombre del proceso:** Codificación de funcionalidades del sistema  
-**Responsable:** Programador asignado y líder de proyecto  
-**Entradas:** Descripción de la funcionalidad a desarrollar  
-**Salidas:** Código fuente funcional integrado al repositorio del proyecto  
 **Notación:** NT: indica una Nota Técnica con una sugerencia de mejora al proceso actual.
 
 ---
@@ -18,9 +18,9 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 |Documento de requisitos|[PENDIENTE: definir ruta]|
 |Plan de diseño|[PENDIENTE: definir ruta]|
 |Esquema de base de datos|[PENDIENTE: definir ruta]|
-|Estándar de Codificación de XookTech|[[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion\|FOR-04-01]]|
-|Lista de Verificación de Codificación|[[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/CL-04-01_Verificacion_Codificacion\|CL-04-01]]|
-|Registro de Tareas de Desarrollo|[[01-Proyecto/04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo\|REG-04-01]]|
+|Estándar de Codificación de XookTech|[[04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01]]|
+|Lista de Verificación de Codificación|[[04-Codificacion/Documentos_Apoyo/02-Formatos/CL-04-01_Verificacion_Codificacion|CL-04-01]]|
+|Registro de Tareas de Desarrollo|[[04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo|REG-04-01]]|
 
 ---
 
@@ -37,7 +37,7 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 
 **Propuesta:**
 
-- El líder del proyecto registra la tarea por escrito en el Registro de Tareas de Desarrollo ([[01-Proyecto/04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo|REG-04-01]]).
+- El líder del proyecto registra la tarea por escrito en el Registro de Tareas de Desarrollo ([[04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo|REG-04-01]]).
 - La tarea debe incluir como mínimo:
     - Folio de la tarea (TAR-YYYY-NNN).
     - Prioridad (Baja/Media/Alta).
@@ -106,7 +106,7 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
     - El programador identifica qué partes del sistema existente están relacionadas con la funcionalidad que va a desarrollar.
     - Si no entiende alguna parte, lo consulta con quien la desarrolló o con el líder del proyecto antes de continuar.
 - Si el proyecto es nuevo:
-    - El programador revisa el Estándar de Codificación de XookTech ([[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01]]) y lo sigue desde el primer archivo.
+    - El programador revisa el Estándar de Codificación de XookTech ([[04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01]]) y lo sigue desde el primer archivo.
 
 ---
 
@@ -116,7 +116,7 @@ El programador desarrolla la funcionalidad asignada. Dependiendo de lo que impli
 
 Durante la codificación:
 
-- El programador sigue estrictamente el Estándar de Codificación de XookTech ([[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01]]), priorizando el uso de `camelCase`, nombres explícitos en español y funciones autodescriptivas.
+- El programador sigue estrictamente el Estándar de Codificación de XookTech ([[04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01]]), priorizando el uso de `camelCase`, nombres explícitos en español y funciones autodescriptivas.
 - Cada vez que termina una parte significativa del trabajo, sube los cambios al repositorio con un mensaje que describa qué se hizo.
 
 **NT-5:** Los mensajes de confirmación vagos como "cambios" o "actualización" no aportan información útil para el equipo. IEEE 12207:2017 recomienda que los registros de cambio sean comprensibles y trazables. Un mensaje descriptivo permite entender el historial del proyecto sin tener que leer todo el código.
@@ -148,7 +148,7 @@ Ejemplos de mensajes que no aportan:
 
 **Propuesta:**
 
-- Cuando el programador considera que terminó la funcionalidad, la verifica con la Lista de Verificación de Codificación ([[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/CL-04-01_Verificacion_Codificacion|CL-04-01]]).
+- Cuando el programador considera que terminó la funcionalidad, la verifica con la Lista de Verificación de Codificación ([[04-Codificacion/Documentos_Apoyo/02-Formatos/CL-04-01_Verificacion_Codificacion|CL-04-01]]).
 - La lista debe revisar como mínimo:
     - Que el código hace lo que la tarea pedía.
     - Que no rompe funcionalidades que ya existían.
@@ -165,7 +165,7 @@ Ejemplos de mensajes que no aportan:
 - Una vez verificada la funcionalidad, el programador integra su rama al repositorio principal.
 - El programador verifica que el sistema completo sigue funcionando después de la integración.
 - Si algo se rompe durante la integración, se corrige antes de continuar con otra tarea.
-- Se actualiza el estado de la tarea en el Registro de Tareas de Desarrollo ([[01-Proyecto/04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo|REG-04-01]]) indicando que está "Listo".
+- Se actualiza el estado de la tarea en el Registro de Tareas de Desarrollo ([[04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo|REG-04-01]]) indicando que está "Listo".
 
 ---
 
@@ -203,7 +203,7 @@ Una migración es un archivo que describe un cambio en la estructura de la base 
 
 Un modelo es la representación en código de una entidad del sistema — un usuario, un pedido, un producto, etc.
 
-1. Se revisa el esquema de base de datos o el documento de diseño para identificar qué atributos tiene la entidad.
+1. Se revisa el esquema de base de datos o el documento de diseño para identificar qué atributos tiene the entidad.
 2. Se crea el archivo del modelo siguiendo el Estándar de Codificación.
 3. Se definen los atributos del modelo según lo que indica el diseño (usando `camelCase` para propiedades).
 4. Se agregan las validaciones necesarias. Ejemplos: que el correo tenga formato válido, que el nombre no esté vacío, que el precio sea mayor a cero.
@@ -276,8 +276,6 @@ La separación de responsabilidades (SWEBOK v3) reduce de forma significativa el
 
 [3] IEEE 1028-2008. _Estándar para Revisiones e Inspecciones de Software_. IEEE.
 
-[4] Estándar de Codificación de XookTech. [[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01]].
-
-[5] Lista de Verificación de Codificación de XookTech. [[01-Proyecto/04-Codificacion/Documentos_Apoyo/02-Formatos/CL-04-01_Verificacion_Codificacion|CL-04-01]].
-
-[6] Registro de Tareas de Desarrollo. [[01-Proyecto/04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo|REG-04-01]].
+[4] Estándar de Codificación de XookTech. [[04-Codificacion/Documentos_Apoyo/02-Formatos/FOR-04-01_Estandar_Codificacion|FOR-04-01]]
+[5] Lista de Verificación de Codificación de XookTech. [[04-Codificacion/Documentos_Apoyo/02-Formatos/CL-04-01_Verificacion_Codificacion|CL-04-01]]
+[6] Registro de Tareas de Desarrollo. [[04-Codificacion/Documentos_Apoyo/01-Registros/REG-04-01_Tareas_Desarrollo|REG-04-01]]

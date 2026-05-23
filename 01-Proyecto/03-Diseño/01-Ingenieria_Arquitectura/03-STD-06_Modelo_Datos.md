@@ -1,4 +1,9 @@
 # ARQ-03: Modelo de Datos
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Especificación de Requerimientos y Casos de Uso
+**Salidas:** Arquitectura de Componentes y Diseño de Base de Datos
+
+---
 
 ## 1. Esquema de Datos
 
@@ -109,5 +114,5 @@ Para asegurar la fluidez de la interfaz, se definen índices sobre los campos de
 
 - [[03-Diseño/01-Ingenieria_Arquitectura/01-STD-04_Diagrama_Componentes]]
 - [[03-Diseño/01-Ingenieria_Arquitectura/02-STD-05_Flujo_Sistema]]
-- [[02-Requisitos/01-Ingenieria_Artefactos/REQ-06_Datos_Catalogo]]
+- [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/04-REQ-06_Datos_Catalogo|REQ-06 Datos Catálogo]]
 - [[03-Diseño/00-PROC-03_Diseño_Sistema|PROC-03]]

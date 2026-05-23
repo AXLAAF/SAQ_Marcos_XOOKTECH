@@ -1,4 +1,9 @@
 # Proceso 5 — Plan de Pruebas (Ciclo PDCA)
+**Responsable:** Analista de Verificación y Pruebas
+**Entradas:** Plan Maestro de Pruebas y Casos de Prueba
+**Salidas:** Reporte de Ejecución y Defectos Registrados
+
+---
 
 > **Fundamentación**: Siguiendo a Lewis (2004), el aseguramiento de la calidad mediante pruebas requiere un enfoque sistemático **PDCA**. Para el Visualizador de Marcos, las pruebas se centran en la precisión de los algoritmos de **OpenCV** para la detección de dimensiones y la fidelidad del renderizado con **Pillow**.
 

@@ -1,10 +1,12 @@
 
 
 **Proceso relacionado:** [[00-PROC-04_Codificacion]]
-**Responsable de mantenerlo:** Líder Técnico
 **Instrucciones generales:** Siga estas reglas para cualquier lenguaje utilizado en el equipo (JS, PHP, React, Kotlin).
 
 ## 1. Convenciones de Nombres
+**Responsable:** Líder de Desarrollo e Implementación
+**Entradas:** Diseño del Sistema y Estándar de Codificación
+**Salidas:** Módulos de Código Fuente Verificados
 - **Variables y Funciones:** Utilice `camelCase` (ejemplo: `obtenerDatosUsuario`).
 - **Clases:** Utilice `PascalCase` (ejemplo: `ProcesadorPagos`).
 - **Constantes:** Utilice `SCREAMING_SNAKE_CASE` (ejemplo: `LIMITE_INTENTOS`).

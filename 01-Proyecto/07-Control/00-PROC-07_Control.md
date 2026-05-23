@@ -1,10 +1,10 @@
 # Gestión de Control de Calidad y Cambios -- XookTech
+**Responsable:** Analista de Control y Cambios
+**Entradas:** Registros de Defectos e Incidentes
+**Salidas:** Solicitudes de Cambio Aprobadas e Informes de Inspección
 
 **Área de proceso:** 07-Control
 **Nombre del proceso:** Aseguramiento y Control de Configuración (SCC)
-**Responsable:** Analista de Control y Cambios
-**Entradas:** Artefactos Verificados, Reportes de Error y Solicitudes de Cambio.
-**Salidas:** Línea Base Auditada y Registro de Defectos cerrado.
 **Notación:** NT: indica una Nota Técnica con una sugerencia de mejora al proceso actual.
 
 ---
@@ -24,7 +24,7 @@
 
 **Propuesta:**
 - El **Analista de Control y Cambios** certifica que una fase (ej. 02-Requisitos) está completa.
-- Se registra el estado en el [[07-Control/01-Ingenieria_Control/01-STD-08_Dashboard_Calidad|Dashboard de Calidad]].
+- Se registra el estado en el [[07-Control/02-Calidad_Control/01-STD-08_Dashboard_Calidad|Dashboard de Calidad]].
 - Cualquier edición posterior a este sello activa automáticamente el subproceso de Control de Cambios.
 
 ---
@@ -52,7 +52,7 @@
 
 **Propuesta:**
 - El responsable de esta fase ejecuta inspecciones periódicas sobre los artefactos de otras fases.
-- Se generan reportes de inspección (ej. [[07-Control/01-Ingenieria_Control/05-INS-01_Inspeccion_Requerimientos|INS-01]]).
+- Se generan reportes de inspección (ej. [[07-Control/02-Calidad_Control/05-INS-01_Inspeccion_Requerimientos|INS-01]]).
 - Si se detecta una no conformidad crítica, se emite un **HALLAZGO** que bloquea el despliegue.
 
 ---
@@ -65,7 +65,7 @@
 **NT-4:** SQA implica aprendizaje organizacional. Si un error llega a producción, el proceso falló. Se propone el registro de causa raíz.
 
 **Propuesta:**
-- Todo fallo detectado en la fase 05-Pruebas se traslada al [[07-Control/01-Ingenieria_Control/02-REG-03_Registro_Defectos|Registro de Defectos]].
+- Todo fallo detectado en la fase 05-Pruebas se traslada al [[07-Control/02-Calidad_Control/02-REG-03_Registro_Defectos|Registro de Defectos]].
 - El defecto no se considera cerrado hasta que el **Analista de Control** verifique que no hay impacto colateral en otros módulos.
 
 ---
@@ -74,10 +74,10 @@
 
 | ID | Artefacto | Propósito | Ubicación |
 | :--- | :--- | :--- | :--- |
-| **STD-08** | Dashboard de Calidad | Visualizar el estado de salud de todos los procesos. | [[07-Control/01-Ingenieria_Control/01-STD-08_Dashboard_Calidad\|STD-08]] |
-| **REG-03** | Registro de Defectos | Controlar el ciclo de vida de los fallos encontrados. | [[07-Control/01-Ingenieria_Control/02-REG-03_Registro_Defectos\|REG-03]] |
-| **INS-XX** | Inspecciones | Documentar la verificación formal de artefactos. | [[07-Control/01-Ingenieria_Control/05-INS-01_Inspeccion_Requerimientos\|INS-01]] |
-| **CR-XX** | Control de Cambios | Gestionar las solicitudes de modificación post-baseline. | [[07-Control/01-Ingenieria_Control/08-CR-01_Marcos_Dobles\|CR-01]] |
+| **STD-08** | Dashboard de Calidad | Visualizar el estado de salud de todos los procesos. | [[07-Control/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08]] |
+| **REG-03** | Registro de Defectos | Controlar el ciclo de vida de los fallos encontrados. | [[07-Control/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03]] |
+| **INS-XX** | Inspecciones | Documentar la verificación formal de artefactos. | [[07-Control/02-Calidad_Control/05-INS-01_Inspeccion_Requerimientos|INS-01]] |
+| **CR-XX** | Control de Cambios | Gestionar las solicitudes de modificación post-baseline. | [[07-Control/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01]] |
 
 ---
 

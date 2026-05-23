@@ -1,4 +1,9 @@
 ## Archivos Modificados
+**Responsable:** Analista de Control y Cambios
+**Entradas:** Registros de Defectos e Incidentes
+**Salidas:** Solicitudes de Cambio Aprobadas e Informes de Inspección
+
+---
 
 | Archivo | Version Anterior | Version Nueva |
 |---------|------------------|---------------|

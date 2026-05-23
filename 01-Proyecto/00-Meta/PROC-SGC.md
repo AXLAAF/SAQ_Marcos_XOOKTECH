@@ -1,4 +1,9 @@
 # Proceso de Gestión del Repositorio Documental (Obsidian + Relay)
+**Responsable:** Analista de Gobernanza y Diseño
+**Entradas:** Estándares ETVX y Gobernanza
+**Salidas:** Vault de Obsidian Auditado y Coherente
+
+---
 
 ## Propósito
 
@@ -18,26 +23,26 @@ Aplica a todo el ciclo de vida del proyecto "Visualizador de marcos". Cubre desd
 ### Paso 2. Creación del vault local (por el Líder del Proyecto)
 
 1. El líder del proyecto abre Obsidian y hace clic en "Crear nuevo Vault".
-	![[Pasted image 20260513214351.png]]
+	*(Captura de pantalla: Crear nuevo Vault en Obsidian)*
 2. Asigna el nombre del proyecto: `Visualizador-Marcos`.
-	![[Pasted image 20260513214658.png]]
+	*(Captura de pantalla: Asignación de Nombre del Proyecto)*
 3. Elige una ubicación en su disco duro.
-	![[Pasted image 20260513215016.png]]
+	*(Captura de pantalla: Elección de ubicación en disco)*
 4. Hace clic en "Crear". El vault se abrirá automáticamente.
 ### Paso 3. Instalación del plugin Relay
 
 1. En Obsidian, presionar el botón de ajustes (icono con forma de tuerca).
-	![[Pasted image 20260513215134.png]]
+	*(Captura de pantalla: Configuración / Icono de Ajustes)*
 2. Seleccionar la pestaña "Complementos comunitarios" y presionar el botón de "Activar complementos creados por la comunidad".
-	![[Pasted image 20260513215619.png]]
+	*(Captura de pantalla: Activación de complementos comunitarios)*
 3. Ahora saldrá una sección de "Complementos creados con la comunidad", presionar el botón de "Buscar".
-	![[Pasted image 20260513220015.png]]
+	*(Captura de pantalla: Botón de buscar complementos comunitarios)*
 4. En el buscador, escribir "Relay", localizar el plugin y darle clic.
-	![[Pasted image 20260513222807.png]]
+	*(Captura de pantalla: Búsqueda y localización del plugin Relay)*
 5. Dar clic a "Instalar".
-	![[Pasted image 20260513222912.png]]
+	*(Captura de pantalla: Botón de Instalar plugin)*
 6. Después de instalarlo, dar clic a "Activar".
-	![[Pasted image 20260513223016.png]]
+	*(Captura de pantalla: Botón de Activar plugin)*
 *Mejora sugerida: Instalar también el plugin "**Obsidian Git**" como respaldo opcional, aunque Relay será el principal.*
 
 ### Paso 4. Configuración del servidor Relay.
