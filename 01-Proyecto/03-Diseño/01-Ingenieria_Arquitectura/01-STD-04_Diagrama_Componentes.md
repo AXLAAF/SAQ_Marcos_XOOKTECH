@@ -97,19 +97,22 @@ flowchart LR
 ## 4. Diagrama de Despliegue
 
 ```mermaid
-deploymentDiagram
-    node "Cliente PC" {
-        component "Navegador Web"
-    }
-    node "Servidor VPS" {
-        component "Nginx (Proxy)"
-        component "Flask Application"
-        component "Python Vision Tools"
-        database "SQLite / Assets"
-    }
-    "Navegador Web" -- HTTP --> "Nginx (Proxy)"
-    "Nginx (Proxy)" -- WSGI --> "Flask Application"
-    "Flask Application" -- Subprocess --> "Python Vision Tools"
+flowchart TD
+    subgraph ClientePC["Dispositivo Cliente"]
+        Nav["Navegador Web<br/>(Visualizador HTML/JS/Three.js)"]
+    end
+
+    subgraph Servidor["Servidor Local / VPS (CachyOS)"]
+        Proxy["Proxy Inverso (Nginx)<br/>Puerto 80 / 443"]
+        Flask["Aplicación Flask (Backend API)<br/>Puerto 5000"]
+        Vision["Librerías de Visión<br/>(OpenCV / Pillow)"]
+        DB[("Capa de Datos<br/>(SQLite / Assets JSON)")]
+    end
+
+    Nav -- Peticiones HTTP / JSON --> Proxy
+    Proxy -- Conexión WSGI --> Flask
+    Flask -- Procesamiento de Imagen --> Vision
+    Flask -- Consultas SQL / JSON --> DB
 ```
 
 ## 5. Dependencias Externas
