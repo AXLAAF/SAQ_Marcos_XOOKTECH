@@ -1,92 +1,124 @@
-# Metaproceso de Ingeniería y SQA: El Detonante del Proceso de Requisitos
+# Metaproceso de Reingeniería de Procesos (00-PROC-0X) y Causalidad SQA
 
 **Código de Registro:** MET-09-02  
 **Responsable de Redacción:** Analista de Gobernanza y Diseño  
-**Fecha de Elaboración:** 23 de Mayo de 2026  
-**Entradas:** Prácticas empíricas iniciales del equipo (Línea Base), minutas de entrevistas con el Product Owner y literatura académica de SQA (Daniel Galin, William E. Lewis, SWEBOK v4, Regan).  
-**Salidas:** Modelo del metaproceso de especificación, estructura formal del proceso de ingeniería `PROC-02` y los mecanismos de aseguramiento de calidad (Checklist `CL-02` y Registro `REG-02-01`).  
-**Propósito:** Demostrar científicamente cómo el diagnóstico inicial ("Actualmente") y la fundamentación académica ("Nota Técnica") actúan como el detonante para formalizar el proceso de ingeniería de requisitos y sus controles SQA de calidad, sirviendo de guía metodológica para todo el SGC de XookTech.
+**Fecha de Elaboración:** 24 de Mayo de 2026  
+**Entradas:** Prácticas empíricas iniciales del equipo (Línea Base), directrices de la minuta de alineación `MIN-09-01` y literatura académica de SQA (Daniel Galin, William E. Lewis, SWEBOK v4, Regan).  
+**Salidas:** Estándar supremo del metaproceso para el modelado de procesos `00-PROC-0X`, estructura unificada de 4 componentes para actividades y plan de acción de XookTech v2.0.  
+**Propósito:** Redefinir e institucionalizar la metodología del Metaproceso para la creación de los procesos `00-PROC-0X` del SGC, estableciendo el flujo formal donde el diagnóstico empírico y el análisis científico actúan como el detonante directo para estructurar el verdadero proceso de ingeniería ejecutable y su aseguramiento de calidad (SQA).
 
 ---
 
-## 1. El Concepto del Metaproceso: ¿Cómo se crea un Proceso Verdadero?
+## 1. El Concepto del Metaproceso (Reingeniería de Procesos)
 
-Un proceso de ingeniería del software no puede surgir del vacío. Para que el **Sistema de Gestión de Calidad (SGC)** sea legítimo y efectivo, la creación de cada proceso técnico debe responder a un flujo metodológico de reingeniería basado en la mejora continua (Ciclo PDCA). 
+Un proceso del Sistema de Gestión de Calidad (SGC) no debe ser una imposición teórica desconectada de la realidad operativa del equipo. Para que sea legítimo y efectivamente seguible, cada proceso institucional (identificado bajo la nomenclatura `00-PROC-0X`) debe construirse a través de una **reingeniería de procesos estructurada**.
 
-El **Metaproceso** es el "proceso que crea el proceso". Describe cómo el equipo de SQA toma la práctica informal, la somete a estándares internacionales de calidad y genera el proceso formal de ingeniería y sus respectivos controles de aseguramiento de calidad.
+El **Metaproceso** es el estándar metodológico que el equipo de SQA utiliza para analizar las prácticas empíricas iniciales y transformarlas en procesos de ingeniería disciplinados, accionables y auditables.
 
-```mermaid
-flowchart TD
-    subgraph Metaproceso ["METAPROCESO (Reingeniería de Procesos)"]
-        A["Práctica Empírica (Actualmente)"] -->|Identificación de fallas| B["Análisis SQA (Nota Técnica)"]
-        B -->|Justificación científica| C["Proceso Formal de Ingeniería (Propuesta)"]
-        C -->|Define| D["Creación de Artefactos de Software"]
-        C -->|Instancia| E["Controles SQA de Calidad"]
-    end
-    style Metaproceso fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px
+```
+[Práctica Empírica Real]  <-- (Entrada del Metaproceso)
+          |
+          v
+[Análisis Científico SQA] <-- (Filtro Metodológico de Notas Técnicas)
+          |
+          v
+[El Verdadero Proceso]    <-- (Sugerencia Ejecutable y Seguible)
 ```
 
 ---
 
-## 2. El Detonante del Proceso de Requisitos (Caso de Estudio)
+## 2. La Estructura Unificada de Actividades en los Procesos `00-PROC-0X`
 
-Para ejemplificar la viabilidad de este enfoque, desglosamos la transición metodológica de la **Fase 02 - Requisitos** utilizando la triada: **Actualmente / Nota Técnica / Propuesta**.
+Para asegurar la uniformidad documental y el rigor técnico en toda la bóveda de Obsidian, **cada paso o actividad** de los procesos `00-PROC-0X` se estructurará obligatoriamente bajo los siguientes 4 componentes metodológicos secuenciales:
 
-### A. Diagnóstico de la Práctica Inicial: El "Actualmente"
-*   **Origen del Proyecto:** El desarrollo del prototipo del *Visualizador de Marcos* comenzó como una iniciativa técnica directa. Los requisitos fueron conversados de palabra, vía chats informales de mensajería (WhatsApp) y a través de bocetos preliminares proporcionados por el Product Owner (PO).
-*   **Problema de Ingeniería:** Al no existir una definición explícita de requisitos (Frontera de Ingeniería) ni un control de cambios, el alcance era ambiguo, lo que provocaba que el desarrollador implementara funcionalidades basadas en asunciones.
-*   **Inexistencia de Calidad:** No existía ningún artefacto físico que permitiera verificar si lo implementado correspondía exactamente con lo solicitado por el PO, imposibilitando la aplicación de auditorías de SQA.
+```
++------------------------------------------------------------+
+| 1. DISPARADOR (TRIGGER) Y ARTEFACTO INICIAL                |
+|    - Evento o insumo empírico que inicia la actividad.     |
++------------------------------------------------------------+
+                              |
+                              v
++------------------------------------------------------------+
+| 2. ACTUALMENTE (LA PRÁCTICA EMPÍRICA)                      |
+|    - Descripción de cómo se ejecuta hoy de forma informal. |
++------------------------------------------------------------+
+                              |
+                              v
++------------------------------------------------------------+
+| 3. NOTA TÉCNICA / JUSTIFICACIONES                          |
+|    - Respaldado bibliográfico del porqué requiere control. |
++------------------------------------------------------------+
+                              |
+                              v
++------------------------------------------------------------+
+| 4. LA SUGERENCIA (EL VERDADERO PROCESO)                    |
+|    - El paso de ingeniería definitivo, seguible y medible. |
++------------------------------------------------------------+
+```
 
-### B. Fundamentación Académica: La "Nota Técnica" (El Detonante SQA)
-El análisis SQA expone las razones científicas de por qué la práctica inicial está destinada al fracaso técnico:
-*   **Gestión del Alcance (Scope Creep):** De acuerdo con **Regan (2002)**, la falta de formalización en la captura de requerimientos genera desviaciones incontroladas del alcance y estimaciones de tiempo inexactas.
-*   **Ambigüedad Semántica:** El **SWEBOK v4** enfatiza que la descripción de requerimientos en lenguaje natural informal introduce ambigüedad técnica. Para que un requerimiento sea verificable por SQA, debe especificarse de forma atómica y estructurada.
-*   **Contrato Técnico de Calidad:** **Daniel Galin (2004)** conceptualiza el requerimiento aprobado no solo como un insumo de código, sino como un contrato técnico que define el éxito o fracaso del Aseguramiento de la Calidad (V&V).
-
-### C. La "Propuesta" Metodológica: El Proceso de Ingeniería que crea Artefactos
-La fundamentación técnica detona la creación de actividades estructuradas que obligan a los ingenieros a producir **artefactos físicos**. El metaproceso define el proceso `PROC-02` con las siguientes directrices y salidas de ingeniería:
-
-| Actividad del Proceso de Ingeniería | Insumo / Entrada | Artefacto Creado (Salida de Ingeniería) | Rol Responsable |
-| :--- | :--- | :--- | :--- |
-| **1. Capturar Solicitud** | Entrevista / Notas del PO | Folio `REQ-XXX` suelto en `00-Pendientes` | Analista de Requerimientos |
-| **2. Especificar Requisito** | Folio `REQ-XXX` empírico | Ficha de Requisito formal en formato **BDD (Dado/Cuando/Entonces)** | Analista de Requerimientos |
-| **3. Validar con el PO** | Ficha de Requisito BDD | Evidencia de Aprobación del Cliente | Analista de Requerimientos |
-| **4. Establecer Línea Base** | Ficha Aprobada por el PO | Mapeo en la **Matriz de Trazabilidad RTM** y traslado a `01-Aprobados` | Analista de Requerimientos |
+### A. Desglose de los Componentes:
+1.  **Disparador (Trigger) y Artefacto Inicial:** Define el evento específico del mundo real o el insumo empírico (ej. un correo del PO, una charla informal, un commit de código) que da inicio a la actividad, identificando el artefacto base o informal de entrada.
+2.  **Actualmente (La Práctica Empírica):** Describe detalladamente y de forma honesta cómo se ejecuta la actividad en el estado inicial de la organización, exponiendo sus carencias, falta de control físico y la ausencia de validaciones de calidad.
+3.  **Nota Técnica / Justificaciones:** Justificación teórica basada en normas internacionales (ISO, IEEE), modelos de madurez (CMMI) o autores clásicos de SQA (Daniel Galin, William E. Lewis, Regan, SWEBOK v4) que demuestra *por qué* la práctica empírica actual introduce deuda técnica, ambigüedad o inestabilidad.
+4.  **La Sugerencia (El Verdadero Proceso):** Representa el **verdadero paso del proceso final**. Es la combinación optimizada de la realidad del equipo ("Actualmente") enriquecida con las herramientas de calidad ("Sugerencias"). Este paso debe ser **completamente seguible, metodológico y claro**, detallando:
+    *   Qué rol despersonalizado ejecuta el paso.
+    *   Qué acciones secuenciales físicas se realizan en el disco/Obsidian.
+    *   Qué artefacto físico formal de salida se produce (con su ID único).
+    *   Cómo interviene el control de SQA para verificar la salida.
 
 ---
 
-## 3. La Intervención de SQA: Aplicando Calidad sobre los Artefactos
+## 3. Aplicación del Metaproceso en la Fase 02: Especificación de Requisitos
 
-El proceso de ingeniería anterior describe estrictamente cómo se *crean* y *gestionan* los requisitos. Sin embargo, como instruye el profesor en la minuta, **la materia es Calidad**. 
+Como caso de estudio supremo para el SGC, se detalla la modelación de las actividades del proceso de **Especificación de Requisitos (`00-PROC-02`)** bajo esta nueva concepción metodológica unificada de 4 componentes:
 
-Por lo tanto, el metaproceso define que para que un requisito avance en el ciclo de vida del SGC, debe someterse obligatoriamente al **Aseguramiento de Calidad (SQA)**:
-
-### A. El Instrumento de Calidad (Verificación)
-Se diseña e implementa el checklist de validación **CL-02 (Lista de Verificación de Requerimientos)**, fundamentado en los atributos de calidad del SWEBOK (atómico, sin ambigüedad, verificable, viable y completo).
-
-### B. El Registro de Calidad (Evidencia Física)
-Se crea el **REG-02-01 (Registro de Verificación de Requisitos)** bajo la responsabilidad del *Analista de Control y Cambios* (independiente del rol que creó el requisito). 
-*   Si un requerimiento `REQ-XXX` **aprueba** el checklist, se incorpora a la Línea Base y sirve como *Entry Criteria* para el desarrollador (Fase 04) y el diseñador de pruebas (Fase 05).
-*   Si el requerimiento **falla** el checklist, se registra una no conformidad y se bloquea su avance, obligando al *Analista de Requerimientos* a modificar el artefacto de ingeniería (retroalimentación del proceso).
-
-```
-[Ingeniería: PROC-02] ----> Crea Artefacto REQ-01 BDD
-                                |
-                                v
-                   [Calidad SQA: Checklist CL-02]
-                                |
-          +---------------------+---------------------+
-          | (Aprobado)                                | (Rechazado)
-          v                                           v
-[Avanza a Desarrollo y Pruebas]            [Retrabajo e Informe de Hallazgos]
-                                           [Modifica Proceso de Ingeniería]
-```
+### Actividad 1: Capturar la solicitud de requisito
+*   **1. Disparador y Artefacto Inicial:** Mensaje de chat (WhatsApp), correo electrónico informal o notas rápidas de una reunión informal con el Product Owner (PO). El artefacto inicial es la *solicitud empírica e informal del cliente*.
+*   **2. Actualmente:** El PO o los programadores sugieren nuevas ideas de palabra o por chats dispersos. Estas solicitudes se pierden, se olvidan o se codifican directamente sin estimar el impacto, provocando un descontrol de alcance (*Scope Creep*).
+*   **3. Nota Técnica / Justificaciones:** De acuerdo con CMMI-DEV v1.3 (área de proceso REQM) y **Regan (2002)**, capturar requisitos de forma informal es el detonante del descontrol de alcance y retrasos. Centralizar e identificar de forma única las solicitudes en un archivo físico de entrada previene la pérdida de control técnico.
+*   **4. La Sugerencia (El Verdadero Proceso):** 
+    *   *Actores:* Analista de Requerimientos.
+    *   *Acción:* El analista toma el mensaje informal del PO (disparador) y crea físicamente una nota en la subcarpeta de pendientes de Obsidian: `09-Notes/Simulacion-02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/REQ-XXX.md`.
+    *   *Contenido:* Registra el ID estructurado del requerimiento, el link a su solicitud de cambio (`CR-XXX`) y la transcripción textual del mensaje del PO, marcando el estado inicial como "Pendiente".
 
 ---
 
-## 4. Viabilidad del Enfoque: Conclusión Metodológica
+### Actividad 2: Especificar y estructurar el requisito
+*   **1. Disparador y Artefacto Inicial:** La existencia de la ficha de requerimiento inicial `REQ-XXX` en estado "Pendiente" en la carpeta de pendientes.
+*   **2. Actualmente:** Los requerimientos se detallan con enunciados subjetivos y ambiguos en el cuerpo de la nota (ej. *"el sistema debe cargar las imágenes de forma rápida"*), sin establecer reglas de negocio medibles ni criterios de aceptación.
+*   **3. Nota Técnica / Justificaciones:** El **SWEBOK v4** (capítulo de Requisitos) y **William E. Lewis (2009)** enfatizan que un requisito debe ser verificable y libre de ambigüedad. La adopción de escenarios de aceptación estructurados bajo la notación BDD (**Dado/Cuando/Entonces**) y límites numéricos claros provee las precondiciones necesarias para el diseño de pruebas objetivas.
+*   **4. La Sugerencia (El Verdadero Proceso):**
+    *   *Actores:* Analista de Requerimientos.
+    *   *Acción:* El analista edita la nota `REQ-XXX` en pendientes y aplica la plantilla formal de especificación.
+    *   *Contenido:* Define de forma obligatoria las reglas de negocio técnicas (ej. formatos, tamaño límite de 10 MB, resolución mínima) y redacta los escenarios de aceptación bajo la estructura BDD (Happy Path, flujos alternativos y flujos de excepción), configurando un insumo de ingeniería completamente seguible por el programador.
 
-El planteamiento del usuario es **plenamente viable, correcto y metodológicamente sobresaliente**. Al documentar este metaproceso, demostramos:
-1.  **Causalidad Científica:** El SGC no se impone de forma arbitraria; cada control y plantilla nace de un diagnóstico empírico ("Actualmente") y una justificación técnica ("Nota Técnica").
-2.  **Segregación de Responsabilidades:** Se hace evidente que el ingeniero construye el artefacto, pero el analista de SQA lo audita y controla mediante instrumentos científicos.
-3.  **Mejora Continua Real:** Demuestra en la práctica académica el Ciclo Deming (PDCA), asegurando que si las pruebas o la codificación fallan, el SGC retroalimenta los requisitos para elevar la calidad del producto final.
+---
+
+### Actividad 3: Validar y aprobar el requisito con el Product Owner
+*   **1. Disparador y Artefacto Inicial:** Ficha de requerimiento `REQ-XXX` especificada formalmente bajo criterios BDD y lista para revisión.
+*   **2. Actualmente:** El equipo asume que la especificación es correcta e inicia la programación a ciegas, sin solicitar aprobación del PO. Al final del ciclo, el entregable es rechazado por el cliente por no alinearse con sus expectativas originales.
+*   **3. Nota Técnica / Justificaciones:** **Daniel Galin (2004)** conceptualiza la aprobación del cliente como un contrato de calidad técnico. **Regan (2002)** sostiene que la confirmación explícita y escrita (captura de correo o mensaje del canal oficial) es la única evidencia objetiva que deslinda la responsabilidad de SQA ante discrepancias de alcance.
+*   **4. La Sugerencia (El Verdadero Proceso):**
+    *   *Actores:* Analista de Requerimientos.
+    *   *Acción:* El analista presenta la ficha BDD de `REQ-XXX` al PO para su revisión.
+    *   *Contenido:* Resuelven inconsistencias en sesión y, tras la aceptación del PO, el analista inyecta la captura de pantalla o texto íntegro de la confirmación escrita del cliente en la sección de "Evidencia de Aprobación" de la nota, cambiando su estado formal a "Aprobado".
+
+---
+
+### Actividad 4: Línea Base de Requisitos y Trazabilidad SQA
+*   **1. Disparador y Artefacto Inicial:** Ficha de requerimiento `REQ-XXX` en estado "Aprobado" y con su evidencia de aprobación inyectada.
+*   **2. Actualmente:** Las notas aprobadas y pendientes se mantienen en la misma carpeta desordenada. No se sabe qué está listo para desarrollo, y no hay mapeo hacia los casos de diseño o de prueba del sistema.
+*   **3. Nota Técnica / Justificaciones:** CMMI-DEV (área de proceso CM) exige el control de configuración físico (segregación de directorios) para proteger la Línea Base estable. **Lewis (2009)** sustenta que SQA requiere trazabilidad bidireccional desde el requerimiento hasta el código y los casos de prueba para garantizar la cobertura del 100% y facilitar el análisis de impacto.
+*   **4. La Sugerencia (El Verdadero Proceso):**
+    *   *Actores:* Analista de Requerimientos y Analista de Control y Cambios.
+    *   *Acción de Ingeniería:* El Analista de Requerimientos mueve físicamente la nota `REQ-XXX` desde la carpeta de pendientes a la de aprobados oficiales (`01-Ingenieria_Requisitos/01-Aprobados/`) y actualiza la Matriz de Trazabilidad RTM (`01-STD-03_Matriz_Trazabilidad.md`).
+    *   *Acción SQA (Control de Calidad):* El Analista de Control y Cambios evalúa de forma independiente el requerimiento utilizando el checklist `CL-02` y firma el dictamen de conformidad en el registro formal `REG-02-01_Verificacion_Requisitos.md`, autorizando su congelamiento y uso como *Entry Criteria* para desarrollo (Fase 04) y diseño de casos de prueba (Fase 05).
+
+---
+
+## 4. Conclusión e Impacto de Madurez en XookTech v2.0
+
+La adopción de este metaproceso refinado de 4 componentes:
+1.  **Transparenta el Origen:** Cada actividad formal en Obsidian nace de un disparador del mundo real, eliminando el modelado de procesos abstractos.
+2.  **Educa al Equipo:** Explica el "porqué" de cada control de ingeniería a través de justificaciones académicas sólidas.
+3.  **Provee Seguibilidad Absoluta:** Asegura que las sugerencias de SQA se fusionen orgánicamente con el trabajo actual, produciendo procesos reales y prácticos que cualquier integrante del equipo puede ejecutar de forma 100% sistemática.
