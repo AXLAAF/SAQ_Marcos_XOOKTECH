@@ -17,7 +17,7 @@ El sistema debe permitir la previsualizacion de marcos dobles, es decir, marcos 
 - RN-07-01: Los marcos dobles tienen dos espacios para fotografias
 - RN-07-02: Cada espacio de foto puede tener un tamano independiente
 - RN-07-03: No todos los marcos suportan la modalidad doble (solo algunos)
-- RN-07-04: La distancia entre los dos espacios es configurable
+- RN-07-04: La distancia entre los dos espacios es configurable, con un valor límite máximo de 50 mm para resguardar la paridad del canvas interactivo.
 
 ## 3. Precondiciones
 
@@ -70,4 +70,4 @@ El sistema debe permitir la previsualizacion de marcos dobles, es decir, marcos 
 ## 10. Trazabilidad
 
 - Casos de Prueba: [[05-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/02-CP-09_Marco_doble]]
-- Change Requests: [[07-Control/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]] (Pendiente de aprobacion)
+- Change Requests: No aplica
