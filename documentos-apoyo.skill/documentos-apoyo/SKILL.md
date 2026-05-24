@@ -1,5 +1,5 @@
 ---
-name: documentos-apoyo
+ºname: documentos-apoyo
 description: >
   Usa este skill para generar documentos de apoyo formales en Markdown: registros,
   listas de verificación, plantillas de comunicación, formatos de cotización, formatos
