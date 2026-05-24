@@ -83,6 +83,35 @@ Para que el SGC sea legible y mantenga un alto rigor metodológico, la estructur
 *   **Subcarpeta `02-Calidad_[Fase]` (La Verificación):**  
     Alberga de forma estricta los checklists de calidad (`CL`), las actas de inspección (`INS`), los informes de hallazgos y los registros formales de aprobación de SQA (`REG`). Describe cómo el equipo independiente de calidad verifica que lo construido cumpla con el estándar.
 
+### A. Estructura Oficial de Directorios y Archivos del Vault
+A continuación se ilustra visualmente el mapa de árbol oficial que representa la paridad absoluta y distribución de los metaprocesos, procesos y subcarpetas en Obsidian:
+
+```text
+Assignments_V2/
+│
+├── 00-Meta/                     <-- GOBERNANZA GLOBAL (Nivel 1)
+│   ├── 00-PROC-00_Gobernanza_Vault.md
+│   ├── 01-PLAN-01_Accion_SQA.md
+│   ├── 02-STD-01_Estandar_ETVX.md
+│   ├── 03-STD-02_Convenciones_Tags.md
+│   ├── 04-GLO-01_Glosario_Terminos.md
+│   ├── 05-STD-03_Matriz_Responsabilidades.md
+│   └── 06-MET-01_Metaproceso_Modelado_Procesos.md   <-- [NUEVO ARTEFACTO MAESTRO GLOBAL]
+│
+└── 01-Proyecto/
+    └── 09-Notes/
+        └── Preview-02-Requisitos/  <-- ENTORNO SEGURO DE TRABAJO Y PREPARACIÓN (Nivel 2)
+            ├── 00-MET-02_Plan_Metaproceso_Requisitos.md   <-- [NUEVO PLAN DE TRANSICIÓN DE LA FASE]
+            ├── 00-PROC-02_Especificacion_Requerimientos.md  <-- (El proceso ejecutable)
+            ├── 01-Ingenieria_Requisitos/
+            │   ├── 00-Pendientes/  <-- (Requisitos REQ-08 a REQ-10)
+            │   ├── 01-Aprobados/   <-- (Requisitos REQ-01 a REQ-07)
+            │   └── 01-STD-03_Matriz_Trazabilidad.md
+            └── 02-Calidad_Requisitos/
+                └── REG-02-01_Verificacion_Requisitos.md
+```
+
+
 ---
 
 ## 4. Inyección del Ciclo de Mejora Continua PDCA (Ciclo Deming)
