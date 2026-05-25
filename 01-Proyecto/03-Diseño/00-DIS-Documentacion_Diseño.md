@@ -1,90 +1,79 @@
-# Documentación del Proceso de Diseño (As-Is)
+# Proceso de Diseño de Software — XookTech
 
 **Responsable:** Analista de Gobernanza y Diseño  
-**Entradas:** Requisitos aprobados en la fase de ingeniería de requerimientos, diagramas empíricos de flujo de sistema y componentes informales de software.  
-**Salidas:** Análisis de conformidad y mapeo de actividades as-is de diseño, catálogo de estándares técnicos y análisis de brechas de arquitectura bajo ISO/IEC 12207.  
+**Entradas:** Requisitos de software aprobados en la fase de ingeniería de requerimientos, restricciones tecnológicas del proyecto y lineamientos de arquitectura de la organización.  
+**Salidas:** Diagnóstico del estado actual (As-Is) del proceso de diseño, catálogo de brechas arquitectónicas y hallazgos contra ISO/IEC 12207 §6.4.4 e IEEE Std 1016.  
 
 ---
 
-## 1. Introducción y Contexto Metodológico
-
-Esta documentación formaliza el estado actual (As-Is) del proceso de diseño en el proyecto *Visualizador de Marcos*. La organización se encuentra en la transición metodológica desde prácticas de codificación directa sin diseño formalizado (**CMMI Nivel 1 - Inicial**) hacia un entorno estructurado de diseño técnico verificable (**CMMI Nivel 2 - Gestionado**). Este documento evalúa las actividades de arquitectura de software frente al estándar internacional **ISO/IEC/IEEE 12207:2017**.
-
----
-
-## 2. Propósito y Resultados del Proceso (ISO/IEC/IEEE 12207 §6.4.4)
-
-De acuerdo con la norma internacional **ISO/IEC/IEEE 12207:2017 §6.4.4** (Proceso de diseño de la arquitectura del sistema), se definen los siguientes componentes:
-
-*   **Propósito:** Proporcionar un diseño para el sistema que implemente los requisitos del sistema y que sea verificable frente a ellos, detallando la descomposición del software en componentes con interfaces claras para guiar la codificación.
-*   **Resultados Esperados (Outcomes):**
-    1.  **Definición Arquitectónica:** Se define la arquitectura del sistema identificando sus componentes, subsistemas e interfaces de comunicación.
-    2.  **Verificación y Consistencia:** Se analiza y verifica la consistencia del diseño de software frente a la línea base de requisitos aprobados.
-    3.  **Trazabilidad del Diseño:** Se establece la trazabilidad bidireccional entre los requisitos del negocio y los elementos de diseño técnico.
+## 1. Información General
+| Campo | Detalle |
+|---|---|
+| Código | 03 |
+| Proceso | Diseño de la Arquitectura y Componentes de Software |
+| Estándar de referencia | ISO/IEC 12207 §6.4.4 (Proceso de Diseño de la Arquitectura del Software) / IEEE Std 1016-2009 |
+| Versión | 1.0 |
+| Fecha | 2026-05-25 |
+| Responsable del proceso | Analista de Gobernanza y Diseño |
 
 ---
 
-## 3. Mapeo de Actividades Actuales (As-Is) vs Estándar
+## 2. Propósito
+> Derivado de ISO/IEC 12207 §6.4.4.
+> Este proceso tiene como propósito producir una descripción de diseño de software verificable que transforme los requisitos aprobados en una arquitectura modular, detallando la descomposición lógica y física del sistema en componentes con interfaces definidas, modelos de datos y flujos de comportamiento que guíen  la fase de codificación.
 
-La operación actual del proceso de diseño se describe a través de los siguientes flujos de trabajo e interpretaciones técnicas:
+## 3. Alcance
+*   **Qué cubre:** La definición de la arquitectura lógica y física del sistema, la descomposición en componentes y subsistemas, el modelado de interfaces de programación (APIs y rutas), el diseño del modelo de datos y persistencia, la diagramación del flujo de comportamiento del sistema y la verificación de consistencia del diseño frente a los requisitos aprobados.
+*   **Qué NO cubre:** La captura y especificación de requisitos de usuario, la escritura del código fuente, la ejecución de pruebas unitarias o de integración, ni el despliegue a entornos de producción.
 
-### Actividad 1: Modelado de Diagrama de Componentes
-1.  **Paso 1 - Recuperar requerimiento:** El Analista de Gobernanza y Diseño toma la ficha de requerimiento aprobada (ej. `REQ-01`) de la Fase 02.
-2.  **Paso 2 - Diseño de arquitectura lógica:** Diseña la estructura interna del sistema mediante diagramas de componentes utilizando lenguaje descriptivo Mermaid.js.
-3.  **Paso 3 - Registro del estándar:** Registra la vista técnica bajo la nomenclatura estructurada `01-STD-04_Diagrama_Componentes.md` para control del SGC.
-    *   **Nota Técnica (NT-01):** Según **Daniel Galin 2004**, modelar la descomposición física y lógica de los componentes de software antes de iniciar la construcción reduce hasta en un 40% el retrabajo en la fase de codificación, aislando la lógica de negocio de los detalles de infraestructura.
+## 4. Roles y Responsabilidades
+| Rol | Responsabilidad en este proceso |
+|---|---|
+| Analista de Gobernanza y Diseño | Define la arquitectura lógica y física del sistema, produce los diagramas técnicos en Mermaid.js, redacta el Documento de Descripción de Diseño (SDD) y valida la trazabilidad del diseño con los requisitos. |
+| Líder de Desarrollo e Implementación | Valida la viabilidad técnica de la arquitectura propuesta frente a las restricciones tecnológicas del entorno de producción (Flask, OpenCV, VPS). |
+| Revisor SQA | Ejecuta el checklist de verificación de diseño sobre el SDD antes de autorizar la transición a codificación. |
 
-### Actividad 2: Modelado del Flujo y Navegación del Sistema
-1.  **Paso 1 - Definir ciclo de navegación:** Se traza el camino de interacción del usuario con la interfaz de visualización de marcos de Flask y OpenCV.
-2.  **Paso 2 - Modelado de estados:** Se definen los flujos lógicos, llamadas a funciones del backend y respuestas de la vista del cliente.
-3.  **Paso 3 - Almacenamiento en SGC:** Se resguarda en el artefacto `02-STD-05_Flujo_Sistema.md`.
-    *   **Nota Técnica (NT-02):** **SWEBOK v4.0** destaca que la diagramación del flujo dinámico del sistema y la interacción de componentes de software permite detectar de forma proactiva bloqueos mutuos (*deadlocks*) e inconsistencias lógicas en el comportamiento del backend.
+## 5. Entradas
+| Entrada | Origen | Formato actual |
+|---|---|---|
+| Requisitos del sistema | Proceso de Requisitos (02) | Inexistente — requisitos verbales o en chats informales |
+| Restricciones tecnológicas | Líder de Desarrollo | Conocimiento tácito no documentado |
+| Lineamientos de arquitectura | Biblioteca de Procesos | Inexistente — no se cuenta con un estándar de diseño formalizado |
 
-### Actividad 3: Definición del Modelo de Datos
-1.  **Paso 1 - Identificación de estructuras:** Se definen las tablas de base de datos o esquemas JSON que almacenarán el catálogo de marcos, dimensiones y tipos de vidrio.
-2.  **Paso 2 - Modelado entidad-relación:** Se describe el modelo de datos en `03-STD-06_Modelo_Datos.md` con sus tipos de datos y llaves primarias.
-3.  **Paso 3 - Sincronización:** Se valida que el modelo sea capaz de respaldar los escenarios de persistencia requeridos por desarrollo.
-    *   **Nota Técnica (NT-03):** **William E. Lewis 2009** postula que el modelo de datos es la base de la persistencia de software y debe estar documentado formalmente para evitar corrupción en el almacenamiento y discrepancias en los esquemas entre ambientes.
+## 6. Salidas (Artefactos)
+| Artefacto | Destino | Formato actual |
+|---|---|---|
+| Documento de Descripción de Diseño (SDD) | Equipo de Desarrollo | Inexistente — no se produce un SDD formal |
+| Diagramas de Arquitectura | SGC del Proyecto | Inexistente — se codifica directamente sin diagramas previos |
+| Modelo de Datos | Equipo de Desarrollo / DBA | Inexistente — el esquema se define improvisadamente en tiempo de codificación |
 
-### Actividad 4: Mapeo de la Arquitectura Física Python
-1.  **Paso 1 - Diseño del esqueleto:** Se describe el mapa físico del repositorio, ubicando directorios clave como `app/`, `static/`, `templates/` y archivos de configuración.
-2.  **Paso 2 - Definición de interfaces de software:** Se registran las signaturas de las funciones esenciales de Flask y procesamiento de imágenes con OpenCV.
-3.  **Paso 3 - Registro en SGC:** Se almacena en `04-STD-07_Arquitectura_Python.md`.
-    *   **Nota Técnica (NT-04):** **CMMI-DEV v2.0** establece que documentar el esqueleto físico del proyecto es un prerrequisito indispensable para asegurar que el equipo de desarrollo codifique de forma estructurada e incorporando estándares comunes de arquitectura.
+## 7. Pasos del Proceso
+Cómo se hace hoy en la empresa
 
----
+1.  **Ausencia total de fase de diseño:** El equipo de XookTech no cuenta con una fase formal de diseño de software. La transición de requisitos a codificación se realiza de forma directa, sin producir ningún artefacto de arquitectura intermedio.
+2.  **Codificación directa sin arquitectura:** Los programadores inician la escritura de código basándose exclusivamente en instrucciones verbales del líder del proyecto, sin contar con diagramas de componentes, flujos de sistema ni modelo de datos documentado.
+3.  **Decisiones tecnológicas implícitas:** Las decisiones de tecnología (lenguaje, framework, base de datos) se toman de manera improvisada y no quedan registradas en ningún documento de justificación técnica.
+4.  **Modelo de datos ad-hoc:** Las tablas de base de datos, esquemas JSON y estructuras de persistencia se definen sobre la marcha durante la codificación, sin un diseño previo que garantice la integridad referencial y la normalización.
+5.  **Ausencia de interfaces formales:** Las firmas de funciones, rutas de API y contratos de comunicación entre componentes no se especifican antes de codificar, provocando acoplamientos fuertes e interfaces rotas entre subsistemas.
 
-## 4. Catálogo de Artefactos de Diseño Existentes
+## 8. Herramientas Utilizadas
+| Herramienta | Propósito dentro del proceso |
+|---|---|
+| N/A | No se utilizan herramientas de modelado de diseño, ya que el proceso es inexistente |
 
-La fase de diseño actual cuenta con los siguientes artefactos registrados en la bóveda de Obsidian:
+## 9. Problemas y Hallazgos Identificados
+Esta sección es el núcleo del diagnóstico. Identifica las brechas contra estándares reconocidos.
 
-| ID de Archivo | Nombre del Artefacto | Estado de Calidad | Ubicación en Bóveda |
-|---|---|---|---|
-| `STD-04` | Diagrama de Componentes Lógicos | Aprobado | `03-Diseño/01-Ingenieria_Diseño/01-STD-04_Diagrama_Componentes.md` |
-| `STD-05` | Diagrama de Flujo del Sistema | Aprobado | `03-Diseño/01-Ingenieria_Diseño/02-STD-05_Flujo_Sistema.md` |
-| `STD-06` | Modelo de Datos y Esquemas | Aprobado | `03-Diseño/01-Ingenieria_Diseño/03-STD-06_Modelo_Datos.md` |
-| `STD-07` | Estructura Física y Arquitectura Python | Aprobado | `03-Diseño/01-Ingenieria_Diseño/04-STD-07_Arquitectura_Python.md` |
-| `HALLAZGO-01`| Registro de Inconsistencia Tecnológica| Resuelto | `03-Diseño/02-Calidad_Diseño/HALLAZGO-01_Inconsistencia_Tecnologica.md` |
-| `PROC-03` | Proceso de Diseño de Sistema | Vigente | `03-Diseño/03-PROC-03_Diseño_Sistema.md` |
+| ID | Hallazgo | Criterio violado |
+|---|---|---|
+| **H-01** | No existe una fase de diseño de software formalizada en el ciclo de vida del proyecto. | ISO/IEC 12207 §6.4.4 (Proceso de Diseño Arquitectónico) |
+| **H-02** | No se produce un Documento de Descripción de Diseño (SDD) que guíe la codificación. | IEEE Std 1016-2009 / SWEBOK v4 Cap. 2 |
+| **H-03** | Las decisiones tecnológicas y de arquitectura no se documentan ni justifican formalmente. | CMMI-DEV v2.0 TS SP 1.1 (Selección de Soluciones) |
+| **H-04** | No existen diagramas de descomposición lógica, comportamiento dinámico ni vista física del sistema. | IEEE Std 1016-2009 (Viewpoints) |
+| **H-05** | El modelo de datos y las interfaces de componentes se definen improvisadamente durante la codificación. | ISO/IEC 12207 §6.4.4 / SWEBOK v4 Cap. 2 |
+| **H-06** | Ausencia de trazabilidad bidireccional entre requisitos aprobados y elementos de diseño. | CMMI-DEV v2.0 TS SP 2.2 / ISO/IEC 12207 |
+| **H-07** | No existe un checklist de verificación de calidad de diseño previo a la transición a codificación. | CMMI-DEV v2.0 PPQA SP 1.1 / IEEE 1028-2008 |
 
----
-
-## 5. Análisis de Brechas Identificadas frente al Estándar
-
-Al contrastar la práctica as-is contra las directrices de **ISO/IEC/IEEE 12207 §6.4.4**, se detectan las siguientes brechas:
-
-1.  **Carencia de un Documento Integrador de Descripción de Diseño (Gap-01):** Los diagramas técnicos actuales (`STD-04` a `STD-07`) están aislados. Se requiere una plantilla formal de Documento de Descripción de Diseño de Software (SDD) basada en **IEEE Std 1016** (ej. `PLT-SDD.md`) que unifique las vistas arquitectónicas lógicas y físicas.
-2.  **Ausencia de una Plantilla de Diagramación de Arquitectura bajo Estándar (Gap-02):** No se cuenta con una guía estandarizada para estructurar nuevos diagramas arquitectónicos que guíen al equipo en la adición de módulos bajo el enfoque de puntos de vista (*viewpoints*) de IEEE 1016.
-3.  **Checklist de Calidad de Diseño Inexistente (Gap-03):** Las evaluaciones de SQA carecen de una herramienta formal estructurada para validar la integridad del diseño. Se requiere un checklist específico (`CHK-SDD.md`) basado en la norma IEEE 1016.
-
----
-
-## 6. Control de Entregables Generados
-
-A continuación se detalla la gobernanza del presente documento de proceso:
-
-| Artefacto Generado | Código | Estándar de Respaldo | Estado |
-|---|---|---|---|
-| Documentación del Proceso de Diseño (As-Is) | DIS-DOC-01 | ISO/IEC/IEEE 12207:2017 | Vigente e Incorporado al SGC |
-
-*Aprobación:* Autorizado y verificado digitalmente por el rol responsable bajo el Estándar XookTech v2.0.
+## 10. Métricas Actuales
+*   **Estado de las métricas:** El proceso de diseño de software de XookTech no cuenta actualmente con ninguna métrica definida, ya que el proceso mismo es inexistente.
+*   **Diagnóstico:** La ausencia total de un proceso de diseño imposibilita la medición de la densidad de defectos de arquitectura, la cobertura de requisitos en el diseño y la alineación de interfaces, bloqueando cualquier iniciativa de mejora continua cuantificable (CMMI-DEV Nivel 2).
