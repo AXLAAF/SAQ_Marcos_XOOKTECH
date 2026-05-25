@@ -25,33 +25,33 @@ De acuerdo con la norma internacional **ISO/IEC/IEEE 12207:2017 §6.4.1** (Proce
 
 ---
 
-## 3. Mapeo de Actividades Actuales (As-Is) vs Estándar
+## 3. Mapeo de Actividades Actuales (As-Is) de la Organización
 
-El análisis detallado de la operación empírica inicial frente a las mejores prácticas de la ingeniería de software revela el siguiente comportamiento y justificación técnica:
+El análisis del proceso empírico inicial de la organización frente a las directrices de la ingeniería de software revela el siguiente comportamiento y justificación técnica:
 
-### Actividad 1: Captura Preliminar de la Solicitud de Negocio
-1.  **Paso 1 - Recepción informal:** El cliente o Product Owner externa una idea general por canales no oficiales (llamadas telefónicas o mensajes de WhatsApp) sin estructura documental fija.
-2.  **Paso 2 - Registro manual en Bóveda:** El Analista de Requerimientos recupera manualmente la solicitud y la registra en formato de nota física dentro de la carpeta `02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/`.
-3.  **Paso 3 - Asignación de Folio:** Se le asigna una nomenclatura estructurada provisional (ej: `REQ-XX`) para incorporarla formalmente al control de la bóveda de Obsidian.
-    *   **Nota Técnica (NT-01):** Según **Daniel Galin 2004**, la captura informal de requisitos, si no se canaliza de inmediato mediante una nota de entrada protegida, es la principal fuente de desvíos en el alcance del proyecto. El aislamiento físico de las peticiones en carpetas de "pendientes" constituye el primer paso hacia el control de configuración formal.
+### Actividad 1: Captura Preliminar de Requisitos (WhatsApp y Llamadas)
+*   **Paso 1 o Recepción informal:** El cliente o Product Owner externa una idea general por WhatsApp o realiza una llamada de voz rápida detallando una necesidad de negocio informal.
+*   **Paso 2 o Ausencia de registro:** La solicitud de requerimiento se queda en la bandeja de chats personales del desarrollador sin registrarse en ningún documento oficial, carpeta física o asignación de folio estructurado.
+*   **Paso 3 o Descontrol de alcance:** El desarrollador del equipo comienza a codificar directamente basándose únicamente en su interpretación preliminar del chat, sin un análisis formal de impacto de tiempo, costos o arquitectura.
+    *   **Nota Técnica (NT-01):** De acuerdo con **CMMI-DEV v2.0** y **Regan 2002**, la captura informal de requisitos es la principal causa de desvíos en el alcance (*scope creep*). Centralizar e identificar de forma única cada petición en una nota física de entrada previene la pérdida de control y formaliza la entrada técnica de requisitos.
 
 ### Actividad 2: Especificación y Modelado del Requisito
-1.  **Paso 1 - Aplicación de formato:** La nota de entrada se expande de un texto simple a un modelo descriptivo con reglas de negocio limitantes (dimensiones permitidas, formatos de imagen aceptados y cotas numéricas).
-2.  **Paso 2 - Redacción de Escenarios BDD:** El Analista de Requerimientos traduce la lógica de negocio a escenarios de aceptación legibles empleando la estructura de lenguaje ubicuo `Dado / Cuando / Entonces`.
-3.  **Paso 3 - Mapeo bidireccional preliminar:** El ID del requisito es agregado de inmediato en la Matriz de Trazabilidad para vigilar su ciclo de vida y evitar orfandad del artefacto.
-    *   **Nota Técnica (NT-02):** **SWEBOK v4.0** y **William E. Lewis 2009** destacan que la especificación basada en comportamiento (BDD) disminuye significativamente la ambigüedad en la interpretación y facilita al rol de verificación el diseño de casos de prueba medibles y ejecutables desde etapas tempranas.
+*   **Paso 1 o Redacción informal:** Se redacta un párrafo corto y ambiguo en lenguaje natural en el cuerpo de una nota descriptiva de la función.
+*   **Paso 2 o Ausencia de cotas:** No se establecen límites de formato, peso máximo de archivos, dimensiones permitidas o rendimiento técnico.
+*   **Paso 3 o Ambigüedad técnica:** El desarrollador decide de forma arbitraria las reglas de negocio en el backend, imposibilitando que el rol de verificación y pruebas diseñe casos de prueba medibles y objetivos.
+    *   **Nota Técnica (NT-02):** **SWEBOK v4.0** y **William E. Lewis 2009** exigen que los requisitos de software sean verificables, medibles y libres de ambigüedad. La adopción de escenarios de aceptación estructurados en formato BDD y cotas numéricas claras provee las bases necesarias para el diseño de casos de prueba robustos.
 
-### Actividad 3: Revisión de Aprobación Contractual
-1.  **Paso 1 - Presentación técnica:** El Analista de Requerimientos expone la ficha técnica en formato BDD al Product Owner para su revisión formal.
-2.  **Paso 2 - Conciliación:** Se resuelven de forma colaborativa posibles discrepancias y dudas sobre las fronteras tecnológicas del Visualizador de Marcos.
-3.  **Paso 3 - Cierre despersonalizado:** Una vez acordado, se actualiza el estado en la bóveda a "Aprobado" y se adjunta la autorización digital institucional bajo el estándar.
-    *   **Nota Técnica (NT-03):** De acuerdo con **Regan 2002**, la firma y el acuerdo explícito de requerimientos actúan como un contrato de software y deslindan responsabilidades de SQA ante solicitudes posteriores de cambio no planificadas.
+### Actividad 3: Validación y Aprobación con el Product Owner
+*   **Paso 1 o Asunción interna:** El equipo lee el requerimiento redactado de forma interna y asume que cumple con lo que el cliente desea, sin corroborarlo con él.
+*   **Paso 2 o Programación directa:** Se inicia la codificación de la funcionalidad en el backend sin presentar la especificación técnica detallada al Product Owner para su revisión formal.
+*   **Paso 3 o Rechazo de entrega:** Durante la demostración final, el cliente rechaza la funcionalidad al constatar que el comportamiento real de Flask/OpenCV difiere de lo que él deseaba verbalmente.
+    *   **Nota Técnica (NT-03):** **Daniel Galin 2004** conceptualiza la aprobación del cliente como un contrato técnico. **Regan 2002** sustenta que la confirmación escrita explícita en la sección Evidencia de Aprobación es la única evidencia objetiva que deslinda la responsabilidad de SQA ante discrepancias de alcance.
 
-### Actividad 4: Inyección en la Línea Base de Requisitos
-1.  **Paso 1 - Segregación física:** El Analista de Requerimientos mueve el archivo `.md` de la carpeta `00-Pendientes/` a la carpeta `01-Aprobados/`.
-2.  **Paso 2 - Congelamiento de versión:** Se actualizan las tablas de trazabilidad y la línea base del sistema para reflejar el estado estable de la configuración.
-3.  **Paso 3 - Auditoría de Calidad SQA:** El Analista de Control y Cambios evalúa periódicamente la ficha de requerimiento aprobada empleando checklists estructurados para garantizar el cumplimiento documental.
-    *   **Nota Técnica (NT-04):** **CMMI-DEV v2.0** (Requirements Management) describe que proteger físicamente las versiones aprobadas impide la inyección descontrolada de alcance (*scope creep*) y garantiza que los desarrolladores programen sobre bases estables y autorizadas.
+### Actividad 4: Línea Base de Requisitos y Trazabilidad SQA
+*   **Paso 1 o Mezcla de archivos:** Las notas aprobadas y pendientes de requisitos se mantienen en la misma carpeta física común sin segregación de archivos.
+*   **Paso 2 o Falta de control:** El desarrollador programa tomando notas de forma desordenada, sin saber qué requerimientos están aprobados de forma estable y cuáles están pendientes de cambios.
+*   **Paso 3 o Desconexión de pruebas:** No se realiza un mapeo formal hacia los diagramas de diseño lógico de la Fase 03 ni a los casos de prueba de la Fase 04, perdiéndose la trazabilidad en el ciclo de vida del desarrollo.
+    *   **Nota Técnica (NT-04):** **CMMI-DEV v2.0** y **William E. Lewis 2009** exigen el control de configuración físico para proteger la Línea Base estable. SQA requiere trazabilidad bidireccional desde el requerimiento hasta el código y los casos de prueba para garantizar la cobertura del 100% y facilitar el análisis de impacto.
 
 ---
 
