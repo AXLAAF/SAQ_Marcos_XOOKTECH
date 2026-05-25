@@ -73,7 +73,7 @@ Implantar desde cero un proceso de diseño de software disciplinado y verificabl
 ---
 
 ### M-03 — Registro formal de decisiones de arquitectura y selección de componentes
-*   **Situación actual:** Las decisiones tecnológicas (Flask vs FastAPI, OpenCV vs Pillow, SQLite vs JSON) se toman de manera implícita y no se registran (H-03).
+*   **Situación actual:** Las decisiones tecnológicas (como la selección de frameworks web, librerías de procesamiento de datos o motores de base de datos) se toman de manera implícita y no se registran (H-03).
 *   **Situación propuesta:** Toda decisión de arquitectura relevante debe documentarse en el SDD incluyendo: las alternativas evaluadas, los criterios de selección, la justificación técnica de la alternativa elegida y los riesgos identificados.
 *   **Justificación:** CMMI-DEV v2.0 TS SP 1.1 (Selección de Soluciones de Componentes de Producto) establece que se deben evaluar y documentar las alternativas de solución técnica con criterios objetivos antes de comprometerse con una implementación.
 *   **Artefacto asociado:** [PLT-REG_Decisiones_Arquitectura.md](Plantillas/Registros/PLT-REG_Decisiones_Arquitectura.md)

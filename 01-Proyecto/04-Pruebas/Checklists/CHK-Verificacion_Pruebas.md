@@ -3,7 +3,7 @@
 ## Metadatos de la Revisión
 | Campo | Valor |
 |---|---|
-| Proyecto | Visualizador de Marcos |
+| Proyecto | Sistema bajo prueba |
 | Entrega / Cambio revisado | |
 | Fuente de solicitud | Reunión inicial / WhatsApp / Cliente / Interna |
 | Responsable de pruebas | Analista de Verificación y Pruebas |

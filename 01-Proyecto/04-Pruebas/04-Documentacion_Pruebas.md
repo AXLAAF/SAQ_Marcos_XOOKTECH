@@ -14,7 +14,7 @@
 
 ## 2. Propósito
 > Derivado de ISO/IEC 12207.
-> Este proceso tiene como propósito comprobar que los requisitos y cambios del Visualizador de Marcos funcionen antes de mostrarlos al Cliente, dejando evidencia mínima de qué se probó, qué resultado se obtuvo y qué ajustes quedaron pendientes.
+> Este proceso tiene como propósito comprobar que los requisitos y cambios del sistema de software funcionen antes de mostrarlos al Cliente, dejando evidencia mínima de qué se probó, qué resultado se obtuvo y qué ajustes quedaron pendientes.
 
 ## 3. Alcance
 *   **Qué cubre:** La planeación ligera de pruebas, creación de casos de prueba, ejecución local de pruebas, registro de resultados, evidencia mínima y registro de fallos o ajustes encontrados.

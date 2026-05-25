@@ -3,7 +3,7 @@
 ## Metadatos de la Revisión
 | Campo | Valor |
 |---|---|
-| Proyecto | Visualizador de Marcos |
+| Proyecto | Sistema bajo prueba |
 | Artefacto revisado | |
 | Tipo de artefacto | Requisito / Plan de pruebas / Caso de prueba / Otro |
 | Autor del artefacto | |

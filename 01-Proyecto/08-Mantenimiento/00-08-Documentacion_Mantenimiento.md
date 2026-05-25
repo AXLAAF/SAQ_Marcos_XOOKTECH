@@ -5,7 +5,7 @@
 |---|---|
 | Código | 08 |
 | Proceso | Soporte técnico y mantenimiento del sistema |
-| Estándar de referencia | ISO/IEC 12207 §6.4.10 (Proceso de Mantenimiento de Software) / ISO/IEC 14764 |
+| Estándar de referencia | ISO/IEC 12207 6.4.10 (Proceso de Mantenimiento de Software) / ISO/IEC 14764 |
 | Versión | 1.0 |
 | Fecha | 2026-05-24 |
 | Responsable del proceso | Analista de Control y Cambios |

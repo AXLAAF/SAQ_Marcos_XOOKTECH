@@ -55,7 +55,7 @@
 2.  **Ausencia de folio y registro único:** La solicitud se queda en la bandeja de chats personales, sin centralizarse en un folio identificable ni nota de entrada en el vault de Obsidian.
 3.  **Redacción de notas informales:** Se redacta un párrafo descriptivo corto en lenguaje natural libre, sin inyectar ninguna plantilla estandarizada de especificación técnica.
 4.  **Ambigüedad técnica:** No se establecen límites de peso máximo de archivos, formatos soportados, ni cotas de rendimiento, impidiendo que el equipo de pruebas diseñe casos de verificación objetivos.
-5.  **Validación ausente con el PO:** Se asume de forma interna que lo comprendido es correcto y se inicia la programación directa en Flask/OpenCV sin someter la especificación técnica detallada a una revisión con el PO.
+5.  **Validación ausente con el PO:** Se asume de forma interna que lo comprendido es correcto y se inicia la codificación directa de software sin someter la especificación técnica detallada a una revisión con el PO.
 6.  **Falta de control físico de la Línea Base:** Las fichas técnicas en Obsidian se mantienen en una carpeta común y desorganizada, mezclando requisitos inestables con aprobados y dificultando la visibilidad técnica.
 7.  **Desconexión de trazabilidad:** No se cuenta con un mapeo formal hacia los diagramas de diseño ni a los casos de prueba de calidad, perdiéndose la trazabilidad en el ciclo de vida del desarrollo.
 
@@ -77,7 +77,7 @@
 | **H-01** | La asignación y captura de requerimientos es informal (WhatsApp) y no deja evidencia. | ISO 12207 §6.4.1.3 / SWEBOK v4 Cap. 2 |
 | **H-02** | Ausencia de folios de entrada y registro único de la necesidad de negocio. | ISO 12207 §6.4.1.2 |
 | **H-03** | Redacción técnica ambigua en lenguaje natural libre sin límites ni cotas numéricas. | SWEBOK v4 Cap. 2 (Verificabilidad de Requisitos) |
-| **H-04** | Inicio de la programación de Flask/OpenCV sin contar con la validación formal escrita del PO. | Daniel Galin 2004 (Calidad Contractual) |
+| **H-04** | Inicio de la codificación de software sin contar con la validación formal escrita del PO. | Daniel Galin 2004 (Calidad Contractual) |
 | **H-05** | Mezcla física de archivos pendientes y aprobados en carpetas desorganizadas. | CMMI-DEV v2.0 CM SP 1.1 (Líneas Base) |
 | **H-06** | Inexistencia de trazabilidad bidireccional entre requerimientos, diseño y pruebas. | CMMI-DEV v2.0 REQM SP 1.4 |
 | **H-07** | Ausencia de auditorías de SQA independientes y de registros de calidad formales. | CMMI-DEV v2.0 PPQA SP 1.1 / IEEE Std 830 |

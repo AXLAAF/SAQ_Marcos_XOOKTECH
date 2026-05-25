@@ -24,9 +24,9 @@ Este checklist técnico es el instrumento de control de calidad obligatorio que 
 - [ ] **UA-03:** ¿Se definen límites precisos, parámetros y cotas numéricas (ej. formatos permitidos, dimensiones, pesos) evitando términos vagos como "rápido" o "intuitivo"?
 
 ### 2.3 Completitud (Complete)
-- [ ] **CP-01:** ¿Están especificadas todas las funciones requeridas del sistema del Visualizador de Marcos?
+- [ ] **CP-01:** ¿Están especificadas todas las funciones requeridas del sistema de software bajo análisis?
 - [ ] **CP-02:** ¿Se describen detalladamente las interfaces externas (interfaz gráfica del usuario e interfaz física de software)?
-- [ ] **CP-03:** ¿Se definen explícitamente las restricciones del proyecto (stack tecnológico de Flask/OpenCV, compatibilidad en Linux y optimización de touchpad)?
+- [ ] **CP-03:** ¿Se definen explícitamente las restricciones del proyecto (stack tecnológico definido, compatibilidad de sistema operativo y optimización de periféricos)?
 
 ### 2.4 Consistencia (Consistent)
 - [ ] **CS-01:** ¿Todos los identificadores de requerimientos y flujos técnicos del sistema están libres de conflictos lógicos de nomenclatura?

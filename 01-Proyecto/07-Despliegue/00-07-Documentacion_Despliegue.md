@@ -5,7 +5,7 @@
 |---|---|
 | Código | 07 |
 | Proceso | Transición a Entornos de Producción (Gestión de Liberaciones) |
-| Estándar de referencia | ISO/IEC 12207 §6.4.7 (Proceso de Liberación de Software) |
+| Estándar de referencia | ISO/IEC 12207 6.4.7 (Proceso de Liberación de Software) |
 | Versión | 1.0 |
 | Fecha | 2026-05-24 |
 | Responsable del proceso | Líder de Desarrollo e Implementación |

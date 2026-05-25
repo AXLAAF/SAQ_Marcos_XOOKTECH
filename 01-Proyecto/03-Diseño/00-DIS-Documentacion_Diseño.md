@@ -30,7 +30,7 @@
 | Rol | Responsabilidad en este proceso |
 |---|---|
 | Analista de Gobernanza y Diseño | Define la arquitectura lógica y física del sistema, produce los diagramas técnicos en Mermaid.js, redacta el Documento de Descripción de Diseño (SDD) y valida la trazabilidad del diseño con los requisitos. |
-| Líder de Desarrollo e Implementación | Valida la viabilidad técnica de la arquitectura propuesta frente a las restricciones tecnológicas del entorno de producción (Flask, OpenCV, VPS). |
+| Líder de Desarrollo e Implementación | Valida la viabilidad técnica de la arquitectura propuesta frente a las restricciones tecnológicas del entorno de producción (stack de desarrollo, VPS). |
 | Revisor SQA | Ejecuta el checklist de verificación de diseño sobre el SDD antes de autorizar la transición a codificación. |
 
 ## 5. Entradas

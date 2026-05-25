@@ -3,7 +3,7 @@
 ## Metadatos del Documento
 | Campo | Valor |
 |---|---|
-| Proyecto | Visualizador de Marcos |
+| Proyecto | Sistema bajo prueba |
 | Proceso | Revisiones e Inspecciones (PROC-05) |
 | Responsable | Analista de Control y Cambios |
 | Estándar de referencia | ISO/IEC 12207 / CMMI-DEV v2.0 |

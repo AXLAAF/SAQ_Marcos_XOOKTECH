@@ -5,7 +5,7 @@
 |---|---|
 | Código | 04 |
 | Proceso | Codificación de funcionalidades del sistema |
-| Estándar de referencia | ISO/IEC 12207 §6.4.1 (Proceso de Implementación de Software) |
+| Estándar de referencia | ISO/IEC 12207 6.4.1 (Proceso de Implementación de Software) |
 | Versión | 1.0 |
 | Fecha | 2026-05-24 |
 | Responsable del proceso | Líder de Desarrollo e Implementación |

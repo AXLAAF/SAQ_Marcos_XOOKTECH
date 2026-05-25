@@ -3,7 +3,7 @@
 ## Metadatos del Documento
 | Campo | Valor |
 |---|---|
-| Proyecto | Visualizador de Marcos |
+| Proyecto | Sistema bajo prueba |
 | Proceso | Pruebas (PROC-04) |
 | Responsable | Analista de Verificación y Pruebas |
 | Estándar de referencia | ISO/IEC 12207 / CMMI-DEV v2.0 |

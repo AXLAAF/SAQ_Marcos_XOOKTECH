@@ -29,9 +29,9 @@
 ### 2.1 Alternativas Evaluadas
 | Componente | Alternativa A | Alternativa B | Selección | Justificación |
 |---|---|---|---|---|
-| [Framework Web] | [Flask] | [FastAPI] | [Selección] | [Criterios técnicos] |
-| [Procesamiento de Imágenes] | [OpenCV] | [Pillow] | [Selección] | [Criterios técnicos] |
-| [Persistencia de Datos] | [SQLite] | [JSON] | [Selección] | [Criterios técnicos] |
+| [Framework de la Aplicación] | [Opción A (ej. Flask)] | [Opción B (ej. FastAPI)] | [Selección] | [Criterios técnicos] |
+| [Librería de Procesamiento] | [Opción A (ej. OpenCV)] | [Opción B (ej. Pillow)] | [Selección] | [Criterios técnicos] |
+| [Persistencia de Datos] | [Opción A (ej. SQLite)] | [Opción B (ej. JSON)] | [Selección] | [Criterios técnicos] |
 
 ---
 
@@ -48,18 +48,18 @@ graph TD
     end
 
     subgraph Backend["Capa del Servidor (Lógica)"]
-        Flask["Rutas y Controladores Flask"]
-        OpenCV["Procesamiento OpenCV"]
+        Controller["Controlador Principal / API"]
+        Proc["Módulo de Procesamiento"]
     end
 
     subgraph Persistence["Persistencia (Datos)"]
         DB["Esquema de Base de Datos"]
     end
 
-    UI --> Flask
-    JS --> Flask
-    Flask --> OpenCV
-    Flask --> DB
+    UI --> Controller
+    JS --> Controller
+    Controller --> Proc
+    Controller --> DB
 ```
 
 ### 3.2 Punto de Vista de Comportamiento Lógico (Logical Viewpoint)
@@ -69,8 +69,8 @@ graph TD
 sequenceDiagram
     actor Usuario
     participant UI as Interfaz Cliente
-    participant Backend as Flask Backend
-    participant Proc as Procesamiento Imagen
+    participant Backend as Servidor Backend
+    participant Proc as Módulo de Procesamiento
 
     Usuario->>UI: [Acción del usuario]
     UI->>Backend: [Solicitud HTTP]

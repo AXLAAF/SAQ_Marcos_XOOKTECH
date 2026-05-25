@@ -7,7 +7,7 @@
 
 ## 1. Introducción y Propósito
 
-Este registro documenta las actividades de control de calidad aplicadas por el **Analista de Control y Cambios** sobre la Línea Base de requisitos del **Visualizador de Marcos**. Cada requerimiento en estado "Aprobado" es sometido a una revisión formal e independiente utilizando los criterios establecidos en el checklist de calidad para requisitos individuales [[02-Requisitos/Checklists/CHK-REQ]] antes de autorizar su pase a la fase de desarrollo y codificación. Este registro de SQA es auditado periódicamente bajo las pautas del checklist [[02-Requisitos/Checklists/CHK-REG]].
+Este registro documenta las actividades de control de calidad aplicadas por el **Analista de Control y Cambios** sobre la Línea Base de requisitos del **sistema de software**. Cada requerimiento en estado "Aprobado" es sometido a una revisión formal e independiente utilizando los criterios establecidos en el checklist de calidad para requisitos individuales [[02-Requisitos/Checklists/CHK-REQ]] antes de autorizar su pase a la fase de desarrollo y codificación. Este registro de SQA es auditado periódicamente bajo las pautas del checklist [[02-Requisitos/Checklists/CHK-REG]].
 
 ---
 
