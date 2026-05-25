@@ -5,7 +5,7 @@
 |---|---|
 | Proyecto | |
 | Proceso | Mantenimiento y Soporte (PROC-08) |
-| Responsable | Analista de Gobernanza y Diseño |
+| Responsable | Analista de Control y Cambios |
 | Estándar de referencia | ISO/IEC 12207 §6.4.10 / ISO/IEC 14764 |
 
 ---
@@ -27,4 +27,4 @@
 ## 3. Historial de Versiones de Plantilla
 | Versión | Fecha | Autor | Modificación |
 |---|---|---|---|
-| 1.0 | 2026-05-24 | Analista de Gobernanza | Creación e implantación inicial. |
+| 1.0 | 2026-05-24 | Analista de Control | Creación e implantación inicial. |

@@ -21,11 +21,10 @@ Establecer un proceso de transición a producción seguro, robusto y estructurad
 
 ---
 
-## 3. Resumen de Hallazgos (Trazabilidad)
-| ID Hallazgo | Descripción breve | Acción de Mejora que lo atiende |
+## 3. Resumen de Hallazg| ID Hallazgo | Descripción breve | Acción de Mejora que lo atiende |
 |---|---|---|
-| **H-01** | Instalación manual y global de librerías en el servidor. | **M-01** Aislamiento de entornos virtuales y control exacto de dependencias. |
-| **H-02** | Ejecución de la aplicación con servidor de desarrollo embebido de Flask. | **M-02** Configuración de servidor de aplicaciones industrial Gunicorn bajo Systemd. |
+| **H-01** | Instalación manual y global de dependencias en el servidor. | **M-01** Aislamiento de entornos virtuales y control exacto de dependencias. |
+| **H-02** | Ejecución de la aplicación con servidor de desarrollo embebido. | **M-02** Configuración de servidor de aplicaciones industrial Gunicorn bajo Systemd. |
 | **H-03** | Exposición directa de puerto local a internet sin cifrado HTTPS. | **M-03** Implementación de Proxy Inverso Nginx y Certificados SSL. |
 | **H-04** | Ausencia de Smoke Tests y plan de Rollback ante fallos críticos. | **M-04** Despliegue seguro con pruebas de humo y plan de retorno rápido automático. |
 
@@ -44,37 +43,37 @@ Establecer un proceso de transición a producción seguro, robusto y estructurad
 
 ### M-01 — Aislamiento de entornos virtuales y control de dependencias
 *   **Situación actual:** Las dependencias se instalan manualmente de manera global en el servidor virtual privado (VPS), arriesgando conflictos lógicos graves (H-01).
-*   **Situación propuesta:** Uso obligatorio de un entorno virtual de Python (`venv`) exclusivo para la aplicación en la ruta `/var/www/visualizador-marcos/env`. Congelación exacta de versiones en `requirements.txt`.
+*   **Situación propuesta:** Uso obligatorio de un entorno virtual aislado exclusivo para la aplicación en la ruta `/var/www/aplicacion/env`. Congelación exacta de versiones en `requirements.txt`.
 *   **Justificación:** SWEBOK v4 y las mejores prácticas de SQA promueven la reproducibilidad de los entornos de ejecución para evitar fallos inesperados de portabilidad.
-*   **Artefacto asociado:** [PLT-FOR_Configuracion_Proyecto.md](file:///d:/Proyectos/Baul/Baul/Assignments_V2/01-Proyecto/07-Despliegue/Plantillas/Formatos/PLT-FOR_Configuracion_Proyecto.md)
+*   **Artefacto asociado:** [PLT-FOR_Configuracion_Entorno.md](file:///d:/Proyectos/Baul/Baul/Assignments_V2/01-Proyecto/07-Despliegue/Plantillas/Formatos/PLT-FOR_Configuracion_Entorno.md)
 *   **Evidencia de cumplimiento:** Directorio de entorno virtual `env` activo en el VPS e instalación exitosa de librerías congeladas.
 
 ---
 
 ### M-02 — Configuración de servidor de aplicaciones Gunicorn bajo Systemd
-*   **Situación actual:** Se ejecuta Flask en caliente utilizando el servidor embebido de desarrollo, lo cual carece de concurrencia y es inseguro (H-02).
+*   **Situación actual:** Se ejecuta la aplicación utilizando directamente el servidor embebido de desarrollo, lo cual carece de concurrencia y es inseguro (H-02).
 *   **Situación propuesta:** Adoptar el servidor de aplicaciones Gunicorn (WSGI), definiendo hilos de ejecución según la fórmula de procesamiento del VPS (`2n + 1`) y creando un servicio de Systemd para asegurar el auto-reinicio continuo ante caídas del sistema.
 *   **Justificación:** El estándar ISO/IEC 12207 establece que la transición de software debe garantizar la resiliencia y la protección ante fallos operativos.
 *   **Artefacto asociado:** N/A (configuración del sistema operativo del servidor)
-*   **Evidencia de cumplimiento:** Archivo de servicio `/etc/systemd/system/marcos.service` cargado y configurado en estado de ejecución activo (`active/running`).
+*   **Evidencia de cumplimiento:** Archivo de servicio `/etc/systemd/system/web.service` cargado y configurado en estado de ejecución activo (`active/running`).
 
 ---
 
 ### M-03 — Implementación de Proxy Inverso Nginx y Certificados SSL con Certbot
-*   **Situación actual:** El puerto 5000 está expuesto a internet sin proxy inverso ni cifrado de seguridad SSL (H-03).
+*   **Situación actual:** El puerto local de la aplicación está expuesto a internet sin proxy inverso ni cifrado de seguridad SSL (H-03).
 *   **Situación propuesta:** Configurar Nginx para escuchar peticiones en puerto 80/443, redirigiendo internamente a Gunicorn y despachando archivos estáticos de forma optimizada. Instalación de Certbot para HTTPS.
 *   **Justificación:** Daniel Galin (2004) señala que la seguridad de la infraestructura y el control de accesos externos son elementos de prevención de errores obligatorios en SQA.
 *   **Artefacto asociado:** [PLT-REG_Entornos_Servidores.md](file:///d:/Proyectos/Baul/Baul/Assignments_V2/01-Proyecto/07-Despliegue/Plantillas/Registros/PLT-REG_Entornos_Servidores.md)
-*   **Evidencia de cumplimiento:** Archivo de bloque de servidor en `/etc/nginx/sites-enabled/marcos` habilitado y certificado SSL vigente verificado por el navegador.
+*   **Evidencia de cumplimiento:** Archivo de bloque de servidor en `/etc/nginx/sites-enabled/web` habilitado y certificado SSL vigente verificado por el navegador.
 
 ---
 
 ### M-04 — Despliegue seguro con pruebas de humo y plan de retorno rápido automático
 *   **Situación actual:** En caso de fallar el despliegue, el sistema colapsa indefinidamente sin un plan de contingencia (H-04).
-*   **Situación propuesta:** Adoptar una estrategia de despliegue seguro. Al realizar el pase a producción, se ejecutan de inmediato "pruebas de humo" (Smoke Tests) automatizadas que validan que los endpoints críticos respondan correctamente. Si fallan, se realiza un retorno rápido (rollback) automático al último tag estable.
+*   **Situación propuesta:** Adoptar una estrategia de despliegue seguro. Al realizar el pase a producción, se ejecutan de inmediato "pruebas de humo" (Smoke Tests) automatizadas que validan que los endpoints críticos respondan correctamente. Si fallan, se realiza un retorno rápido (rollback) automático al último tag de control estable en Git.
 *   **Justificación:** IEEE 12207 (Release and Deployment Management) exige la validación formal post-despliegue mediante pruebas de verificación rápida y el aseguramiento del plan de retorno rápido ante incidentes.
-*   **Artefacto asociado:** [PLT-REG_Incidentes_Produccion.md](file:///d:/Proyectos/Baul/Baul/Assignments_V2/01-Proyecto/07-Despliegue/Plantillas/Registros/PLT-REG_Incidentes_Produccion.md) y [CHK-Verificacion_Despliegue.md](file:///d:/Proyectos/Baul/Baul/Assignments_V2/01-Proyecto/07-Despliegue/Checklists/CHK-Verificacion_Despliegue.md)
-*   **Evidencia de cumplimiento:** Registros de ejecución de Smoke Tests en la consola de despliegue y checklists de despliegue firmados digitalmente.
+*   **Artefacto asociado:** [PLT-REG_Incidentes_Produccion.md](file:///d:/Proyectos/Baul/Baul/Assignments_V2/01-Proyecto/07-Despliegue/Plantillas/Registros/PLT-REG_Incidentes_Produccion.md), [PLT-FOR_Plan_Smoke_Tests.md](file:///d:/Proyectos/Baul/Baul/Assignments_V2/01-Proyecto/07-Despliegue/Plantillas/Formatos/PLT-FOR_Plan_Smoke_Tests.md) y [CHK-Verificacion_Despliegue.md](file:///d:/Proyectos/Baul/Baul/Assignments_V2/01-Proyecto/07-Despliegue/Checklists/CHK-Verificacion_Despliegue.md)
+*   **Evidencia de cumplimiento:** Registros de ejecución de Smoke Tests en la consola de despliegue y checklists de despliegue firmados digitalmente.�n de Smoke Tests en la consola de despliegue y checklists de despliegue firmados digitalmente.
 
 ---
 

@@ -8,7 +8,7 @@
 | Estándar de referencia | ISO/IEC 12207 §6.4.10 (Proceso de Mantenimiento de Software) / ISO/IEC 14764 |
 | Versión | 1.0 |
 | Fecha | 2026-05-24 |
-| Responsable del proceso | Analista de Gobernanza y Diseño |
+| Responsable del proceso | Analista de Control y Cambios |
 
 ---
 
@@ -17,14 +17,14 @@
 > Este proceso tiene como propósito dar soporte continuo post-entrega al sistema, corrigiendo fallas lógicas o de infraestructura reportadas por el cliente, adaptando el software a variaciones del entorno operativo, previniendo la degradación del rendimiento e implementando mejoras autorizadas bajo controles rigurosos de calidad.
 
 ## 3. Alcance
-*   **Qué cubre:** La recepción y bitácora de reportes de error (Correctivo) y peticiones de cambio (Evolutivo/Adaptativo), el análisis de impacto técnico en los módulos de la aplicación Flask y base de datos, la estimación del esfuerzo en horas/costo, el desarrollo aislado en ramas de corrección urgente, la ejecución de pruebas de regresión del Plan Maestro y la actualización de la Línea Base.
+*   **Qué cubre:** La recepción y bitácora de reportes de error (Correctivo) y peticiones de cambio (Evolutivo/Adaptativo), el análisis de impacto en los módulos de la aplicación y su configuración, la estimación del esfuerzo en horas/costo, el desarrollo aislado en ramas de corrección urgente, la ejecución de pruebas de regresión del Plan Maestro y la actualización de la Línea Base.
 *   **Qué NO cubre:** El desarrollo de la primera versión del sistema o sus fases de construcción principales pre-producción.
 
 ## 4. Roles y Responsabilidades
 | Rol | Responsabilidad en este proceso |
 |---|---|
-| Analista de Gobernanza y Diseño | Recibe y registra los reportes de incidentes, clasifica su severidad, realiza el análisis de impacto técnico en el diseño del sistema y actualiza el Dashboard de Calidad. |
-| Líder de Desarrollo e Implementación | Estima el esfuerzo requerido, codifica las correcciones en ramas de corrección urgente aisladas e integra los cambios certificados tras las pruebas. |
+| Analista de Control y Cambios | Recibe y registra los reportes de incidentes, clasifica su severidad, coordina el análisis de impacto y actualiza el Tablero de Calidad de la empresa. |
+| Líder de Desarrollo e Implementación | Realiza el análisis de impacto técnico en la arquitectura y dependencias, estima el esfuerzo requerido, codifica las correcciones en ramas de corrección urgente aisladas e integra los cambios certificados tras las pruebas. |
 | Analista de Verificación y Pruebas | Re-ejecuta de inmediato los casos de prueba de regresión pertinentes sobre el ambiente local/staging. |
 
 ## 5. Entradas
@@ -44,10 +44,10 @@
 ## 7. Pasos del Proceso
 Cómo se hace hoy en la empresa
 
-1.  **Recepción informal de incidencias:** Los usuarios reportan de palabra, por chats dispersos o llamadas directas. No existe una bitácora única de incidentes, lo que causa que los problemas críticos de Flask u OpenCV no se prioricen de manera oportuna.
+1.  **Recepción informal de incidencias:** Los usuarios reportan de palabra, por chats dispersos o llamadas directas. No existe una bitácora única de incidentes, lo que causa que los problemas críticos de la aplicación no se prioricen de manera oportuna.
 2.  **Parche directo en producción:** El equipo de desarrollo modifica o "parchea" el código fuente directamente en producción sin realizar previamente un análisis de impacto de dependencias y sin emitir una cotización de horas técnica.
 3.  **Integración sin pruebas de regresión:** Los cambios se inyectan en caliente sobre la rama principal sin re-ejecutar pruebas lógicas completas, asumiendo empíricamente que la solución es infalible y rompiendo colateralmente otros módulos estables.
-4.  **Cierre documental inexistente:** Una vez realizada la corrección, no se actualizan los diagramas técnicos de diseño de base de datos ni el Tablero (Dashboard) de Calidad de la empresa, perdiéndose las lecciones aprendidas de soporte.
+4.  **Cierre documental inexistente:** Una vez realizada la corrección, no se actualizan los diagramas técnicos de arquitectura ni el Tablero de Calidad de la empresa, perdiéndose las lecciones aprendidas de soporte.
 
 ## 8. Herramientas Utilizadas
 | Herramienta | Propósito dentro del proceso |

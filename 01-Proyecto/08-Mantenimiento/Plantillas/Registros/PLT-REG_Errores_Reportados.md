@@ -5,7 +5,7 @@
 |---|---|
 | Proyecto | |
 | Proceso | Mantenimiento y Soporte (PROC-08) |
-| Responsable | Analista de Gobernanza y Diseño |
+| Responsable | Analista de Control y Cambios |
 | Estándar de referencia | ISO/IEC 12207 §6.4.10 / ISO/IEC 14764 |
 
 ---
@@ -26,7 +26,7 @@
 
 ## 3. Guía de Prioridades (Tiempos de Respuesta)
 *   **Crítico:** Interrupción total del servicio (Downtime) o pérdida inminente de datos. (Atención: < 2 horas).
-*   **Alto:** Afectación seria de una funcionalidad principal sin alternativa (ej: falla en previsualización de marcos). (Atención: < 24 horas).
+*   **Alto:** Afectación seria de una funcionalidad principal sin alternativa (ej: falla en procesamiento de transacciones o registros). (Atención: < 24 horas).
 *   **Normal:** Detalles de UI o incidentes menores con alternativas viables. (Atención: < 3 días hábiles).
 
 ---
@@ -34,4 +34,4 @@
 ## 4. Historial de Versiones de Plantilla
 | Versión | Fecha | Autor | Modificación |
 |---|---|---|---|
-| 1.0 | 2026-05-24 | Analista de Gobernanza | Creación e implantación inicial. |
+| 1.0 | 2026-05-24 | Analista de Control | Creación e implantación inicial. |

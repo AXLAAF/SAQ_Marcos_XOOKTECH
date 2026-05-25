@@ -40,7 +40,7 @@ No está permitida la liberación en vivo en producción si existe cualquier ít
 | ID | Criterio | Estado | Observación |
 |---|---|---|---|
 | EJ-01 | Las dependencias de `requirements.txt` se instalaron sin fallos o advertencias de compilación. | | |
-| EJ-02 | Gunicorn está ejecutándose bajo Systemd como un servicio auto-recuperable (`marcos.service`). | | |
+| EJ-02 | Gunicorn está ejecutándose bajo Systemd como un servicio auto-recuperable (`web.service`). | | |
 | EJ-03 | Nginx actúa como proxy inverso en puerto 80/443, redirigiendo al puerto interno de la aplicación. | | |
 | EJ-04 | Los certificados SSL Let's Encrypt están activos e implementan HTTPS obligatorio. | | |
 | EJ-05 | Los directorios de almacenamiento de archivos o subidas tienen permisos seguros restringidos. | | |
@@ -53,9 +53,9 @@ No está permitida la liberación en vivo en producción si existe cualquier ít
 
 | ID | Criterio | Estado | Observación |
 |---|---|---|---|
-| PV-01 | Se ejecutaron Smoke Tests (pruebas rápidas de endpoints críticos de la API) de forma exitosa. | | |
+| PV-01 | Se ejecutó el Plan de Pruebas de Humo (`PLT-FOR_Plan_Smoke_Tests.md`) de forma exitosa y sin fallos en validaciones críticas. | | |
 | PV-02 | El portal web es accesible externamente a través del dominio y responde en menos de 2 segundos. | | |
-| PV-03 | Los archivos de logs en `/var/log/marcos/error.log` no muestran excepciones ni errores fatales de Flask. | | |
+| PV-03 | Los archivos de logs de la aplicación y de Nginx no muestran excepciones ni errores fatales de ejecución de servicios. | | |
 
 *Referencia: IEEE 12207 (Release and Deployment Verification)*
 

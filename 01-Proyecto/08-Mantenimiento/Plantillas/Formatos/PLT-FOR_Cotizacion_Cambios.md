@@ -5,7 +5,7 @@
 |---|---|
 | Proyecto | |
 | Proceso | Mantenimiento y Soporte (PROC-08) |
-| Responsable | Analista de Gobernanza y Diseño |
+| Responsable | Analista de Control y Cambios |
 | Estándar de referencia | SWEBOK v4 / Daniel Galin (2004) |
 
 ---
@@ -25,7 +25,7 @@
 ---
 
 ## 2. Análisis de Impacto Técnico y Alcance
-(Describa qué módulos de la aplicación, bases de datos o librerías de OpenCV/Flask se verán afectados por el cambio. Sea explícito).
+(Describa qué módulos de la aplicación, bases de datos o dependencias se verán afectados por el cambio. Sea explícito).
 
 | Actividad Técnica | Descripción del Trabajo | Módulo del Sistema |
 |:---|:---|:---|

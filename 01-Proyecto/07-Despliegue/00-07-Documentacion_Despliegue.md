@@ -44,24 +44,24 @@
 ## 7. Pasos del Proceso
 Cómo se hace hoy en la empresa
 
-1.  **Aprovisionamiento manual de dependencias:** Las librerías de Python/OpenCV se instalan directamente en el entorno global del servidor VPS sin aislamiento virtual, lo que provoca conflictos de versiones con otros servicios preexistentes.
-2.  **Ejecución insegura de la aplicación:** La aplicación se pone en marcha utilizando directamente el servidor de desarrollo embebido de Flask (`app.run`), el cual carece de la robustez, concurrencia y seguridad necesarias para un entorno productivo.
-3.  **Exposición directa de puertos:** El puerto de desarrollo 5000 se expone directamente a internet sin Nginx como proxy inverso, dejando al servidor vulnerable y sin cifrado de seguridad SSL (HTTP simple).
+1.  **Aprovisionamiento manual de dependencias:** Las librerías y dependencias del sistema se instalan directamente en el entorno global del servidor VPS sin aislamiento virtual, lo que provoca conflictos de versiones con otros servicios preexistentes.
+2.  **Ejecución insegura de la aplicación:** La aplicación se pone en marcha utilizando directamente el servidor de desarrollo embebido integrado, el cual carece de la robustez, concurrencia y seguridad necesarias para un entorno productivo.
+3.  **Exposición directa de puertos:** El puerto de desarrollo se expone directamente a internet sin Nginx como proxy inverso, dejando al servidor vulnerable y sin cifrado de seguridad SSL (HTTP simple).
 4.  **Despliegue sin plan de contingencia (Rollback):** Ante cualquier fallo crítico en el despliegue, la aplicación queda interrumpida (inactiva) y se procede a depurar el código directamente en el servidor de producción a contrarreloj.
 
 ## 8. Herramientas Utilizadas
 | Herramienta | Propósito dentro del proceso |
 |---|---|
 | SSH directo | Acceso directo de consola al servidor VPS de producción |
-| Intérprete global de Python | Ejecución directa de dependencias de la aplicación |
+| Entorno de ejecución global | Ejecución directa de dependencias de la aplicación |
 
 ## 9. Problemas y Hallazgos Identificados
 Esta sección detalla las no conformidades con respecto a la calidad y robustez de infraestructura según estándares.
 
 | ID | Hallazgo | Criterio violado |
 |---|---|---|
-| **H-01** | Instalación manual y global de librerías sin entornos aislados (venv). | SWEBOK v4 Cap. 10 / Reproducibilidad |
-| **H-02** | Ejecución de la aplicación con servidor de desarrollo embebido de Flask. | ISO 12207 §6.4.7 (proceso de liberación de software) |
+| **H-01** | Instalación manual y global de librerías sin entornos aislados. | SWEBOK v4 Cap. 10 / Reproducibilidad |
+| **H-02** | Ejecución de la aplicación con servidor de desarrollo embebido. | ISO 12207 §6.4.7 (proceso de liberación de software) |
 | **H-03** | Exposición directa del puerto local a internet sin proxy inverso (Nginx) ni cifrado HTTPS. | Galin (2004) Control de Infraestructura |
 | **H-04** | Ausencia de pruebas de humo (Smoke Tests) automatizadas y plan de retorno rápido (rollback) atómico ante incidentes. | IEEE 12207 (Release & Deployment Management) |
 

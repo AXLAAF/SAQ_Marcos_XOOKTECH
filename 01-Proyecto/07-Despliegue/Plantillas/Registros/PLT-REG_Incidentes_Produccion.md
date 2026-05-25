@@ -11,7 +11,7 @@
 ---
 
 ## 1. Instrucciones de Uso
-*   Este registro se utiliza exclusivamente para documentar interrupciones críticas en los entornos de producción (caídas de red, fallas de VPS, caídas del servicio Flask).
+*   Este registro se utiliza exclusivamente para documentar interrupciones críticas en los entornos de producción (caídas de red, fallas de VPS, caídas de servicios de aplicación).
 *   En caso de que el incidente se asocie a un despliegue reciente, debe referenciarse obligatoriamente el folio del checklist de despliegue `CHK-Verificacion_Despliegue.md`.
 
 ---

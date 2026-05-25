@@ -17,7 +17,7 @@
 > Este proceso tiene como propósito producir módulos de software verificados y de calidad a partir de los requisitos y elementos de diseño documentados, transformando especificaciones abstractas en código fuente reproducible, seguro, mantenible y robusto.
 
 ## 3. Alcance
-*   **Qué cubre:** El desarrollo local del código fuente en lenguajes definidos (Python/Flask, JavaScript, etc.), la estructuración de la lógica de negocio, las migraciones y operaciones de base de datos relacional, la creación de vistas o páginas web, la conexión asíncrona entre cliente/servidor y la verificación local inicial mediante pruebas unitarias o de integración.
+*   **Qué cubre:** El desarrollo local del código fuente en los lenguajes y frameworks definidos para la aplicación, la estructuración de la lógica de negocio, las migraciones y operaciones de persistencia de datos, la creación de interfaces o páginas web, la conexión asíncrona entre cliente/servidor y la verificación local inicial mediante pruebas unitarias o de integración.
 *   **Qué NO cubre:** La especificación de requerimientos de usuario, el diseño arquitectónico de alto nivel, la ejecución de las fases de pruebas del sistema completas en ambientes controlados, ni el despliegue final a producción.
 
 ## 4. Roles y Responsabilidades

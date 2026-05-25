@@ -35,8 +35,8 @@ Establecer un proceso de soporte técnico y mantenimiento post-despliegue en Xoo
 
 | ID | Acción | Hallazgo que atiende | Responsable | Prioridad |
 |---|---|---|---|---|
-| **M-01** | Centralización y clasificación en bitácoras de soporte (Planear) | H-01 | Analista de Gobernanza | Alta |
-| **M-02** | Análisis formal de viabilidad y cotización técnica de cambios (Hacer) | H-02 | Analista de Gobernanza | Alta |
+| **M-01** | Centralización y clasificación en bitácoras de soporte (Planear) | H-01 | Analista de Control | Alta |
+| **M-02** | Análisis formal de viabilidad y cotización técnica de cambios (Hacer) | H-02 | Analista de Control | Alta |
 | **M-03** | Pruebas de regresión en ramas aisladas de corrección urgente (Verificar) | H-03 | Líder de Desarrollo | Alta |
 | **M-04** | Cierre de soporte formal y actualización documental (Actuar) | H-04 | Analista de Control | Alta |
 
@@ -53,7 +53,7 @@ Establecer un proceso de soporte técnico y mantenimiento post-despliegue en Xoo
 
 ### M-02 — Análisis formal de viabilidad y cotización técnica de cambios (Hacer)
 *   **Situación actual:** Se realizan parches directos de código sin prever impactos en la arquitectura ni estimar plazos técnicos (H-02).
-*   **Situación propuesta:** Antes de codificar, el Analista de Gobernanza realiza un análisis del diseño de componentes. El desarrollador elabora el formato de cotización de cambios estimando las horas requeridas de ingeniería, necesitando la autorización formal por escrito de parte del cliente.
+*   **Situación propuesta:** Antes de codificar, el Analista de Control y Cambios coordina la viabilidad y el desarrollador realiza el análisis de impacto técnico. El desarrollador elabora el formato de cotización de cambios estimando las horas requeridas de ingeniería, necesitando la autorización formal por escrito de parte del cliente.
 *   **Justificación:** SWEBOK v4 (Mantenimiento de Software) [1] y Daniel Galin [4] definen el análisis de impacto técnico y el cálculo del esfuerzo de modificación como controles preventivos indispensables de la ingeniería de calidad.
 *   **Artefacto asociado:** [PLT-FOR_Cotizacion_Cambios.md](file:///d:/Proyectos/Baul/Baul/Assignments_V2/01-Proyecto/08-Mantenimiento/Plantillas/Formatos/PLT-FOR_Cotizacion_Cambios.md)
 *   **Evidencia de cumplimiento:** Ficha de cotización `COT-YYYY-NNN` firmada y autorizada digitalmente por el propietario del producto (Product Owner) antes del inicio del desarrollo.
@@ -71,10 +71,10 @@ Establecer un proceso de soporte técnico y mantenimiento post-despliegue en Xoo
 
 ### M-04 — Cierre de soporte formal y actualización documental (Actuar)
 *   **Situación actual:** Solucionado el problema en caliente, no se actualizan los diagramas técnicos ni el Tablero de Calidad (H-04).
-*   **Situación propuesta:** Tras el despliegue de la corrección, el Analista de Gobernanza actualiza si es necesario los diagramas técnicos modificados y el Analista de Control actualiza el Tablero (Dashboard) de Calidad de la empresa, cerrando formalmente el ciclo Deming.
+*   **Situación propuesta:** Tras el despliegue de la corrección, el desarrollador actualiza si es necesario los diagramas técnicos modificados y el Analista de Control y Cambios actualiza el Tablero de Calidad de la empresa, cerrando formalmente el ciclo Deming.
 *   **Justificación:** CMMI-DEV v2.0 (Gestión de la Configuración - CM) y la disciplina del ciclo continuo exigen mantener la integridad y consistencia de toda la documentación frente a la línea base de configuración modificada.
 *   **Artefacto asociado:** N/A (práctica procedimental de mejora)
-*   **Evidencia de cumplimiento:** Registro de actualización de diagramas técnicos de diseño de base de datos e incremento en el total de métricas consolidadas en el Tablero de Calidad de XookTech.
+*   **Evidencia de cumplimiento:** Registro de actualización de diagramas de arquitectura e incremento en el total de métricas consolidadas en el Tablero de Calidad de XookTech.
 
 ---
 

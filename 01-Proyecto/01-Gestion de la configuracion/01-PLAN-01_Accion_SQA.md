@@ -55,7 +55,7 @@
 
 ### Repositorio y Desarrollo
 - **GitHub**: [Marcos2](https://github.com/Bigsami89/Marcos2)
-- **Lenguaje**: Python (OpenCV, Pillow, Flask)
+- **Tecnología**: Servidor de Aplicaciones y APIs Web
 - **Documentacion**: Obsidian (Vault SQA)
 
 ### Referencias del Marco Teorico (Assignments_V2)

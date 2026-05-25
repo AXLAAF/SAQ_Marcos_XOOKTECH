@@ -36,7 +36,7 @@
 | **PROC-05** | Control de Cambios | SCM, solicitudes de cambio e inspecciones SQA | Analista de Control y Cambios | Activo |
 | **PROC-06** | Pruebas | Casos de prueba exhaustivos y bitácoras SQA | Analista de Verificación y Pruebas | Activo |
 | **PROC-07** | Despliegue | Paquete de entrega y Guía de Instalación | Líder de Desarrollo | Activo |
-| **PROC-08** | Mantenimiento | Soporte post-despliegue y control de incidentes | Analista de Gobernanza y Diseño | Activo |
+| **PROC-08** | Mantenimiento | Soporte post-despliegue y control de incidentes | Analista de Control y Cambios | Activo |
 
 ---
 
@@ -107,10 +107,14 @@ PROC-02 (Requisitos BDD) ======> PROC-03 (Diseño de Componentes)
 - [[08-Mantenimiento/00-08-Plan_De_Mejora_Mantenimiento|PROC-08 Mantenimiento - Plan de Mejora]]
 - [[05-Revisiones e inspecciones/05-PROC-05.2_Inspecciones|PROC-09 Inspecciones]]
 
-### Metricas
+### Metricas y Gobernanza
 - [[05-Revisiones e inspecciones/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08 Dashboard de Calidad]]
+- [[05-Revisiones e inspecciones/02-Calidad_Control/PLT-STD_Tablero_Calidad|STD-08-PLT Plantilla de Tablero de Calidad]]
 - [[05-Revisiones e inspecciones/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03 Registro de Defectos]]
+- [[07-Despliegue/Plantillas/Formatos/PLT-FOR_Plan_Smoke_Tests|PLT-FOR Plan de Smoke Tests]]
+- [[07-Despliegue/Plantillas/Formatos/PLT-FOR_Configuracion_Entorno|PLT-FOR Configuración de Entorno]]
 
 ---
 
-*Indice creado: 2026-03-19*
+*Indice actualizado: 2026-05-25*
+
