@@ -9,7 +9,7 @@
 
 
 
-**Proceso relacionado:** [[00-PROC-04_Codificacion]]
+**Proceso relacionado:** [[04-PROC-04_Codificacion]]
 **Instrucciones generales:** Registre aquí cada funcionalidad o tarea de construcción antes de iniciar la codificación para asegurar la trazabilidad.
 
 | Folio Tarea * (TAR-YYYY-NNN) | Prioridad * (Baja/Media/Alta) | Folio Requisito * (REQ-XXX) | Funcionalidad * (Nombre descriptivo) | Programador * (Nombre del responsable) | Fecha Inicio * (DD/MM/AAAA) | Estado (Pendiente / En Proceso / Listo) | Fecha Entrega (DD/MM/AAAA) |

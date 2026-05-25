@@ -11,7 +11,7 @@ Esta skill guía al agente bajo los estándares del curso de Aseguramiento de la
 - **Infraestructura (Galin):** Uso obligatorio de plantillas en `assets/`.
 - **Rigor (ETVX):** Definir Entry, Task, Validation y Exit en cada proceso.
 
-## 2. Pilares de la Carpeta 00-Meta
+## 2. Pilares de la Carpeta 01-Gestion de la configuracion
 Para asegurar el cumplimiento normativo, el agente debe entender la función de cada archivo en la Authority Root:
 1. **Gobernanza (00)**: Es el marco legal y contrato de operación.
 2. **Plan de Acción (01)**: Es la estrategia temporal y estado de fases.

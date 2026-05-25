@@ -8,7 +8,7 @@ Este documento registra las dudas y explicaciones clave surgidas durante la impl
 ---
 
 ## 1. Sobre las Propiedades (Frontmatter YAML)
-**Pregunta:** ¿Por qué las propiedades del `00-PROC-00_Gobernanza_Vault`?
+**Pregunta:** ¿Por qué las propiedades del `01-PROC-01_Gobernanza_Vault`?
 
 **Respuesta:**
 Las propiedades son el motor de automatizacion del Vault. Permiten:
@@ -31,7 +31,7 @@ Se basa en dos pilares cientificos:
 **Duda:** Necesidad de que los archivos esten escorados por importancia.
 
 **Solucion:**
-Se implemento una numeracion de dos digitos en `00-Meta`:
+Se implemento una numeracion de dos digitos en `01-Gestion de la configuracion`:
 - `00-` Autoridad Maxima (Gobernanza).
 - `01-` Estrategia (Plan de Accion).
 - ...
@@ -42,8 +42,8 @@ Se implemento una numeracion de dos digitos en `00-Meta`:
 
 ---
 
-## 4. Pilares del SGC (Revision Final 00-Meta)
-**Pregunta:** ¿Como se define la funcion de cada archivo en la Authority Root (00-Meta)?
+## 4. Pilares del SGC (Revision Final 01-Gestion de la configuracion)
+**Pregunta:** ¿Como se define la funcion de cada archivo en la Authority Root (01-Gestion de la configuracion)?
 
 **Respuesta:**
 Tras la auditoria profunda, se establece la siguiente jerarquia funcional:
@@ -93,3 +93,20 @@ Tras la eliminación de nombres propios, el proyecto se organiza bajo tres pilar
    - **Trazabilidad:** Su función crítica es cerrar la **Matriz de Trazabilidad (RTM)**, vinculando los requerimientos con los reportes de control e inspecciones.
 
 *Esta estructura garantiza que el SGC funcione por procesos y no dependa de la presencia de individuos específicos.*
+
+---
+
+## 7. Origen de Código y Vinculación SQA (Fase de Diseño)
+**Sesion:** 2026-05-24  
+**Consultante:** Analista Técnico / Auditor de Calidad (Axel)  
+**Tema:** Origen de requirements.txt, repositorio Git y vinculación con la Fase 02.  
+
+**Pregunta:** ¿De dónde se saca la información del repositorio local, requirements.txt y cómo se vincula formalmente el diseño de la Fase 03 con la especificación de requisitos de la Fase 02?  
+
+**Respuesta:**  
+Se inyectaron correcciones en el preview del proceso de diseño para formalizar la URL del repositorio Git oficial (`https://github.com/Bigsami89/Marcos2`) y la localización de `requirements.txt` en su raíz local. Además, se detalló la trazabilidad de causalidad técnica en la que cada requerimiento aprobado de la Fase 02 (`REQ-01` a `REQ-07`) detona directamente un estándar técnico específico de la Fase 03 (`STD-04` a `STD-07`), mapeados formalmente en la Matriz de Trazabilidad RTM (`STD-03`) y regulados por compuertas de calidad (Entry & Exit Criteria).  
+
+La explicación exhaustiva y el mapeo de remediación se registraron en la nota técnica dedicada: [[09-Notes/Consultoria-Origen_y_Vinculacion_Diseño|Consultoria-Origen_y_Vinculacion_Diseño.md]].
+
+---
+*Este registro se actualizara conforme avancen las preguntas del equipo.*

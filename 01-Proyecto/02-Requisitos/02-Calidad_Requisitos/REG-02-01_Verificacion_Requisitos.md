@@ -7,7 +7,7 @@
 
 ## 1. Introducción y Propósito
 
-Este registro documenta las actividades de control de calidad aplicadas por el **Analista de Control y Cambios** sobre la Línea Base de requisitos del **Visualizador de Marcos**. Cada requerimiento en estado "Aprobado" es sometido a una revisión formal e independiente utilizando los criterios establecidos en el [[00-Meta/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02 Checklist de Verificación de Requerimientos]] antes de autorizar su pase a la fase de desarrollo y codificación.
+Este registro documenta las actividades de control de calidad aplicadas por el **Analista de Control y Cambios** sobre la Línea Base de requisitos del **Visualizador de Marcos**. Cada requerimiento en estado "Aprobado" es sometido a una revisión formal e independiente utilizando los criterios establecidos en el [[01-Gestion de la configuracion/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02 Checklist de Verificación de Requerimientos]] antes de autorizar su pase a la fase de desarrollo y codificación.
 
 ---
 
@@ -17,13 +17,13 @@ A continuación se detalla el estado de conformidad de los requisitos que compon
 
 | ID Requisito | Título del Requerimiento | Evaluador (Rol) | Fecha de Evaluación | Checklist Aplicado | Estado de Conformidad |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/01-REQ-01_Carga_Imagen|REQ-01]] | Carga de Imagen del Cliente | Analista de Control y Cambios | 2026-05-10 | [[00-Meta/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
-| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02]] | Previsualización de Marco | Analista de Control y Cambios | 2026-05-11 | [[00-Meta/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
-| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|REQ-03]] | Generación de Marcos 3D | Analista de Control y Cambios | 2026-05-11 | [[00-Meta/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
-| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/02-REQ-04_Catalogo_Marcos|REQ-04]] | Catálogo de Marcos | Analista de Control y Cambios | 2026-05-12 | [[00-Meta/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
-| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/03-REQ-05_Filtrado_Catalogo|REQ-05]] | Filtrado de Catálogo | Analista de Control y Cambios | 2026-05-12 | [[00-Meta/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
-| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/04-REQ-06_Datos_Catalogo|REQ-06]] | Datos del Catálogo de Marcos | Analista de Control y Cambios | 2026-05-13 | [[00-Meta/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
-| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/07-REQ-07_Marcos_Dobles|REQ-07]] | Marcos Dobles | Analista de Control y Cambios | 2026-05-24 | [[00-Meta/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
+| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/01-REQ-01_Carga_Imagen|REQ-01]] | Carga de Imagen del Cliente | Analista de Control y Cambios | 2026-05-10 | [[01-Gestion de la configuracion/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
+| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02]] | Previsualización de Marco | Analista de Control y Cambios | 2026-05-11 | [[01-Gestion de la configuracion/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
+| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|REQ-03]] | Generación de Marcos 3D | Analista de Control y Cambios | 2026-05-11 | [[01-Gestion de la configuracion/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
+| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/02-REQ-04_Catalogo_Marcos|REQ-04]] | Catálogo de Marcos | Analista de Control y Cambios | 2026-05-12 | [[01-Gestion de la configuracion/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
+| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/03-REQ-05_Filtrado_Catalogo|REQ-05]] | Filtrado de Catálogo | Analista de Control y Cambios | 2026-05-12 | [[01-Gestion de la configuracion/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
+| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/04-REQ-06_Datos_Catalogo|REQ-06]] | Datos del Catálogo de Marcos | Analista de Control y Cambios | 2026-05-13 | [[01-Gestion de la configuracion/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
+| [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/07-REQ-07_Marcos_Dobles|REQ-07]] | Marcos Dobles | Analista de Control y Cambios | 2026-05-24 | [[01-Gestion de la configuracion/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]] | **100.00% Conforme** |
 
 ---
 
@@ -40,7 +40,7 @@ A continuación se detalla el estado de conformidad de los requisitos que compon
 
 ## 4. Referencias
 
-[1] Checklist de Verificación de Requerimientos. [[00-Meta/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]]  
+[1] Checklist de Verificación de Requerimientos. [[01-Gestion de la configuracion/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]]  
 [2] Matriz de Trazabilidad de Requisitos (RTM). [[02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03]]  
-[3] Reporte de Inspección Formal de Requisitos. [[07-Control/02-Calidad_Control/05-INS-01_Inspeccion_Requerimientos|05-INS-01]]
+[3] Reporte de Inspección Formal de Requisitos. [[05-Control de cambios/02-Calidad_Control/05-INS-01_Inspeccion_Requerimientos|05-INS-01]]
 

@@ -1,6 +1,6 @@
 
 
-**Proceso relacionado:** [[00-PROC-04_Codificacion]]
+**Proceso relacionado:** [[04-PROC-04_Codificacion]]
 **Instrucciones generales:** Siga estas reglas para cualquier lenguaje utilizado en el equipo (JS, PHP, React, Kotlin).
 
 ## 1. Convenciones de Nombres

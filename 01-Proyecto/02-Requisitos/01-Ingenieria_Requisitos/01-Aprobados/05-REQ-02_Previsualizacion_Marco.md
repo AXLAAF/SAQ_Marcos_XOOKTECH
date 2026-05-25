@@ -70,5 +70,5 @@ Una vez que el cliente ha subido su foto y seleccionado un marco del catalogo, e
 
 ## 10. Trazabilidad
 
-- Casos de Prueba: [[05-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/01-CP-08_Marco_simple]], [[05-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/05-CP-12_Proporciones]]
+- Casos de Prueba: [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/01-CP-08_Marco_simple]], [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/05-CP-12_Proporciones]]
 - Change Requests: No aplica

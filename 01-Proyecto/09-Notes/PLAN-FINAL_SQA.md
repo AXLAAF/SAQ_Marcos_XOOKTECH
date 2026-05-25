@@ -20,7 +20,7 @@ Conforme a las directrices de Daniel Galin y el estándar SWEBOK v4, un Sistema 
 ## 2. Distribución de la Fuerza de Tarea (5 Roles Oficiales)
 
 ### 2.1. Analista de Gobernanza y Diseño
-*   **Fases a su Cargo:** [[00-Meta/00-PROC-00_Gobernanza_Vault|00-Meta]] (Gobernanza y Estándares), [[03-Diseño/00-PROC-03_Diseño_Sistema|03-Diseño]] (Arquitectura del Sistema) y [[06-Mantenimiento/00-PROC-06_Mantenimiento|06-Mantenimiento]] (Soporte Evolutivo).
+*   **Fases a su Cargo:** [[01-Gestion de la configuracion/01-PROC-01_Gobernanza_Vault|01-Gestion de la configuracion]] (Gobernanza y Estándares), [[03-Diseño/03-PROC-03_Diseño_Sistema|03-Diseño]] (Arquitectura del Sistema) y [[08-Mantenimiento/08-PROC-08_Mantenimiento|08-Mantenimiento]] (Soporte Evolutivo).
 *   **Actividades Principales:**
     *   Definir el marco metodológico y de nomenclatura de tags del Vault SGC.
     *   Diseñar y mantener el Plan de Acción SQA (`PLAN-01`).
@@ -28,7 +28,7 @@ Conforme a las directrices de Daniel Galin y el estándar SWEBOK v4, un Sistema 
     *   Modelar el proceso de soporte y actualización post-despliegue (`PROC-06`).
 
 ### 2.2. Analista de Requerimientos
-*   **Fases a su Cargo:** [[01-Linea_Base/00-PROC-01_Recuperacion_Linea_Base|01-Línea Base]] (Acuerdos Iniciales) y [[02-Requisitos/00-PROC-02_Especificacion_Requerimientos|02-Requisitos]] (Especificación Formal).
+*   **Fases a su Cargo:** [[09-Notes/01-Linea_Base-Original/00-PROC-01_Recuperacion_Linea_Base|01-Línea Base]] (Acuerdos Iniciales) y [[02-Requisitos/02-PROC-02_Especificacion_Requerimientos|02-Requisitos]] (Especificación Formal).
 *   **Actividades Principales:**
     *   Gestionar el contacto técnico inicial con el socio formador ("Enmarcame"), elaborando las Actas de Constitución y Propuesta Recuperada.
     *   Conducir entrevistas de ingeniería de requisitos y documentar minutas completas.
@@ -36,7 +36,7 @@ Conforme a las directrices de Daniel Galin y el estándar SWEBOK v4, un Sistema 
     *   Construir e integrar la Matriz de Trazabilidad de Requisitos (`STD-03_RTM`) para evitar brechas de implementación.
 
 ### 2.3. Líder de Desarrollo e Implementación
-*   **Fases a su Cargo:** [[04-Codificacion/00-PROC-04_Codificacion|04-Codificación]] (Construcción del Software) y [[08-Despliegue/00-PROC-08_Despliegue|08-Despliegue]] (Instalación e Implementación).
+*   **Fases a su Cargo:** [[04-Codificacion/04-PROC-04_Codificacion|04-Codificación]] (Construcción del Software) y [[07-Despliegue/07-PROC-07_Despliegue|07-Despliegue]] (Instalación e Implementación).
 *   **Actividades Principales:**
     *   Programar el prototipo funcional en Python (Flask, OpenCV, Pillow) asegurando la carga de imágenes, procesamiento e interfaz web.
     *   Garantizar la adherencia del código fuente al Estándar de Codificación (`FOR-04-01`).
@@ -44,14 +44,14 @@ Conforme a las directrices de Daniel Galin y el estándar SWEBOK v4, un Sistema 
     *   Preparar el paquete de software final y redactar la Guía de Configuración e Instalación del Entorno (`FOR-08-01`).
 
 ### 2.4. Analista de Verificación y Pruebas
-*   **Fases a su Cargo:** [[05-Pruebas/00-PROC-05_Plan_Pruebas|05-Pruebas]] (Verificación y Validación).
+*   **Fases a su Cargo:** [[06-Pruebas/06-PROC-06_Plan_Pruebas|06-Pruebas]] (Verificación y Validación).
 *   **Actividades Principales:**
     *   Diseñar y estructurar el Plan Maestro de Pruebas (`PLAN-02`).
     *   Elaborar y documentar los casos de prueba detallados (`CP-01` a `CP-15`) para verificar las funcionalidades críticas.
     *   Ejecutar las pruebas en el entorno de desarrollo y recolectar evidencias empíricas (logs, capturas y reportes de ejecución).
 
 ### 2.5. Analista de Control y Cambios
-*   **Fases a su Cargo:** [[07-Control/00-PROC-07_Control|07-Control]] (Gestión de Configuración y Aseguramiento de Calidad).
+*   **Fases a su Cargo:** [[05-Control de cambios/05-PROC-05_Control_Configuracion|05-Control de cambios]] (Gestión de Configuración y Aseguramiento de Calidad).
 *   **Actividades Principales:**
     *   Implementar el proceso de Control de Cambios del SGC y procesar solicitudes de cambio (`CR-00` a `CR-04`).
     *   Monitorear e integrar el Registro de Defectos e Incidencias del prototipo (`REG-03`).
@@ -64,15 +64,15 @@ Conforme a las directrices de Daniel Galin y el estándar SWEBOK v4, un Sistema 
 
 El ciclo de vida de aseguramiento de la calidad está organizado en las siguientes fases operadas de forma secuencial y trazable:
 
-1.  **[[00-Meta/00-PROC-00_Gobernanza_Vault|00-Meta]]:** Estándares de calidad, taxonomía de archivos y directrices organizativas.
-2.  **[[01-Linea_Base/00-PROC-01_Recuperacion_Linea_Base|01-Línea Base]]:** Formalización de compromisos con el socio formador y viabilidad de inicio.
-3.  **[[02-Requisitos/00-PROC-02_Especificacion_Requerimientos|02-Requisitos]]:** Especificación rigurosa de necesidades funcionales y trazabilidad técnica.
-4.  **[[03-Diseño/00-PROC-03_Diseño_Sistema|03-Diseño]]:** Arquitectura lógica del prototipo, bases de datos y flujos lógicos.
-5.  **[[04-Codificacion/00-PROC-04_Codificacion|04-Codificación]]:** Construcción verificada bajo estándares del prototipo del Visualizador de Marcos.
-6.  **[[05-Pruebas/00-PROC-05_Plan_Pruebas|05-Pruebas]]:** Pruebas de verificación de caja negra, casos extremos y evidencias empíricas.
-7.  **[[06-Mantenimiento/00-PROC-06_Mantenimiento|06-Mantenimiento]]:** Estrategia de soporte preventivo, correctivo y control de incidentes.
-8.  **[[07-Control/00-PROC-07_Control|07-Control]]:** Control de cambios de configuración, auditorías documentales e informes de inspección.
-9.  **[[08-Despliegue/00-PROC-08_Despliegue|08-Despliegue]]:** Empaquetado del software, manuales técnicos de instalación y puesta en producción.
+1.  **[[01-Gestion de la configuracion/01-PROC-01_Gobernanza_Vault|01-Gestion de la configuracion]]:** Estándares de calidad, taxonomía de archivos y directrices organizativas.
+2.  **[[09-Notes/01-Linea_Base-Original/00-PROC-01_Recuperacion_Linea_Base|01-Línea Base]]:** Formalización de compromisos con el socio formador y viabilidad de inicio.
+3.  **[[02-Requisitos/02-PROC-02_Especificacion_Requerimientos|02-Requisitos]]:** Especificación rigurosa de necesidades funcionales y trazabilidad técnica.
+4.  **[[03-Diseño/03-PROC-03_Diseño_Sistema|03-Diseño]]:** Arquitectura lógica del prototipo, bases de datos y flujos lógicos.
+5.  **[[04-Codificacion/04-PROC-04_Codificacion|04-Codificación]]:** Construcción verificada bajo estándares del prototipo del Visualizador de Marcos.
+6.  **[[06-Pruebas/06-PROC-06_Plan_Pruebas|06-Pruebas]]:** Pruebas de verificación de caja negra, casos extremos y evidencias empíricas.
+7.  **[[08-Mantenimiento/08-PROC-08_Mantenimiento|08-Mantenimiento]]:** Estrategia de soporte preventivo, correctivo y control de incidentes.
+8.  **[[05-Control de cambios/05-PROC-05_Control_Configuracion|05-Control de cambios]]:** Control de cambios de configuración, auditorías documentales e informes de inspección.
+9.  **[[07-Despliegue/07-PROC-07_Despliegue|07-Despliegue]]:** Empaquetado del software, manuales técnicos de instalación y puesta en producción.
 
 ---
 
@@ -82,9 +82,9 @@ Para garantizar la entrega presencial con 100.00% de conformidad formal, el equi
 
 - [ ] **Acción 01 - Auditoría de Arquitectura (Analista de Gobernanza y Diseño):** Auditar que [[03-Diseño/01-Ingenieria_Arquitectura/01-STD-04_Diagrama_Componentes|STD-04 Diagrama de Componentes]] coincida exactamente con la implementación del prototipo.
 - [ ] **Acción 02 - Trazabilidad de Requisitos (Analista de Requerimientos):** Completar e integrar la [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/01-REQ-01_Carga_Imagen|Matriz de Trazabilidad RTM]] desde los requisitos hasta los casos de prueba ejecutados.
-- [ ] **Acción 03 - Entrega de Código Fuente (Líder de Desarrollo e Implementación):** Subir la versión final de Flask/OpenCV y consolidar el [[04-Codificacion/00-PROC-04_Codificacion|Registro de Tareas de Desarrollo REG-04-01]].
-- [ ] **Acción 04 - Evidencia de Ejecución (Analista de Verificación y Pruebas):** Recolectar la bitácora física de resultados de los casos `CP-01` a `CP-15` y guardarlos en [[05-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]].
-- [ ] **Acción 05 - Auditoría Documental y de Cambios (Analista de Control y Cambios):** Verificar que cada solicitud de cambio (`CR-00` a `CR-04`) cuente con aprobación y esté consolidada en el [[07-Control/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08 Dashboard de Calidad]].
+- [ ] **Acción 03 - Entrega de Código Fuente (Líder de Desarrollo e Implementación):** Subir la versión final de Flask/OpenCV y consolidar el [[04-Codificacion/04-PROC-04_Codificacion|Registro de Tareas de Desarrollo REG-04-01]].
+- [ ] **Acción 04 - Evidencia de Ejecución (Analista de Verificación y Pruebas):** Recolectar la bitácora física de resultados de los casos `CP-01` a `CP-15` y guardarlos en [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]].
+- [ ] **Acción 05 - Auditoría Documental y de Cambios (Analista de Control y Cambios):** Verificar que cada solicitud de cambio (`CR-00` a `CR-04`) cuente con aprobación y esté consolidada en el [[05-Control de cambios/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08 Dashboard de Calidad]].
 
 ---
 

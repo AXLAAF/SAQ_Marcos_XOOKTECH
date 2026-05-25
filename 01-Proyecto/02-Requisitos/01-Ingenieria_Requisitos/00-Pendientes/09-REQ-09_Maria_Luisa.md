@@ -10,7 +10,7 @@
 
 El sistema debe permitir al cliente seleccionar una Maria Luisa (marco decorativo interno que rodea la fotografia). Esta funcionalidad fue solicitada por el cliente despues de la implementacion inicial del sistema (Scope Creep).
 
-> **Nota**: Este requerimiento representa un cambio al alcance original del proyecto. Esta documentado en [[07-Control/01-Ingenieria_Control/10-CR-03_Maria_Luisa|CR-03 María Luisa]] para control de cambios.
+> **Nota**: Este requerimiento representa un cambio al alcance original del proyecto. Esta documentado en [[05-Control de cambios/01-Ingenieria_Control/10-CR-03_Maria_Luisa|CR-03 María Luisa]] para control de cambios.
 
 ## 2. Reglas de Negocio
 
@@ -65,9 +65,9 @@ El sistema debe permitir al cliente seleccionar una Maria Luisa (marco decorativ
 ## 9. Dependencias
 
 - [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] - Requerimiento base de previsualizacion
-- [[07-Control/01-Ingenieria_Control/10-CR-03_Maria_Luisa|CR-03 María Luisa]] - Change Request asociado
+- [[05-Control de cambios/01-Ingenieria_Control/10-CR-03_Maria_Luisa|CR-03 María Luisa]] - Change Request asociado
 
 ## 10. Trazabilidad
 
-- Casos de Prueba: [[05-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/04-CP-11_Maria_Luisa]]
-- Change Requests: [[07-Control/01-Ingenieria_Control/10-CR-03_Maria_Luisa|CR-03 María Luisa]] (Pendiente de aprobacion)
+- Casos de Prueba: [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/04-CP-11_Maria_Luisa]]
+- Change Requests: [[05-Control de cambios/01-Ingenieria_Control/10-CR-03_Maria_Luisa|CR-03 María Luisa]] (Pendiente de aprobacion)

@@ -1,6 +1,6 @@
 
 
-**Proceso relacionado:** [[00-PROC-04_Codificacion]]
+**Proceso relacionado:** [[04-PROC-04_Codificacion]]
 **Cuándo se usa:** Al finalizar el desarrollo de una funcionalidad y antes de la revisión por pares.
 **Instrucciones:** Marque con [x] cada punto cumplido. No se permite la integración si existen puntos obligatorios (*) pendientes.
 

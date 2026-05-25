@@ -10,7 +10,7 @@
 
 El sistema debe permitir al cliente seleccionar el tipo de vidrio para su marco. Esta funcionalidad fue solicitada por el cliente despues de la implementacion inicial del sistema (Scope Creep).
 
-> **Nota**: Este requerimiento representa un cambio al alcance original del proyecto. Esta documentado en [[07-Control/01-Ingenieria_Control/09-CR-02_Tipos_Vidrio|CR-02 Tipos de Vidrio]] para control de cambios.
+> **Nota**: Este requerimiento representa un cambio al alcance original del proyecto. Esta documentado en [[05-Control de cambios/01-Ingenieria_Control/09-CR-02_Tipos_Vidrio|CR-02 Tipos de Vidrio]] para control de cambios.
 
 ## 2. Reglas de Negocio
 
@@ -63,9 +63,9 @@ El sistema debe permitir al cliente seleccionar el tipo de vidrio para su marco.
 ## 9. Dependencias
 
 - [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] - Requerimiento base de previsualizacion
-- [[07-Control/01-Ingenieria_Control/09-CR-02_Tipos_Vidrio|CR-02 Tipos de Vidrio]] - Change Request asociado
+- [[05-Control de cambios/01-Ingenieria_Control/09-CR-02_Tipos_Vidrio|CR-02 Tipos de Vidrio]] - Change Request asociado
 
 ## 10. Trazabilidad
 
-- Casos de Prueba: [[05-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/03-CP-10_Tipo_vidrio]]
-- Change Requests: [[07-Control/01-Ingenieria_Control/09-CR-02_Tipos_Vidrio|CR-02 Tipos de Vidrio]] (Pendiente de aprobacion)
+- Casos de Prueba: [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/03-CP-10_Tipo_vidrio]]
+- Change Requests: [[05-Control de cambios/01-Ingenieria_Control/09-CR-02_Tipos_Vidrio|CR-02 Tipos de Vidrio]] (Pendiente de aprobacion)
