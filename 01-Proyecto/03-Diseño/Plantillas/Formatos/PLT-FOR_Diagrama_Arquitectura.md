@@ -1,64 +1,61 @@
 # Plantilla de Diagrama de Arquitectura
 
 **Responsable:** Analista de Gobernanza y Diseño  
-**Entradas:** Especificación de Requisitos de Software (SRS) aprobada y decisiones de arquitectura documentadas.  
-**Salidas:** Diagramas de arquitectura del sistema en formato Mermaid.js bajo IEEE Std 1016-2009.  
+**Entradas:** Especificación de Requisitos y decisiones técnicas.  
+**Salidas:** Diagramas de arquitectura del sistema en Mermaid.js.  
 
 ---
 
-## 1. Guía de Notación y Estilo
+## 1. Guía de Estilo
 
-Todo diagrama técnico incorporado al SGC del proyecto debe diseñarse empleando la notación formal declarada en **Mermaid.js** y representarse como un bloque de código renderizable nativamente en Obsidian. Se prohíbe el uso de imágenes externas estáticas y de wikilinks para placeholders dentro de las etiquetas de nodos. Toda etiqueta debe usar nombres genéricos o código simple.
+Los diagramas técnicos deben escribirse utilizando **Mermaid.js** para que se rendericen directamente en Obsidian. Se prohíbe el uso de imágenes externas.
 
 ---
 
-## 2. Puntos de Vista Arquitectónicos en Mermaid.js (IEEE Std 1016-2009)
+## 2. Diagramas de Ejemplo
 
-### 2.1 Punto de Vista de Descomposición (Lógica)
-Use esta plantilla para modelar la división en componentes lógicos del sistema:
+### 2.1 Vista Lógica (Descomposición de Componentes)
 
 ```mermaid
 graph TD
-    subgraph Frontend["Capa del Cliente (Vista)"]
+    subgraph Frontend["Capa Cliente (Vista)"]
         UI["Interfaz de Usuario"]
-        JS["Lógica del Cliente JS"]
+        JS["Lógica de Cliente (JavaScript)"]
     end
 
-    subgraph Backend["Capa del Servidor (Lógica)"]
-        Rutas["Controladores / Rutas"]
-        Servicio["Lógica de Negocio"]
+    subgraph Backend["Capa Servidor (Lógica)"]
+        Rutas["Rutas y Controladores"]
+        Servicios["Lógica de Negocio"]
     end
 
-    subgraph Persistence["Persistencia (Datos)"]
-        DB["Motor de Base de Datos"]
+    subgraph Persistencia["Capa de Persistencia"]
+        DB["Base de Datos"]
     end
 
     UI --> Rutas
     JS --> Rutas
-    Rutas --> Servicio
-    Servicio --> DB
+    Rutas --> Servicios
+    Servicios --> DB
 ```
 
-### 2.2 Punto de Vista de Comportamiento Dinámico (Proceso)
-Use esta plantilla de diagrama de secuencia para modelar la comunicación temporal entre componentes:
+### 2.2 Vista de Comportamiento (Secuencia)
 
 ```mermaid
 sequenceDiagram
     actor Usuario
     participant UI as Interfaz Cliente
     participant Backend as Servidor Backend
-    participant Servicio as Lógica de Negocio
+    participant DB as Base de Datos
 
     Usuario->>UI: [Acción del usuario]
-    UI->>Backend: [Solicitud HTTP]
-    Backend->>Servicio: [Invocación de servicio]
-    Servicio-->>Backend: [Resultado]
-    Backend-->>UI: [Respuesta HTTP]
-    UI-->>Usuario: [Visualización del resultado]
+    UI->>Backend: [Petición HTTP]
+    Backend->>DB: [Consulta / Guardado]
+    DB-->>Backend: [Resultado de datos]
+    Backend-->>UI: [Respuesta de datos]
+    UI-->>Usuario: [Visualización]
 ```
 
-### 2.3 Punto de Vista Físico (Estructura de Directorios)
-Use esta plantilla para documentar la distribución física del código:
+### 2.3 Estructura Física (Estructura de Directorios)
 
 ```
 proyecto/
@@ -78,8 +75,7 @@ proyecto/
 
 ---
 
-## 3. Control de Entregables Generados
-
-| Artefacto Generado | Código | Estándar de Respaldo | Estado |
-|---|---|---|---|
-| Diagrama de Arquitectura de Software | DIA-VAL-XX | IEEE Std 1016-2009 | [Estado del documento] |
+## 3. Control del Artefacto
+* **Código de documento:** DIA-VAL-XX  
+* **Estándar:** IEEE 1016  
+* **Estado:** [Pendiente / Aprobado]  

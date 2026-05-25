@@ -1,18 +1,17 @@
 # Registro de Decisiones de Arquitectura
 
 **Responsable:** Analista de Gobernanza y Diseño  
-**Entradas:** Requisitos técnicos del sistema, restricciones tecnológicas y alternativas de solución evaluadas.  
-**Salidas:** Registro formal de decisiones de arquitectura con justificación técnica y criterios de selección documentados.  
+**Entradas:** Requisitos y restricciones técnicas.  
+**Salidas:** Justificación de la arquitectura y componentes del sistema.  
 
 ---
 
 ## Instrucciones
-
-Este registro documenta las decisiones técnicas de arquitectura tomadas durante el proceso de diseño. Cada decisión debe incluir las alternativas evaluadas, los criterios de selección objetivos y la justificación final. Se debe completar una entrada por cada decisión tecnológica relevante.
+Este registro documenta las decisiones tecnológicas tomadas en el diseño. Cada entrada debe incluir el contexto del problema, las alternativas evaluadas, la elección final y su justificación técnica.
 
 ---
 
-## Registro de Decisiones
+## Historial de Decisiones
 
 ### ADR-001: [Título de la Decisión]
 
@@ -22,58 +21,21 @@ Este registro documenta las decisiones técnicas de arquitectura tomadas durante
 | Estado | Propuesta / Aprobada / Reemplazada |
 | Responsable | |
 
-**Contexto:**  
-[Describir el problema técnico o la necesidad arquitectónica que motiva esta decisión.]
-
-**Alternativas Evaluadas:**
+* **Contexto:** [Problema o necesidad técnica]  
+* **Alternativas Evaluadas:**  
 
 | Alternativa | Ventajas | Desventajas |
 |---|---|---|
-| [Alternativa A] | [Ventajas] | [Desventajas] |
-| [Alternativa B] | [Ventajas] | [Desventajas] |
+| Alternativa A | | |
+| Alternativa B | | |
 
-**Decisión:**  
-[Indicar la alternativa seleccionada.]
-
-**Justificación:**  
-[Explicar los criterios técnicos objetivos que sustentaron la elección.]
-
-**Consecuencias:**  
-[Describir el impacto técnico de esta decisión en el sistema.]
+* **Decisión:** [Alternativa seleccionada]  
+* **Justificación:** [Criterios de selección]  
+* **Impacto:** [Consecuencias técnicas]  
 
 ---
 
-### ADR-002: [Título de la Decisión]
-
-| Campo | Detalle |
-|---|---|
-| Fecha | |
-| Estado | Propuesta / Aprobada / Reemplazada |
-| Responsable | |
-
-**Contexto:**  
-[Contexto de la decisión.]
-
-**Alternativas Evaluadas:**
-
-| Alternativa | Ventajas | Desventajas |
-|---|---|---|
-| [Alternativa A] | [Ventajas] | [Desventajas] |
-| [Alternativa B] | [Ventajas] | [Desventajas] |
-
-**Decisión:**  
-[Alternativa seleccionada.]
-
-**Justificación:**  
-[Criterios de selección.]
-
-**Consecuencias:**  
-[Impacto técnico.]
-
----
-
-## Control de Entregables Generados
-
-| Artefacto Generado | Código | Estándar de Respaldo | Estado |
-|---|---|---|---|
-| Registro de Decisiones de Arquitectura | ADR-REG-XX | CMMI-DEV v2.0 TS SP 1.1 | [Estado del documento] |
+## Control del Artefacto
+* **Código de documento:** ADR-REG-XX  
+* **Referencia:** CMMI v2.0 (Technical Solution)  
+* **Estado:** [Pendiente / Aprobado]  

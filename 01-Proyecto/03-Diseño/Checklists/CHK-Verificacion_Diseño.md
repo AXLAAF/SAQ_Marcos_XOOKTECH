@@ -1,128 +1,108 @@
-# [CHK-Verificacion_Diseño] Checklist de Calidad — Verificación de Diseño de Software
+# Checklist de Verificación de Diseño de Software
 
 **Responsable:** Analista de Verificación y Pruebas  
-**Entradas:** Documento de Descripción de Diseño de Software (SDD) completado, diagramas de arquitectura en Mermaid.js y Matriz de Trazabilidad de Requisitos (RTM) actualizada.  
-**Salidas:** Evaluación de conformidad del diseño bajo IEEE Std 1016-2009 y dictamen de liberación del paquete de diseño a codificación.  
+**Entradas:** Documento de Descripción de Diseño (SDD), diagramas de arquitectura en Mermaid.js y Matriz RTM.  
+**Salidas:** Evaluación de conformidad del diseño para liberar a Codificación.  
 
 ---
 
 ## Metadatos de la Revisión
 | Campo | Valor |
 |---|---|
-| Proyecto | |
 | Documento revisado | |
 | Versión del SDD | |
-| Analista de Diseño | |
 | Revisor SQA | |
-| Fecha de revisión | |
-| Resultado general | ✅ Aprobado / ❌ Rechazado |
+| Fecha | |
+| Resultado general | Aprobado / Rechazado |
 
 ---
 
 ## Instrucciones
-Marcar cada ítem como:
-- ✅ Cumple
-- ❌ No cumple
-- N/A No aplica al proyecto
+Marcar cada criterio como:
+* **Cumple** (C)
+* **No cumple** (NC)
+* **No aplica** (N/A)
 
-Todo ítem marcado como ❌ representa una no conformidad que debe ser corregida antes de que el paquete de diseño sea liberado a codificación.
-
----
-
-## 1. Completitud del SDD y Estructura Documental
-
-| ID | Criterio | Estado | Observación |
-|---|---|---|---|
-| ED-01 | El SDD sigue la estructura de la plantilla `PLT-FOR_Plantilla_SDD.md` basada en IEEE Std 1016. | | |
-| ED-02 | El documento incluye las secciones de Introducción, Propósito, Alcance y Glosario de Términos. | | |
-| ED-03 | Las referencias académicas y normativas están correctamente citadas (Galin, SWEBOK, Lewis, Regan). | | |
-
-*Referencia: IEEE Std 1016-2009 §4 (Estructura del SDD)*
+Los elementos marcados como "No cumple" deben corregirse antes de aprobar la liberación a la fase de Codificación.
 
 ---
 
-## 2. Punto de Vista de Descomposición (Decomposition Viewpoint)
+## 1. Estructura y Completitud del SDD
 
-| ID | Criterio | Estado | Observación |
+| ID | Criterio | Estado | Observaciones |
 |---|---|---|---|
-| DES-01 | El diseño describe la descomposición del sistema en componentes y subsistemas independientes. | | |
-| DES-02 | Se identifican claramente las capas de Backend, Frontend y Persistencia con sus responsabilidades delimitadas. | | |
-| DES-03 | El diagrama de descomposición en Mermaid.js renderiza correctamente en Obsidian. | | |
-
-*Referencia: IEEE Std 1016-2009 §5.2 (Decomposition Viewpoint)*
+| E-01 | ¿El SDD sigue la estructura de la plantilla oficial (`PLT-FOR_Plantilla_SDD.md`)? | | |
+| E-02 | ¿Incluye las secciones de Introducción, Propósito, Alcance y Glosario? | | |
+| E-03 | ¿Citó de forma correcta las referencias técnicas? | | |
 
 ---
 
-## 3. Punto de Vista de Comportamiento Lógico (Logical Viewpoint)
+## 2. Vista de Descomposición (Lógica)
 
-| ID | Criterio | Estado | Observación |
+| ID | Criterio | Estado | Observaciones |
 |---|---|---|---|
-| LOG-01 | El comportamiento del sistema está modelado con diagramas de secuencia que muestran la interacción temporal entre componentes. | | |
-| LOG-02 | Se describen los flujos de éxito y los escenarios de error con respuestas HTTP apropiadas. | | |
-
-*Referencia: IEEE Std 1016-2009 §5.3 (Logical Viewpoint)*
+| D-01 | ¿Describe la descomposición del sistema en componentes y subsistemas? | | |
+| D-02 | ¿Se identifican las capas de backend, frontend y persistencia? | | |
+| D-03 | ¿El diagrama en Mermaid.js renderiza correctamente sin errores en Obsidian? | | |
 
 ---
 
-## 4. Punto de Vista Físico (Physical Viewpoint)
+## 3. Vista de Comportamiento Lógico (Secuencia)
 
-| ID | Criterio | Estado | Observación |
+| ID | Criterio | Estado | Observaciones |
 |---|---|---|---|
-| FIS-01 | El documento detalla la estructura de directorios del repositorio Python y la ubicación de archivos críticos. | | |
-| FIS-02 | Se establecen las convenciones de organización de módulos, archivos estáticos y configuraciones. | | |
-
-*Referencia: IEEE Std 1016-2009 §5.6 (Physical Viewpoint)*
+| C-01 | ¿El comportamiento dinámico se detalla mediante diagramas de secuencia? | | |
+| C-02 | ¿Se describen tanto los flujos de éxito como los flujos de error con sus respuestas? | | |
 
 ---
 
-## 5. Punto de Vista de Datos (Data Viewpoint)
+## 4. Vista Física (Directorios)
 
-| ID | Criterio | Estado | Observación |
+| ID | Criterio | Estado | Observaciones |
 |---|---|---|---|
-| DAT-01 | Los tipos de datos, llaves primarias, relaciones y restricciones de integridad están especificados. | | |
-| DAT-02 | Se verifica la consistencia del modelo de datos con las necesidades de persistencia de los requisitos. | | |
-
-*Referencia: IEEE Std 1016-2009 §5.5 (Information Viewpoint)*
+| F-01 | ¿El documento detalla la estructura física de archivos del repositorio? | | |
+| F-02 | ¿Establece convenciones claras para la organización de carpetas y módulos? | | |
 
 ---
 
-## 6. Interfaces de Componentes y APIs
+## 5. Vista de Datos (Persistencia)
 
-| ID | Criterio | Estado | Observación |
+| ID | Criterio | Estado | Observaciones |
 |---|---|---|---|
-| INT-01 | Se especifican las signaturas de funciones críticas con parámetros de entrada, tipos de retorno y códigos de respuesta. | | |
-| INT-02 | Las interfaces están definidas antes de iniciar la codificación y no presentan ambigüedades técnicas. | | |
+| A-01 | ¿Se especifican tipos de datos, llaves primarias, foráneas y restricciones? | | |
+| A-02 | ¿El modelo propuesto cubre todos los datos requeridos por los requisitos? | | |
 
-*Referencia: SWEBOK v4 Cap. 2 (Diseño de Software) / CMMI-DEV v2.0 TS SP 2.1*
+---
+
+## 6. Interfaces and APIs
+
+| ID | Criterio | Estado | Observaciones |
+|---|---|---|---|
+| I-01 | ¿Se detallan firmas de funciones con tipos de datos de entrada y salida? | | |
+| I-02 | ¿Se definen las rutas de API, métodos HTTP y códigos de respuesta? | | |
 
 ---
 
 ## 7. Trazabilidad del Diseño
 
-| ID | Criterio | Estado | Observación |
+| ID | Criterio | Estado | Observaciones |
 |---|---|---|---|
-| TR-01 | Cada componente y subsistema del SDD tiene un identificador único e inalterable. | | |
-| TR-02 | El 100% de los elementos de diseño están mapeados a sus requisitos de origen en la RTM. | | |
-| TR-03 | La RTM refleja trazabilidad bidireccional (requisito → diseño y diseño → requisito). | | |
-
-*Referencia: CMMI-DEV v2.0 TS SP 2.2 / ISO/IEC 12207 §6.4.4*
+| T-01 | ¿Cada componente del diseño tiene un identificador único? | | |
+| T-02 | ¿El 100% de los componentes están mapeados a sus requisitos en la Matriz RTM? | | |
 
 ---
 
-## Resumen de Hallazgos SQA
-
-| ID Ítem | Observación técnica | Acción correctiva requerida |
+## Hallazgos Detectados
+| ID | Descripción | Acción Correctiva Requerida |
 |---|---|---|
 | | | |
 
-## Decisión de Liberación y Ciclo de Reproceso
+---
 
-En caso de que se identifique cualquier no conformidad (ítem marcado con ❌), la liberación del paquete de diseño queda formalmente **Rechazada**. El Analista de Gobernanza y Diseño recibirá esta lista de hallazgos y dispondrá de un plazo máximo de **24 horas** para corregir las observaciones y volver a someter el SDD a una nueva inspección.
+## Dictamen General de Liberación
+* **Aprobado** (0 no conformidades)
+* **Rechazado** (1 o más no conformidades)
 
-| Resultado | Criterio |
-|---|---|
-| ✅ Aprobado | 0 ítems en ❌ |
-| ❌ Rechazado | 1 o más ítems en ❌ (Debe iniciar ciclo de reproceso) |
-
-**Decisión:** 
-**Fecha:**
+**Resultado:**  
+**Firma:** Revisor SQA  
+**Fecha:**  
