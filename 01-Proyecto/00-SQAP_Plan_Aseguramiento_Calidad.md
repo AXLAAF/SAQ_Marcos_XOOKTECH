@@ -14,7 +14,7 @@
 ## 1. Propósito y Alcance
 
 ### 1.1 Propósito
-Este Plan de Aseguramiento de la Calidad del Software (SQAP, por sus siglas en inglés, *Software Quality Assurance Plan*) establece el marco de gobernanza, las actividades operacionales, las responsabilidades de calidad y los artefactos de verificación aplicables al ciclo de vida del desarrollo de software en **XookTech**. Este plan ha sido diseñado e implantado en conformidad estricta con el estándar internacional **IEEE Std 730-2014** (*IEEE Standard for Software Quality Assurance Processes*).
+Este Plan de Aseguramiento de la Calidad del Software (SQAP, por sus siglas en inglés, *Software Quality Assurance Plan*) establece el marco de gobernanza, las actividades de operaciones, las responsabilidades de calidad y los artefactos de verificación aplicables al ciclo de vida del desarrollo de software en **XookTech**. Este plan ha sido diseñado e implantado en conformidad estricta con el estándar internacional **IEEE Std 730-2014** (*IEEE Standard for Software Quality Assurance Processes*).
 
 El SQAP sirve como el documento supremo de calidad del proyecto, asegurando que todos los productos de trabajo cumplan con los requisitos especificados, que los procesos definidos se ejecuten de manera disciplinada y que se mantenga una cultura de mejora continua basada en el ciclo PDCA (Planificar, Hacer, Verificar, Actuar).
 
@@ -213,10 +213,10 @@ graph TD
     C -->|No Conforme| B
     C -->|Conforme| D[Envío a Revisión SQA / Pares]
     D --> E{Evaluación del Revisor CHK-XX}
-    E -->|No Conforme: ❌ Rechazado| F[Ciclo de Rechazo: Plazo 24h]
+    E -->|No Conforme:  Rechazado| F[Ciclo de Rechazo: Plazo 24h]
     F --> B
-    E -->|Conforme con observaciones: ⚠️| G[Cierre condicionado a ajustes menores]
-    E -->|100% Conforme: ✅ Aprobado| H[Integración a Línea Base de Calidad]
+    E -->|Conforme con observaciones: | G[Cierre condicionado a ajustes menores]
+    E -->|100% Conforme:  Aprobado| H[Integración a Línea Base de Calidad]
 ```
 
 | Tipo de Revisión | Referencia Técnica | Momento de Ejecución | Instrumento Oficial (Checklist) |
@@ -232,19 +232,19 @@ graph TD
 ### 6.2 Criterios de Aprobación
 El revisor independiente evaluará los artefactos y emitirá uno de los siguientes tres dictámenes formales:
 
-*   **✅ Aprobado (Conformidad Completa):**
+*   **Aprobado (Conformidad Completa):**
     *   **Criterio:** Cero (0) ítems evaluados como "No Cumple". Cumplimiento del 100% de los criterios obligatorios del checklist.
     *   **Consecuencia:** El artefacto se integra de inmediato a la Línea Base estable y se autoriza el inicio del siguiente proceso técnico.
-*   **⚠️ Aprobado con Observaciones (Conformidad Condicionada):**
+*   **Aprobado con Observaciones (Conformidad Condicionada):**
     *   **Criterio:** Entre uno (1) y tres (3) ítems menores marcados como "No Cumple" (detalles tipográficos, formateos o faltantes de referencias no críticas que no afecten el comportamiento lúdico).
     *   **Consecuencia:** Se permite avanzar con la siguiente fase, pero el Autor adquiere el compromiso escrito de subsanar los hallazgos en un plazo máximo de **48 horas**. SQA auditará el cierre en la siguiente revisión periódica.
-*   **❌ Rechazado (No Conformidad Crítica):**
+*   **Rechazado (No Conformidad Crítica):**
     *   **Criterio:** Cualquier ítem crítico calificado como "No Cumple" o más de tres (3) observaciones menores detectadas. (Ej: ausencia de escenarios BDD excepcionales, falta de diagramas en SDD, violación del estándar de nomenclatura).
     *   **Consecuencia:** Se congela el flujo de trabajo del artefacto y se activa el Ciclo de Rechazo.
 
 ### 6.3 Ciclo de Rechazo y Reproceso SQA
 Para evitar que se arrastren defectos y garantizar la disciplina del equipo, el proceso establece un ciclo formal de reproceso con límites de tiempo estrictos:
-1.  **Emisión del Rechazo:** Al detectar la no conformidad crítica, el Revisor SQA o revisor por pares marca el artefacto con un dictamen de **❌ Rechazado** e inyecta de forma obligatoria las observaciones técnicas en el Registro de Hallazgos (`PLT-REG_Hallazgos_Inspeccion.md`).
+1.  **Emisión del Rechazo:** Al detectar la no conformidad crítica, el Revisor SQA o revisor por pares marca el artefacto con un dictamen de ** Rechazado** e inyecta de forma obligatoria las observaciones técnicas en el Registro de Hallazgos (`PLT-REG_Hallazgos_Inspeccion.md`).
 2.  **Notificación del Autor:** El autor original de la tarea es notificado de forma directa e inmediata sobre el estatus de rechazo técnico.
 3.  **Corrección de Defectos:** El autor debe priorizar las observaciones recibidas y cuenta con un plazo máximo improrrogable de **24 horas** para corregir las desviaciones. Se prohíbe realizar modificaciones adicionales fuera del alcance de las observaciones.
 4.  **Re-inspección Técnica:** Una vez aplicadas las correcciones, el autor notifica al Revisor SQA, quien ejecuta una segunda inspección exhaustiva utilizando la misma versión del checklist.
