@@ -112,17 +112,7 @@ Implantar un proceso de diseño de software disciplinado, verificable y repetibl
 
 ---
 
-## 5. Indicadores de Éxito
-| Indicador | Métrica | Meta | Justificación de la Meta |
-|---|---|---|---|
-| Cobertura de Requisitos | % de requisitos aprobados mapeados a elementos del SDD. | `100.00%` | Puerta de control obligatoria para garantizar la cobertura de la arquitectura. |
-| Completitud del SDD | % de vistas arquitectónicas (4/4) completadas en el documento. | `100.00%` | IEEE Std 1016 exige las cuatro vistas mínimas de diseño. |
-| Estabilidad del Diseño | Defectos de diseño detectados en codificación / Componentes diseñados. | `≤ 0.10` | Meta de calidad para minimizar reprocesos y retrabajos costosos. |
-| Control de Calidad | % de SDDs liberados con checklist de verificación aprobado. | `100.00%` | Puerta de control obligatoria antes del inicio de la fase de codificación. |
-
----
-
-## 6. Limitaciones del Plan
+## 5. Limitaciones del Plan
 * **Calidad de los Requisitos:** La precisión de la arquitectura está limitada por la completitud y claridad de las fichas de requisitos de la Fase 02. Requisitos ambiguos producirán diseños deficientes.
 * **Curva de Aprendizaje:** El equipo de desarrollo puede requerir capacitación inicial sobre el uso formal de herramientas de diagramación Mermaid.js y la notación de IEEE Std 1016.
 * **Cambios Dinámicos de Base de Datos:** Cambios estructurales drásticos de persistencia durante fases tardías no pueden resolverse únicamente con el diseño, requiriendo re-evaluaciones completas de impacto en la RTM.

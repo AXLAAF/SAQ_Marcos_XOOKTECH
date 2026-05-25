@@ -95,17 +95,7 @@ Establecer un proceso de pruebas simple y repetible para XookTech. El plan busca
 
 ---
 
-## 5. Indicadores de Éxito
-| Indicador | Métrica | Meta | Justificación de la Meta |
-|---|---|---|---|
-| Planificación mínima | % de entregas o cambios visibles con plan ligero. | `≥ 90%` | Permite margen para ajustes urgentes documentados después. |
-| Cobertura de prueba | % de requisitos nuevos o modificados con caso de prueba. | `≥ 90%` | Adecuado para equipo pequeño sin exigir cobertura excesiva. |
-| Evidencia de ejecución | % de pruebas ejecutadas con captura, log o nota. | `≥ 90%` | Evidencia mínima suficiente para trazabilidad. |
-| Fallos registrados | % de pruebas fallidas con defecto o ajuste registrado. | `100%` | Todo fallo debe tener seguimiento. |
-
----
-
-## 6. Limitaciones del Plan
+## 5. Limitaciones del Plan
 *   **Tamaño del equipo:** No siempre habrá una persona totalmente independiente para ejecutar pruebas; por eso se exige evidencia mínima en lugar de auditoría pesada.
 *   **Canal informal del Cliente:** WhatsApp puede seguir siendo el canal principal, pero los cambios relevantes deben resumirse en el plan o caso de prueba.
 *   **Alcance del proceso:** Este plan no sustituye control de cambios ni despliegue; sólo valida funcionamiento antes de avanzar.

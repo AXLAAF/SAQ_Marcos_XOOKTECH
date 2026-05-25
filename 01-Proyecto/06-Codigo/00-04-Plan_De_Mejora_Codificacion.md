@@ -112,16 +112,6 @@ Establecer un proceso de codificación disciplinado y repetible en XookTech. Se 
 
 ---
 
-## 5. Indicadores de Éxito
-| Indicador | Métrica | Meta | Justificación de la Meta |
-|---|---|---|---|
-| Trazabilidad de tareas | % de tareas en desarrollo con requerimiento escrito de origen. | `≥ 95%` | Tolerancia para atender y documentar de inmediato emergencias operacionales. |
-| Adherencia al estándar | % de archivos con bloque de metadatos en comentarios. | `100%` | Es un proceso 100% automatizable en el entorno del editor de desarrollo. |
-| Control de calidad previo | % de ramas integradas con revisión por pares aprobada. | `100%` | Puerta de control obligatoria antes del merge en la rama principal. |
-| Trazabilidad de cambios | % de commits que citan el folio de tarea. | `≥ 90%` | Excluye commits menores de configuración de entornos o documentación. |
-
----
-
-## 6. Limitaciones del Plan
+## 5. Limitaciones del Plan
 *   **Factores externos no controlables:** La resistencia al cambio por parte de programadores externos que no estén acostumbrados a procesos disciplinados de calidad.
 *   **Alcance tecnológico:** Este plan no corrige de forma automática errores de lógica o violaciones arquitectónicas preexistentes en los módulos heredados que no sean modificados durante la ejecución de las nuevas tareas.

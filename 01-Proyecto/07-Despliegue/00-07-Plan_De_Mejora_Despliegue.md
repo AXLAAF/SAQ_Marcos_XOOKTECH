@@ -77,17 +77,7 @@ Establecer un proceso de transición a producción seguro, robusto y estructurad
 
 ---
 
-## 5. Indicadores de Éxito
-| Indicador | Métrica | Meta | Justificación de la Meta |
-|---|---|---|---|
-| Aislamiento de Entornos | % de servidores de producción con entorno virtual (`venv`) activo. | `100%` | Puerta de control obligatoria para evitar incompatibilidades de dependencias. |
-| Cobertura de Cifrado | % de subdominios configurados con SSL/HTTPS Let's Encrypt activo. | `100%` | Criterio de seguridad mandatorio y no negociable para proteger la transmisión de datos. |
-| Tasa de Éxito de Despliegues | % de pases a producción exitosos (o resueltos inmediatamente con plan de retorno rápido). | `≥ 95%` | Tolerancia controlada para contingencias imprevistas de red de terceros. |
-| Control Documental de Entornos | % de servidores de producción registrados en la bitácora técnica de red. | `100%` | Es un proceso simple de control de configuración y auditoría que debe estar completo. |
-
----
-
-## 6. Limitaciones del Plan
+## 5. Limitaciones del Plan
 *   **Restricciones de hardware del VPS:** CPU o memoria RAM deficientes en el servidor virtual que limiten la capacidad de workers concurrentes de Gunicorn.
 *   **Accesibilidad de autoridades certificadoras:** Fallos globales en la red Let's Encrypt que impidan generar o renovar certificados en el momento del despliegue.
 *   **Evolución destructiva de datos:** Cambios de base de datos que destruyan registros preexistentes lógicamente no pueden revertirse mediante un simple retorno de código (rollback) en caliente, requiriendo restauración lenta de respaldos.

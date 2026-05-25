@@ -99,17 +99,7 @@ Establecer un proceso de inspección ligero para XookTech. El plan busca revisar
 
 ---
 
-## 5. Indicadores de Éxito
-| Indicador | Métrica | Meta | Justificación de la Meta |
-|---|---|---|---|
-| Cobertura de inspección | % de artefactos definidos con informe o checklist. | `≥ 90%` | Permite margen para ajustes menores sin impacto. |
-| Hallazgos trazados | % de hallazgos con responsable y estado. | `100%` | Todo hallazgo debe tener seguimiento. |
-| Decisión documentada | % de inspecciones con decisión final. | `100%` | Evita usar artefactos sin cierre. |
-| Separación de validación | % de entregas revisadas internamente antes del visto bueno del Cliente. | `≥ 90%` | Mantiene calidad sin bloquear casos simples. |
-
----
-
-## 6. Limitaciones del Plan
+## 5. Limitaciones del Plan
 *   **Tamaño del equipo:** No siempre habrá un revisor totalmente independiente; por eso se exige checklist y evidencia mínima.
 *   **Alcance del proceso:** Este plan no cubre control de cambios completo ni auditorías externas.
 *   **Canal informal del Cliente:** WhatsApp puede seguir usándose, pero las observaciones que afecten calidad deben registrarse como hallazgos o ajustes.

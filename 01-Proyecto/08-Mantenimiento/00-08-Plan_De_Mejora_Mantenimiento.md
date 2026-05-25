@@ -78,16 +78,6 @@ Establecer un proceso de soporte técnico y mantenimiento post-despliegue en Xoo
 
 ---
 
-## 5. Indicadores de Éxito
-| Indicador | Métrica | Meta | Justificación de la Meta |
-|---|---|---|---|
-| Eficiencia de Bitácora | % de incidentes con folio formal en la bitácora. | `≥ 95%` | Margen de tolerancia para registrar a posteriori emergencias operativas de soporte severas. |
-| Control de Esfuerzo | % de cambios que cuentan con cotización técnica y alcance formal previos. | `≥ 90%` | Emergencias de alta criticidad en producción pueden justificar una aprobación verbal inmediata y documentación en 24 horas. |
-| Mitigación de Regresión | % de integraciones de corrección con pruebas de regresión ejecutadas del Plan Maestro. | `100%` | Criterio mandatorio e ineludible de control de calidad técnica para evitar fallos colaterales. |
-| Integridad Documental | % de incidentes de soporte cerrados con su respectivo registro en el Tablero de Calidad. | `≥ 95%` | Permite un margen administrativo mínimo para la consolidación mensual del Tablero de Calidad. |
-
----
-
-## 6. Limitaciones del Plan
+## 5. Limitaciones del Plan
 *   **Restricciones de tiempo de máxima urgencia:** Caídas catastróficas del servidor que afecten la integridad de los datos de la empresa y obliguen a actuar de inmediato (aunque el proceso requiere un hotfix rápido, la revisión técnica paso a paso se agilizará de forma excepcional).
 *   **Aprobaciones comerciales:** Negativa o lentitud del cliente para firmar o validar por escrito la Cotización de Cambios, lo cual retrasará el inicio del soporte (se debe formalizar contractualmente que sin visto bueno comercial no se inicia el desarrollo técnico).

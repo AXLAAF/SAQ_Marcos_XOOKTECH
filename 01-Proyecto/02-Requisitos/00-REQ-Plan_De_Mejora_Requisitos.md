@@ -111,17 +111,7 @@ Establecer un proceso de requisitos disciplinado y repetible en XookTech. El pla
 
 ---
 
-## 5. Indicadores de Éxito
-| Indicador | Métrica | Meta | Justificación de la Meta |
-|---|---|---|---|
-| Cobertura de Trazabilidad | % de requisitos en la RTM con enlaces a diseño y pruebas. | `100.00%` | Garantiza cobertura total de desarrollo y pruebas sin dejar brechas. |
-| Estabilidad de Requisitos | Defectos de ambigüedad detectados por SQA / Total de REQ Aprobados. | `< 0.05` | Mitiga desvíos de alcance y reprocesos costosos en Flask/OpenCV. |
-| Aprobación del PO | % de requisitos aprobados con evidencia de confirmación escrita. | `100.00%` | Puerta de control y deslinde de responsabilidad técnico-contractual del equipo. |
-| Auditoría de Calidad | % de requisitos aprobados liberados con checklist SQA aprobado. | `100.00%` | Certifica la disciplina operacional de la fase bajo CMMI Nivel 2. |
-
----
-
-## 6. Limitaciones del Plan
+## 5. Limitaciones del Plan
 * **Disponibilidad del Product Owner:** La velocidad del proceso depende directamente del tiempo de respuesta y la disponibilidad del PO para programar las sesiones de validación conjunta.
 * **Inconsistencias Heredadas:** Este plan no subsana discrepancias o ambigüedades heredadas de contratos previos que no hayan sido procesados formalmente mediante una Solicitud de Cambio (`CR-XXX`).
 * **Adaptación Metodológica:** La necesidad de capacitaciones iniciales sobre el lenguaje estructurado BDD y el uso formal de herramientas de Obsidian por parte de nuevos integrantes del equipo técnico.
