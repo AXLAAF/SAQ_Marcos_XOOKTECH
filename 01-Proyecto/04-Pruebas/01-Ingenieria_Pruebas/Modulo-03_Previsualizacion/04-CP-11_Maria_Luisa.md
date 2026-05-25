@@ -48,8 +48,8 @@ Verificar que la seleccion de Maria Luisa se rendered correctamente en la previs
 ## 7. Trazabilidad
 
 - Requerimiento: [[02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/09-REQ-09_Maria_Luisa|REQ-09 María Luisa]]
-- Change Request: [[05-Control de cambios/01-Ingenieria_Control/10-CR-03_Maria_Luisa|CR-03 María Luisa]]
-- Plan Maestro: [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]]
+- Change Request: [[05-Revisiones e inspecciones/01-Ingenieria_Control/10-CR-03_Maria_Luisa|CR-03 María Luisa]]
+- Plan Maestro: [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]]
 
 ---
 

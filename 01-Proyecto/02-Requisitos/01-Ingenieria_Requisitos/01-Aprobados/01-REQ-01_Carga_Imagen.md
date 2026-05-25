@@ -68,6 +68,6 @@ El cliente debe poder subir una fotografia desde la aplicacion web para usarla c
 
 ## 10. Trazabilidad
 
-- Casos de Prueba: [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/01-CP-01_JPG_valida]], [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/02-CP-02_Archivo_invalido]], [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/03-CP-03_Imagen_grande]]
+- Casos de Prueba: [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/01-CP-01_JPG_valida]], [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/02-CP-02_Archivo_invalido]], [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/03-CP-03_Imagen_grande]]
 - Change Requests: No aplica
   

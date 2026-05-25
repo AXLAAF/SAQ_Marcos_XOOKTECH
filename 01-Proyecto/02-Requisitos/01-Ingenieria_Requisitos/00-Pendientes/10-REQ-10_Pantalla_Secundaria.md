@@ -10,7 +10,7 @@
 
 El sistema debe poder proyectar la previsualizacion en una pantalla secundaria (por ejemplo, un TV o monitor adicional) para que el cliente pueda ver el resultado en una pantalla mas grande mientras el empleado opera el sistema. Esta funcionalidad fue solicitada por el cliente despues de la implementacion inicial del sistema (Scope Creep).
 
-> **Nota**: Este requerimiento representa un cambio al alcance original del proyecto. Esta documentado en [[05-Control de cambios/01-Ingenieria_Control/11-CR-04_Pantalla_Secundaria|CR-04 Pantalla Secundaria]] para control de cambios.
+> **Nota**: Este requerimiento representa un cambio al alcance original del proyecto. Esta documentado en [[05-Revisiones e inspecciones/01-Ingenieria_Control/11-CR-04_Pantalla_Secundaria|CR-04 Pantalla Secundaria]] para control de cambios.
 
 ## 2. Reglas de Negocio
 
@@ -64,9 +64,9 @@ El sistema debe poder proyectar la previsualizacion en una pantalla secundaria (
 ## 9. Dependencias
 
 - [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] - Requerimiento base de previsualizacion
-- [[05-Control de cambios/01-Ingenieria_Control/11-CR-04_Pantalla_Secundaria|CR-04 Pantalla Secundaria]] - Change Request asociado
+- [[05-Revisiones e inspecciones/01-Ingenieria_Control/11-CR-04_Pantalla_Secundaria|CR-04 Pantalla Secundaria]] - Change Request asociado
 
 ## 10. Trazabilidad
 
-- Casos de Prueba: [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-04_Pantalla_Secundaria/01-CP-13_Proyeccion]], [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-04_Pantalla_Secundaria/02-CP-14_Sync_tiempo_real]], [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-04_Pantalla_Secundaria/03-CP-15_Fallback_sin_pantalla]]
-- Change Requests: [[05-Control de cambios/01-Ingenieria_Control/11-CR-04_Pantalla_Secundaria|CR-04 Pantalla Secundaria]] (Pendiente de aprobacion.
+- Casos de Prueba: [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-04_Pantalla_Secundaria/01-CP-13_Proyeccion]], [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-04_Pantalla_Secundaria/02-CP-14_Sync_tiempo_real]], [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-04_Pantalla_Secundaria/03-CP-15_Fallback_sin_pantalla]]
+- Change Requests: [[05-Revisiones e inspecciones/01-Ingenieria_Control/11-CR-04_Pantalla_Secundaria|CR-04 Pantalla Secundaria]] (Pendiente de aprobacion.

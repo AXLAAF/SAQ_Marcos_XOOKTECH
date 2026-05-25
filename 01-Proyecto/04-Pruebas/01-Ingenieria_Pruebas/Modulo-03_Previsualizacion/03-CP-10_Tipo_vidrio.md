@@ -48,8 +48,8 @@ Verificar que la seleccion de tipo de vidrio se refleja en la previsualizacion.
 ## 7. Trazabilidad
 
 - Requerimiento: [[02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/08-REQ-08_Tipo_Vidrio|REQ-08 Tipo de Vidrio]]
-- Change Request: [[05-Control de cambios/01-Ingenieria_Control/09-CR-02_Tipos_Vidrio|CR-02 Tipos de Vidrio]]
-- Plan Maestro: [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]]
+- Change Request: [[05-Revisiones e inspecciones/01-Ingenieria_Control/09-CR-02_Tipos_Vidrio|CR-02 Tipos de Vidrio]]
+- Plan Maestro: [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]]
 
 ---
 

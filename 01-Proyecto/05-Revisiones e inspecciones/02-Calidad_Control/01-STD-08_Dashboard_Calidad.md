@@ -78,7 +78,7 @@ SORT fecha_solicitud DESC
 
 ```dataview
 TABLE id, titulo, modulo, estado
-FROM "06-Pruebas"
+FROM "04-Pruebas"
 WHERE contains(modulo, "Modulo")
 SORT id ASC
 ```
@@ -87,7 +87,7 @@ SORT id ASC
 
 ```dataview
 TABLE estado, count() AS total
-FROM "06-Pruebas"
+FROM "04-Pruebas"
 GROUP BY estado
 ```
 
@@ -95,7 +95,7 @@ GROUP BY estado
 
 ```dataview
 TABLE modulo, count() AS total_casos, sum(where(estado="Fallido",1,0)) AS fallidos
-FROM "06-Pruebas"
+FROM "04-Pruebas"
 GROUP BY modulo
 ```
 
@@ -181,9 +181,9 @@ Basado en el analisis de metricas, se recomiendan las siguientes acciones:
 - [[01-Gestion de la configuracion/01-PROC-01_Gobernanza_Vault|PROC-01 Gobernanza Vault]]
 - [[09-Notes/01-Linea_Base-Original/00-PROC-01_Recuperacion_Linea_Base|PROC-01 Recuperación de Línea Base]]
 - [[02-Requisitos/02-PROC-02_Especificacion_Requerimientos|PROC-02 Especificación de Requerimientos]]
-- [[05-Control de cambios/05-PROC-05.1_Control_Cambios|PROC-08 Control de Cambios]]
-- [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]]
-- [[05-Control de cambios/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03 Registro de Defectos]]
+- [[05-Revisiones e inspecciones/05-PROC-05.1_Control_Cambios|PROC-08 Control de Cambios]]
+- [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]]
+- [[05-Revisiones e inspecciones/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03 Registro de Defectos]]
 
 ---
 

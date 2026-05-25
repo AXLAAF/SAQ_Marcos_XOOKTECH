@@ -7,7 +7,7 @@
 
 > Documento que registra todos los acuerdos identificados con el cliente "Enmarcame" durante el desarrollo del proyecto. Incluye tanto los acuerdos respaldados por el contrato formal ([[01-Baseline/06-Contrato_Desarrollo]]) como los acuerdos verbales complementarios, con el contexto de cada acuerdo y su estado actual.
 
-Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Base]]. Integra clausulas contractuales y acuerdos operativos verbales en un registro unico y trazable. Prerequisito para evaluar alcance en [[05-Control de cambios/05-PROC-05_Control_Configuracion|PROC-07 Gestión de Control]].
+Artefacto de salida del Paso 4 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Base]]. Integra clausulas contractuales y acuerdos operativos verbales en un registro unico y trazable. Prerequisito para evaluar alcance en [[05-Revisiones e inspecciones/05-PROC-05_Control_Configuracion|PROC-07 Gestión de Control]].
 
 ---
 

@@ -14,7 +14,7 @@ Realizar una inspeccion formal del Plan Maestro de Pruebas y sus casos de prueba
 
 Esta inspeccion cubre:
 
-- [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]] - Plan general
+- [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]] - Plan general
 - Casos de prueba CP-01 a CP-15
 - Matriz de trazabilidad REQ -> CP
 
@@ -116,8 +116,8 @@ Para cada CP verificar:
 
 ## 8. Referencias
 
-- [[05-Control de cambios/01-Ingenieria_Control/05-PROC-05.2_Inspecciones|PROC-09 Inspecciones]]
-- [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]] - Carpeta de pruebas
+- [[05-Revisiones e inspecciones/01-Ingenieria_Control/05-PROC-05.2_Inspecciones|PROC-09 Inspecciones]]
+- [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]] - Carpeta de pruebas
 - [[01-Gestion de la configuracion/03-STD-02_Convenciones_Tags|STD-02 Convenciones y Tags]] - Plantillas de CP
 
 ---

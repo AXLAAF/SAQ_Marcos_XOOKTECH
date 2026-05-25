@@ -65,12 +65,12 @@ La matriz **RASCI** define el nivel de participación de cada rol en los entrega
 | **03-Diseño: STD-06 Modelo de Datos** | **A / R** | C | S | I | I |
 | **04-Codificación: Código Fuente Flask** | I | I | **A / R** | C | S |
 | **04-Codificación: REG-04-01 Tareas** | I | I | **A / R** | I | S |
-| **06-Pruebas: PLAN-02 Plan de Pruebas** | I | C | S | **A / R** | S |
-| **06-Pruebas: CP-01 a CP-15 Casos** | I | C | S | **A / R** | I |
+| **04-Pruebas: PLAN-02 Plan de Pruebas** | I | C | S | **A / R** | S |
+| **04-Pruebas: CP-01 a CP-15 Casos** | I | C | S | **A / R** | I |
 | **08-Mantenimiento: PROC-06 Soporte** | **A / R** | I | S | I | I |
-| **05-Control de cambios: REG-03 Defectos** | I | I | S | S | **A / R** |
-| **05-Control de cambios: CR-01 a CR-04 Cambios** | C | C | S | I | **A / R** |
-| **05-Control de cambios: INS-01 / INS-02 Reportes** | I | S | S | S | **A / R** |
+| **05-Revisiones e inspecciones: REG-03 Defectos** | I | I | S | S | **A / R** |
+| **05-Revisiones e inspecciones: CR-01 a CR-04 Cambios** | C | C | S | I | **A / R** |
+| **05-Revisiones e inspecciones: INS-01 / INS-02 Reportes** | I | S | S | S | **A / R** |
 | **07-Despliegue: PROC-08 Guía** | I | I | **A / R** | I | S |
 
 ---

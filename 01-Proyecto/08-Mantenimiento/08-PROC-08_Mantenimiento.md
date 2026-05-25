@@ -19,8 +19,8 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 |Registro de Solicitudes de Mantenimiento|[[08-Mantenimiento/01-Ingenieria_Soporte/01-REG-01_Solicitudes_Mantenimiento|REG-01]]|
 |Registro de Errores Reportados|[[08-Mantenimiento/01-Ingenieria_Soporte/02-REG-02_Errores_Reportados|REG-02]]|
 |Formato de Cotización de Cambios|[[08-Mantenimiento/01-Ingenieria_Soporte/01-FOR-01_Cotizacion_Cambios|FOR-01]]|
-|Plan Maestro de Pruebas de Regresión|[[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02]]|
-|Dashboard de Calidad|[[05-Control de cambios/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08]]|
+|Plan Maestro de Pruebas de Regresión|[[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02]]|
+|Dashboard de Calidad|[[05-Revisiones e inspecciones/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08]]|
 
 ---
 
@@ -74,7 +74,7 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 
 - El Líder de Desarrollo e Implementación crea una rama de hotfix aislada en el repositorio Git (ejemplo: `hotfix/REG-06-01-correccion-zoom`).
 - Implementa la corrección técnica apegándose al estándar de codificación.
-- El Analista de Verificación y Pruebas re-ejecuta de inmediato los Casos de Prueba (CP-XXX) del módulo afectado y de los módulos relacionados detallados en el [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]], verificando que no existan no conformidades.
+- El Analista de Verificación y Pruebas re-ejecuta de inmediato los Casos de Prueba (CP-XXX) del módulo afectado y de los módulos relacionados detallados en el [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]], verificando que no existan no conformidades.
 
 ---
 
@@ -91,7 +91,7 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 
 - Una vez certificadas las pruebas de regresión, el Líder de Desarrollo e Implementación integra la rama de hotfix a la rama principal `main` y despliega la actualización.
 - El Analista de Gobernanza y Diseño actualiza de ser necesario los diagramas técnicos modificados y el inventario de módulos.
-- El Analista de Control y Cambios registra el cierre del incidente en el [[08-Mantenimiento/01-Ingenieria_Soporte/01-REG-01_Solicitudes_Mantenimiento|REG-01]] e incrementa las métricas de calidad en el [[05-Control de cambios/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08 Dashboard de Calidad]], cerrando formalmente el ciclo Deming.
+- El Analista de Control y Cambios registra el cierre del incidente en el [[08-Mantenimiento/01-Ingenieria_Soporte/01-REG-01_Solicitudes_Mantenimiento|REG-01]] e incrementa las métricas de calidad en el [[05-Revisiones e inspecciones/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08 Dashboard de Calidad]], cerrando formalmente el ciclo Deming.
 
 ---
 

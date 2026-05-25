@@ -46,5 +46,5 @@ Verificar que el servidor **Flask** acepta y procesa correctamente archivos de i
 
 ## 7. Trazabilidad
 
-- **Plan Maestro**: [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]]
+- **Plan Maestro**: [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]]
 - **Diseño**: [[03-Diseño/01-Ingenieria_Arquitectura/01-STD-04_Diagrama_Componentes|STD-04]]

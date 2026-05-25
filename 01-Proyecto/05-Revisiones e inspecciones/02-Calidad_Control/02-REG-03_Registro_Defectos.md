@@ -193,8 +193,8 @@ Para cerrar un defecto, deben cumplirse:
 ## 6. Referencias
 
 - [[01-Gestion de la configuracion/01-PROC-01_Gobernanza_Vault|PROC-01 Gobernanza Vault]]
-- [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]]
-- [[05-Control de cambios/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08 Dashboard de Calidad]]
+- [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]]
+- [[05-Revisiones e inspecciones/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08 Dashboard de Calidad]]
 
 ---
 

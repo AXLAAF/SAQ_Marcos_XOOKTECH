@@ -6,7 +6,7 @@
 ---
 
 > Documento que reconstruye la propuesta original del proyecto basada en la recuperación de información del equipo y entrevistas. Este documento establece la línea base del alcance original.
-Artefacto de salida del Paso 3 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Base]]. Establece la linea base del alcance original. Entrada para [[02-Requisitos/02-PROC-02_Especificacion_Requerimientos|PROC-02 Especificación de Requerimientos]] y [[05-Control de cambios/05-PROC-05_Control_Configuracion|PROC-07 Gestión de Control]].
+Artefacto de salida del Paso 3 de [[01-Baseline/00-PROC-01_Recuperacion_Linea_Base]]. Establece la linea base del alcance original. Entrada para [[02-Requisitos/02-PROC-02_Especificacion_Requerimientos|PROC-02 Especificación de Requerimientos]] y [[05-Revisiones e inspecciones/05-PROC-05_Control_Configuracion|PROC-07 Gestión de Control]].
 
 ---
 

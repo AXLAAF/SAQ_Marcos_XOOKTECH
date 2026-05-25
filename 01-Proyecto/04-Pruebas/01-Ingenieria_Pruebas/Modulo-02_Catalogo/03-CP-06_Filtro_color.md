@@ -46,7 +46,7 @@ Verificar que el filtro por color muestra solo los marcos del color seleccionado
 ## 7. Trazabilidad
 
 - Requerimiento: [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/03-REQ-05_Filtrado_Catalogo|REQ-05 Filtrado Catálogo]] - RN-05-02
-- Plan Maestro: [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]]
+- Plan Maestro: [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]]
 
 ---
 

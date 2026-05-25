@@ -10,7 +10,7 @@
 
 El sistema debe permitir la previsualizacion de marcos dobles, es decir, marcos que contienen dos fotografias. Esta funcionalidad fue solicitada por el cliente despues de la implementacion inicial del sistema (Scope Creep).
 
-> **Nota**: Este requerimiento representa un cambio al alcance original del proyecto. Esta documentado en [[05-Control de cambios/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]] para control de cambios.
+> **Nota**: Este requerimiento representa un cambio al alcance original del proyecto. Esta documentado en [[05-Revisiones e inspecciones/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]] para control de cambios.
 
 ## 2. Reglas de Negocio
 
@@ -65,9 +65,9 @@ El sistema debe permitir la previsualizacion de marcos dobles, es decir, marcos 
 ## 9. Dependencias
 
 - [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] - Requerimiento base de previsualizacion
-- [[05-Control de cambios/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]] - Change Request asociado
+- [[05-Revisiones e inspecciones/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]] - Change Request asociado
 
 ## 10. Trazabilidad
 
-- Casos de Prueba: [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/02-CP-09_Marco_doble]]
+- Casos de Prueba: [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/02-CP-09_Marco_doble]]
 - Change Requests: No aplica

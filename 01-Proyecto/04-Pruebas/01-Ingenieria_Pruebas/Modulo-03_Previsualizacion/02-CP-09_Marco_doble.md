@@ -49,8 +49,8 @@ Verificar que la previsualizacion muestra dos fotografias dentro de un marco dob
 ## 7. Trazabilidad
 
 - Requerimiento: [[02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/07-REQ-07_Marcos_Dobles|REQ-07 Marcos Dobles]]
-- Change Request: [[05-Control de cambios/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]]
-- Plan Maestro: [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]]
+- Change Request: [[05-Revisiones e inspecciones/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]]
+- Plan Maestro: [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]]
 
 ---
 

@@ -42,5 +42,5 @@ A continuación se detalla el estado de conformidad de los requisitos que compon
 
 [1] Checklist de Verificación de Requerimientos. [[01-Gestion de la configuracion/99-Plantillas_y_Checklists/CL-02_Verificacion_Requerimientos|CL-02]]  
 [2] Matriz de Trazabilidad de Requisitos (RTM). [[02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03]]  
-[3] Reporte de Inspección Formal de Requisitos. [[05-Control de cambios/02-Calidad_Control/05-INS-01_Inspeccion_Requerimientos|05-INS-01]]
+[3] Reporte de Inspección Formal de Requisitos. [[05-Revisiones e inspecciones/02-Calidad_Control/05-INS-01_Inspeccion_Requerimientos|05-INS-01]]
 

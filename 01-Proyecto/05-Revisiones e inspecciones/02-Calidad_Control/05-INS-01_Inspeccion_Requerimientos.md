@@ -99,7 +99,7 @@ Se anticipan defectos en las siguientes areas:
 
 ## 7. Referencias
 
-- [[05-Control de cambios/01-Ingenieria_Control/05-PROC-05.2_Inspecciones|PROC-09 Inspecciones]]
+- [[05-Revisiones e inspecciones/01-Ingenieria_Control/05-PROC-05.2_Inspecciones|PROC-09 Inspecciones]]
 - [[02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03 Matriz de Trazabilidad]] - Carpeta de requerimientos
 - [[01-Gestion de la configuracion/03-STD-02_Convenciones_Tags|STD-02 Convenciones y Tags]] - Estandares de documentacion
 

@@ -13,12 +13,12 @@
 | :--- | :--- | :--- |
 | **PROC-** | Proceso (Modelo ETVX) | 01-Gestion de la configuracion, 02-Estandar_de_Procesos |
 | **REQ-** | Requerimiento de Software | 02-Requisitos |
-| **CP-** | Caso de Prueba | 06-Pruebas |
-| **CR-** | Change Request (Control de Cambios) | 05-Control de cambios |
-| **INS-** | Reporte de Inspección | 05-Control de cambios |
+| **CP-** | Caso de Prueba | 04-Pruebas |
+| **CR-** | Change Request (Control de Cambios) | 05-Revisiones e inspecciones |
+| **INS-** | Reporte de Inspección | 05-Revisiones e inspecciones |
 | **CL-** | Checklist / Lista de Verificación | 01-Gestion de la configuracion/99-Plantillas |
 | **GLO-** | Glosario | 01-Gestion de la configuracion |
-| **PLAN-** | Plan de Acción o Estrategia | 01-Gestion de la configuracion, 06-Pruebas |
+| **PLAN-** | Plan de Acción o Estrategia | 01-Gestion de la configuracion, 04-Pruebas |
 | **STD-** | Estándar o Guía Técnica | 01-Gestion de la configuracion |
 | **REG-** | Registro o Bitácora | Diversas carpetas |
 | **FOR-** | Formato o Plantilla | 01-Gestion de la configuracion/99-Plantillas |

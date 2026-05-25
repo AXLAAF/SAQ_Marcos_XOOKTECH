@@ -5,7 +5,7 @@
 
 ---
 
-> **Proceso relacionado**: [[05-Control de cambios/05-PROC-05.1_Control_Cambios|PROC-08 Control de Cambios]]
+> **Proceso relacionado**: [[05-Revisiones e inspecciones/05-PROC-05.1_Control_Cambios|PROC-08 Control de Cambios]]
 
 ## 1. Descripcion General
 [Explique que cambio se solicita, que comportamiento nuevo se espera y cual es el problema actual.]

@@ -17,11 +17,11 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 |Nombre del documento|Ubicación|
 |---|---|
 |Matriz de Trazabilidad de Requisitos (RTM)|[[02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03]]|
-|Plan Maestro de Pruebas|[[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02]]|
-|Registro de Defectos|[[05-Control de cambios/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03]]|
-|Caso de Prueba CP-01 (Carga JPG Válida)|[[06-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/01-CP-01_JPG_valida|CP-01]]|
-|Caso de Prueba CP-08 (Marco Simple)|[[06-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/01-CP-08_Marco_simple|CP-08]]|
-|Reporte de Inspección de Plan de Pruebas|[[05-Control de cambios/02-Calidad_Control/06-INS-02_Inspeccion_Plan_Pruebas|INS-02]]|
+|Plan Maestro de Pruebas|[[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02]]|
+|Registro de Defectos|[[05-Revisiones e inspecciones/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03]]|
+|Caso de Prueba CP-01 (Carga JPG Válida)|[[04-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/01-CP-01_JPG_valida|CP-01]]|
+|Caso de Prueba CP-08 (Marco Simple)|[[04-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/01-CP-08_Marco_simple|CP-08]]|
+|Reporte de Inspección de Plan de Pruebas|[[05-Revisiones e inspecciones/02-Calidad_Control/06-INS-02_Inspeccion_Plan_Pruebas|INS-02]]|
 
 ---
 
@@ -39,8 +39,8 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 **Propuesta:**
 
 - El Analista de Verificación y Pruebas revisa la Línea Base de requisitos aprobada en `02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/` y sus Criterios de Aceptación BDD.
-- Elabora de forma estructurada el [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|Plan Maestro de Pruebas (PLAN-02)]] para definir la estrategia de validación en los 4 módulos (Carga, Catálogo, Previsualización y Pantalla Secundaria).
-- Diseña y redacta los 15 Casos de Prueba (de `CP-01` a `CP-15`), detallando para cada uno las Precondiciones, Pasos de Ejecución y Resultados Esperados en sus respectivos archivos markdown en Obsidian (ej. [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/01-CP-01_JPG_valida|CP-01 JPG Valida]] o [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/01-CP-08_Marco_simple|CP-08 Marco Simple]]).
+- Elabora de forma estructurada el [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|Plan Maestro de Pruebas (PLAN-02)]] para definir la estrategia de validación en los 4 módulos (Carga, Catálogo, Previsualización y Pantalla Secundaria).
+- Diseña y redacta los 15 Casos de Prueba (de `CP-01` a `CP-15`), detallando para cada uno las Precondiciones, Pasos de Ejecución y Resultados Esperados en sus respectivos archivos markdown en Obsidian (ej. [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/01-CP-01_JPG_valida|CP-01 JPG Valida]] o [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/01-CP-08_Marco_simple|CP-08 Marco Simple]]).
 
 ---
 
@@ -89,7 +89,7 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 
 **Propuesta:**
 
-- El Analista de Verificación y Pruebas registra de inmediato cualquier discrepancia o fallo detectado en el [[05-Control de cambios/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03 Registro de Defectos]] a cargo del *Analista de Control y Cambios*.
+- El Analista de Verificación y Pruebas registra de inmediato cualquier discrepancia o fallo detectado en el [[05-Revisiones e inspecciones/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03 Registro de Defectos]] a cargo del *Analista de Control y Cambios*.
 - Asigna al defecto un folio (DEF-XXX), prioridad y descripción detallada del error lógico y paso de reproducción.
 - Retroalimenta al *Líder de Desarrollo e Implementación* para la corrección inmediata en código y coordina con el *Analista de Control y Cambios* para evaluar acciones preventivas y actualizar los checklists si es necesario.
 
@@ -123,12 +123,12 @@ El registro formal (DEF-XXX) retroalimenta dinámicamente la codificación para 
 
 [5] Matriz de Trazabilidad de Requisitos (RTM). [[02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03]]
 
-[6] Plan Maestro de Pruebas. [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02]]
+[6] Plan Maestro de Pruebas. [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02]]
 
-[7] Registro de Defectos de SQA. [[05-Control de cambios/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03]]
+[7] Registro de Defectos de SQA. [[05-Revisiones e inspecciones/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03]]
 
-[8] Caso de Prueba CP-01 (Carga JPG). [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/01-CP-01_JPG_valida|CP-01]]
+[8] Caso de Prueba CP-01 (Carga JPG). [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-01_Carga/01-CP-01_JPG_valida|CP-01]]
 
-[9] Caso de Prueba CP-08 (Marco Simple). [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/01-CP-08_Marco_simple|CP-08]]
+[9] Caso de Prueba CP-08 (Marco Simple). [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-03_Previsualizacion/01-CP-08_Marco_simple|CP-08]]
 
-[10] Reporte de Inspección de Pruebas. [[05-Control de cambios/02-Calidad_Control/06-INS-02_Inspeccion_Plan_Pruebas|INS-02]]
+[10] Reporte de Inspección de Pruebas. [[05-Revisiones e inspecciones/02-Calidad_Control/06-INS-02_Inspeccion_Plan_Pruebas|INS-02]]

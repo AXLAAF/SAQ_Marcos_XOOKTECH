@@ -5,7 +5,7 @@
 
 ---
 
-> Use este checklist para validar cada archivo `REQ-XX_Nombre` antes de enviarlo a inspeccion formal en el [[05-Control de cambios/01-Ingenieria_Control/05-PROC-05.2_Inspecciones|PROC-09 Inspecciones]]. Un requerimiento solo es valido si cumple con el 100% de estos criterios.
+> Use este checklist para validar cada archivo `REQ-XX_Nombre` antes de enviarlo a inspeccion formal en el [[05-Revisiones e inspecciones/01-Ingenieria_Control/05-PROC-05.2_Inspecciones|PROC-09 Inspecciones]]. Un requerimiento solo es valido si cumple con el 100% de estos criterios.
 
 ## 1. Atributos de Calidad (SWEBOK)
 - [ ] **Atomico**: ¿El requerimiento describe una unica funcionalidad? (No debe contener "y", "o" que dividan la logica).

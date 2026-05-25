@@ -3,7 +3,7 @@
 **Entradas:** Registros de Defectos e Incidentes
 **Salidas:** Solicitudes de Cambio Aprobadas e Informes de Inspección
 
-**Área de proceso:** 05-Control de cambios
+**Área de proceso:** 05-Revisiones e inspecciones
 **Nombre del proceso:** Aseguramiento y Control de Configuración (SCC)
 **Notación:** NT: indica una Nota Técnica con una sugerencia de mejora al proceso actual.
 
@@ -24,7 +24,7 @@
 
 **Propuesta:**
 - El **Analista de Control y Cambios** certifica que una fase (ej. 02-Requisitos) está completa.
-- Se registra el estado en el [[05-Control de cambios/02-Calidad_Control/01-STD-08_Dashboard_Calidad|Dashboard de Calidad]].
+- Se registra el estado en el [[05-Revisiones e inspecciones/02-Calidad_Control/01-STD-08_Dashboard_Calidad|Dashboard de Calidad]].
 - Cualquier edición posterior a este sello activa automáticamente el subproceso de Control de Cambios.
 
 ---
@@ -38,7 +38,7 @@
 
 **Propuesta:**
 - Para cada cambio solicitado por el cliente o detectado por el equipo, se debe crear una nota usando la plantilla `TEMPLATE-CR`.
-- Se asigna un folio (ej. [[05-Control de cambios/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01]]).
+- Se asigna un folio (ej. [[05-Revisiones e inspecciones/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01]]).
 - El cambio solo se implementa si cuenta con la firma digital (check) del **Analista de Control**.
 
 ---
@@ -52,7 +52,7 @@
 
 **Propuesta:**
 - El responsable de esta fase ejecuta inspecciones periódicas sobre los artefactos de otras fases.
-- Se generan reportes de inspección (ej. [[05-Control de cambios/02-Calidad_Control/05-INS-01_Inspeccion_Requerimientos|INS-01]]).
+- Se generan reportes de inspección (ej. [[05-Revisiones e inspecciones/02-Calidad_Control/05-INS-01_Inspeccion_Requerimientos|INS-01]]).
 - Si se detecta una no conformidad crítica, se emite un **HALLAZGO** que bloquea el despliegue.
 
 ---
@@ -65,7 +65,7 @@
 **NT-4:** SQA implica aprendizaje organizacional. Si un error llega a producción, el proceso falló. Se propone el registro de causa raíz.
 
 **Propuesta:**
-- Todo fallo detectado en la fase 06-Pruebas se traslada al [[05-Control de cambios/02-Calidad_Control/02-REG-03_Registro_Defectos|Registro de Defectos]].
+- Todo fallo detectado en la fase 04-Pruebas se traslada al [[05-Revisiones e inspecciones/02-Calidad_Control/02-REG-03_Registro_Defectos|Registro de Defectos]].
 - El defecto no se considera cerrado hasta que el **Analista de Control** verifique que no hay impacto colateral en otros módulos.
 
 ---
@@ -74,10 +74,10 @@
 
 | ID | Artefacto | Propósito | Ubicación |
 | :--- | :--- | :--- | :--- |
-| **STD-08** | Dashboard de Calidad | Visualizar el estado de salud de todos los procesos. | [[05-Control de cambios/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08]] |
-| **REG-03** | Registro de Defectos | Controlar el ciclo de vida de los fallos encontrados. | [[05-Control de cambios/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03]] |
-| **INS-XX** | Inspecciones | Documentar la verificación formal de artefactos. | [[05-Control de cambios/02-Calidad_Control/05-INS-01_Inspeccion_Requerimientos|INS-01]] |
-| **CR-XX** | Control de Cambios | Gestionar las solicitudes de modificación post-baseline. | [[05-Control de cambios/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01]] |
+| **STD-08** | Dashboard de Calidad | Visualizar el estado de salud de todos los procesos. | [[05-Revisiones e inspecciones/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08]] |
+| **REG-03** | Registro de Defectos | Controlar el ciclo de vida de los fallos encontrados. | [[05-Revisiones e inspecciones/02-Calidad_Control/02-REG-03_Registro_Defectos|REG-03]] |
+| **INS-XX** | Inspecciones | Documentar la verificación formal de artefactos. | [[05-Revisiones e inspecciones/02-Calidad_Control/05-INS-01_Inspeccion_Requerimientos|INS-01]] |
+| **CR-XX** | Control de Cambios | Gestionar las solicitudes de modificación post-baseline. | [[05-Revisiones e inspecciones/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01]] |
 
 ---
 

@@ -8,14 +8,14 @@
 
 1.  **ETVX (Entry, Task, Validation, Exit)**: Modelo mandatorio para la estructura de procesos. Cada archivo `00-PROC` debe demostrar el cumplimiento de estas cuatro etapas.
 2.  **Linea Base (Baseline)**: Especificacion aprobada y congelada que sirve como punto de partida para cambios controlados. En este proyecto, cada fase (01-08) genera una linea base al pasar a `#estado/verificado`.
-3.  **SCM (Software Configuration Management)**: Disciplina aplicada en la carpeta `05-Control de cambios` para identificar, organizar y controlar las modificaciones al software y su documentacion.
+3.  **SCM (Software Configuration Management)**: Disciplina aplicada en la carpeta `05-Revisiones e inspecciones` para identificar, organizar y controlar las modificaciones al software y su documentacion.
 4.  **V&V (Verificacion y Validacion)**: 
     - **Verificacion**: ¿Estamos construyendo el producto correctamente? (Revision de documentos).
     - **Validacion**: ¿Estamos construyendo el producto correcto? (Ejecucion de pruebas sobre el prototipo).
 
 ## 2. Terminologia de Gestion y Control
 
-1.  **Matriz de Trazabilidad (RTM)**: Documento central en `05-Control de cambios` que garantiza que cada requerimiento tenga un diseño, un codigo y una prueba asociada.
+1.  **Matriz de Trazabilidad (RTM)**: Documento central en `05-Revisiones e inspecciones` que garantiza que cada requerimiento tenga un diseño, un codigo y una prueba asociada.
 2.  **Densidad de Defectos**: Metrica mandatoria calculada como `Total de errores / Complejidad del modulo`. Debe registrarse en el Dashboard de Calidad.
 3.  **Inspeccion Formal**: Revision tecnica siguiendo el metodo de Galin (uso de checklists y roles definidos) para detectar defectos antes de la fase de pruebas.
 

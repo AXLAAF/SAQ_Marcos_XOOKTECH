@@ -356,9 +356,9 @@ Infraestructura:
 ### 5.1 Documentos Relacionados
 - [[01-Baseline/00-PROC-01_Recuperacion_Linea_Base]] - Proceso de recuperación de línea base
 - [[02-Requisitos/02-PROC-02_Especificacion_Requerimientos|PROC-02 Especificación de Requerimientos]] - Especificación de requisitos
-- [[05-Control de cambios/05-PROC-05_Control_Configuracion|PROC-07 Gestión de Control]] - Registro de cambios (CR-01 a CR-04)
+- [[05-Revisiones e inspecciones/05-PROC-05_Control_Configuracion|PROC-07 Gestión de Control]] - Registro de cambios (CR-01 a CR-04)
 - [[03-Diseño/03-PROC-03_Diseño_Sistema|PROC-03 Diseño del Sistema]] - Documentación de arquitectura
-- [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]] - Plan de pruebas
+- [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan de Pruebas]] - Plan de pruebas
 
 ### 5.2 Referencias Bibliograficas
 - SWEBOK v4, KA2 - Requisitos y Elicitación

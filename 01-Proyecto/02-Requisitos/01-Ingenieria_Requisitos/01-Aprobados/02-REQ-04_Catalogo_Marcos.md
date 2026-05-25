@@ -68,5 +68,5 @@ El sistema debe proporcionar un catalogo completo de marcos disponibles para que
 
 ## 10. Trazabilidad
 
-- Casos de Prueba: [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-02_Catalogo/01-CP-04_Carga_catalogo]], [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-02_Catalogo/02-CP-05_Filtro_modelo]], [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-02_Catalogo/03-CP-06_Filtro_color]], [[06-Pruebas/01-Ingenieria_Pruebas/Modulo-02_Catalogo/04-CP-07_Filtro_ancho]]
+- Casos de Prueba: [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-02_Catalogo/01-CP-04_Carga_catalogo]], [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-02_Catalogo/02-CP-05_Filtro_modelo]], [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-02_Catalogo/03-CP-06_Filtro_color]], [[04-Pruebas/01-Ingenieria_Pruebas/Modulo-02_Catalogo/04-CP-07_Filtro_ancho]]
 - Change Requests: No aplica

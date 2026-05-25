@@ -17,10 +17,10 @@
 | **Fase 1: Linea Base** | [[09-Notes/01-Linea_Base-Original/00-PROC-01_Recuperacion_Linea_Base|PROC-01 Recuperación de Línea Base]] | Analista de Requerimientos | 🟢 | [[09-Notes/01-Linea_Base-Original/02-Propuesta_Recuperada|Propuesta de Proyecto]] |
 | **Fase 2: Requisitos** | [[02-Requisitos/02-PROC-02_Especificacion_Requerimientos|PROC-02 Especificación de Requerimientos]] | Analista de Requerimientos | 🟡 | [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/01-REQ-01_Carga_Imagen|REQ-01 Carga de Imagen]] |
 | **Fase 3: Diseño** | [[03-Diseño/03-PROC-03_Diseño_Sistema|PROC-03 Diseño de Sistema]] | Analista de Gobernanza y Diseño | ⚪ | [[03-Diseño/01-Ingenieria_Arquitectura/01-STD-04_Diagrama_Componentes|STD-04 Diagrama de Componentes]] |
-| **Fase 4: Codificacion** | [[04-Codificacion/04-PROC-04_Codificacion|PROC-04 Codificación]] | Líder de Desarrollo e Implementación | ⚪ | Módulos Python / GitHub |
-| **Fase 5: Pruebas** | [[06-Pruebas/06-PROC-06_Plan_Pruebas|PROC-05 Plan de Pruebas]] | Analista de Verificación y Pruebas | 🟡 | [[06-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]] |
+| **Fase 4: Codificacion** | [[06-Codigo/04-PROC-04_Codificacion|PROC-04 Codificación]] | Líder de Desarrollo e Implementación | ⚪ | Módulos Python / GitHub |
+| **Fase 5: Pruebas** | [[04-Pruebas/06-PROC-06_Plan_Pruebas|PROC-05 Plan de Pruebas]] | Analista de Verificación y Pruebas | 🟡 | [[04-Pruebas/01-Ingenieria_Pruebas/01-PLAN-02_Plan_Pruebas|PLAN-02 Plan Maestro de Pruebas]] |
 | **Fase 6: Mantenimiento** | [[08-Mantenimiento/08-PROC-08_Mantenimiento|PROC-06 Mantenimiento]] | Analista de Gobernanza y Diseño | ⚪ | [[08-Mantenimiento/01-Ingenieria_Soporte/01-REG-01_Solicitudes_Mantenimiento|REG-01 Solicitudes de Soporte]] |
-| **Fase 7: Control** | [[05-Control de cambios/05-PROC-05_Control_Configuracion|PROC-07 Control]] | Analista de Control y Cambios | 🟡 | [[05-Control de cambios/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08 Dashboard de Calidad]] |
+| **Fase 7: Control** | [[05-Revisiones e inspecciones/05-PROC-05_Control_Configuracion|PROC-07 Control]] | Analista de Control y Cambios | 🟡 | [[05-Revisiones e inspecciones/02-Calidad_Control/01-STD-08_Dashboard_Calidad|STD-08 Dashboard de Calidad]] |
 | **Fase 8: Despliegue** | [[07-Despliegue/07-PROC-07_Despliegue|PROC-08 Despliegue]] | Líder de Desarrollo e Implementación | ⚪ | [[07-Despliegue/Documentos_Apoyo/02-Formatos/CL-08-01_Verificacion_Despliegue|CL-08-01 Verificación de Despliegue]] |
 
 *Leyenda: ⚪ Pendiente | 🟡 En Progreso | 🟢 Completado*
@@ -46,7 +46,7 @@
 
 1. **Sistematizar Procesos 04, 06 y 08**: Líder de Desarrollo e Implementación y Analista de Gobernanza y Diseño deben documentar y auditar la codificación, soporte técnico y despliegue.
 2. **Cerrar Trazabilidad (RTM)**: Analista de Requerimientos debe vincular REQ -> Control para asegurar que no hay brechas en la trazabilidad.
-3. **Ejecutar Casos de Prueba (CP)**: Analista de Verificación y Pruebas debe capturar evidencia real de pruebas del prototipo en la carpeta `06-Pruebas`.
+3. **Ejecutar Casos de Prueba (CP)**: Analista de Verificación y Pruebas debe capturar evidencia real de pruebas del prototipo en la carpeta `04-Pruebas`.
 
 ---
 
