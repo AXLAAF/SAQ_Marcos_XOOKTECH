@@ -68,7 +68,7 @@ Establecer un proceso de requisitos disciplinado y repetible en XookTech. El pla
 
 ### M-03 — Especificación técnica estructurada en formato unificado BDD
 * **Situación actual:** Los requisitos se redactan de manera ambigua y descriptiva en lenguaje natural sin cotas técnicas precisas (H-03).
-* **Situación propuesta:** Especificar los requisitos funcionales mediante las plantillas oficiales [[PLT-FOR_Especificacion_SRS.md]] o [[PLT-FOR_Historia_Usuario.md]] incorporando cotas numéricas exactas en las reglas de negocio (ej. tamaño máximo de archivos 10 MB, formatos JPEG/PNG) y modelando los escenarios de aceptación detallados mediante el formato BDD (`Dado`, `Cuando`, `Entonces`, sin usar emojis), cubriendo el flujo principal, alternativos y flujos de error.
+* **Situación propuesta:** Especificar los requisitos funcionales mediante las plantillas oficiales [[PLT-FOR_Especificacion_SRS.md]] o [[PLT-FOR_Historia_Usuario.md]] incorporando cotas numéricas exactas en las reglas de negocio (ej. tamaño máximo de archivos 10 MB, formatos JPEG/PNG) y modelando los escenarios de aceptación detallados mediante el formato BDD (`Dado`, `Cuando`, `Entonces`), cubriendo el flujo principal, alternativos y flujos de error.
 * **Justificación:** El uso de lenguaje BDD y parámetros cuantitativos elimina la subjetividad, garantizando que los programadores construyan interfaces y algoritmos sin ambigüedades y que los probadores diseñen casos de prueba objetivos.
 * **Artefacto asociado:** [[PLT-FOR_Especificacion_SRS.md]] y [[PLT-FOR_Historia_Usuario.md]]
 * **Evidencia de cumplimiento:** Ficha del requerimiento (`REQ-XXX.md`) redactada con las reglas técnicas acotadas y escenarios de aceptación BDD completos.

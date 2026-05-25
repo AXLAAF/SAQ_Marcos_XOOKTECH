@@ -50,9 +50,20 @@ Todo archivo físico incorporado al Sistema de Gestión de Calidad (SGC) en Obsi
   * `PLT-FOR_Reporte_Junta.md`
   * `PLT-REG_Verificacion_Requisitos.md`
 
+## 4. Convenciones de Identificadores de SQA
+
+Para dar seguimiento unívoco y garantizar la trazabilidad de los procesos y entregables del SGC, se declaran las siguientes nomenclaturas obligatorias de códigos identificadores:
+* **`REQ-XXX` (Requisitos del Sistema):** Identificador secuencial de tres dígitos asignado a cada requisito funcional de la línea base (ej. `REQ-001`).
+* **`HU-XXX` (Historias de Usuario):** Identificador secuencial de tres dígitos para flujos ágiles específicos de negocio (ej. `HU-005`).
+* **`H-0X` (Hallazgos):** Identificador secuencial de un dígito asignado a cada brecha o problema detectado durante los diagnósticos de procesos As-Is (ej. `H-01`).
+* **`M-0X` (Acciones de Mejora):** Identificador secuencial de un dígito asignado a cada acción correctiva propuesta en los planes de mejora To-Be (ej. `M-02`).
+* **`CR-XXX` (Solicitud de Cambio):** Folio secuencial de tres dígitos asignado a cada solicitud de cambios sobre la línea base de requerimientos o diseño (ej. `CR-001`).
+* **`TAR-YYYY-NNN` (Tareas de Desarrollo):** Folio de seguimiento de tareas de codificación que asocia el año actual y un número secuencial de tres dígitos (ej. `TAR-2026-001`).
+* **`CP-XX` (Casos de Prueba):** Identificador secuencial de dos dígitos asignado a cada caso de prueba de verificación de calidad (ej. `CP-01`).
+
 ---
 
-## 4. Estándar de Tags de Estado de Configuración
+## 5. Estándar de Tags de Estado de Configuración
 
 Para dar seguimiento dinámico en Obsidian y Git al ciclo de vida de los artefactos de la línea base, se definen los siguientes tags de control obligatorio, los cuales deben colocarse en los metadatos de la cabecera de los archivos (100% libres de emojis):
 
@@ -63,6 +74,7 @@ Para dar seguimiento dinámico en Obsidian y Git al ciclo de vida de los artefac
 
 ---
 
-## 5. Gobernanza y Mantenimiento
+## 6. Gobernanza y Mantenimiento
 * **Revisión de Enlaces:** El Analista de Gobernanza y Diseño ejecuta análisis periódicos de enlaces rotos en el vault para garantizar que los wikilinks interactivos apunten a rutas válidas.
 * **Segregación de Carpetas:** Los archivos en estado pendiente deben almacenarse en carpetas `/00-Pendientes/` y se trasladan físicamente a `/01-Aprobados/` al ser aprobados por el Product Owner.
+
