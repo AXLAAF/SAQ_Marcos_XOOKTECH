@@ -24,15 +24,16 @@ El Sistema de Gestión de Calidad (SGC) se opera bajo una estructura de roles in
 1.  **Analista de Gobernanza y Diseño**:
     *   **Gobernanza (00)**: Administra el SGC, asegura la integridad del Vault y coordina las auditorías bibliográficas.
     *   **Diseño (03)**: Ejecuta la ingeniería inversa para recuperar la arquitectura y asegura la sincronización código-diseño.
+    *   **Mantenimiento (06)**: Gestiona el ciclo de vida post-entrega y las auditorías de soporte.
 2.  **Analista de Requerimientos**:
     *   **Requisitos (02)**: Gestiona la obtención, especificación y validación de necesidades del cliente mediante el estándar IEEE 830.
 3.  **Líder de Desarrollo e Implementación**:
     *   **Codificación (04)**: Dirige la construcción del software bajo estándares de codificación limpios y trazables.
-    *   **Despliegue (07)**: Asegura la transición segura del código a entornos de producción.
+    *   **Despliegue (08)**: Asegura la transición segura del código a entornos de producción.
 4.  **Analista de Control y Cambios**:
-    *   **Control (05) y Mantenimiento (08)**: Gestiona el registro de Solicitudes de Cambio (CR), audita la trazabilidad, administra el proceso de soporte y bitácoras post-despliegue, y mantiene el Tablero de Calidad.
+    *   **Control (07)**: Gestiona el registro de Solicitudes de Cambio (CR) y audita la trazabilidad entre fases.
 5.  **Analista de Verificación y Pruebas**:
-    *   **Pruebas (06)**: Diseña y ejecuta los planes de prueba (Unitarias, Integración, Sistema) para validar el cumplimiento de los requisitos.
+    *   **Pruebas (05)**: Diseña y ejecuta los planes de prueba (Unitarias, Integración, Sistema) para validar el cumplimiento de los requisitos.
 
 **NT-1:** Todo archivo debe llevar en su Frontmatter el **Rol Responsable** en lugar de nombres propios para cumplir con el estándar organizacional.
 
