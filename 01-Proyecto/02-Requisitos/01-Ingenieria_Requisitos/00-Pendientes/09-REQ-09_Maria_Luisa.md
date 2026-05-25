@@ -1,5 +1,5 @@
 
-# REQ-09: Maria Luisa (Marco Decorativo Interno)
+# REQ-09: Maria Luisa o Marco Decorativo Interno
 **Responsable:** Analista de Requerimientos
 **Entradas:** Línea Base y Especificaciones Iniciales
 **Salidas:** Matriz de Trazabilidad e Requisitos Formales
@@ -25,7 +25,7 @@ El sistema debe permitir al cliente seleccionar una Maria Luisa (marco decorativ
 - El catalogo de Maria Luisas esta definido en la base de datos
 - Se han escaneado las texturas de las Maria Luisas disponibles
 
-## 4. Flujo Principal (Happy Path)
+## 4. Flujo Principal
 
 1. El cliente selecciona un marco y carga su foto
 2. El cliente hace clic en "Agregar Maria Luisa"
@@ -48,7 +48,7 @@ El sistema debe permitir al cliente seleccionar una Maria Luisa (marco decorativ
 |-------|--------------------|----------------------|
 | FE-01 | La Maria Luisa no es compatible con el marco seleccionado | Se muestra un mensaje de incompatibilidad |
 
-## 7. Criterios de Aceptacion (formato BDD)
+## 7. Criterios de Aceptacion en formato BDD
 
 | CA-ID | Dado | Cuando | Entonces |
 |-------|------|--------|----------|

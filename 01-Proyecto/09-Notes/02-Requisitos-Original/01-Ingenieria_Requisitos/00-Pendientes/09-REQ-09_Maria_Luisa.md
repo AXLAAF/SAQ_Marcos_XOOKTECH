@@ -64,7 +64,7 @@ El sistema debe permitir al cliente seleccionar una Maria Luisa (marco decorativ
 
 ## 9. Dependencias
 
-- [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] - Requerimiento base de previsualizacion
+- [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] - Requerimiento base de previsualizacion
 - [[07-Control/01-Ingenieria_Control/10-CR-03_Maria_Luisa|CR-03 María Luisa]] - Change Request asociado
 
 ## 10. Trazabilidad

@@ -25,7 +25,7 @@ El sistema debe poder proyectar la previsualizacion en una pantalla secundaria (
 - Existe una segunda pantalla disponible y conectada
 - El navegador soporta la API de pantalla extendida
 
-## 4. Flujo Principal (Happy Path)
+## 4. Flujo Principal
 
 1. El empleado opera el sistema en la pantalla principal (computadora)
 2. El cliente esta frente a la pantalla secundaria (TV)
@@ -47,7 +47,7 @@ El sistema debe poder proyectar la previsualizacion en una pantalla secundaria (
 | FE-01 | El navegador no soporta pantalla extendida | Se muestra un mensaje y se usa solo la pantalla principal |
 | FE-02 | La sincronizacion falla | El sistema reintenta la conexion automaticamente |
 
-## 7. Criterios de Aceptacion (formato BDD)
+## 7. Criterios de Aceptacion en formato BDD
 
 | CA-ID | Dado | Cuando | Entonces |
 |-------|------|--------|----------|

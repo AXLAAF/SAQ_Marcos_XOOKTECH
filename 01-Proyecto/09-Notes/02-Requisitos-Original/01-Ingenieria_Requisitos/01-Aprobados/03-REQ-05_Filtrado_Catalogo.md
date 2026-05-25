@@ -59,7 +59,7 @@ El sistema debe proporcionar opciones de filtrado para que los clientes puedan e
 
 ## 9. Dependencias
 
-- [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/02-REQ-04_Catalogo_Marcos|REQ-04 Catálogo de Marcos]] - Requerimiento base del catalogo
+- [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/02-REQ-04_Catalogo_Marcos|REQ-04 Catálogo de Marcos]] - Requerimiento base del catalogo
 
 ## 10. Trazabilidad
 

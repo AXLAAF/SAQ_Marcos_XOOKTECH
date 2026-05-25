@@ -24,7 +24,7 @@ El sistema debe proporcionar un catalogo completo de marcos disponibles para que
 - Las imagenes de los marcos estan disponibles en el servidor
 - La aplicacion web esta funcionando correctamente
 
-## 4. Flujo Principal (Happy Path)
+## 4. Flujo Principal
 
 1. El cliente accede a la seccion de catalogo de la aplicacion
 2. El sistema carga y muestra los marcos disponibles en formato de grilla
@@ -47,7 +47,7 @@ El sistema debe proporcionar un catalogo completo de marcos disponibles para que
 | FE-01 | La base de datos no responde | El sistema muestra mensaje de error y ofrece reintentar |
 | FE-02 | Una imagen de marco no esta disponible | El sistema muestra una imagen placeholder |
 
-## 7. Criterios de Aceptacion (formato BDD)
+## 7. Criterios de Aceptacion en formato BDD
 
 | CA-ID | Dado | Cuando | Entonces |
 |-------|------|--------|----------|

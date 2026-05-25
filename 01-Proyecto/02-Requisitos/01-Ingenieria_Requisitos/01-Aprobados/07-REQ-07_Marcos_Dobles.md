@@ -24,7 +24,7 @@ El sistema debe permitir la previsualizacion de marcos dobles, es decir, marcos 
 - El sistema tiene la funcionalidad de previsualizacion basica (REQ-02)
 - Los marcos que soportan modo doble estan marcados en la base de datos
 
-## 4. Flujo Principal (Happy Path)
+## 4. Flujo Principal
 
 1. El cliente selecciona un marco del catalogo
 2. El sistema verifica si el marco soporta modo doble
@@ -48,7 +48,7 @@ El sistema debe permitir la previsualizacion de marcos dobles, es decir, marcos 
 | FE-01 | Las fotos exceden el tamano maximo permitido | El sistema comprime automaticamente las imagenes |
 | FE-02 | El marco seleccionado no tiene soporte para modo doble | Se muestra mensaje de error y se sugiere otro marco |
 
-## 7. Criterios de Aceptacion (formato BDD)
+## 7. Criterios de Aceptacion en formato BDD
 
 | CA-ID | Dado | Cuando | Entonces |
 |-------|------|--------|----------|
@@ -64,7 +64,7 @@ El sistema debe permitir la previsualizacion de marcos dobles, es decir, marcos 
 
 ## 9. Dependencias
 
-- [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] - Requerimiento base de previsualizacion
+- [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] - Requerimiento base de previsualizacion
 - [[07-Control/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]] - Change Request asociado
 
 ## 10. Trazabilidad

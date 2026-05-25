@@ -63,7 +63,7 @@ El sistema debe poder proyectar la previsualizacion en una pantalla secundaria (
 
 ## 9. Dependencias
 
-- [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] - Requerimiento base de previsualizacion
+- [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] - Requerimiento base de previsualizacion
 - [[07-Control/01-Ingenieria_Control/11-CR-04_Pantalla_Secundaria|CR-04 Pantalla Secundaria]] - Change Request asociado
 
 ## 10. Trazabilidad

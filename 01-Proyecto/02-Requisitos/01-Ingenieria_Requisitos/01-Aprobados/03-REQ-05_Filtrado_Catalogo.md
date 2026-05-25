@@ -22,7 +22,7 @@ El sistema debe proporcionar opciones de filtrado para que los clientes puedan e
 - El catalogo de marcos esta cargado
 - Las categorias, colores y anchos estan definidos en la base de datos
 
-## 4. Flujo Principal (Happy Path)
+## 4. Flujo Principal
 
 1. El cliente esta en la pagina del catalogo
 2. El cliente hace clic en el panel de filtros
@@ -44,7 +44,7 @@ El sistema debe proporcionar opciones de filtrado para que los clientes puedan e
 |-------|--------------------|----------------------|
 | FE-01 | Error en la consulta de filtros | El sistema muestra error y mantiene los filtros anteriores |
 
-## 7. Criterios de Aceptacion (formato BDD)
+## 7. Criterios de Aceptacion en formato BDD
 
 | CA-ID | Dado | Cuando | Entonces |
 |-------|------|--------|----------|

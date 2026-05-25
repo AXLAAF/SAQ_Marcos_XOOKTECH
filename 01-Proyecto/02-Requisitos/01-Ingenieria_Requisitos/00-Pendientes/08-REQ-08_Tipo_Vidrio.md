@@ -24,7 +24,7 @@ El sistema debe permitir al cliente seleccionar el tipo de vidrio para su marco.
 - El sistema tiene la funcionalidad de previsualizacion basica (REQ-02)
 - Los tipos de vidrio y sus precios estan definidos en la base de datos
 
-## 4. Flujo Principal (Happy Path)
+## 4. Flujo Principal
 
 1. El cliente selecciona un marco y carga su foto
 2. El sistema muestra la previsualizacion del marco
@@ -46,7 +46,7 @@ El sistema debe permitir al cliente seleccionar el tipo de vidrio para su marco.
 |-------|--------------------|----------------------|
 | FE-01 | El tipo de vidrio no esta disponible para el marco | Se muestra un mensaje indicando la incompatibilidad |
 
-## 7. Criterios de Aceptacion (formato BDD)
+## 7. Criterios de Aceptacion en formato BDD
 
 | CA-ID | Dado | Cuando | Entonces |
 |-------|------|--------|----------|

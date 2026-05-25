@@ -65,8 +65,8 @@ Una vez que el cliente ha subido su foto y seleccionado un marco del catalogo, e
 
 ## 9. Dependencias
 
-- [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/01-REQ-01_Carga_Imagen|REQ-01 Carga de Imagen]] - La foto del cliente debe estar cargada
-- [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|REQ-03 Generación Marcos 3D]] - El modelo 3D del marco debe estar disponible
+- [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/01-REQ-01_Carga_Imagen|REQ-01 Carga de Imagen]] - La foto del cliente debe estar cargada
+- [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|REQ-03 Generación Marcos 3D]] - El modelo 3D del marco debe estar disponible
 
 ## 10. Trazabilidad
 

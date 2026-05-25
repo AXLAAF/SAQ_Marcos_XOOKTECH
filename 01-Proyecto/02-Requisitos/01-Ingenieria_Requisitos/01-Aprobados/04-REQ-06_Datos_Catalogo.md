@@ -23,7 +23,7 @@ El catalogo de marcos debe contener toda la informacion necesaria para que el si
 - El inventario de marcos de Enmarcame ha sido escaneado
 - El programa de procesamiento ha generado los modelos 3D
 
-## 4. Flujo Principal (Happy Path)
+## 4. Flujo Principal
 
 1. El equipo de Enmarcame proporciona el inventario de marcos
 2. Se escanean las texturas de cada marco (200 por semana)
@@ -45,7 +45,7 @@ El catalogo de marcos debe contener toda la informacion necesaria para que el si
 | FE-01 | Error al cargar datos en la base de datos | El sistema registra el error y reintenta |
 | FE-02 | Imagen faltante para un marco | Se marca el marco como "pendiente de imagen" |
 
-## 7. Criterios de Aceptacion (formato BDD)
+## 7. Criterios de Aceptacion en formato BDD
 
 | CA-ID | Dado | Cuando | Entonces |
 |-------|------|--------|----------|

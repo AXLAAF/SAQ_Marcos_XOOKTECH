@@ -7,13 +7,13 @@
 
 ## 1. Informacion del Caso de Prueba
 
-| Campo | Valor |
-|-------|-------|
-| **ID** | CP-08 |
-| **Modulo** | Previsualizacion (Modulo-03) |
-| **Tipo de Prueba** | Sistema |
-| **Requerimiento** | [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]], [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|REQ-03 Generación Marcos 3D]] |
-| **Estado** | Pendiente |
+| Campo              | Valor                                                                                  |                                                                                                                       |                               |
+| ------------------ | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| **ID**             | CP-08                                                                                  |                                                                                                                       |                               |
+| **Modulo**         | Previsualizacion (Modulo-03)                                                           |                                                                                                                       |                               |
+| **Tipo de Prueba** | Sistema                                                                                |                                                                                                                       |                               |
+| **Requerimiento**  | [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco | REQ-02 Previsualización Marco]], [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D | REQ-03 Generación Marcos 3D]] |
+| **Estado**         | Pendiente                                                                              |                                                                                                                       |                               |
 
 ## 2. Descripcion
 

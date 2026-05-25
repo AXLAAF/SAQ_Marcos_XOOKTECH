@@ -22,7 +22,7 @@ El cliente debe poder subir una fotografia desde la aplicacion web para usarla c
 - El sistema esta conectado a la base de datos y funcionando
 - No hay restricciones de red que impidan la subida de archivos
 
-## 4. Flujo Principal (Happy Path)
+## 4. Flujo Principal
 
 1. El cliente hace clic en el boton "Subir mi foto"
 2. El sistema abre el dialogo de seleccion de archivos del sistema operativo
@@ -47,7 +47,7 @@ El cliente debe poder subir una fotografia desde la aplicacion web para usarla c
 | FE-02 | Archivo corrupto que no se puede leer       | El sistema muestra mensaje de error indicando formato no valido      |
 | FE-03 | Error interno del servidor                  | El sistema muestra mensaje de error generico y registra el incidente |
 
-## 7. Criterios de Aceptacion (formato BDD)
+## 7. Criterios de Aceptacion en formato BDD
 
 | CA-ID | Dado                                           | Cuando                      | Entonces                                                                   |
 | ----- | ---------------------------------------------- | --------------------------- | -------------------------------------------------------------------------- |

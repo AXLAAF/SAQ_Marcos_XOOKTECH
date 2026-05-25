@@ -1,0 +1,148 @@
+Área de proceso: Requisitos
+Nombre Proceso: Obtención de requisitos del Cliente.
+Responsable: Líder del Proyecto y analistas.
+Entradas: Cliente buscando una solución software para su problema. (Reuniones con el Cliente)
+Salidas: Propuesta de Producto.
+Basado en: Metodología Deming (Planear, Hacer, Verificar, Actuar) -> PDCA [8]
+Notación: Las sugerencias se encuentran en este color.
+Información Preliminar: 
+En este proceso, el Jefe del Proyecto creará un sistema de Carpetas en la Plataforma Box. (Paso 1e) 
+Para saber cómo y en base a qué es que se creará dicho sistema de carpetas, vea el proceso de control Multimedia.
+Los documentos que se necesitarán en este proceso, se mencionan a continuación con su respectiva ruta:
+Nombre del Documento
+Ruta en el sistema Box.
+Reporte De Junta
+[Carpeta con el nombre del Proyecto]/Documentos-Proyecto/Requisitos/ReporteDeJunta.docx
+Propuesta de Producto
+[Carpeta con el nombre del Proyecto]/Documentos-Proyecto/Requisitos/PropuestaDeProducto.docx
+Prototipo Sketch.
+[Carpeta con el nombre del Proyecto]/Prototipo-Sketch/[Nombre del Prototipo creado]
+Revisión de la Propuesta de Producto
+[Carpeta con el nombre del Proyecto]/Documentos-Proyecto/Requisitos/RevisiónPropuesta.docx
+Revisión de los casos de uso
+[Carpeta con el nombre del Proyecto]/Documentos-Proyecto/Requisitos/RevisiónCasosDeUso.docx
+Plantilla de los Casos de Uso
+[Carpeta con el nombre del Proyecto]/Documentos-Proyecto/Requisitos/PlantillaCasosDeUso.docx
+Plantilla del plan de pruebas
+[Carpeta con el nombre del Proyecto]/Documentos-Proyecto/Requisitos/Plan de Pruebas - Plantilla.docx
+Matriz de Trazabilidad
+[Carpeta con el nombre del Proyecto]/Documentos-Proyecto/Requisitos/Matriz_Trazabilidad.docx
+Caso de Prueba
+[Carpeta con el nombre del Proyecto]/Documentos-Proyecto/Requisitos/Casos de prueba.docx
+Proceso. 
+Planeación de la reunión, la cual consiste en lo siguiente [4]: 
+Agendar una reunión con el cliente para discutir sobre  su problemática, con la finalidad de obtener la mayor cantidad de requisitos. Dicha reunión se agendará vía telefónica o a través de Skype
+Enviar al cliente un correo de confirmación de la fecha y la hora de la reunión.
+Recibir la confirmación del cliente de la fecha y hora de la reunión.
+Registrar en la pizarra de la empresa la fecha y lugar de la reunión.
+El jefe crea el sistema de Carpetas en la plataforma Box, que servirá para que los integrantes del equipo en el proyecto, introduzcan los documentos generados. (Ver proceso de Control Multimedia)
+Si alguno de los participantes de la reunión no puede asistir, la reunión se volverá a agendar. (repetir a partir del paso 1 a).
+En caso de que se haya llegado a un acuerdo, se procede con la elaboración de un Reporte de Junta sobre las posibles cuestiones a preguntar en la entrevista. [4] (Ver la Propuesta para el reporte)
+Posteriormente se deberá guardar este documento en la plataforma Box en la ruta especificada en la sección de Información Preliminar. 
+Se espera hasta el día de la reunión.
+Se lleva a cabo la reunión, lo que consiste en: [9]
+Aquí empieza la fase de “Hacer” en la metodología Deming.   
+En esta etapa se deberá llevar 2 reportes como los que se propusieron con anterioridad [9]:
+El primero será el que contendrá las preguntas realizadas por los analistas en el paso anterior, sin contestar. 
+El segundo será una plantilla en blanco del reporte, que servirá para tomar los apuntes de la junta. 
+Nota: El día de la junta se tendrán que imprimir los reportes, para esto vaya a la ruta especificada en la sección de Información Preliminar. 
+Llegar al lugar acordado entre el Cliente y la Empresa.
+La reunión debe durar como máximo 120 min. Si dura más se llevará a cabo otra planeación de la reunión y se repetirá este patrón cuantas veces sea necesario. (regresar al paso 1) [9]
+Se lleva a cabo la entrevista. En esta entrevista el líder del proyecto mantiene la atención en el Cliente tratando de obtener toda la información necesaria, mientras que los otros analistas se encuentran:
+Uno escuchando la plática y pensando sobre posibles características que no hayan sido preguntadas. (El reporte propuesto con anterioridad, ayuda en gran manera a considerar las características que no hayan sido preguntadas [9]). 
+Otro tomando notas sobre lo que el líder del proyecto y el Cliente, discuten. La forma en que toman las notas es la siguiente:
+En una hoja en blanco que el analista debió haber llevado a la entrevista.
+Escribe las ideas principales de la plática. 
+Nota: Siguiendo la sugerencia propuesta en el paso 2 a) ii), en lugar de escribir las ideas en una hoja en blanco, deberán escribirse en la plantilla. 
+Una vez obtenida toda la información que necesitan, dan por concluida la reunión.
+Redacción del documento de requisitos. [9]
+En esta etapa los analistas junto con el líder del proyecto, se reúnen para discutir sobre las características obtenidas durante la reunión y poder crear el ERS de la empresa llamado: Propuesta de Producto (véase la ruta donde se obtiene este documento).
+La manera en que discuten las características es:
+Toman la hoja con las ideas principales que surgieron durante la reunión, mismo que un analista fue el encargado de escribir.
+Traducen las ideas escritas en la hoja a casos de uso; Esta conversión la realizan los analistas junto con el jefe de proyecto; no hay una metodología definida para esto, sino que mediante el diálogo, es que todos llegan a un acuerdo en lo que el caso de uso deberá decir y lo escriben en la Propuesta de Producto. 
+Con anterioridad se propuso una plantilla sobre el reporte de la Junta (Ver Información Preliminar), misma que contiene una columna de Nombre de la persona que respondió la pregunta; esto ayudará a categorizar los Clientes que respondieron ciertas preguntas y por lo tanto, identificar las acciones que más les interesan, haciendo la traducción de lo obtenido en la junta hacia casos de uso, un proceso con mayor precisión. [9] [10]
+Una vez escritas todas las características en el apartado Funcionalidad de la Propuesta De Producto, suben el documento actualizado a la plataforma Box, en el proyecto previamente creado. (Ver ruta para subir la Propuesta de Producto)
+Sugerencia: En este paso, se debería realizar el prototipo de la solución propuesta, a través de MockUps. [9] [5]
+Debido a que la empresa está familiarizada con el software “WireFrameSketcher”, se propone que dicho prototipo esté basado en este software. 
+Consistirá en realizar más del 50% de las pantallas que el usuario podrá visualizar. 
+No deberá contener funcionalidad, más que el cambio de una pantalla a otra. 
+Al finalizar, el proyecto deberá subirse al sistema de Carpetas de Box. (Ver ruta para subir el prototipo)
+Si todas las características documentadas han sido entendidas por los analistas y líder del proyecto, se procede con el siguiente paso, en caso contrario, el líder del proyecto habla con el Cliente a través de Skype (o si el Cliente no cuenta con este Servicio, mediante una llamada telefónica), preguntando sobre las dudas que hayan surgido.
+Como sugerencia, sería bueno que ante las posibles dudas que hayan surgido, se agende una nueva reunión. [9] (Regresar al paso 1)
+Aquí empieza la fase “Verificar” en la metodología Deming.
+El documento Propuesta de Producto generado por los analistas (Ver ruta para obtenerlo), es revisado minuciosamente por el Líder del proyecto una vez más, para corregir errores (si los hay) en base a su experiencia. 
+Ya que la Propuesta de Producto es corregida, el Líder del proyecto se encarga de: 
+Anexar como una de sus últimas secciones, la información de la tecnología que se va a usar. 
+Esta decisión la toma en base a la experiencia que tiene.
+Toma en consideración el nivel de aprendizaje de los desarrolladores que trabajarán en el proyecto, usando las diferentes tecnologías que maneja la empresa. (Ver tecnologías)
+Posteriormente, el líder del proyecto es el encargado de realizar la cotización de la solución. Dicha cotización es realizada en base a su experiencia en proyectos anteriores, tomando en cuenta el tiempo, esfuerzo y antigüedad de los desarrolladores.
+Una vez terminada la cotización, se le agrega al documento de Propuesta del Producto (Ver ruta para obtenerlo). No fue posible obtener el formato de la cotización
+La propuesta es enviada al Cliente.
+Cuando la Propuesta es enviada, el Cliente se encarga de revisar el documento. Pueden suceder 2 cosas:
+Aquí empieza la fase de “Actuar” en la metodología Deming.
+Que el Cliente entienda todo lo que este documento dice y esté de acuerdo con la solución.
+Que el Cliente no entienda lo que el documento dice.
+En Cualquiera de los 2 casos anteriores, se sugiere presentar un demo de la posible solución, y la propuesta. Este demo debió haber sido creado en el paso anterior. [9] [5]
+Lo que se busca con lo anterior, es que sea la misma empresa CubiCode quien presente la propuesta.
+Despejar dudas del Cliente al presentar dicha propuesta.
+Que tanto la Empresa CubiCode y el Cliente, estén en la misma sintonía. 
+Posteriormente se agenda una nueva reunión con el Cliente. (ver paso 1)
+En esta nueva reunión, sucede lo siguiente:
+Los analistas que acompañan al jefe del Proyecto, llevan consigo hojas en blanco para escribir los posibles cambios que el Cliente pudiera tener.
+Se sugiere que se vuelva a llevar la plantilla de Reporte de junta. (Ver ruta para obtenerlo) para esta nueva reunión, y sea allí donde se escriban los posibles cambios del Cliente [9] (Nota: Habrá que imprimir esta plantilla)
+Se presenta el prototipo realizado con WireFrameSketcher. (Ver ruta para obtenerlo)
+Se lleva la Propuesta del Producto (Ver ruta para obtenerlo) impresa.
+Se explica la Propuesta del Producto (Ver ruta para obtenerlo) por parte del Jefe hacia el Cliente. 
+Se escuchan y resuelven las dudas del Cliente. 
+De lo anterior 2 cosas pueden suceder:
+Que el Cliente esté de acuerdo con la solución, por lo que tendría que firmar la propuesta de Producto. Se sigue con el paso 6. 
+Si no está de acuerdo, entonces se toma nota de todos los cambios que solicita en una hoja en blanco y se regresa al paso 3. 
+Sugerencia: Los cambios deberán ser escritos en la plantilla Reporte de junta (Ver ruta para obtenerlo) [9].
+Sugerencia: Si hubo una modificación deberá anotarse como comentario o nota en la Propuesta del Producto (Ver ruta para obtenerlo) (tal y como se especifica en el apartado de Observaciones del documento de Control de Versiones), para que haya una Gestión de la Configuración en la Empresa.
+Debido a la incursión de la plataforma Jira, damos como sugerencia lo siguiente [9]:
+Una vez aprobado el proyecto, se procederá a la creación del mismo en la plataforma Jira (Esta tarea es única y exclusiva del Jefe, ya que solo él tiene privilegios de creación en dicha plataforma) [Ver Cómo usar Jira]
+Ya creado el proyecto en Jira, se continúa con el registro de los casos de uso del documento Propuesta del Producto (Ver ruta para obtenerlo)  en la plataforma, sin asignar a algún desarrollador algún caso. (Esto último se realiza en el proceso de codificación). 
+Estos casos de uso toman otro nombre en la plataforma Jira, en específico toman el nombre de “Tarea”, sin embargo, en los siguientes documentos del proyecto la palabra Tareas será sinónimo s de “Casos de Uso”. 
+Observaciones.
+Se propone un documento para la revisión de la Propuesta del Producto: Revisión de la propuesta de Producto (Ver ruta para obtenerlo)  
+Y otro para la revisión de los casos de uso (Ver ruta para obtenerlo)  
+La realización del prototipo será útil para poder exponer al usuario, sobre la solución que está contratando y poder aterrizar los conceptos que el Usuario espera del Sistema. [5] [9] 
+La descripción de los casos de uso, podría realizarse en base al siguiente documento [2]:
+Ver_Plantilla_Casos_De_Uso
+Será necesario que desde este proceso de la empresa un plan de pruebas empiece a realizarse, en base a los requisitos y casos de uso obtenidos, mismos que los analistas serán los encargados de llenarlo [7]. Se propone la siguiente plantilla: Plantilla del plan de pruebas. Esta plantilla es guardada en el sistema de carpetas de Box. (Ver ruta para guardarlo)  
+Pasos Para guardar el documento en Box:
+Una vez iniciada la sesión (Se explica en este documento).
+Ir a la carpeta del proyecto. (Ya debe estar creada por parte del Jefe del Proyecto)
+Estando en la raíz, ir a la carpeta “Documentos Proyecto” (Si no está, se deberá crear en este instante)
+Como estamos en la primera fase del desarrollo, debemos crear la carpeta “Requisitos” y allí pondremos la plantilla del plan de pruebas. 
+Realizar una matriz de trazabilidad entre los requisitos y casos de uso, facilitando la elaboración del plan de pruebas [4]. La plantilla de la matriz puede ser la siguiente [1].
+Número del caso de uso.
+Número de la Tarea.
+Nombre de la(s) clase(s)
+Identificador(es) de el(los) Caso(s) de prueba.
+Notas: 
+Esta Matriz sugiere ser un complemento para la matriz de casos de uso que la Empresa realiza hoy en día [4]:
+No es necesario que lo anexe al documento Propuesta de Producto, sino que será para control interno en la empresa. 
+No es necesario que sea llenado en su totalidad en este proceso, de hecho, lo único necesario a llenar son los campos de: [4] [7]
+Número del caso de Uso (Se toma de la Propuesta del Producto)
+Identificador del caso de prueba.
+Los casos de prueba podrán ser llenados de acuerdo al siguiente documento: Ver Documento de Casos de Prueba
+Ver ruta para obtener el caso de prueba
+Esta matriz es guardada en la misma carpeta que la plantilla de pruebas propuesta.
+Pasos Para guardar el documento en Box:
+Ver ruta para guardar la Matriz
+Una vez iniciada la sesión (Se explica en este documento).
+Ir a la carpeta del proyecto. (Ya debe estar creada por parte del Jefe del Proyecto)
+Estando en la raíz, ir a la carpeta “Documentos Proyecto” (Si no está, se deberá crear en este instante)
+Como el plan de pruebas debió haberse creado, bastará con ir a la carpeta “Requisitos” (si no está creada, habrá que crearla en este momento) y allí pondremos la plantilla de la matriz.
+Referencias.
+La matriz ha sido basada, en la que se expone en el apartado 15.2, del libro “Software Testing and Continuous Quality Improvement, 2nd Edition, Auerbach Publications”.
+Plantilla de casos de uso proporcionado por el profesor Carlos Mojica, para la clase Requisitos, basado en el estándar IEEE 1998. 
+Plan de pruebas propuesto 
+William E. Lewis (2005). “Part 11 Information Gathering (Plan)”, En Software Testing and Continuous Quality Improvement, 2nd Edition, Florida, USA: Auerbach Publications
+Experiencia observada en el día a día en la Empresa, Eduardo Canché, 2015.
+http://www.proyectosagiles.org/que-es-scrum, tomado el 23 de abril del 2015.
+Software quality assurance from theory to implementation, Chapter 10, Software Testing Implementation
+William E. Lewis (2005). “Part 11 Information Gathering (Plan)” hasta “Part 17 Prepare for the Next Spiral (Act)”. En Software Testing and Continuous Quality Improvement, Second Edition (pp. 117-192). Florida, USA: Auerbach Publications.
+William E. Lewis (2005). “Part 11 Information Gathering (Plan)”. En Software Testing and Continuous Quality Improvement, Second Edition (pp. 144-155). Florida, USA: Auerbach Publications.
+William E. Lewis (2005). “Test Templates”. En Software Testing and Continuous Quality Improvement, Second Edition (pp. 368). Florida, USA: Auerbach Publications. 

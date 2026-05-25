@@ -62,7 +62,7 @@ El catalogo de marcos debe contener toda la informacion necesaria para que el si
 
 ## 9. Dependencias
 
-- [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|REQ-03 Generación Marcos 3D]] - Generacion de modelos 3D
+- [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|REQ-03 Generación Marcos 3D]] - Generacion de modelos 3D
 
 ## 10. Trazabilidad
 

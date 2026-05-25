@@ -23,7 +23,7 @@ Una vez que el cliente ha subido su foto y seleccionado un marco del catalogo, e
 - El catalogo de marcos esta cargado en el sistema
 - El usuario ha seleccionado al menos un marco del catalogo
 
-## 4. Flujo Principal (Happy Path)
+## 4. Flujo Principal
 
 1. El cliente selecciona un marco del catalogo
 2. El sistema recupera la informacion del marco (textura, dimensiones, modelo 3D)
@@ -48,7 +48,7 @@ Una vez que el cliente ha subido su foto y seleccionado un marco del catalogo, e
 | FE-02 | El modelo 3D tiene errores de renderizado | El sistema muestra un mensaje de error y ofrece reintentar |
 | FE-03 | Rendimiento lento por dispositivo del cliente | El sistema reduce la calidad del renderizado automaticamente |
 
-## 7. Criterios de Aceptacion (formato BDD)
+## 7. Criterios de Aceptacion en formato BDD
 
 | CA-ID | Dado | Cuando | Entonces |
 |-------|------|--------|----------|

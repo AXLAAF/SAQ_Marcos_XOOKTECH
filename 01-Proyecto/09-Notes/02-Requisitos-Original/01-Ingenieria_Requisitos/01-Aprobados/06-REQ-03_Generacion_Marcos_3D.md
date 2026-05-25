@@ -66,7 +66,7 @@ El sistema debe poder generar modelos tridimensionales de marcos a partir de ima
 
 ## 9. Dependencias
 
-- [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/02-REQ-04_Catalogo_Marcos|REQ-04 Catálogo de Marcos]] - Los marcos deben estar registrados en el catalogo
+- [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/02-REQ-04_Catalogo_Marcos|REQ-04 Catálogo de Marcos]] - Los marcos deben estar registrados en el catalogo
 
 ## 10. Trazabilidad
 

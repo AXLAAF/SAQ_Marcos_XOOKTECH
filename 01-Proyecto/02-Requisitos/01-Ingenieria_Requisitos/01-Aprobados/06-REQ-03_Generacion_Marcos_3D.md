@@ -23,7 +23,7 @@ El sistema debe poder generar modelos tridimensionales de marcos a partir de ima
 - El programa Python esta instalado y configurado correctamente
 - La base de datos esta accesible para guardar los modelos generados
 
-## 4. Flujo Principal (Happy Path)
+## 4. Flujo Principal
 
 1. El operador inicia el programa de procesamiento de marcos
 2. El programa escanea la carpeta de imagenes pendientes de procesar
@@ -49,7 +49,7 @@ El sistema debe poder generar modelos tridimensionales de marcos a partir de ima
 | FE-02 | Error de conexion a la base de datos | El programa reintenta 3 veces y si falla, detiene el proceso con mensaje de error |
 | FE-03 | Memoria insuficiente para procesamiento | El programa reduce la calidad del modelo y procesa en lotes |
 
-## 7. Criterios de Aceptacion (formato BDD)
+## 7. Criterios de Aceptacion en formato BDD
 
 | CA-ID | Dado | Cuando | Entonces |
 |-------|------|--------|----------|

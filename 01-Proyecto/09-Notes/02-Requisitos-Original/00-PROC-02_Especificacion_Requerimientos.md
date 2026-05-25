@@ -1,4 +1,4 @@
-# Proceso de Especificación de Requisitos — XookTech
+#  Proceso de Especificación de Requisitos — XookTech
 **Responsable:** Analista de Requerimientos
 **Entradas:** Línea Base y Especificaciones Iniciales
 **Salidas:** Matriz de Trazabilidad y Requisitos Formales
@@ -18,13 +18,13 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 |Minuta de Entrevista|[[01-Linea_Base/05-Minuta_Entrevista|05-Minuta_Entrevista]]|
 |Acuerdos del Cliente|[[01-Linea_Base/03-Acuerdos_Cliente|03-Acuerdos_Cliente]]|
 |Propuesta Recuperada|[[01-Linea_Base/02-Propuesta_Recuperada|02-Propuesta_Recuperada]]|
-|Matriz de Trazabilidad de Requisitos (RTM)|[[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03]]|
-|REQ-01 Carga de Imagen del Cliente|[[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/01-REQ-01_Carga_Imagen|01-REQ-01_Carga_Imagen]]|
-|REQ-02 Previsualización de Marco Interactivo|[[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|05-REQ-02_Previsualizacion_Marco]]|
-|REQ-03 Generación de Marcos 3D (Pillow)|[[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|06-REQ-03_Generacion_Marcos_3D]]|
-|REQ-04 Catálogo de Marcos Disponibles|[[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/02-REQ-04_Catalogo_Marcos|02-REQ-04_Catalogo_Marcos]]|
-|REQ-05 Filtrado de Catálogo en Servidor|[[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/03-REQ-05_Filtrado_Catalogo|03-REQ-05_Filtrado_Catalogo]]|
-|REQ-06 Datos del Catálogo de Marcos|[[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/04-REQ-06_Datos_Catalogo|04-REQ-06_Datos_Catalogo]]|
+|Matriz de Trazabilidad de Requisitos (RTM)|[[02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03]]|
+|REQ-01 Carga de Imagen del Cliente|[[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/01-REQ-01_Carga_Imagen|01-REQ-01_Carga_Imagen]]|
+|REQ-02 Previsualización de Marco Interactivo|[[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|05-REQ-02_Previsualizacion_Marco]]|
+|REQ-03 Generación de Marcos 3D (Pillow)|[[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|06-REQ-03_Generacion_Marcos_3D]]|
+|REQ-04 Catálogo de Marcos Disponibles|[[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/02-REQ-04_Catalogo_Marcos|02-REQ-04_Catalogo_Marcos]]|
+|REQ-05 Filtrado de Catálogo en Servidor|[[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/03-REQ-05_Filtrado_Catalogo|03-REQ-05_Filtrado_Catalogo]]|
+|REQ-06 Datos del Catálogo de Marcos|[[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/04-REQ-06_Datos_Catalogo|04-REQ-06_Datos_Catalogo]]|
 
 ---
 
@@ -45,10 +45,10 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 - Cada nota se nombra usando un prefijo consecutivo estructurado: `REQ-XXX` (ejemplo: `07-REQ-07_Marcos_Dobles.md`).
 - El Analista de Requerimientos vincula el origen del requerimiento con la solicitud de cambio (Change Request) de la cual proviene:
     - Las solicitudes de cambio pendientes de especificación se registran físicamente en:
-        - [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/07-REQ-07_Marcos_Dobles|REQ-07 Marcos Dobles]] (derivado de la solicitud de cambio [[07-Control/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]]).
-        - [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/08-REQ-08_Tipo_Vidrio|REQ-08 Tipo de Vidrio]] (derivado de la solicitud de cambio [[07-Control/01-Ingenieria_Control/09-CR-02_Tipos_Vidrio|CR-02 Tipos de Vidrio]]).
-        - [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/09-REQ-09_Maria_Luisa|REQ-09 María Luisa]] (derivado de la solicitud de cambio [[07-Control/01-Ingenieria_Control/10-CR-03_Maria_Luisa|CR-03 María Luisa]]).
-        - [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/10-REQ-10_Pantalla_Secundaria|REQ-10 Pantalla Secundaria]] (derivado de la solicitud de cambio [[07-Control/01-Ingenieria_Control/11-CR-04_Pantalla_Secundaria|CR-04 Pantalla Secundaria]]).
+        - [[02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/07-REQ-07_Marcos_Dobles|REQ-07 Marcos Dobles]] (derivado de la solicitud de cambio [[07-Control/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]]).
+        - [[02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/08-REQ-08_Tipo_Vidrio|REQ-08 Tipo de Vidrio]] (derivado de la solicitud de cambio [[07-Control/01-Ingenieria_Control/09-CR-02_Tipos_Vidrio|CR-02 Tipos de Vidrio]]).
+        - [[02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/09-REQ-09_Maria_Luisa|REQ-09 María Luisa]] (derivado de la solicitud de cambio [[07-Control/01-Ingenieria_Control/10-CR-03_Maria_Luisa|CR-03 María Luisa]]).
+        - [[02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/10-REQ-10_Pantalla_Secundaria|REQ-10 Pantalla Secundaria]] (derivado de la solicitud de cambio [[07-Control/01-Ingenieria_Control/11-CR-04_Pantalla_Secundaria|CR-04 Pantalla Secundaria]]).
 - La nota inicial debe registrar como mínimo:
     - ID del Requisito.
     - Nombre del Requisito.
@@ -70,12 +70,12 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 **Propuesta:**
 
 - El Analista de Requerimientos edita el archivo `REQ-XXX` en la carpeta de pendientes para detallarlo técnicamente, utilizando de referencia la estructura y completitud de los requisitos ya aprobados:
-    - [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/01-REQ-01_Carga_Imagen|REQ-01 Carga de Imagen]] (criterios de carga de formatos JPG/PNG, límite de 10 MB y compresión local).
-    - [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] (lógica del visor y margen del marco interactivo).
-    - [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|REQ-03 Generación Marcos 3D]] (criterios de superposición y renderizado del marco).
-    - [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/02-REQ-04_Catalogo_Marcos|REQ-04 Catálogo de Marcos]] (catálogo de marcos disponibles).
-    - [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/03-REQ-05_Filtrado_Catalogo|REQ-05 Filtrado Catálogo]] (filtrado por modelo, color y ancho).
-    - [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/04-REQ-06_Datos_Catalogo|REQ-06 Datos Catálogo]] (criterios de persistencia de datos de catálogo).
+    - [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/01-REQ-01_Carga_Imagen|REQ-01 Carga de Imagen]] (criterios de carga de formatos JPG/PNG, límite de 10 MB y compresión local).
+    - [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/05-REQ-02_Previsualizacion_Marco|REQ-02 Previsualización Marco]] (lógica del visor y margen del marco interactivo).
+    - [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/06-REQ-03_Generacion_Marcos_3D|REQ-03 Generación Marcos 3D]] (criterios de superposición y renderizado del marco).
+    - [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/02-REQ-04_Catalogo_Marcos|REQ-04 Catálogo de Marcos]] (catálogo de marcos disponibles).
+    - [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/03-REQ-05_Filtrado_Catalogo|REQ-05 Filtrado Catálogo]] (filtrado por modelo, color y ancho).
+    - [[02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/04-REQ-06_Datos_Catalogo|REQ-06 Datos Catálogo]] (criterios de persistencia de datos de catálogo).
 - Aplica de forma estricta la plantilla de especificación, la cual debe incluir obligatoriamente las siguientes secciones:
     - **1. Descripción General:** "Como [Rol], quiero [Acción] para [Beneficio]".
     - **2. Reglas de Negocio:** Restricciones de negocio detalladas (por ejemplo: formato de imagen, tamaño de archivo, límites).
@@ -106,7 +106,7 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 - El Analista de Requerimientos presenta la especificación detallada del requisito al Product Owner (o cliente).
 - Para los requisitos iniciales del proyecto se valida su consistencia contra el [[01-Linea_Base/06-Contrato_Desarrollo|Contrato de Desarrollo]] original.
 - Para los requisitos adicionales, se valida el impacto técnico y estimación contra su correspondiente solicitud de cambio:
-    - Ejemplo: Validar [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/07-REQ-07_Marcos_Dobles|REQ-07]] contra el alcance y viabilidad planteados en [[07-Control/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]].
+    - Ejemplo: Validar [[02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/07-REQ-07_Marcos_Dobles|REQ-07]] contra el alcance y viabilidad planteados en [[07-Control/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01 Marcos Dobles]].
 - Resuelven dudas y ajustan los criterios de aceptación en conjunto de ser necesario.
 - Se solicita una aprobación explícita por escrito (confirmación por correo electrónico o captura de mensaje del canal oficial).
 - Se adjunta la captura de pantalla o el texto íntegro de la confirmación formal directamente en la sección "Evidencia de Aprobación" del archivo `REQ-XXX`.
@@ -126,7 +126,7 @@ Los documentos que se pueden necesitar en este proceso se listan a continuación
 **Propuesta:**
 
 - Una vez aprobado el requisito por el Product Owner, el Analista de Requerimientos mueve físicamente el archivo `REQ-XXX` desde la carpeta de pendientes `02-Requisitos/01-Ingenieria_Requisitos/00-Pendientes/` a la carpeta de aprobados `02-Requisitos/01-Ingenieria_Requisitos/01-Aprobados/`.
-- El Analista de Requerimientos actualiza de inmediato la Matriz de Trazabilidad de Requisitos (RTM) ([[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03]]) mapeando y documentando las siguientes relaciones:
+- El Analista de Requerimientos actualiza de inmediato la Matriz de Trazabilidad de Requisitos (RTM) ([[02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03]]) mapeando y documentando las siguientes relaciones:
     1. **Fuente del Requisito:** Enlazar al [[01-Linea_Base/06-Contrato_Desarrollo|Contrato de Desarrollo]] para requerimientos originales, o al Change Request relacionado (ejemplo: [[07-Control/01-Ingenieria_Control/08-CR-01_Marcos_Dobles|CR-01]] para REQ-07) para requerimientos nuevos.
     2. **Diseño Relacionado:** Enlazar a la especificación técnica en `03-Diseño/01-Ingenieria_Arquitectura/`:
         - [[03-Diseño/01-Ingenieria_Arquitectura/01-STD-04_Diagrama_Componentes|STD-04 Diagrama de Componentes]] (para REQ-01).
@@ -171,4 +171,4 @@ El control de configuración físico (`00-Pendientes` -> `01-Aprobados`) y la ac
 
 [4] CMMI-DEV v1.3. _CMMI para Desarrollo_, Software Engineering Institute. Áreas de proceso: Gestión de Requisitos (REQM) y Gestión de Configuración (CM).
 
-[5] Matriz de Trazabilidad de Requisitos (RTM). [[09-Notes/Preview-02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03]]
+[5] Matriz de Trazabilidad de Requisitos (RTM). [[02-Requisitos/01-Ingenieria_Requisitos/01-STD-03_Matriz_Trazabilidad|STD-03]]
