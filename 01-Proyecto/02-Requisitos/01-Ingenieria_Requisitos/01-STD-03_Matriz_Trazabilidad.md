@@ -8,7 +8,8 @@
 
 ## 1. Propósito y Guía de Operación
 
-Esta matriz asegura y demuestra el cumplimiento de la práctica específica **CMMI-DEV v2.0 REQM SP 1.4** (*Mantener trazabilidad bidireccional de los requisitos*). Vincula cada requerimiento de software con su fuente de origen, el diagrama de diseño lógico o físico que lo modela y los casos de prueba de caja negra que verifican su comportamiento funcional en producción.
+**CMMI-DEV v2.0 REQM SP 1.4**  *Mantener trazabilidad bidireccional de los requisitos*
+Vincula cada requesito  de software con su fuente de origen, el diagrama de diseño lógico o físico que lo modela y los casos de prueba de caja negra que verifican su comportamiento funcional en producción.
 
 ---
 
