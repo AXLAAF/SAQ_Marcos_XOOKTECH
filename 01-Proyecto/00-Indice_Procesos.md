@@ -96,9 +96,15 @@ PROC-02 (Requisitos BDD) ======> PROC-03 (Diseño de Componentes)
 ### Procesos
 - [[09-Notes/01-Linea_Base-Original/00-PROC-01_Recuperacion_Linea_Base|PROC-01 Recuperación de Línea Base]]
 - [[02-Requisitos/02-PROC-02_Especificacion_Requerimientos|PROC-02 Especificación de Requerimientos]]
-- [[05-Revisiones e inspecciones/05-PROC-05.1_Control_Cambios|PROC-08 Control de Cambios]]
 - [[03-Diseño/03-PROC-03_Diseño_Sistema|PROC-03 Diseño de Sistema]]
+- [[06-Codigo/00-04-Documentacion_Codificacion|PROC-04 Codificación - Documentación]]
+- [[06-Codigo/00-04-Plan_De_Mejora_Codificacion|PROC-04 Codificación - Plan de Mejora]]
+- [[05-Revisiones e inspecciones/05-PROC-05.1_Control_Cambios|PROC-05 Control de Cambios]]
 - [[04-Pruebas/06-PROC-06_Plan_Pruebas|PROC-06 Plan de Pruebas]]
+- [[07-Despliegue/00-07-Documentacion_Despliegue|PROC-07 Despliegue - Documentación]]
+- [[07-Despliegue/00-07-Plan_De_Mejora_Despliegue|PROC-07 Despliegue - Plan de Mejora]]
+- [[08-Mantenimiento/00-08-Documentacion_Mantenimiento|PROC-08 Mantenimiento - Documentación]]
+- [[08-Mantenimiento/00-08-Plan_De_Mejora_Mantenimiento|PROC-08 Mantenimiento - Plan de Mejora]]
 - [[05-Revisiones e inspecciones/05-PROC-05.2_Inspecciones|PROC-09 Inspecciones]]
 
 ### Metricas
